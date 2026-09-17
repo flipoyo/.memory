@@ -1,0 +1,22 @@
+[entry]
+seq = 69
+prev = "sha256:5cd3921628d786ff92a7bbfecf425bfed899fcae8a6a2e8fe14b6afe82bfee8e"
+recorded_at = "2026-09-17T13:19:58Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "narrow the memory's exclusion to add/commit/push, so merge keeps reconciling it across branches the same way it reconciles .localSpec/.claude",
+]
+state_id = "state(35b2b54809c93a9ef4378f1b3da21eb9df1f0beab66a857625b390166722b8fc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a8597d16bc50b5d4b209391682f72b61c6f9336b32a8c5843c21f4f78889d5c8"
+entry_hash = "sha256:0773ca40ddc7f0b5b6bcebbcc8b997266b35f1cb0260f0a02c5a79c1b936a69c"
+
+[entry.toolchain]
+cgitsync = "0002.73"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
