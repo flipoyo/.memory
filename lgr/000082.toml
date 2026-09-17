@@ -1,0 +1,22 @@
+[entry]
+seq = 82
+prev = "sha256:94b85e4bfef605cef33c4a4406159833e1cb2d77a05d634136c9713694212067"
+recorded_at = "2026-09-17T15:16:49Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "the memory's recorded commit no longer gets stuck behind its real one after memory push — every State now reads it fresh, the same way status already does",
+]
+state_id = "state(92d6e6fb217f82a5ed50f0694a975ed88942be858327a76f9bc780d3af96f1af)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:defa39f18e9991ca7adcad6e8bb9b518b3441f4d95d788c83533f48ddda9bd8e"
+entry_hash = "sha256:320981136c7fdd0f5bedbe1eed9aa9edd79f5bc93f1cd6e251407054b30f1052"
+
+[entry.toolchain]
+cgitsync = "0002.76"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
