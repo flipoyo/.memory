@@ -1,0 +1,9 @@
+[[commit]]
+entry = 61
+repository = ".memory"
+repo_id = "root:.cgitsync"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "3451416331d9a75fc739b6ce29af3688377aae7c"
+message = "cgitsync2.72 memory onboarding is finished: the developer tree recognises .memory,\nand pull no longer breaks on a spec that lives away from the tree's root"
+authored_at = "2026-09-17T14:50:24+02:00"
