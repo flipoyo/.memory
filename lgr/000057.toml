@@ -1,0 +1,24 @@
+[entry]
+seq = 57
+prev = "sha256:480735c364aa579abfa87a3f814628df7f231691bed5a0939cb2d647b819134c"
+recorded_at = "2026-09-17T12:19:46Z"
+command = "merge-into"
+argv = [
+    "merge",
+    "main",
+    "--into",
+    "memory-dev",
+    "--all",
+]
+state_id = "state(f7201dbfc68455fa59322924491637996a51aa0c13dcad1e457b4a55ebdfa31b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:799d662f57ca9ab49afa045aef7556a154c429ee3025f31d955a16620e886c79"
+
+[entry.toolchain]
+cgitsync = "0002.72"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
