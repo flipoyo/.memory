@@ -1,0 +1,17 @@
+[[commit]]
+entry = 84
+repository = ".claude"
+repo_id = "root:.claude"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "33b57f313522ce6fec1d20d3c56a7a1f4d00df02"
+message = "cgitsync2.76 the commit-message rule now says messages start with <project-name><version>, matching how they already read in git log"
+authored_at = "2026-09-17T18:34:35+02:00"
+
+[[published]]
+entry = 85
+repository = ".claude"
+sha = "33b57f313522ce6fec1d20d3c56a7a1f4d00df02"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T16:34:42+00:00"

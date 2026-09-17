@@ -1,0 +1,17 @@
+[[commit]]
+entry = 86
+repository = ".claude"
+repo_id = "root:.claude"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "0a7962127420f5229487017453a1fdae2a788f8e"
+message = "cgitsync2.76 push is now an explicit rule too: never without being asked, in any repository. GitHub's own protection on main bypasses the account these commands run as, so nothing else stops it"
+authored_at = "2026-09-17T18:42:24+02:00"
+
+[[published]]
+entry = 87
+repository = ".claude"
+sha = "0a7962127420f5229487017453a1fdae2a788f8e"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T16:44:49+00:00"

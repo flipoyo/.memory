@@ -1,0 +1,22 @@
+[entry]
+seq = 86
+prev = "sha256:12abd022fe77243340cb84690a0593b1ee55dad196a0d15f117a15ec64d60638"
+recorded_at = "2026-09-17T16:42:24Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync2.76 push is now an explicit rule too: never without being asked, in any repository. GitHub's own protection on main bypasses the account these commands run as, so nothing else stops it",
+]
+state_id = "state(b544d9b2fb4913ab81ef82f1674c2ac2a2bb5fd21916d30428fa53a5dc1d9023)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:fe2e87ba237872ed225b4e934f1c96c9a05f250666e890acf34ad11046a3a53d"
+entry_hash = "sha256:4b37abcc30a9df6d545fb7473d3550b74b6ae027afe9bc4007b61802d78f6a72"
+
+[entry.toolchain]
+cgitsync = "0002.76"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

@@ -1,0 +1,22 @@
+[entry]
+seq = 84
+prev = "sha256:267f77f7455659c753df7a0b65645d2d0d8aa42c8e77551f56c7f21be57a617b"
+recorded_at = "2026-09-17T16:34:35Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync2.76 the commit-message rule now says messages start with <project-name><version>, matching how they already read in git log",
+]
+state_id = "state(340675f027818bfcabfcd6a2f87b35ac7bc982c95c309afdfc6f78ef5c6d00dc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7a3e82a8768e5ceb7a64b89f865b58343132f05925878184a32d0e2dd8cf18db"
+entry_hash = "sha256:d1370cc20cb242716cdf9290438351b9787f09ecbb702a4770986554dae00585"
+
+[entry.toolchain]
+cgitsync = "0002.76"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
