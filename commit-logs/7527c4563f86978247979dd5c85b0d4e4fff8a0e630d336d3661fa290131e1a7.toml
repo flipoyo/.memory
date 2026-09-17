@@ -1,0 +1,35 @@
+[[commit]]
+entry = 51
+repository = ".memory"
+repo_id = "root:.cgitsync"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "0552db911e4ad1218034d8036b50a4669277b501"
+message = "the developer tree now recognises .memory as a mounted repository, not just a directory that happens to hold one"
+authored_at = "2026-09-17T14:16:43+02:00"
+
+[[commit]]
+entry = 51
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "3fc3f9168952d78965e3423449d7fbd5cc668bbf"
+message = "the developer tree now recognises .memory as a mounted repository, not just a directory that happens to hold one"
+authored_at = "2026-09-17T14:16:43+02:00"
+
+[[published]]
+entry = 52
+repository = ".memory"
+sha = "0552db911e4ad1218034d8036b50a4669277b501"
+remote = "github:flipoyo/.memory"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-09-17T12:16:52+00:00"
+
+[[published]]
+entry = 53
+repository = "ComplexGitSync"
+sha = "3fc3f9168952d78965e3423449d7fbd5cc668bbf"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-09-17T12:16:57+00:00"

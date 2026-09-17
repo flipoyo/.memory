@@ -1,0 +1,22 @@
+[entry]
+seq = 51
+prev = "sha256:1db390ef2a809ab3db3e528b9e45841fb383d45a4922cf4df63c4f68eca9e0e9"
+recorded_at = "2026-09-17T12:16:43Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "the developer tree now recognises .memory as a mounted repository, not just a directory that happens to hold one",
+]
+state_id = "state(7527c4563f86978247979dd5c85b0d4e4fff8a0e630d336d3661fa290131e1a7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:d01a903f862f5a12c36fefe9f75d5bab008da8cfa7660758b7ccafbdb93c6f55"
+entry_hash = "sha256:8183e1b6852e46257b2c4ba46be241a240dc9bbaaec70a250b41988e2744ee15"
+
+[entry.toolchain]
+cgitsync = "0002.71"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
