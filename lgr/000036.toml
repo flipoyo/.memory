@@ -1,0 +1,22 @@
+[entry]
+seq = 36
+prev = "sha256:199a7061646cfdcb4a69c2e8ef0fa66393a2a6728af4375290902aa5c5cc620b"
+recorded_at = "2026-09-17T10:21:19Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync repo create, memory mount, adopt and push turned this project's own memory into a real repository, and a bug in it is fixed: a State's hash no longer depends on which version wrote it.",
+]
+state_id = "state(6ffa91a00a62a73bce408edd377c84b6d978682a960d9c3399d801d823f8c72e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:69ea782e214dd4681ec2f595446537d731c8daf2034933f3c4fff9efff31b7dc"
+entry_hash = "sha256:84f3f5ac80912e77437852e95dbb2b2006b1bf198e73d662cf11e219a6bdb865"
+
+[entry.toolchain]
+cgitsync = "0002.71"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

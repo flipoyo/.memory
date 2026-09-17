@@ -1,0 +1,53 @@
+[[commit]]
+entry = 36
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "526f3fe19aad7deb39568cf2c7e3cbdbe86b95bc"
+message = "cgitsync repo create, memory mount, adopt and push turned this project's own memory into a real repository, and a bug in it is fixed: a State's hash no longer depends on which version wrote it."
+authored_at = "2026-09-17T12:21:19+02:00"
+
+[[commit]]
+entry = 36
+repository = ".claude"
+repo_id = "root:.claude"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c30e65151aa8d5152f83ae4e48d40fb9d5183a9e"
+message = "cgitsync repo create, memory mount, adopt and push turned this project's own memory into a real repository, and a bug in it is fixed: a State's hash no longer depends on which version wrote it."
+authored_at = "2026-09-17T12:21:19+02:00"
+
+[[commit]]
+entry = 36
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "bafaad3b06c21edf67740ced258b38074c3ab343"
+message = "cgitsync repo create, memory mount, adopt and push turned this project's own memory into a real repository, and a bug in it is fixed: a State's hash no longer depends on which version wrote it."
+authored_at = "2026-09-17T12:21:19+02:00"
+
+[[published]]
+entry = 37
+repository = ".localSpec"
+sha = "526f3fe19aad7deb39568cf2c7e3cbdbe86b95bc"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-09-17T10:21:27+00:00"
+
+[[published]]
+entry = 37
+repository = ".claude"
+sha = "c30e65151aa8d5152f83ae4e48d40fb9d5183a9e"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-09-17T10:21:27+00:00"
+
+[[published]]
+entry = 38
+repository = "ComplexGitSync"
+sha = "bafaad3b06c21edf67740ced258b38074c3ab343"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-09-17T10:21:31+00:00"
