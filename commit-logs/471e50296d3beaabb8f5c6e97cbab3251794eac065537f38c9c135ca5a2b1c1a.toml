@@ -1,0 +1,53 @@
+[[commit]]
+entry = 54
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "0015aecc79ef75454c34b2bfa5f5692c84de3f59"
+message = "cgitsync memory onboarding is finished: the developer tree recognises .memory, and pull no longer breaks on a spec that lives away from the tree's root."
+authored_at = "2026-09-17T14:19:13+02:00"
+
+[[commit]]
+entry = 54
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "078fe3200c808c405ae8b8847affd8490e9ad00c"
+message = "cgitsync memory onboarding is finished: the developer tree recognises .memory, and pull no longer breaks on a spec that lives away from the tree's root."
+authored_at = "2026-09-17T14:19:13+02:00"
+
+[[commit]]
+entry = 54
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "0afd9ebed40501b45ac3acd3c1c584e2d64c96f0"
+message = "cgitsync memory onboarding is finished: the developer tree recognises .memory, and pull no longer breaks on a spec that lives away from the tree's root."
+authored_at = "2026-09-17T14:19:13+02:00"
+
+[[published]]
+entry = 55
+repository = ".localSpec"
+sha = "078fe3200c808c405ae8b8847affd8490e9ad00c"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-09-17T12:19:21+00:00"
+
+[[published]]
+entry = 56
+repository = "DocComplexGitSync"
+sha = "0015aecc79ef75454c34b2bfa5f5692c84de3f59"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-09-17T12:19:27+00:00"
+
+[[published]]
+entry = 56
+repository = "ComplexGitSync"
+sha = "0afd9ebed40501b45ac3acd3c1c584e2d64c96f0"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-09-17T12:19:27+00:00"

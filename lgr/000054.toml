@@ -1,0 +1,22 @@
+[entry]
+seq = 54
+prev = "sha256:d78ca17a12eca60765c42a83170d797ce424b306678151290cd96061363544f1"
+recorded_at = "2026-09-17T12:19:13Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync memory onboarding is finished: the developer tree recognises .memory, and pull no longer breaks on a spec that lives away from the tree's root.",
+]
+state_id = "state(471e50296d3beaabb8f5c6e97cbab3251794eac065537f38c9c135ca5a2b1c1a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:6f017ecba018b63a1e71593abeabbbf7855ad76368ecc422dc0f9a50145a93a0"
+entry_hash = "sha256:019d7c61a3598b32ffd1256488f444fe0e287f6946556923ee5166c8c0ea6022"
+
+[entry.toolchain]
+cgitsync = "0002.72"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
