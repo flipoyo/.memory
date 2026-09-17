@@ -1,0 +1,39 @@
+# The DEVELOPER tree for ComplexGitSync: the tool, its documentation, and
+# every repository that configures how the project is developed.
+#
+# Use this file to bootstrap a working checkout you can change:
+#
+#     pixi run cgitsync bootstrap examples/complexgitsync4dev.cgs ComplexGitSync
+#
+# Where this file sits does not affect the tree it describes. The root is
+# CGSHOME, resolved from --output-path (or $CGSHOME, or the working
+# directory) plus project.name -- never from the directory holding the
+# .cgs. Only install.cgs, the user install, stays at the repository root.
+#
+# install.cgs, beside it, is the USER install and mounts only the first two
+# entries. This file adds the three configuration repositories, and is also
+# tutorials/04_private_repos.md's worked example, because it is the only
+# checked-in spec using every kind of private entry:
+#
+#   .agentSpec            private, read-only  -> SCOPE private/distant
+#   .localSpec, .claude   private, writable   -> SCOPE private/local
+#   ComplexGitSync, docs  the project's own   -> SCOPE project
+#
+# .localSpec also carries DevTickets/ — the whole planning surface: the
+# owner's short tickets, the ranked open planning tickets, and the archive.
+# Mounting this file is therefore what gives you the tickets; install.cgs,
+# the user install, deliberately does not. See .localSpec/DevTickets/README.md.
+#
+# main is the project branch; repository entries declare only fallback, path,
+# nested-discovery and private overrides.
+
+project = { name = "ComplexGitSync", default_branch = "main" }
+
+repos = [
+    { repository = "github:flipoyo/ComplexGitSync", fallback_branch = "main" },
+    { repository = "github:flipoyo/DocComplexGitSync", fallback_branch = "main", relative_path = "docs", nested_config = "auto" },
+    { repository = "github:flipoyo/.agentSpec", default_branch = "main", fallback_branch = "main", nested_config = "auto", private = true },
+    { repository = "github:flipoyo/.localSpec", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true },
+    { repository = "github:flipoyo/.claude", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true },
+    { repository = "github:flipoyo/.memory", relative_path = ".cgitsync", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, nested_config = "disabled" },
+]

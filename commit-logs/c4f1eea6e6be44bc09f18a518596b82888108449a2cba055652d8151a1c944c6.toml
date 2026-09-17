@@ -1,0 +1,17 @@
+[[commit]]
+entry = 67
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "memory-dev"
+sha = "85d376f37b61e845af1277a8ab9228d77df6f2a3"
+message = "add and commit no longer sweep the memory into their own scope, so it stops chasing itself dirty"
+authored_at = "2026-09-17T15:11:29+02:00"
+
+[[published]]
+entry = 68
+repository = "ComplexGitSync"
+sha = "85d376f37b61e845af1277a8ab9228d77df6f2a3"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T13:11:40+00:00"

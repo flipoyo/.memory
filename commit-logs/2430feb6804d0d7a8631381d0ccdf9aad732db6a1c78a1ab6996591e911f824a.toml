@@ -1,0 +1,35 @@
+[[commit]]
+entry = 65
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "61cc089daa0ee2c0d95d34aac1c35e712974101b"
+message = "shortTicket memory-dirty.md"
+authored_at = "2026-09-17T15:03:00+02:00"
+
+[[commit]]
+entry = 65
+repository = ".memory"
+repo_id = "root:.cgitsync"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "755d404f01a7c12555efbf789330e16acd40ec93"
+message = "shortTicket memory-dirty.md"
+authored_at = "2026-09-17T15:03:00+02:00"
+
+[[published]]
+entry = 66
+repository = ".localSpec"
+sha = "61cc089daa0ee2c0d95d34aac1c35e712974101b"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T13:03:17+00:00"
+
+[[published]]
+entry = 66
+repository = ".memory"
+sha = "755d404f01a7c12555efbf789330e16acd40ec93"
+remote = "github:flipoyo/.memory"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T13:03:17+00:00"

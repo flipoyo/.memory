@@ -1,0 +1,22 @@
+[entry]
+seq = 67
+prev = "sha256:1d94c6c90e204917d49ad31564788c3a5f3a8e7af282020a63cc5e25b534942d"
+recorded_at = "2026-09-17T13:11:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "add and commit no longer sweep the memory into their own scope, so it stops chasing itself dirty",
+]
+state_id = "state(c4f1eea6e6be44bc09f18a518596b82888108449a2cba055652d8151a1c944c6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:695019a662161063de72bef81b9da4da68786763a516db20d31bc32e86535a30"
+entry_hash = "sha256:ffc4b38f40f04ac186237d009ec1e793e531ec335efcbe4d6824febafa558284"
+
+[entry.toolchain]
+cgitsync = "0002.72"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
