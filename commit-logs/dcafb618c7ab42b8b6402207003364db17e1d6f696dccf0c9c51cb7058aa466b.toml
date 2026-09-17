@@ -1,0 +1,17 @@
+[[commit]]
+entry = 44
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "memory-dev"
+sha = "c8f7707c5fbfc852bcdcaf3c0f5c11ca46fbaf86"
+message = "pull no longer breaks on a .cgs that lives away from the tree's own root, or on a repository whose own directory is named like one. Both bugs blocked finishing this project's memory onboarding."
+authored_at = "2026-09-17T14:15:43+02:00"
+
+[[published]]
+entry = 46
+repository = "ComplexGitSync"
+sha = "c8f7707c5fbfc852bcdcaf3c0f5c11ca46fbaf86"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T12:15:52+00:00"

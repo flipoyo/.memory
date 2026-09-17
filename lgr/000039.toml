@@ -1,0 +1,21 @@
+[entry]
+seq = 39
+prev = "sha256:36f561dc3b8b4889a19201487886cd8fe45000b97ab914f8fb9bc6bd565f7de0"
+recorded_at = "2026-09-17T10:34:10Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "memory-dev",
+]
+state_id = "state(79278210aee5f4ce54591150ee1cf4b529c9c91fff005b8d2688ec18523037ec)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:a374f16000cc715e6344289f70b6029afc9b60c92866cd0bbacbf7ef1d8689c7"
+
+[entry.toolchain]
+cgitsync = "0002.71"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

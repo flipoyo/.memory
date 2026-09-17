@@ -1,0 +1,17 @@
+[[commit]]
+entry = 40
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "3f757c5642f5b25863c47c62826fc251b4a7e36f"
+message = "exploreMemory becomes MemoryExplore; a new MemoryReboot ticket, per owner's three decisions on how it archives, defaults and sources its export."
+authored_at = "2026-09-17T14:08:51+02:00"
+
+[[published]]
+entry = 41
+repository = ".localSpec"
+sha = "3f757c5642f5b25863c47c62826fc251b4a7e36f"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T12:08:55+00:00"

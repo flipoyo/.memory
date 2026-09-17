@@ -1,0 +1,8 @@
+{"operation": "CGS-PUSH", "event": "command_start", "command": "push", "source_path": "/home/nflipo/.cgs/CGS20260915093313/cgs-mem-dev/.cgitsync/state/a695fb0f85ecd92f6bbdbc19b1659238dd098689e211cc3f102de2fa1127b4c1.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260915093313/cgs-mem-dev/.cgitsync/state/a695fb0f85ecd92f6bbdbc19b1659238dd098689e211cc3f102de2fa1127b4c1.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "push_start", "scope": "private"}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/nflipo/.cgs/CGS20260915093313/cgs-mem-dev/.cgitsync/state/8c88de94502b15db75d084a760e7c2a1227545948ee5af581efe45242e967569.gts", "source_cgs_path": "/home/nflipo/.cgs/CGS20260915093313/cgs-mem-dev/.cgitsync/state/66735bd87357a28d3df10e5152ad5394f2052006512e5651f7b9a4da38ca5545.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/nflipo/.cgs/CGS20260915093313/cgs-mem-dev/.cgitsync/lgr", "seq": 41, "state_id": "state(8c88de94502b15db75d084a760e7c2a1227545948ee5af581efe45242e967569)", "command": "push"}
+{"operation": "CGS-RUN", "event": "push_end", "pushed": 1}
+{"operation": "CGS-PUSH", "event": "command_end", "command": "push", "status": "ok", "tree_lifecycle_state": "READY"}

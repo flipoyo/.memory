@@ -1,0 +1,21 @@
+[entry]
+seq = 44
+prev = "sha256:ec8c3a76242da8e2a4fd2580c30838a58ca403757d8f9cf462f4283c71c8a7a6"
+recorded_at = "2026-09-17T12:15:43Z"
+command = "commit"
+argv = [
+    "commit",
+    "pull no longer breaks on a .cgs that lives away from the tree's own root, or on a repository whose own directory is named like one. Both bugs blocked finishing this project's memory onboarding.",
+]
+state_id = "state(dcafb618c7ab42b8b6402207003364db17e1d6f696dccf0c9c51cb7058aa466b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:9a361d31ecb8b2a0f9fc76bccd82702c7f99c27b422f63922e11990be0f3356e"
+entry_hash = "sha256:bad1ac73147b433e32afe413e3b74de87f3cbb9410e79c5bc5cb802afce0a014"
+
+[entry.toolchain]
+cgitsync = "0002.71"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
