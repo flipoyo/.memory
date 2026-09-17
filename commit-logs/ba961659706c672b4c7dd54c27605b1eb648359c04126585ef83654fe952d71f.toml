@@ -1,17 +1,17 @@
 [[commit]]
-entry = 61
+entry = 62
 repository = ".memory"
 repo_id = "root:.cgitsync"
 scope = "private"
 branch = "ComplexGitSync_memory-dev"
-sha = "3451416331d9a75fc739b6ce29af3688377aae7c"
+sha = "bdbabc73f077684481c90a64dae547d6466b60ad"
 message = "cgitsync2.72 memory onboarding is finished: the developer tree recognises .memory,\nand pull no longer breaks on a spec that lives away from the tree's root"
-authored_at = "2026-09-17T14:50:24+02:00"
+authored_at = "2026-09-17T14:50:47+02:00"
 
 [[published]]
 entry = 63
 repository = ".memory"
-sha = "3451416331d9a75fc739b6ce29af3688377aae7c"
+sha = "bdbabc73f077684481c90a64dae547d6466b60ad"
 remote = "github:flipoyo/.memory"
 ref = "refs/heads/ComplexGitSync_memory-dev"
 at = "2026-09-17T12:51:12+00:00"
