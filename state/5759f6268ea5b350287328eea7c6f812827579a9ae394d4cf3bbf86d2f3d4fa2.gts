@@ -1,9 +1,9 @@
 [document]
-CGS_VERSION = "0002.74"
-generated_at = "2026-09-17T14:48:54Z"
-command_origin = "pull"
+CGS_VERSION = "0002.75"
+generated_at = "2026-09-17T15:00:25Z"
+command_origin = "push"
 hash_canonicalisation = 3
-snapshot_hash = "5811175bd94ce0b438b1a52b18cf5bf256da474aa948a14dc6fa5981a3613dbf"
+snapshot_hash = "5759f6268ea5b350287328eea7c6f812827579a9ae394d4cf3bbf86d2f3d4fa2"
 
 [project]
 name = "ComplexGitSync"
@@ -17,13 +17,13 @@ registry_complete = true
 
 [tree]
 lines = [
-    "ComplexGitSync (root) [ALIGNED] @142f237 br=memory-dev fb=main",
+    "ComplexGitSync (root) [ALIGNED] @b87ce37 br=memory-dev fb=main",
     "├── .agentSpec (parent) [ALIGNED] @62f684a br=main",
     "│   └── DevSpec (leaf) [ALIGNED] @a5d3432 br=main",
     "├── .memory (leaf) [ALIGNED] @b3670b0 br=ComplexGitSync_memory-dev fb=main",
     "├── .claude (leaf) [ALIGNED] @c30e651 br=ComplexGitSync_memory-dev fb=main",
-    "├── .localSpec (leaf) [ALIGNED] @34a48ba br=ComplexGitSync_memory-dev fb=main",
-    "└── DocComplexGitSync (parent) [ALIGNED] @f88eea2 br=memory-dev fb=main",
+    "├── .localSpec (leaf) [ALIGNED] @c13ff62 br=ComplexGitSync_memory-dev fb=main",
+    "└── DocComplexGitSync (parent) [ALIGNED] @d41011b br=memory-dev fb=main",
     "    └── DocSpec (leaf) [ALIGNED] @e6f1b0b br=main",
 ]
 
@@ -34,7 +34,7 @@ absolute_path = "$CGSTREE"
 relative_path = "."
 repo_lifecycle_state = "READY"
 sync_state = "ALIGNED"
-commit_sha = "142f237ff30b8e65a72921b959868dc4020a7d6f"
+commit_sha = "b87ce374d18f54d6d107fc16a710a48a267a86dd"
 worktree_state = "CLEAN"
 source_cgs_path = "$CGSTREE/examples/complexgitsync4dev.cgs"
 project_owner_name = "flipoyo"
@@ -134,8 +134,8 @@ absolute_path = "$CGSTREE/.localSpec"
 relative_path = ".localSpec"
 repo_lifecycle_state = "READY"
 sync_state = "ALIGNED"
-commit_sha = "34a48ba9abe7085184dacb15bba6b25359dd8ad2"
-worktree_state = "DIRTY"
+commit_sha = "c13ff62c9948c1db525e11abc9dea2ba4cfb4eef"
+worktree_state = "CLEAN"
 source_cgs_path = "$CGSTREE/examples/complexgitsync4dev.cgs"
 project_owner_name = "flipoyo"
 project_name = ".localSpec"
@@ -155,7 +155,7 @@ absolute_path = "$CGSTREE/docs"
 relative_path = "docs"
 repo_lifecycle_state = "READY"
 sync_state = "ALIGNED"
-commit_sha = "f88eea28dee192ddb073dec01944b46e605890f6"
+commit_sha = "d41011baed2f0814f42be3e2a07ece61b5c0e35a"
 worktree_state = "CLEAN"
 source_cgs_path = "$CGSTREE/docs/DocCGS.cgs"
 project_owner_name = "flipoyo"

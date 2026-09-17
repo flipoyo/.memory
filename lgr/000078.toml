@@ -1,0 +1,22 @@
+[entry]
+seq = 78
+prev = "sha256:5b97d4687e2ca5c7910dd8e5c54dd7ba48518e354c33df8c57ac434447b151e8"
+recorded_at = "2026-09-17T14:59:59Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "pull no longer runs git on the memory either, for the same reason add/commit/push stopped; status now explains why the memory looks dirty instead of leaving you to guess",
+]
+state_id = "state(a0a0fb4ba3ce33b9245ad193dc5c235019b73653997c7e744069cfa4cd5e1118)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f12881b56f75e3cb454455cc2e9bfd2c4e9ba0d65ff7a9ffa82e3271f5e4219b"
+entry_hash = "sha256:d8076a028094ed9365117b734e12c96476627c8555c0a8687b851b03c8433b73"
+
+[entry.toolchain]
+cgitsync = "0002.75"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
