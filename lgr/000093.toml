@@ -1,0 +1,22 @@
+[entry]
+seq = 93
+prev = "sha256:0bc4b63d5d461531a3d99a08bac4d2f9838d034f946ddb232a8efed36d847b69"
+recorded_at = "2026-09-17T18:59:19Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync2.77 merge --into no longer refuses over .memory looking dirty or lagging its own origin — both are expected, not faults, and had blocked every merge once a memory was mounted. A freshly onboarded memory now reaches READY through an ordinary pull too, which the same exclusion had quietly broken",
+]
+state_id = "state(fd03887ea70e0e21e559c9f2de255b9aef328c6c5b6b9af7ec0de5c653e0145b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a6eb5fe7733f3cf10e84d668d26de963925f2cc52a0b135c0c2e9ba4b5f46828"
+entry_hash = "sha256:ed6695e74f1def79549c138e2328780a244e29a40fdd1518aaec765b942560e5"
+
+[entry.toolchain]
+cgitsync = "0002.77"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

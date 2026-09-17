@@ -1,0 +1,17 @@
+[[commit]]
+entry = 88
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "memory-dev"
+sha = "7a990ac0e0b11d23e69fdedf362d576bb285353c"
+message = "cgitsync2.76 the user guide now says a dirty memory mount, or its HEAD showing a star, is expected after almost any command — not a fault to chase"
+authored_at = "2026-09-17T18:51:12+02:00"
+
+[[published]]
+entry = 89
+repository = "DocComplexGitSync"
+sha = "7a990ac0e0b11d23e69fdedf362d576bb285353c"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T16:54:39+00:00"

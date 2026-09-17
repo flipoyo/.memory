@@ -1,0 +1,53 @@
+[[commit]]
+entry = 93
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "memory-dev"
+sha = "c00dd77665648d91a09f7fb46c701c8058912dee"
+message = "cgitsync2.77 merge --into no longer refuses over .memory looking dirty or lagging its own origin — both are expected, not faults, and had blocked every merge once a memory was mounted. A freshly onboarded memory now reaches READY through an ordinary pull too, which the same exclusion had quietly broken"
+authored_at = "2026-09-17T20:59:19+02:00"
+
+[[commit]]
+entry = 93
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "4c5c9ffbd87530e679ae1194119e1225fe66a9c3"
+message = "cgitsync2.77 merge --into no longer refuses over .memory looking dirty or lagging its own origin — both are expected, not faults, and had blocked every merge once a memory was mounted. A freshly onboarded memory now reaches READY through an ordinary pull too, which the same exclusion had quietly broken"
+authored_at = "2026-09-17T20:59:19+02:00"
+
+[[commit]]
+entry = 93
+repository = ".memory"
+repo_id = "root:.cgitsync"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "1fc2ff9fb09c760b845fb99ed76fdf2e4b26e874"
+message = "cgitsync2.77 merge --into no longer refuses over .memory looking dirty or lagging its own origin — both are expected, not faults, and had blocked every merge once a memory was mounted. A freshly onboarded memory now reaches READY through an ordinary pull too, which the same exclusion had quietly broken"
+authored_at = "2026-09-17T18:47:58+02:00"
+
+[[published]]
+entry = 94
+repository = "DocComplexGitSync"
+sha = "c00dd77665648d91a09f7fb46c701c8058912dee"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T18:59:49+00:00"
+
+[[published]]
+entry = 94
+repository = ".localSpec"
+sha = "4c5c9ffbd87530e679ae1194119e1225fe66a9c3"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T18:59:49+00:00"
+
+[[published]]
+entry = 94
+repository = ".memory"
+sha = "1fc2ff9fb09c760b845fb99ed76fdf2e4b26e874"
+remote = "github:flipoyo/.memory"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T18:59:49+00:00"

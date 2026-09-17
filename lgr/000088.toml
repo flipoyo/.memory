@@ -1,0 +1,21 @@
+[entry]
+seq = 88
+prev = "sha256:e602c66d3c64975288661e64b064295f24ebc1b6e5d8d75235b0a8c6ddd04e82"
+recorded_at = "2026-09-17T16:51:12Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync2.76 the user guide now says a dirty memory mount, or its HEAD showing a star, is expected after almost any command — not a fault to chase",
+]
+state_id = "state(aea8d46ebe1908a552682859c02906811bce671a217c73b8f2fe38d5cb06e2f7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:dc089ba563dadb4319758b4350b61e5292e77af43026ac2a04589b8aad8bf324"
+entry_hash = "sha256:9a4b02174f08e660ffc6ffe56a1fe32487b430e1e8aa91e65e3df434e74e8baf"
+
+[entry.toolchain]
+cgitsync = "0002.76"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
