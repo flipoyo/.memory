@@ -1,0 +1,22 @@
+[entry]
+seq = 28
+prev = "sha256:8db50e2fe5aa002c91fdd55ecf6bc9b9ed5c25482cb8971f1423022e45c14606"
+recorded_at = "2026-09-17T10:11:28Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "a State's hash no longer depends on which cgitsync version wrote it. Every State ever recorded still verifies unchanged; only new ones stop carrying the leak.",
+]
+state_id = "state(0418535645733df0e830445bf426e68ab4b57ca22b00e9bf21580c905ce211f2)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:fc5db7597d7d794f49a40830f05705eae60495243b17c3fbae811f8665d89d94"
+entry_hash = "sha256:5b33e91078f02d1713977a92e4299a6c72e882da6c898f90dd2132cd2077e951"
+
+[entry.toolchain]
+cgitsync = "0002.71"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

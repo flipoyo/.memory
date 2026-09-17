@@ -1,0 +1,53 @@
+[[commit]]
+entry = 28
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "memory-dev"
+sha = "1e93f37eb158bca264ee2c46f8e72ade922e273c"
+message = "a State's hash no longer depends on which cgitsync version wrote it. Every State ever recorded still verifies unchanged; only new ones stop carrying the leak."
+authored_at = "2026-09-17T12:11:28+02:00"
+
+[[commit]]
+entry = 28
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "447b06b7e000911a38de5541d4a81200a99a40cb"
+message = "a State's hash no longer depends on which cgitsync version wrote it. Every State ever recorded still verifies unchanged; only new ones stop carrying the leak."
+authored_at = "2026-09-17T12:11:28+02:00"
+
+[[commit]]
+entry = 28
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "memory-dev"
+sha = "71f3a9f74eea73ba6d7260c37fc9a81da465daee"
+message = "a State's hash no longer depends on which cgitsync version wrote it. Every State ever recorded still verifies unchanged; only new ones stop carrying the leak."
+authored_at = "2026-09-17T12:11:28+02:00"
+
+[[published]]
+entry = 29
+repository = ".localSpec"
+sha = "447b06b7e000911a38de5541d4a81200a99a40cb"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T10:11:36+00:00"
+
+[[published]]
+entry = 30
+repository = "DocComplexGitSync"
+sha = "1e93f37eb158bca264ee2c46f8e72ade922e273c"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T10:11:41+00:00"
+
+[[published]]
+entry = 30
+repository = "ComplexGitSync"
+sha = "71f3a9f74eea73ba6d7260c37fc9a81da465daee"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T10:11:41+00:00"

@@ -1,0 +1,53 @@
+[[commit]]
+entry = 11
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "memory-dev"
+sha = "e9c0e5d0c79b6c457a14801b64e599fea9128edd"
+message = "cgitsync2.67 cgitsync can now build a project's memory repository from nothing: create it on GitHub, add it to your .cgs, adopt what is already on disk, and make the branch a first merge needs. Tutorial 5 walks all five, once per project"
+authored_at = "2026-09-17T01:47:58+02:00"
+
+[[commit]]
+entry = 11
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "1575a074fb2b0321ed329e0631b1202e3520c87e"
+message = "cgitsync2.67 cgitsync can now build a project's memory repository from nothing: create it on GitHub, add it to your .cgs, adopt what is already on disk, and make the branch a first merge needs. Tutorial 5 walks all five, once per project"
+authored_at = "2026-09-17T01:47:58+02:00"
+
+[[commit]]
+entry = 11
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "memory-dev"
+sha = "583db729cf776678ec7c18eb11dd94f8c5c23184"
+message = "cgitsync2.67 cgitsync can now build a project's memory repository from nothing: create it on GitHub, add it to your .cgs, adopt what is already on disk, and make the branch a first merge needs. Tutorial 5 walks all five, once per project"
+authored_at = "2026-09-17T01:47:58+02:00"
+
+[[published]]
+entry = 12
+repository = "DocComplexGitSync"
+sha = "e9c0e5d0c79b6c457a14801b64e599fea9128edd"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-16T23:48:17+00:00"
+
+[[published]]
+entry = 12
+repository = ".localSpec"
+sha = "1575a074fb2b0321ed329e0631b1202e3520c87e"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-16T23:48:17+00:00"
+
+[[published]]
+entry = 12
+repository = "ComplexGitSync"
+sha = "583db729cf776678ec7c18eb11dd94f8c5c23184"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-16T23:48:17+00:00"

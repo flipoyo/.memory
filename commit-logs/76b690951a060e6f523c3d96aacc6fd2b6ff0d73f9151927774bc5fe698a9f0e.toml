@@ -1,0 +1,17 @@
+[[commit]]
+entry = 19
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "ef861c7ee5556913008b7814bdbc9c89d93e664c"
+message = "tmp op for merging memory-dev into main"
+authored_at = "2026-09-17T11:15:38+02:00"
+
+[[published]]
+entry = 20
+repository = ".localSpec"
+sha = "ef861c7ee5556913008b7814bdbc9c89d93e664c"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-09-17T09:15:59+00:00"

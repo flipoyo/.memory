@@ -1,0 +1,22 @@
+[entry]
+seq = 7
+prev = "sha256:45bbe845d85f53a01b359fed29d5e4fba4a75a098ad1861ffb3b98e7e7855070"
+recorded_at = "2026-09-16T23:07:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "ticket for clarifying dependencies in the readme, for dummies, and to find the proper granulometry for .memory",
+]
+state_id = "state(43de0dadd10caf3146561a936199b530528d28bddc2a4ccd374ccb24a5ef59c9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:102780e423834b4205b9b11e64e7d1d5efbf39302e6cb42775caf693c0cedf75"
+entry_hash = "sha256:87a46bb6729e30d51889b38f956b728913f871455cdc73cc4c57fed9fe75f253"
+
+[entry.toolchain]
+cgitsync = "0002.67"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

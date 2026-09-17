@@ -1,0 +1,71 @@
+[[commit]]
+entry = 3
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "memory-dev"
+sha = "e2368e0c56753ba4998dd9a6db03f44bcc52eb0b"
+message = "cgitsync2.67 cgitsync now remembers what it committed: the message, the repository and whether anybody but this machine has ever seen it. memory show prints them, and verify says so when one has been edited since"
+authored_at = "2026-09-17T00:24:34+02:00"
+
+[[commit]]
+entry = 3
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "8a33f1fe0b041b353ff7b383767beb8444cba1e6"
+message = "cgitsync2.67 cgitsync now remembers what it committed: the message, the repository and whether anybody but this machine has ever seen it. memory show prints them, and verify says so when one has been edited since"
+authored_at = "2026-09-17T00:24:34+02:00"
+
+[[commit]]
+entry = 3
+repository = ".claude"
+repo_id = "root:.claude"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "9b29df1cabc038d62977615bf22db144b90230cb"
+message = "cgitsync2.67 cgitsync now remembers what it committed: the message, the repository and whether anybody but this machine has ever seen it. memory show prints them, and verify says so when one has been edited since"
+authored_at = "2026-09-17T00:24:34+02:00"
+
+[[commit]]
+entry = 3
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "memory-dev"
+sha = "8ce1925d076a935ae321f9b2973742defff0ee4f"
+message = "cgitsync2.67 cgitsync now remembers what it committed: the message, the repository and whether anybody but this machine has ever seen it. memory show prints them, and verify says so when one has been edited since"
+authored_at = "2026-09-17T00:24:34+02:00"
+
+[[published]]
+entry = 4
+repository = "DocComplexGitSync"
+sha = "e2368e0c56753ba4998dd9a6db03f44bcc52eb0b"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-16T22:24:54+00:00"
+
+[[published]]
+entry = 4
+repository = ".localSpec"
+sha = "8a33f1fe0b041b353ff7b383767beb8444cba1e6"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-16T22:24:54+00:00"
+
+[[published]]
+entry = 4
+repository = ".claude"
+sha = "9b29df1cabc038d62977615bf22db144b90230cb"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-16T22:24:54+00:00"
+
+[[published]]
+entry = 4
+repository = "ComplexGitSync"
+sha = "8ce1925d076a935ae321f9b2973742defff0ee4f"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-16T22:24:54+00:00"

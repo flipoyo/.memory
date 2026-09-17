@@ -1,0 +1,53 @@
+[[commit]]
+entry = 15
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "memory-dev"
+sha = "1733036feef30226c2da16852ab8c96c4c0c0969"
+message = "cgitsync2.69 cgitsync merge now takes --into <target>: it checks out that branch and merges into it in one command, so a tree that manages its own source never runs a stale build partway through. checkout warns before it installs a different one"
+authored_at = "2026-09-17T10:41:26+02:00"
+
+[[commit]]
+entry = 15
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "2a199fe1135aac13a4ee3323709b2f1054af23a8"
+message = "cgitsync2.69 cgitsync merge now takes --into <target>: it checks out that branch and merges into it in one command, so a tree that manages its own source never runs a stale build partway through. checkout warns before it installs a different one"
+authored_at = "2026-09-17T10:41:26+02:00"
+
+[[commit]]
+entry = 15
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "memory-dev"
+sha = "efdef1e58403c83f72430f77bd3c96f8a8f6e5a5"
+message = "cgitsync2.69 cgitsync merge now takes --into <target>: it checks out that branch and merges into it in one command, so a tree that manages its own source never runs a stale build partway through. checkout warns before it installs a different one"
+authored_at = "2026-09-17T10:41:26+02:00"
+
+[[published]]
+entry = 16
+repository = "DocComplexGitSync"
+sha = "1733036feef30226c2da16852ab8c96c4c0c0969"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T08:41:40+00:00"
+
+[[published]]
+entry = 16
+repository = ".localSpec"
+sha = "2a199fe1135aac13a4ee3323709b2f1054af23a8"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-17T08:41:40+00:00"
+
+[[published]]
+entry = 16
+repository = "ComplexGitSync"
+sha = "efdef1e58403c83f72430f77bd3c96f8a8f6e5a5"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/memory-dev"
+at = "2026-09-17T08:41:40+00:00"

@@ -1,0 +1,53 @@
+[[commit]]
+entry = 23
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "66679790d27f0b1a3e92180911605048e23ad6e3"
+message = "cgitsync2.70 merge --into no longer refuses a repository for not yet being on the branch it is about to move it to, so --private or --all can finish what an earlier scoped --into call left behind"
+authored_at = "2026-09-17T11:53:12+02:00"
+
+[[commit]]
+entry = 23
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "881d5b1c067b462a78c0dd9860a0b297e425dc16"
+message = "cgitsync2.70 merge --into no longer refuses a repository for not yet being on the branch it is about to move it to, so --private or --all can finish what an earlier scoped --into call left behind"
+authored_at = "2026-09-17T11:53:12+02:00"
+
+[[commit]]
+entry = 23
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "9140e1497084dad8b04be93a53c256cb48043a87"
+message = "cgitsync2.70 merge --into no longer refuses a repository for not yet being on the branch it is about to move it to, so --private or --all can finish what an earlier scoped --into call left behind"
+authored_at = "2026-09-17T11:53:12+02:00"
+
+[[published]]
+entry = 24
+repository = "DocComplexGitSync"
+sha = "66679790d27f0b1a3e92180911605048e23ad6e3"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-09-17T09:53:34+00:00"
+
+[[published]]
+entry = 24
+repository = ".localSpec"
+sha = "881d5b1c067b462a78c0dd9860a0b297e425dc16"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-09-17T09:53:34+00:00"
+
+[[published]]
+entry = 24
+repository = "ComplexGitSync"
+sha = "9140e1497084dad8b04be93a53c256cb48043a87"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-09-17T09:53:34+00:00"

@@ -1,0 +1,22 @@
+[entry]
+seq = 23
+prev = "sha256:6c3f61bfbca9588b0731b323ea92680582aa6aa5388b16675ed34bd9ffc6f433"
+recorded_at = "2026-09-17T09:53:12Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync2.70 merge --into no longer refuses a repository for not yet being on the branch it is about to move it to, so --private or --all can finish what an earlier scoped --into call left behind",
+]
+state_id = "state(16e86897b85b4199e7557f94ea7b6da7f75a0bc32da05929eca7e36e23e6eac0)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0e430ab237eaba2a5960f81f430f8b5c0ee5b6371c15a3e0a0db457565cb1cef"
+entry_hash = "sha256:824ef4c9fe3c41742dd1b74cb056691041fd52232f99b546580e257d70fc59bc"
+
+[entry.toolchain]
+cgitsync = "0002.70"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

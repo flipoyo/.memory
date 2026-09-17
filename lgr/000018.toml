@@ -1,0 +1,22 @@
+[entry]
+seq = 18
+prev = "sha256:f82643a2404bed421f22b9c209f9a3ee8ec15d249e21165356d0b0a9047b3b04"
+recorded_at = "2026-09-17T09:13:40Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "main",
+    "--private",
+]
+state_id = "state(f6a5485cc6edfd1d27cd4821d94a5b203a7722da4fb7258f203a35111a8b8761)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:6b4b6d82bc7073f127b516ed03f120cfe7d9a9e5f18a30299f8a9b7fc3e4d063"
+
+[entry.toolchain]
+cgitsync = "0002.69"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

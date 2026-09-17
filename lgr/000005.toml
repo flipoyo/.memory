@@ -1,0 +1,22 @@
+[entry]
+seq = 5
+prev = "sha256:2b88f7b91e988d3e0fb19bd25bb7e288885ca8cf2e5208759838a1ef91174a6f"
+recorded_at = "2026-09-16T22:57:58Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "Plan the commands that get a memory from nothing to merged: create the repo, mount it, adopt it, push it, and merge it across project branches — plus a tutorial that walks the whole sequence",
+]
+state_id = "state(6d0b266e282949f73fc3f49c176e88609971122051c246bd9d43aa2603cb8aa7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3a3bb765585a9708381495b60f213e2340fd1765c798aad4b0a69145947d9e1c"
+entry_hash = "sha256:5342607f4530e7b55f5108332d6e0e8826a054505651194ff451518c9c6a93e0"
+
+[entry.toolchain]
+cgitsync = "0002.67"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

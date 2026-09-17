@@ -1,0 +1,17 @@
+[[commit]]
+entry = 5
+repository = ".localSpec"
+repo_id = "root:.localSpec"
+scope = "private"
+branch = "ComplexGitSync_memory-dev"
+sha = "31819abf4d14f482b84418a3e5bc95dde0d4de5a"
+message = "Plan the commands that get a memory from nothing to merged: create the repo, mount it, adopt it, push it, and merge it across project branches — plus a tutorial that walks the whole sequence"
+authored_at = "2026-09-17T00:57:58+02:00"
+
+[[published]]
+entry = 6
+repository = ".localSpec"
+sha = "31819abf4d14f482b84418a3e5bc95dde0d4de5a"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_memory-dev"
+at = "2026-09-16T22:58:13+00:00"

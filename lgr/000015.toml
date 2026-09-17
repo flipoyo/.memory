@@ -1,0 +1,22 @@
+[entry]
+seq = 15
+prev = "sha256:9db8e678f2cf1cd621fcb056f2325d7e5ddd2bd367276f96ae81a15dbbd60350"
+recorded_at = "2026-09-17T08:41:26Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync2.69 cgitsync merge now takes --into <target>: it checks out that branch and merges into it in one command, so a tree that manages its own source never runs a stale build partway through. checkout warns before it installs a different one",
+]
+state_id = "state(6a6051b5994e966d3af48198a2de4c2f6a886b370ec6b5b74a7ef2d4bb6a2139)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:403844dd7af96b7a7ffad206cf7c9256b15d67f132f8adf1f7194eb9f2e236f8"
+entry_hash = "sha256:dec8fa32a26dbd1a5059e3c449cff9a109d82967cef29be8b0da331ed5ab572e"
+
+[entry.toolchain]
+cgitsync = "0002.69"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

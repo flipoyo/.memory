@@ -1,0 +1,22 @@
+[entry]
+seq = 11
+prev = "sha256:9e87819e2428d2b23efa08f84b392ecd977f9f4c8aa7cda175f0b7d97523964b"
+recorded_at = "2026-09-16T23:47:58Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync2.67 cgitsync can now build a project's memory repository from nothing: create it on GitHub, add it to your .cgs, adopt what is already on disk, and make the branch a first merge needs. Tutorial 5 walks all five, once per project",
+]
+state_id = "state(e7624e00d776bf486c97990fd7a3c0311941486ac94e8d185399a70b3b89fa5b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:907f48dd0fa6936d707ae9cf16fe8d796d1d0ca30d260f29a6e678ffa3685f23"
+entry_hash = "sha256:4eacbe5150115867770009452dc8f6be869430ace32e672b51475f9a942852f7"
+
+[entry.toolchain]
+cgitsync = "0002.68"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
