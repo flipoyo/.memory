@@ -1,0 +1,22 @@
+[entry]
+seq = 4
+prev = "sha256:173b57fcb0fc90b17eae5c0cd26a0751831582f00bc9ff6bba031018913b9d9d"
+recorded_at = "2026-09-18T11:24:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.84 pull no longer aborts the whole tree when one repository's branch has never been pushed: it skips that one repository, the same distinction freeze-release's own pull already drew, instead of failing everything on one missing remote ref",
+]
+state_id = "state(ca0f80a4db6653724b7ad803b2ccc566f530b3ada7d6f0c329172435bdb3454d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ed22a87549fef361511c78f70d9f6e5309e40590369bd9ec63536b87bb0e6a61"
+entry_hash = "sha256:088a8a7499ce867778bc0bfd3aba6f8b8ca0b88501bbd03675b2958ff2c8af78"
+
+[entry.toolchain]
+cgitsync = "0002.82"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
