@@ -1,0 +1,22 @@
+[entry]
+seq = 13
+prev = "sha256:f6b38d054982e4f4cc5f71cb0fa890858ec079a77ad163236617990c066a70e6"
+recorded_at = "2026-09-18T13:39:16Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.84 a snapshot from a newer cgitsync now says so plainly instead of being misread as corrupt",
+]
+state_id = "state(c825a0f7b99a2724272ef025f2b50d282e709bb160223ca4e2caf25a98381bbc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7bf3a0698495e5286d75cf1e797d6000ad9befc80ada97c911196a1e1035d845"
+entry_hash = "sha256:02e494cc9214e93e673d7bcc35e50da1b890df7658775c1e7413379135af4a94"
+
+[entry.toolchain]
+cgitsync = "0002.84"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
