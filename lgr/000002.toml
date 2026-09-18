@@ -1,0 +1,18 @@
+[entry]
+seq = 2
+prev = "sha256:3ee2411584897f7f04f1f7642e6d303489715e87e23794f1aa3b2fb09a3c283e"
+recorded_at = "2026-09-18T10:33:05Z"
+command = "load"
+argv = []
+state_id = "state(64f1e7d76944471d3845cd687e20760e1842014d48dca41af0d1c0fb9c5bf74e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:5a012cc46c722884a5156b59180b36301580740bce1bdce1052befb81b1c35db"
+
+[entry.toolchain]
+cgitsync = "0002.81"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
