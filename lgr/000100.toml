@@ -1,0 +1,22 @@
+[entry]
+seq = 100
+prev = "sha256:1f38e72304df7c2b9039532058a02444e4a70208e29373c0231200f66d41ec97"
+recorded_at = "2026-09-17T22:54:10Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.79 memory explore reads a memory by branch instead of by hash: published commits newest push first, or --timeline for the whole ledger in order, including checkout/merge/push a commit-only view drops",
+]
+state_id = "state(98500c4669ff65d863a0464bfa705b2360cd8b788c03d6d827cf38c172860e8a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:21b060879d4c7e2923d4000c354af97df0013e4c05adf0adc39f2968f8ad73d0"
+entry_hash = "sha256:982a10693690a140046e5526584086260f5c9996ad41397ec82f75e1f0c1ce7e"
+
+[entry.toolchain]
+cgitsync = "0002.79"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

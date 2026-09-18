@@ -1,0 +1,22 @@
+[entry]
+seq = 105
+prev = "sha256:80e310c748daa15e5473c3082e1d426d6d996e3a9f85bf46cd8e70bbe245322a"
+recorded_at = "2026-09-18T08:29:18Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.80 memory reboot closes a memory's current chapter and opens a fresh one: the old branch archived under a dated name, a permanent versioned .cgs of the project's shape at that moment, and an empty branch under the original name. memory adopt --reboot does the same for a first-time adopt",
+]
+state_id = "state(80207198552a9a71dca32bd425ad0857890fdcc1338af7d79ed13df5fac22552)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7b8d80808a21f69e29c90a0ce58a9619e8e1cc3f6bf0ac8424b2a98ab86b8679"
+entry_hash = "sha256:4715f8d1fcdfffb4bce0ad0f50f2305e5479d28e46263b2f0ab9bc67db92e0a2"
+
+[entry.toolchain]
+cgitsync = "0002.80"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

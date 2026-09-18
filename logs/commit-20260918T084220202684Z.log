@@ -1,0 +1,8 @@
+{"operation": "CGS-COMMIT", "event": "command_start", "command": "commit", "source_path": "/home/nflipo/.cgs/CGS20260917221816/cgs-mem/.cgitsync/state/ae2a5513d3215a2f414a949e3bf969f265481df8fce6da454297eb33a6480579.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260917221816/cgs-mem/.cgitsync/state/ae2a5513d3215a2f414a949e3bf969f265481df8fce6da454297eb33a6480579.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "commit_start", "message": "update tuto5 on memory", "stage_all": true, "scope": "project"}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/nflipo/.cgs/CGS20260917221816/cgs-mem/.cgitsync/state/9a5ac1a11bdb90be7520b9c52c1edc8d512343272b00c812ce5dcf92cde29b72.gts", "source_cgs_path": "/home/nflipo/.cgs/CGS20260917221816/cgs-mem/.cgitsync/state/06b6f782a7a97d02678a0f5e47cce6041e6c11bc81bc6112556429057919b506.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/nflipo/.cgs/CGS20260917221816/cgs-mem/.cgitsync/lgr", "seq": 107, "state_id": "state(9a5ac1a11bdb90be7520b9c52c1edc8d512343272b00c812ce5dcf92cde29b72)", "command": "commit"}
+{"operation": "CGS-RUN", "event": "commit_end", "message": "update tuto5 on memory", "committed": 1}
+{"operation": "CGS-COMMIT", "event": "command_end", "command": "commit", "status": "ok", "tree_lifecycle_state": "READY"}
