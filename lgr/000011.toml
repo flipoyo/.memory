@@ -1,0 +1,22 @@
+[entry]
+seq = 11
+prev = "sha256:72773532e430ecede2f867abb76b5bbf63c78071eae7901ce304e3bd141691db"
+recorded_at = "2026-09-18T13:21:20Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.83 checkout and branch no longer risk forking a branch they have simply never fetched — they check with the remote first",
+]
+state_id = "state(f3259d32657fab8d8771f16b112359c0297f6f9a4c5342a8d225a54a7ddc122b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7d3b11f431fa1be060591e74c9ca1c979dcd647600dee8d218c0bebc8180b832"
+entry_hash = "sha256:b6ff50115cfdf9aff6dc36065a550a141f2beec9f032a1793bc641817481d745"
+
+[entry.toolchain]
+cgitsync = "0002.83"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
