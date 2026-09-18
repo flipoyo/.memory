@@ -1,0 +1,22 @@
+[entry]
+seq = 17
+prev = "sha256:e79f0a03f5f19f2895b8408c1b2ed37cffaeb09880fcb583fc52f249fa28502e"
+recorded_at = "2026-09-18T17:05:01Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.86 a new close-branch command renames a finished branch to closed/<name> instead of leaving it looking active forever",
+]
+state_id = "state(d85209247b6c518f22749a0ce182acafa6b0db856a096e951ae40a5f6c5efda1)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0f5722e5d713e485d2bb7adac4884488d2c7b4ad0d240fac43fa9e79c5e91038"
+entry_hash = "sha256:bc688ab297edc9b6e0dd3e31c65b99b670a3bbb75e377866326c49615a6da466"
+
+[entry.toolchain]
+cgitsync = "0002.86"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
