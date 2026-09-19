@@ -1,0 +1,22 @@
+[entry]
+seq = 19
+prev = "sha256:b982abb24feb644e05353f5751f44f138eaa042b0d666a70f28880371b1a13a6"
+recorded_at = "2026-09-19T16:50:33Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.86 a new top-priority plan for recording what machine a tree was built on, so a restored snapshot says what you need installed to work in it, and the branch rule now says migration rather than subject matter",
+]
+state_id = "state(31945fb7ae9f165488f45c55d498a6aa569422730cad27ab48771360d8a24960)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:23e095d0019b653103b0ae6d9a73eb870b39a798d1677e96af235719a5580301"
+entry_hash = "sha256:48c42dfd012789c82ca5cf05a4d0750b9fbf820f15187eb2ab434e7ff0b61203"
+
+[entry.toolchain]
+cgitsync = "0002.86"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
