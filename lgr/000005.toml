@@ -1,0 +1,22 @@
+[entry]
+seq = 5
+prev = "sha256:6606b3fc138dc0b3a542686d1017f6d6dffa3675171cccaf81079bc9632ae0bc"
+recorded_at = "2026-09-20T10:13:18Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.86 naming an agent now has two separate rules: public credit stays in the readme alone, while the private record of what each agent actually did goes to the memory and is never published",
+]
+state_id = "state(96a78ef1d9723a1cca83d474c248607aacf3a510f4afabd7d821e56cb2ba3755)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3c5f190ac6aca3878b6ea7f49e634d52a2b96d5a791c5edc7e759c60ea1f3cdd"
+entry_hash = "sha256:d84f11301cb7fa819510f97ea6fbc92a1ef9f81e29df9890d1c381238b040b22"
+
+[entry.toolchain]
+cgitsync = "0002.86"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
