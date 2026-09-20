@@ -1,0 +1,22 @@
+[entry]
+seq = 21
+prev = "sha256:c90645c032bc63e411c32ea426c740df246966b6a81baabb7b5e18e272bd11cd"
+recorded_at = "2026-09-20T09:07:57Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync0002.86 the last open request is answered and closed, leaving three new plans: a test that reads the real calendar and is red from today, the memory directory rename that was deferred, and source comments pointing at moved tickets",
+]
+state_id = "state(cc4f10c94857f7bd60c9c628bdb5923e6fd357a2e563829e63975627d245d1c6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:6fa7434be01beb6f3e055ec10b6da92feaeebc0c2813333b0107b0868a294579"
+entry_hash = "sha256:8f71864d08b060c27786ab973953813d8794deaa216d963e5fd1d4e39c042cae"
+
+[entry.toolchain]
+cgitsync = "0002.86"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
