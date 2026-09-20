@@ -1,0 +1,23 @@
+[entry]
+seq = 27
+prev = "sha256:6797fc0cdee7cbf628a2b2e93226d1cd6c1f0358b238eca8368803a8bb7fd054"
+recorded_at = "2026-09-20T20:00:53Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync2.88 records the environment needed to rebuild every State. .localSpec: specs archive the implemented TreeEnvironment plan. .claude: instructions map the TreeEnvironment module boundary. docs: docs describe environment observation and drift checks",
+]
+state_id = "state(3cfa31084aac784a9b8fc0f03385fca7d6e0ec2ee0fdaa67112ee30944516b6d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c576fd90d613cc65080310fecaa547c8a85176df399c09b6c4ef374734e0b2e6"
+entry_hash = "sha256:770ce54b2f2696e0a4462f47e9b7658da4db766fbfa38effbe53ade3f3865602"
+environment = "env(537aa6f5b51eb03256595b16dbe9f15125fcff71c70da023151a3e75910a7526)"
+
+[entry.toolchain]
+cgitsync = "0002.88"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
