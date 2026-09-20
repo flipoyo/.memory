@@ -1,0 +1,9 @@
+{"operation": "CGS-PUSH", "event": "command_start", "command": "push", "source_path": "/home/flipoyo/.cgs/CGS20260919131353/cgs286/.cgitsync/state/fafc49fcda0b8d4299488356cde77d5b0686f6221a36c493158565104ad7f12b.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/flipoyo/.cgs/CGS20260919131353/cgs286/.cgitsync/state/fafc49fcda0b8d4299488356cde77d5b0686f6221a36c493158565104ad7f12b.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "push_start", "scope": "writable"}
+{"operation": "CGS-MEM", "event": "memory_push", "mount": "/home/flipoyo/.cgs/CGS20260919131353/cgs286/.cgitsync/.memory", "branch": "ComplexGitSync", "committed": true}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/flipoyo/.cgs/CGS20260919131353/cgs286/.cgitsync/state/115dc1988ed6302f04b9cbd7fea6154819e4d274029eed16bae8ec4e9cb5ee25.gts", "source_cgs_path": "/home/flipoyo/.cgs/CGS20260919131353/cgs286/.cgitsync/state/54a4150628b7397d12f2d8e7db5ea0946bcbcc9e29aeea629d150eb42bdddf89.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/flipoyo/.cgs/CGS20260919131353/cgs286/.cgitsync/lgr", "seq": 20, "state_id": "state(115dc1988ed6302f04b9cbd7fea6154819e4d274029eed16bae8ec4e9cb5ee25)", "command": "push"}
+{"operation": "CGS-RUN", "event": "push_end", "pushed": 1}
+{"operation": "CGS-PUSH", "event": "command_end", "command": "push", "status": "ok", "tree_lifecycle_state": "READY"}
