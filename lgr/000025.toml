@@ -1,0 +1,22 @@
+[entry]
+seq = 25
+prev = "sha256:f8ea728a94fd89f219f178bc302cc52a7dc62a8979095750202416b336197634"
+recorded_at = "2026-09-20T15:35:43Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgisync2.87 open tickets reorganising",
+]
+state_id = "state(22c6bbd26e36126bdc39f9d597c4d202cb0796697b71573934747387d4a747b7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:422a12d56e6a1516820517fccdfab81c65cda6cfe138ce095d070f38f4adafcd"
+entry_hash = "sha256:63aca71c7cf814c07707e916f5b5acf9c5383d9f0effeadb2d360c5011f1cf62"
+
+[entry.toolchain]
+cgitsync = "0002.87"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
