@@ -1,0 +1,23 @@
+[entry]
+seq = 9
+prev = "sha256:ec502234083203b6929ab800385e3d171d5edf3d25f95477642a655e153ef626"
+recorded_at = "2026-09-21T19:21:11Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.0.0 fixes examples/molonari.cgs, which had no relative_path on its root repository entry and so resolved to a tree whose root repository did not exist. cgitsync validate reported this tree as complete. Adding relative_path = . makes it match how cawaqsviz.cgs already handles the same project-name/root-repo-name mismatch.cgitsync3.0.0 records that examples/molonari.cgs's rootless-tree defect, found while planning DiscoverRoundTrip, was fixed ahead of the work package at the owner's request. D3 is marked closed and the ticket's repro section notes the fix landed 2026-09-21",
+]
+state_id = "state(2af4694d69f48e818aefc94f71fbbe928856d771261a4076619d7e3e07c62146)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:72389fcfbc6c1e296f18862e3bb1612c7a25f30261bf6a59f6c59de2b40815fd"
+entry_hash = "sha256:6e0c7f321daa879f340645aa65eaccdc77e542ddd9a0c0cc7ef7669931a6ff88"
+environment = "env(c10aa6551441276fdfc1eaa6e922b283ebdd4a499d8841967e737aeaa78c3e0a)"
+
+[entry.toolchain]
+cgitsync = "3.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
