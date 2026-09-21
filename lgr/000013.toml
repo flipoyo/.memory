@@ -1,0 +1,22 @@
+[entry]
+seq = 13
+prev = "sha256:e48fcc1d64a7ac3536e460bfdc0134441fdc9227b8fb465ebedd7a79792d831c"
+recorded_at = "2026-09-21T23:08:16Z"
+command = "commit"
+argv = [
+    "commit",
+    "change FS to match .agent, ie private are masked files",
+]
+state_id = "state(ca8e054dfd03dd561dde44ffef34c78480937f5b039721ad55987f7a4aefd1b6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e0687ae2cf0e46a6a1d094381c753061e864fa35881bca364850484a4dfc8586"
+entry_hash = "sha256:5971e11595d42942646322bd97d00922aa962252520f0b4aff36efedc81d9d1a"
+environment = "env(4f1f986a58ac6ce5239bd9082cde41f2ed08fcb49f434c9bdf051f4cf395d5fa)"
+
+[entry.toolchain]
+cgitsync = "3.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
