@@ -1,0 +1,23 @@
+[entry]
+seq = 15
+prev = "sha256:463ad44e67e100c7deb0852047d4261dd23c9645b895809082fdf5a2b9791c3c"
+recorded_at = "2026-09-21T23:23:28Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.0.0\nReorder the open-ticket backlog: finalize the agentic reorg first, then\nmain-branch prerequisites, then data-repo, then Omniscience.\nCorrects ProjectSpecSplit's stale deferred status — WP2 landed, WP3 is partial.\n",
+]
+state_id = "state(d9acc510c6954b33f749f674e1552ad58a1bf54a335c40df579276068ca837cc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e260f23a901d3ec0c54dd92f66374ab6b071373ce9213935f95eec848b5466ce"
+entry_hash = "sha256:7170f935c6966da59d56a156dece4bc5385a3fd025519e43c0d7853c2f34767e"
+environment = "env(4f1f986a58ac6ce5239bd9082cde41f2ed08fcb49f434c9bdf051f4cf395d5fa)"
+
+[entry.toolchain]
+cgitsync = "3.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
