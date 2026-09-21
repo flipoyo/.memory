@@ -1,0 +1,23 @@
+[entry]
+seq = 11
+prev = "sha256:10036b38554291302ff9932d2e55929104a33a4188f986efd3b90851c89ae638"
+recorded_at = "2026-09-21T19:33:01Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.0.0 finishes ProjectSpecSplit's active scope and re-ranks the rest. WP1 and WP4 — the content split into AgentConduct.md and the bump_version.py relocation — are verified done against the actual repo, not just the ticket's own claims, and a stale test-count line is corrected. WP2/WP3, the .agent layout move, stay open per the ticket's own D2 (not now, revisit later), so the ticket moves from priority 1 to priority 2 rather than to archive, with a ticket-review note recording why. The one live cross-reference to its old ranked path, in AgentContract, is updated; the archived Versioning ticket's citation is left alone, as an archived record is never edited.",
+]
+state_id = "state(1127e838b68ddd152dcaa81fc21950a1702da7e2beb2206a26b4f4916197f470)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ccc9decbe996eecfa6f8435475a4c598212477e982b95483c515d3a7ace66ed3"
+entry_hash = "sha256:413a73c3cf3b4bc31e048fa95aa04138095e14b4e307d060af5e7de8f30a4975"
+environment = "env(c10aa6551441276fdfc1eaa6e922b283ebdd4a499d8841967e737aeaa78c3e0a)"
+
+[entry.toolchain]
+cgitsync = "3.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
