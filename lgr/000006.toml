@@ -1,0 +1,23 @@
+[entry]
+seq = 6
+prev = "sha256:732b788dee236cd18f08f97099dfae9baedb4b5f699393d320ebc648a2229455"
+recorded_at = "2026-09-21T13:44:50Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.0.0 moves the rules any cgitsync project would want — the before-committing checklist shape, the commit-message rule, and how AI assistance is credited — into the shared DevSpec repository as AgentConduct.md, so this project's own CLAUDE.md states only what is specific to it.\nThe version-bump tool moves too, into .localSpec, so a plain checkout of the public repository has no release tooling at all.\nThe .agent parent-repository move itself stays deferred, as the ticket's own recommendation said.",
+]
+state_id = "state(89b78abc923a5de157183a7135d2cc115be3394d46a6cd8099597574e9efee6f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f0c9f66aaff145c0571bef88760237840e9e699a244f173940d9f0b69ad617dc"
+entry_hash = "sha256:5731157481d57ca14e1eb0135aa714fb7cd603415fc58bf4d95c18bf0310738b"
+environment = "env(32461c1a98ada81d9caedc4a9923fee8143f237078adb85d255fb02bb936a1b5)"
+
+[entry.toolchain]
+cgitsync = "3.0.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
