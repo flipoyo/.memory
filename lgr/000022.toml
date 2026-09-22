@@ -1,0 +1,23 @@
+[entry]
+seq = 22
+prev = "sha256:a5c139702899cbd2e786f58c03dec551f8f22607153a75eb4b424bf2fa027c17"
+recorded_at = "2026-09-22T20:53:04Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync3.0.0 Closes ProjectSpecSplit: verifies the .agent bootstrap works end to end and fixes every leftover .agentSpec/.localSpec/.claude reference across CLAUDE.md, AGENT.md, the specs, tests and docs. Also removes an orphaned duplicate of bump_version.py and re-ranks the open tickets after archiving it.+ fix conflicting states between two workers",
+]
+state_id = "state(00d553aa929fd7445d7920ff10f8a090d72c9bbf51a9e5d3517fd62e8e20e437)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:66efca130f28aa358da99d0438fd2bb4d3b0ade7d94caf40fef75332769abc11"
+entry_hash = "sha256:2b5c807a2bf84ccfea2a5ceba208570cbc5727d72674a2008ded211ff3bf79c4"
+environment = "env(4f1f986a58ac6ce5239bd9082cde41f2ed08fcb49f434c9bdf051f4cf395d5fa)"
+
+[entry.toolchain]
+cgitsync = "3.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
