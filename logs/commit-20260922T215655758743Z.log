@@ -1,0 +1,8 @@
+{"operation": "CGS-COMMIT", "event": "command_start", "command": "commit", "source_path": "/home/flipoyo/.cgs/CGS20260921225926/cgsN/.cgitsync/state/2221d47ce21edfa3ad7480abab510d23717998b9aa9d17f4ff99f4f75e523b94.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/flipoyo/.cgs/CGS20260921225926/cgsN/.cgitsync/state/2221d47ce21edfa3ad7480abab510d23717998b9aa9d17f4ff99f4f75e523b94.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "commit_start", "message": "cgitsync3.0.0 autofix ticket more accurate", "stage_all": true, "scope": "private"}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/flipoyo/.cgs/CGS20260921225926/cgsN/.cgitsync/state/522dcc12a30ae801afe04d3fdb905357a35ed1bab670c49ff937aa306f5fb7ac.gts", "source_cgs_path": "/home/flipoyo/.cgs/CGS20260921225926/cgsN/.cgitsync/state/12ed0966e91197cb4394eda5672da4676d229aad72cb0e3c78771ccfec779848.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/flipoyo/.cgs/CGS20260921225926/cgsN/.cgitsync/lgr", "seq": 28, "state_id": "state(522dcc12a30ae801afe04d3fdb905357a35ed1bab670c49ff937aa306f5fb7ac)", "command": "commit"}
+{"operation": "CGS-RUN", "event": "commit_end", "message": "cgitsync3.0.0 autofix ticket more accurate", "committed": 1}
+{"operation": "CGS-COMMIT", "event": "command_end", "command": "commit", "status": "ok", "tree_lifecycle_state": "READY"}
