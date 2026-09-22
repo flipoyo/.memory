@@ -1,18 +1,18 @@
 [entry]
-seq = 19
-prev = "sha256:987b2affb64c32684da9b977cdfae30ff37ad2edf62448b68a7d2cc6845a421b"
-recorded_at = "2026-09-22T19:58:53Z"
+seq = 21
+prev = "sha256:715c1edee3941c4052d1cb45b117fde97fecf2f2ec34c1bc2313ab11519d3afb"
+recorded_at = "2026-09-22T20:15:47Z"
 command = "commit"
 argv = [
     "commit",
-    "--all",
+    "--private",
     "cgitsync3.0.0 Closes ProjectSpecSplit: verifies the .agent bootstrap works end to end and fixes every leftover .agentSpec/.localSpec/.claude reference across CLAUDE.md, AGENT.md, the specs, tests and docs. Also removes an orphaned duplicate of bump_version.py and re-ranks the open tickets after archiving it.",
 ]
-state_id = "state(24cc4082667935b51d738ba38f3d5e2d003ea1c14af37ca752f78b3269d0657a)"
+state_id = "state(c10a2b2fb0e40c6179d7495b4a5674ce8d1c1a1205fec6b9abe38254fe1d68fe)"
 state_dir = "state"
 outcome = "ok"
-commit_log = "sha256:f17df52cddfc2654e06b201d251b4d9f56fc1396d7787eef585d8d331b4a91c7"
-entry_hash = "sha256:144931276de419ca346d7c2bf7e53c02431a52d04ba52dd98c5e5066697812ac"
+commit_log = "sha256:b6305e362518dd447fcacbd13db26ad0ac55a5487dcbb78f5453244ce5c6dc9a"
+entry_hash = "sha256:a5c139702899cbd2e786f58c03dec551f8f22607153a75eb4b424bf2fa027c17"
 environment = "env(4f1f986a58ac6ce5239bd9082cde41f2ed08fcb49f434c9bdf051f4cf395d5fa)"
 
 [entry.toolchain]
