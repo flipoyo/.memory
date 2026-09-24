@@ -1,0 +1,14 @@
+project = "ComplexGitSync"
+repos = [
+    "github:flipoyo/ComplexGitSync",
+    { repository = "github:flipoyo/DocComplexGitSync", relative_path = "docs" },
+    { repository = "github:flipoyo/.memory", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".cgitsync/.memory" },
+    { repository = "github:flipoyo/DevSpec", private = true, relative_path = ".agent/.distant/dev-sync" },
+    { repository = "github:flipoyo/DocSpec", private = true, relative_path = ".agent/.distant/documentation" },
+    { repository = "github:flipoyo/.ticketing", private = true, relative_path = ".agent/.distant/ticket" },
+    { repository = "github:flipoyo/.auto", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".agent/.local/.auto" },
+    { repository = "github:flipoyo/.claude", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".agent/.local/.claude" },
+    { repository = "github:flipoyo/.dev", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".agent/.local/.dev" },
+    { repository = "github:flipoyo/.localSpec", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".agent/.local/.localSpec" },
+    { repository = "github:flipoyo/.versioning", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".agent/.local/.versioning" },
+]
