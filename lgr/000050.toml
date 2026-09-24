@@ -1,0 +1,23 @@
+[entry]
+seq = 50
+prev = "sha256:977173fb2d1437fe3d540acc2d5f0b224afed6db6b4207051dd223cd07bb0786"
+recorded_at = "2026-09-24T11:45:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.2 Fixes cgitsync pull crashing on a freshly-discovered nested repository with no commits yet, by teaching current_branch to answer a branch name instead of raising, and gives self-history a real initial commit at adopt time so it satisfies the tree's readiness check.",
+]
+state_id = "state(63a9fffdc5ade566180cebccbe404bced7e43e88c54454fc2c43c8041fe4c617)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b567490481f85fec48cc29a15ab78373468376520fb2c0562da4ad0450df9a18"
+entry_hash = "sha256:9db55bfa3aef599612b63fd1d06789a1c87397f31ce4f2959fb58b495092b6bf"
+environment = "env(55c3277bed2849c8482c08175599cf31a90977f2aaf7f98097413236455d0a28)"
+
+[entry.toolchain]
+cgitsync = "3.1.2"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
