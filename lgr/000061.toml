@@ -1,0 +1,23 @@
+[entry]
+seq = 61
+prev = "sha256:909ab2063264a2f9448e32979d334cf6a51c9b8289baa082bf04d91b91ffcd72"
+recorded_at = "2026-09-24T13:12:21Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.6 Makes memory show render an environment record as a box-drawing tree, the same style view-tree already draws a repo tree with, instead of dumping Python's own raw dict repr.",
+]
+state_id = "state(d937ef9ad80f957e6fc1d979308a9f57d31198b38d50994254689988760549d9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:122fc49586a9feaed9ecdc807c1b509aa551f568fbb0e585fddefd21ab2abfc3"
+entry_hash = "sha256:dd0102ffc896a27dc3e09215d721a7a65b7dc527a1be09d3889e674c3c52b566"
+environment = "env(86c4acd4dc375d0979e683c58d2396d29c7c9fd4732d14e29c6f9b3bcf07f5a8)"
+
+[entry.toolchain]
+cgitsync = "3.1.6"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
