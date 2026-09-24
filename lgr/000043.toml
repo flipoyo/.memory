@@ -1,0 +1,23 @@
+[entry]
+seq = 43
+prev = "sha256:93d0c15070eeb298807d514ccba9f26813cf1b97fe1ab428cf47f8b5f7405b64"
+recorded_at = "2026-09-24T08:10:05Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.0 gives self-history its own repository, riding .memory's adopt/push/clone automatically once github:<owner>/.self-history exists — reachability is the opt-in, not a nested_config flag, since a loaded .gts never carries one. Fixes a live crash: an empty adopted mount left .memory's own git add unable to reference it until its own .gitignore listed it.",
+]
+state_id = "state(f8d5978dc3f8e214a8268c28816b41f1afeb0e83fe91286e3aa257078842d873)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:832900f58bd45d3d2eefaee275ac20724c34c3e8fcd7de95e9be5137f1f111ec"
+entry_hash = "sha256:a5115ef1081c2c245e7e752b328572cb6aa08a2b6fd98ce76b290e8171f75d1f"
+environment = "env(5b99f6836dc6054a7d702e0aeba74a1a6179519a14f1e512dab490b2f39cf099)"
+
+[entry.toolchain]
+cgitsync = "3.1.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

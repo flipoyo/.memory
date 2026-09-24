@@ -1,0 +1,23 @@
+[entry]
+seq = 45
+prev = "sha256:5f4b643bfcad075ff5c9140d1fce96ff71fdedd7159b0e5f13ff512ea16e0573"
+recorded_at = "2026-09-24T09:31:56Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.0 Corrects a real mistake: self-history's adopt-gating asked the wrong layer twice over (a .gts-only registry flag, then a reachability probe) instead of what .memory's own committed content already decided. Finishes WP3: state_before/state_after are now verified against the ledger the same way verify checks a State, not merely shape-validated.",
+]
+state_id = "state(fdf8925e37ad39d9a8148eb7f20a7492de3050069d9994c7b852d0d9b86faf63)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:55334e30000d155e7f64bce1177516ed355d90cca78a5503199439f68ec59de5"
+entry_hash = "sha256:700d1fefa544a32c1d47734d67acbaee2a6e1fa0a63005b1f89377bb37cfd93a"
+environment = "env(5b99f6836dc6054a7d702e0aeba74a1a6179519a14f1e512dab490b2f39cf099)"
+
+[entry.toolchain]
+cgitsync = "3.1.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
