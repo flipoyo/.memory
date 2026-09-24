@@ -1,0 +1,23 @@
+[entry]
+seq = 59
+prev = "sha256:e250d1c047883a62ceb0c11acb8176eedd92c8538d9ee5edc1ef5574e05a85da"
+recorded_at = "2026-09-24T12:57:57Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.5 Fixes memory show rejecting a State reference pasted back exactly as memory explore --timeline or a ledger entry prints it, because the state= label or state(...) wrapper became part of the value it tried to match.",
+]
+state_id = "state(b622891b5df76269b484e66d6aa6f60eaf1109244dfcd70eea33b2f34aa53825)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:6e40d3e224bc875724579943ce8faef555f3ce92bd59809922b6b2953d9b33c0"
+entry_hash = "sha256:9428baeec0274d16609b41ba68b821256ed5e62e63758c15331b7d1fbdde003d"
+environment = "env(df9bc3228079dea6d1915232d4d397c06c1375f30ca6ceb7835ffa9f2977975f)"
+
+[entry.toolchain]
+cgitsync = "3.1.5"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
