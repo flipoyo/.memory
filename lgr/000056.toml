@@ -1,0 +1,23 @@
+[entry]
+seq = 56
+prev = "sha256:dfcac6591582362f64262e1caa70d6ce7ca4c92c62317ea0902e90cf720945ae"
+recorded_at = "2026-09-24T12:33:32Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.4 Fixes memory explore --timeline silently dropping the one thing a reader needed to actually look at an entry closer: the State hash memory show takes. Also makes memory show's error message point at the fix when a prefix doesn't match anything.",
+]
+state_id = "state(333b05fbaa6abd96e49c20e201af6bd05153a3dcfc6dff8846163b27455712cd)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:cb010b6f4d9b12e74d76d3d4fece5c34a41329a07965e0021861d72087a07738"
+entry_hash = "sha256:ac946bf79e8e0e9473e4fdf62efbbbeea4de5c6c289968f25555e234bc9877da"
+environment = "env(ae8ccf33cdbc0cd6ad92cd07da36b9f1bd2328e915d25b2a1c99d6798d6719b2)"
+
+[entry.toolchain]
+cgitsync = "3.1.4"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
