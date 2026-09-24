@@ -1,0 +1,23 @@
+[entry]
+seq = 63
+prev = "sha256:85554a11e85fd4c8c93922b0bd8f102703e63da652ecd5bdbf56e1e3ec9c87dd"
+recorded_at = "2026-09-24T13:35:23Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.7 Splits memory show in two: a State now shows its own topology drawn like view-tree right after a bare environment reference, and memory show env=<ref> is the new place to see that environment's full machine/tools/credentials/manifests detail",
+]
+state_id = "state(dc8c447f207d67ef27aadac9ff316389b74f17fcbe2c6fa2dad4530be15bddc6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:cbbdb85688b537ca4fb774fa2845eaee12977d8a4dc49f1b5a9402afd4bcd60e"
+entry_hash = "sha256:76af9984f8de0cdf47d30bf2f86606bd3aaab7efb9ba940cc43453064196d85a"
+environment = "env(1d0f400cc14c42fc756af5fc308051aed47f90fa9fbf116c00382e8a89a15aac)"
+
+[entry.toolchain]
+cgitsync = "3.1.7"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
