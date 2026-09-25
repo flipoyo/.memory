@@ -2,5 +2,5 @@ project = { name = ".memory", default_branch = "ComplexGitSync" }
 
 repos = [
     { repository = "github:flipoyo/.memory", relative_path = "." },
-    { repository = "github:flipoyo/.self-history", relative_path = ".self-history", fallback_branch = "main", private = true, writable = true },
+    { repository = "github:flipoyo/.self-history", relative_path = ".self-history", default_branch = "ComplexGitSync", private = true, writable = true },
 ]
