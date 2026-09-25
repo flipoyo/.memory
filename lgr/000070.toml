@@ -1,0 +1,23 @@
+[entry]
+seq = 70
+prev = "sha256:4b288f41a08748bc360837bcdfee1ea6115a07b2180085c8c75a068c09afe4cb"
+recorded_at = "2026-09-25T14:13:35Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.1.9 Adds scripts/spec_tree.py, checking that every spec is reachable from CLAUDE.md by a real link — including a bare filename named only in prose, which is how AGENT.md was going unreached — and that digest.md's rules still cite real sources. CLAUDE.md now points every session at digest.md, a short list of every MUST/NEVER rule in the tree, so a rule is not two hops behind a pointer read once and forgotten under later context.",
+]
+state_id = "state(3b4d1b59854ce7d4f598a855d376e69e45bcda9d50fbb8998b1a5cd8c4e3dd83)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:bfca726a14b940ebde56e1a9b92f4ad1393a42043bab7da1f8fc2b5a5e4fbf74"
+entry_hash = "sha256:1043e22563eae06cbc58bb562204d5f3d81149f2e46fad4f86b913815d2e6201"
+environment = "env(4fce60e4ef8112e666177c5dfab1e25d09e7ee005bc1bcff5684b3edac77ce96)"
+
+[entry.toolchain]
+cgitsync = "3.1.9"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
