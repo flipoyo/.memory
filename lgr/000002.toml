@@ -1,0 +1,22 @@
+[entry]
+seq = 2
+prev = "sha256:04fc317af552dbad603550c8c7e173eb43647c03374e1fa78ce71326f2ebae85"
+recorded_at = "2026-09-25T16:32:56Z"
+command = "branch"
+argv = [
+    "branch",
+    "tmp-main-1-2_DiscoverRoundTrip",
+]
+state_id = "state(7da0d412c6cf8d771af3c17af1b51fb0cbd9b3153d47eb47723ae97abc6706bf)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:063a2aeb681c4c14299b19c029b5299fc0a6cc4b642c553e4b218ee34414fb82"
+environment = "env(1d0f400cc14c42fc756af5fc308051aed47f90fa9fbf116c00382e8a89a15aac)"
+
+[entry.toolchain]
+cgitsync = "3.1.7"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

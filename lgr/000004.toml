@@ -1,0 +1,23 @@
+[entry]
+seq = 4
+prev = "sha256:8956c5e633cdb0c5c76bdf2c9e0a9e02eb710f6d9265e81e624d4241758ac521"
+recorded_at = "2026-09-25T16:38:33Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "DiscoverRoundTrip (main_1-2) — implementation complete: WP1 (F1/F2/F3 — root-identity duplication): done. _is_root_repo_spec is now the single implementation, used by both registry.py and discovery.py; the root's own branch/tag/default_branch now actually work; a document with no root entry is refused with a named fix; a sole repository is always the root. WP2 (F4/F5 — discover round-trip): done. discover --write now drafts project.default_branch from the observed root branch, per-repo default_branch only where a repo differs, and a more actionable no-origin warning. WP3 (S1): investigated with the exact harness the ticket asked for — did not reproduce. Documented why (candidates 1 and 3 ruled out; candidate 2 needs the owner's own failing-push evidence). WP4: user_guide.tex and Tutorial 3 updated, PDF rebuilt",
+]
+state_id = "state(14c02dfa267c3ebb7dc688a33a78735f8eec88a209b9d61e80944c935747039e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:732aa8b410255fc448a94207bffda6f064a1a7d857263030f21cf88491d830bb"
+entry_hash = "sha256:37b22f51491ec6667f7da716691c9fd39c7e0340098ac07b3978e0ff1effcb6a"
+environment = "env(1d0f400cc14c42fc756af5fc308051aed47f90fa9fbf116c00382e8a89a15aac)"
+
+[entry.toolchain]
+cgitsync = "3.1.7"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
