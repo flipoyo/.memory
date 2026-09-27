@@ -1,0 +1,23 @@
+[entry]
+seq = 78
+prev = "sha256:ca5e9086102cd619b1bc054d7288c440fa89518528ca088ee789317840b65f05"
+recorded_at = "2026-09-27T21:00:45Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.2.0 Fixes autofix answering 'no failing command found in the run log' straight after a merge had visibly failed: a command saved its log only when it also wrote a State, and a refused merge writes none, so the one run worth diagnosing was the one that left no trace.\nAutofix now names the repositories and files a conflict is still blocking, a refusal says which branch it was merging instead of only which files clashed, and a plain merge records the branch it merged into and the State it produced. Tutorial 4 gains a section on finishing a conflicted merge by hand when no merge tool is configured.",
+]
+state_id = "state(b88c9915587bf39daff552d3e9b530d13f161f604ad6cb0ab8b307a1bcb0ce90)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:cc00c8d139dac0ec5a9743a3531afba10c1496eea9fedc86746ac7724cbcaa93"
+entry_hash = "sha256:87b7b5a01aba3ca93d8de09be3816f1517cd6687365df02a5195562e8b8f030d"
+environment = "env(2c3092d9119235872daf20329a9a6953e58e35b31540cfb04324c8ce0ca4f4c2)"
+
+[entry.toolchain]
+cgitsync = "3.2.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
