@@ -1,0 +1,5 @@
+{"operation": "GT-CLONE", "event": "command_start", "command": "pull", "source_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/.memory/state/15dc26870be73cdfea25db4c2518d0c6f830e78f0cf8616d3a58c3e7d2658437.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "pull_start", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/.memory/state/15dc26870be73cdfea25db4c2518d0c6f830e78f0cf8616d3a58c3e7d2658437.gts"}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/.memory/state/15dc26870be73cdfea25db4c2518d0c6f830e78f0cf8616d3a58c3e7d2658437.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "GT-CLONE", "event": "command_end", "command": "pull", "status": "error", "error": "Git command failed (git pull --ff-only origin main): error: You have not concluded your merge (MERGE_HEAD exists).\nhint: Please, commit your changes before merging.\nfatal: Exiting because of unfinished merge.", "tree_lifecycle_state": "READY"}

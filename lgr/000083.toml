@@ -1,0 +1,23 @@
+[entry]
+seq = 83
+prev = "sha256:7cc9e4181dae991baaeb898241acfa832a8384793fcdd2facc6954bd3b649835"
+recorded_at = "2026-09-28T18:41:12Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync3.2.0 root-identity duplication fixed",
+]
+state_id = "state(ff29db528e8a1e03d2e3486e9f2e8d8b59b16d49a3b99857e65e0242e58ceb7a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:fc913ab6b31f538758547816a975cc0111e995cf85b4e83c9cedb1882f0d8c7c"
+entry_hash = "sha256:829e006aa3d9b65f96a3c6880b58f97f551250e946e13651788e3f7c2c6ee6ee"
+environment = "env(5c0e1da74f297035e798bdc679e97958f81b3b3497c7a45edc767cc39ce9bf87)"
+
+[entry.toolchain]
+cgitsync = "3.2.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

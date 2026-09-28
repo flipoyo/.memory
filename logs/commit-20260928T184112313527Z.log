@@ -1,0 +1,8 @@
+{"operation": "CGS-COMMIT", "event": "command_start", "command": "commit", "source_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b159248160316f54dc01bdcf4a411a7d49f277de0a684fc58a8ba42c1969e5eb.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b159248160316f54dc01bdcf4a411a7d49f277de0a684fc58a8ba42c1969e5eb.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "commit_start", "message": "cgitsync3.2.0 root-identity duplication fixed", "stage_all": true, "scope": "private"}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/ff29db528e8a1e03d2e3486e9f2e8d8b59b16d49a3b99857e65e0242e58ceb7a.gts", "source_cgs_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b5c462465f092eaf179d8932df26217bd2b8150cb36c19a3005001601a3db08b.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/lgr", "seq": 83, "state_id": "state(ff29db528e8a1e03d2e3486e9f2e8d8b59b16d49a3b99857e65e0242e58ceb7a)", "command": "commit"}
+{"operation": "CGS-RUN", "event": "commit_end", "message": "cgitsync3.2.0 root-identity duplication fixed", "committed": 1}
+{"operation": "CGS-COMMIT", "event": "command_end", "command": "commit", "status": "ok", "tree_lifecycle_state": "READY"}
