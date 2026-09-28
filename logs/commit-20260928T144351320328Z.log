@@ -1,0 +1,8 @@
+{"operation": "CGS-COMMIT", "event": "command_start", "command": "commit", "source_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b5c462465f092eaf179d8932df26217bd2b8150cb36c19a3005001601a3db08b.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b5c462465f092eaf179d8932df26217bd2b8150cb36c19a3005001601a3db08b.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "commit_start", "message": "Ticket Merge UX improvement specs", "stage_all": true, "scope": "private"}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/feb7184ba5f57c6489881ab8f62a34eadb64c79fe04ec7c037c9c9070f7f3d99.gts", "source_cgs_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b5c462465f092eaf179d8932df26217bd2b8150cb36c19a3005001601a3db08b.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/lgr", "seq": 80, "state_id": "state(feb7184ba5f57c6489881ab8f62a34eadb64c79fe04ec7c037c9c9070f7f3d99)", "command": "commit"}
+{"operation": "CGS-RUN", "event": "commit_end", "message": "Ticket Merge UX improvement specs", "committed": 1}
+{"operation": "CGS-COMMIT", "event": "command_end", "command": "commit", "status": "ok", "tree_lifecycle_state": "READY"}

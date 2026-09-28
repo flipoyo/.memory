@@ -1,0 +1,5 @@
+{"operation": "CGS-MERGE", "event": "command_start", "command": "merge", "source_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b5c462465f092eaf179d8932df26217bd2b8150cb36c19a3005001601a3db08b.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/b5c462465f092eaf179d8932df26217bd2b8150cb36c19a3005001601a3db08b.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "merge_start", "project_branch": "tmp-main-1-2_DiscoverRoundTrip", "into_branch": "main", "scope": "writable"}
+{"operation": "CGS-MERGE", "event": "command_end", "command": "merge", "status": "error", "error": "merge refused; no repository was merged: DocComplexGitSync: merging 'tmp-main-1-2_DiscoverRoundTrip' conflicts; ComplexGitSync: merging 'tmp-main-1-2_DiscoverRoundTrip' conflicts", "tree_lifecycle_state": "READY"}
