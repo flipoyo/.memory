@@ -1,0 +1,22 @@
+[entry]
+seq = 87
+prev = "sha256:3c161b1c1a5c71a663695816b91d3756bc333e70b0ef5aa0778d056043adcafc"
+recorded_at = "2026-09-29T09:55:56Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync3.3.0 Implements MergeUX: comprehensive merge conflict resolution workflow with automatic tool detection and regeneration of generated files. Merge UX overhaul with six work packages: (WP1) fixes false 'unmergeable tree' diagnosis for remote-only branches via ref resolution; (WP2) adds --resolve hint to refusal messages; (WP3) restructures autofix advice into clear, unambiguous sequence; (WP4) widens VS Code detection to Wayland and Remote-SSH; (WP5) adds tree-wide resolve loop with auto-regeneration of PDFs and generated metrics; (WP6) allows cgitsync commit to complete resolved merges. All tests pass, module ceilings regenerated, build counter 0003.17 → 0003.22.",
+]
+state_id = "state(a7b7217afd9c94159c381050a737dff419cea7d3642355de0239aef306636a42)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:24bce45ad2b36bca2c42898521f3da325caed7cd5f18aab848e85714badae8b9"
+entry_hash = "sha256:8b4478b74a666966e5a6f0aec79236401c1e56b772a1a3585c210e3970b5e2f1"
+environment = "env(1c5bba9d4c5fe25e7cb8f135f056d17018664cfdd5b20c1c5c700b27b18670cd)"
+
+[entry.toolchain]
+cgitsync = "3.3.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
