@@ -1,0 +1,5 @@
+{"operation": "CGS-COMMIT", "event": "command_start", "command": "commit", "source_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/cf541975185ae438c86fdaafc1043e02b17df0f9bb033579fb34e742b06e0d64.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260928080911/cgs320/.cgitsync/state/cf541975185ae438c86fdaafc1043e02b17df0f9bb033579fb34e742b06e0d64.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "commit_start", "message": "correc cawaqsviz.cgs", "stage_all": true, "scope": "project"}
+{"operation": "CGS-COMMIT", "event": "command_end", "command": "commit", "status": "error", "error": "commit preflight failed: ComplexGitSync: local branch is behind its upstream. (warnings: ComplexGitSync: worktree has uncommitted changes.)", "tree_lifecycle_state": "READY"}

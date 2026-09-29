@@ -1,0 +1,22 @@
+[entry]
+seq = 91
+prev = "sha256:2f77af60a50cd231211d24d03a3cd986723ddc9656b6db234d664b3d1ec00ca2"
+recorded_at = "2026-09-29T12:22:36Z"
+command = "commit"
+argv = [
+    "commit",
+    "update examples/cawaqsviz.cgs",
+]
+state_id = "state(046829eadbf87c1b725fe65fce56a8f8f1453730b4c35ddbfac315ed8e97fb5c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:4eebed42210aae911b60dbac7f48cf475342d2e6f26ce06a00119b02136b4f74"
+entry_hash = "sha256:057017c642f4d43e8ed6cfd3b0fe0d361a9d1fa5095e64f45b768aa58c56b0f8"
+environment = "env(1c5bba9d4c5fe25e7cb8f135f056d17018664cfdd5b20c1c5c700b27b18670cd)"
+
+[entry.toolchain]
+cgitsync = "3.3.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
