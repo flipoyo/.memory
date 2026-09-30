@@ -1,0 +1,23 @@
+[entry]
+seq = 102
+prev = "sha256:60458475b974ce40c3893f913defecde75bd76712acd488b585f09ebf8de3c3d"
+recorded_at = "2026-09-30T14:36:44Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.6.0 initialise is now the nested install and bootstrap the standalone one; each refuses the other's job by name before touching the disk, and both accept a .cgs or a .gts snapshot.",
+]
+state_id = "state(7a1990b44f4cd8ac749e4e8a8cebc2aafc7343c3b467d3ff5f754b36b6e1271e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c388bb7fe970c432d1725f491dd38056e113f974ec29e5b95f620e68f064a476"
+entry_hash = "sha256:f124eb5a2c1a9d85ac5af1e87e325c3592b6b0abeca95d3cb969c9c4f561dc78"
+environment = "env(a1199b22a063f1f4b0884b1917d6bf0deebd8584a5d5b3e78d16957b98a28469)"
+
+[entry.toolchain]
+cgitsync = "3.6.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

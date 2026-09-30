@@ -1,0 +1,4 @@
+{"operation": "CGS-SELF-HISTORY-ADD", "event": "command_start", "command": "self-history-add", "source_path": "/home/nflipo/.cgs/CGS20260930082422/cgs330", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260930082422/cgs330/.cgitsync/state/1d8c2cac0a91821c2d4fcba880773174e73433b7303046372646789eaa7d5e91.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-SELF-HISTORY-ADD", "event": "command_end", "command": "self-history-add", "status": "error", "error": "state_before='1d8c2cac0a91821c2d4fcba880773174e73433b7303046372646789eaa7d5e91' does not resolve in the ledger: no entry names it, its State is not on disk, or its content no longer hashes to its own name. self-history only cites States the ledger can actually verify.", "tree_lifecycle_state": "READY"}
