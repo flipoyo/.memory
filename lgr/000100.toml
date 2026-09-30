@@ -1,0 +1,23 @@
+[entry]
+seq = 100
+prev = "sha256:681379f7d290b34fe600c34ea7432dd093069785b9faada04906d5a2997f958a"
+recorded_at = "2026-09-30T11:54:36Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.5.1 The two largest parts of the package are now folders of small files, each holding one class, and every command and Python call works exactly as before. The shape check now refuses any file over 2000 lines outside the command-line code, and the development docs describe the new layout.",
+]
+state_id = "state(ce84dc5b25b4ec1e75c4c695170c52e65aafc1845425aae16ad1f5056ee7fc57)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:61f9c1ffb4acb549a771074067d5cfef2e5640b5426c24352cfce856417325a6"
+entry_hash = "sha256:09cbc8df43cd1e9c4e0da4cfde5ea9251bd411984ffe11f6ac3845ed038a74bd"
+environment = "env(59566f71f4e515b21e0d9e54afd29a4e720f5cd8d2b8cdf26a14c87a1d9f5672)"
+
+[entry.toolchain]
+cgitsync = "3.5.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
