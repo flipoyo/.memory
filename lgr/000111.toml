@@ -1,0 +1,23 @@
+[entry]
+seq = 111
+prev = "sha256:2c9535070f05dff3322cf6ce189534b3d7477de0a4d025b47922572547a0ad0d"
+recorded_at = "2026-09-30T18:42:14Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.8.0 A conformity score is now always shown out of 100 with each maximum (33, 33, 34), and a record can carry a short written explanation of how its total was reached. The scale and the sum are explained in the specs, README, user guide and API guide, and a score outside its range is refused. Old records read and verify exactly as before.",
+]
+state_id = "state(2724565978560b9bc80ec4130e91e7e2b0692727ca2d3b50c974a266c0f36857)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0b24dc7409f8bbb2191ad669f88c05268f1036f5126cda45771f0ea582f89138"
+entry_hash = "sha256:c81e08cdd9e4c769783db75ee364d5c5bb42f7303d5b9949376b6a6bf239530b"
+environment = "env(f1317fb9ac2ff624b54f8e3a27a7489203bb80c306964bce2c0b1b316334d32f)"
+
+[entry.toolchain]
+cgitsync = "3.8.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

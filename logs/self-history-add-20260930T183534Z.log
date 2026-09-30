@@ -1,0 +1,4 @@
+{"operation": "CGS-SELF-HISTORY-ADD", "event": "command_start", "command": "self-history-add", "source_path": "/home/nflipo/.cgs/CGS20260930165705/cgsDev", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260930165705/cgsDev/.cgitsync/state/38787e1296d2605cda3e646870350e8d4cab0de30a99e955031674a5225bcfb5.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-SELF-HISTORY-ADD", "event": "command_end", "command": "self-history-add", "status": "error", "error": "spec_respect score must be between 0 and 33, got 40", "tree_lifecycle_state": "READY"}
