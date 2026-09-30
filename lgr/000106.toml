@@ -1,0 +1,22 @@
+[entry]
+seq = 106
+prev = "sha256:ad99a19e1d6a15f63b4f21d42a2c518b5c948cebdb9d13399f9329e3d1d74d50"
+recorded_at = "2026-09-30T17:58:23Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync3.7.1 A patch on top of the previous change, fixing what its review found: a local memory now refuses self-history records, the commands that only make sense for a published memory explain that clearly, and the memory status output is tidier. The entry in the ledger for creating a local memory was left out on purpose, because it would change the stored format.",
+]
+state_id = "state(ccceb13bc6963d19abb47f48d9c2f73329cb058e9bb6681cc6e353c4b033e2b9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:434e53aa07a153970a4b5961b5bd68e7291eba85281847ca3beba1dab99d505b"
+entry_hash = "sha256:fa025246460d9d878a221caf6b811f1480a5941112fa18073b1eeecd8933d931"
+environment = "env(d4c37769d7d59a0e6edeb0a3eca54f3b1c5c3d6e5b6b636609a106c650e4fefa)"
+
+[entry.toolchain]
+cgitsync = "3.7.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
