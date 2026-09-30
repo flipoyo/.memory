@@ -1,0 +1,23 @@
+[entry]
+seq = 104
+prev = "sha256:ea9d78e2df0cb95b7cb8f0f614eede8f3cce86ea07a6cef364b4a4fe451341df"
+recorded_at = "2026-09-30T17:42:25Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.7.0 A workspace whose spec declares no memory now gets a local one, created the first time something is recorded, which is never published even if a remote is added by hand. Publishing a memory stays a developer's choice: declare it in the spec and run memory adopt. The install file, README, user guide and memory tutorial explain this.",
+]
+state_id = "state(c3c85aedbe38ecf6941fccbc78f704d497041fa5641e1d5193d8236492ee9d7b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a5bd970869b4e5af3f6cbb31a0fc796308f959877e849f0bc52bcdc8cca95324"
+entry_hash = "sha256:aed0963a753861b5232e09c12f5defe53f6ce298be1893d9adacb17d265eaac3"
+environment = "env(871ba0c4e06006c382bd01d5f9b93d74f5779de6d3768d3f3e460029a689b5f1)"
+
+[entry.toolchain]
+cgitsync = "3.7.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
