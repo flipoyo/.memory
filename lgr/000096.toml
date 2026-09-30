@@ -1,0 +1,23 @@
+[entry]
+seq = 96
+prev = "sha256:dfb6dd59db7cd38971e67fc5e5fe90af5ff8d861213ec0bb2e5c4e9dec7c5655"
+recorded_at = "2026-09-30T10:10:46Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.4.0 The digest a session reads first now carries the package-shape rules from the development specs, and the spec check fails when a spec adds no line to it.",
+]
+state_id = "state(b809aba11ee7a7d6ea431f01f73f8d188bb57405dfb3332099ab1698fbf0093e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:778c7f5e0818168a576605294a44173aee78e80a1c8b601e21096e28fbc62ec2"
+entry_hash = "sha256:aa1ddf82105bf7ffea28a79fc25d3b874e33d0c32dec230c3d903e3af51ab98a"
+environment = "env(bd63aeec2e40b0743e89855e390b05dc731629242f52ccdcdf0293de7277c474)"
+
+[entry.toolchain]
+cgitsync = "3.4.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
