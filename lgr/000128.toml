@@ -1,0 +1,22 @@
+[entry]
+seq = 128
+prev = "sha256:b6e25fb75d25797af6dcf0bdfe586f13df482047a4ec0c2c52b760d4898d0d6a"
+recorded_at = "2026-09-30T23:05:08Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "tmpPyPi",
+]
+state_id = "state(851d15bd79f4051f6f75ad1ba4f48673b78d12fcee90f87f95e44fd6a908b8da)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:ba9b1f36c80f45dbe7d5fc3a2e89af9ea3da5dc98253154d113e6818464429a1"
+environment = "env(619acaded9c464f940a649cc7064b15039bee8ef80a68f8737235f7d48d29ee6)"
+
+[entry.toolchain]
+cgitsync = "3.9.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

@@ -1,0 +1,23 @@
+[entry]
+seq = 129
+prev = "sha256:ba9b1f36c80f45dbe7d5fc3a2e89af9ea3da5dc98253154d113e6818464429a1"
+recorded_at = "2026-09-30T23:06:41Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.9.1 Once published in PyPi A user can now install cgitsync with one command, pipx install complexgitsync, needing only Git and Python 3.11 or newer: the package page has its links, and the source archive no longer carries the developer files. CI now builds the package, installs it the way a user would and runs a real workspace outside the checkout; a tag-driven release workflow is written but has not been run or published. The README and getting-started guide now give users and contributors separate routes, a changelog starts, and bootstrap no longer assumes Pixi.",
+]
+state_id = "state(0faef5452e70951738d7f207f818167027e3e1c2fa1bccab60902067c7579c36)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2ca187adbe50ab239e411d331888cb520d1128e82371d770b4d1ef34b6785216"
+entry_hash = "sha256:1977ff31ef1824ae937c554a62f413d0e11e2a4d4323dad2f092f91501ad71ae"
+environment = "env(619acaded9c464f940a649cc7064b15039bee8ef80a68f8737235f7d48d29ee6)"
+
+[entry.toolchain]
+cgitsync = "3.9.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

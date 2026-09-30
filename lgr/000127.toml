@@ -1,0 +1,22 @@
+[entry]
+seq = 127
+prev = "sha256:37ad786aacb43fb3c1dfee68ab19517c0e8595f99108bd2c9ecad8a9826404f1"
+recorded_at = "2026-09-30T23:04:49Z"
+command = "branch"
+argv = [
+    "branch",
+    "tmpPyPi",
+]
+state_id = "state(d390d30508546736899712cea8ee4e4ae13d3d79a9f733d4e9a6b226829bb22e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:b6e25fb75d25797af6dcf0bdfe586f13df482047a4ec0c2c52b760d4898d0d6a"
+environment = "env(619acaded9c464f940a649cc7064b15039bee8ef80a68f8737235f7d48d29ee6)"
+
+[entry.toolchain]
+cgitsync = "3.9.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
