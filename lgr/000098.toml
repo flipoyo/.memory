@@ -1,0 +1,23 @@
+[entry]
+seq = 98
+prev = "sha256:a29af6e520b4d361d8d0bf60298f92321eea08e2587e16d203be375bcaee85bc"
+recorded_at = "2026-09-30T11:10:20Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.5.0 Every part of the package now lives in a class with a stated list of what it offers, so the ledger and the memory have one way in and one way out. A new check keeps the package that shape, and a new test keeps the command line matched to the Python client.",
+]
+state_id = "state(3cdf5b0821b11b941c146e7cc00fcbf1eaff5ce367e99146a7617a1fbd21237e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:d61744c307c5189fed17e9bf72faef1ec6e883c523b866f5789a849cd0cba57f"
+entry_hash = "sha256:8d5c027b7522434d37deccf0cd85aa659865b6f57658f27a6a1970eee8f82d15"
+environment = "env(7c3728c1915f87f088b4d8fbfa86b0aca67a5605640df2f0f62e3fe76a7bf9d4)"
+
+[entry.toolchain]
+cgitsync = "3.5.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
