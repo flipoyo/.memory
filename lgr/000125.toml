@@ -1,0 +1,23 @@
+[entry]
+seq = 125
+prev = "sha256:2f6fd8bd8fdf9f4fa90193eac157004ae40fec44c17bd91e4b6b3d1a4a9e8f2c"
+recorded_at = "2026-09-30T22:19:34Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.9.1 The specs no longer say ComplexGitSync never creates a repository: it runs the provider's own tool, through repo create or memory setup. Tutorial 5 and the specs now name memory setup as the one command a developer can run at any time to give a tree its memory, before the five step-by-step commands it stands for.",
+]
+state_id = "state(7c11e11c6083f6dd149cd10980434fabca92d00e8a1d68bed764b49f10d327d2)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:32b93ccfd01d4584d07ebdb4d388797c8faa796c2931b60c04f08faf6982d2e2"
+entry_hash = "sha256:89ba33f3cd72a2a5299fa4231fd7419c8d8edb1785a9f81a6f1b3052040a49ed"
+environment = "env(0504a3ff65f0739eae8a09c846246f56558c492ec1da99e51a06bb0e3017b639)"
+
+[entry.toolchain]
+cgitsync = "3.9.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
