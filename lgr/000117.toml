@@ -1,0 +1,23 @@
+[entry]
+seq = 117
+prev = "sha256:5823b7d5de3e7fe5b09e83859ce25c7182ee24028496fe37820cda50a8c4a340"
+recorded_at = "2026-09-30T19:35:11Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.8.0 The memory architecture ticket is closed on the owner's word, and the specs now describe the memory system in one section: its layers, local first, and the six decisions. A new ticket keeps run logs on the machine instead of pushing them with the memory, and the last places that called the ledger a register now say ledger. Nothing in how the tool behaves changes.",
+]
+state_id = "state(14fd03b7e20c88ab1004619ddd3918f7f2eaf2b34cb6ef0e8620f6b193cd5957)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e3138000f39e1efc14c25b309a270654c341d1471f7c5e8393e625f5a9e1b342"
+entry_hash = "sha256:cdef1ad096471d20cc92f67ac2292957fdc686f6981b52d0f98b1013a6214763"
+environment = "env(f1317fb9ac2ff624b54f8e3a27a7489203bb80c306964bce2c0b1b316334d32f)"
+
+[entry.toolchain]
+cgitsync = "3.8.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
