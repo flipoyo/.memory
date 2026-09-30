@@ -1,0 +1,23 @@
+[entry]
+seq = 115
+prev = "sha256:b4c6db5191596e85ff465bf3561027b036b98147d45ce9db8a01e3a3bc1a34a7"
+recorded_at = "2026-09-30T19:15:34Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.8.0 The memory words are now fixed in the specs: state, ledger, memory, commit log, environment, journal, and register meaning only the old single file. The hash-chained ledger is no longer called a register in the code comments, verify help text, specs, user guide, API guide and README, and the architecture ticket records what landed for each decision. The ticket stays open until the shared journal is built.",
+]
+state_id = "state(b44b16ddf45a5c9ceb06a46856cbf0ab99ac4d11bbdb965550c1683ef260211f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8c292e5da070cd6a11fdff49c544311aba5b785b17e86ddfa8ad6e0ce0d3f8c2"
+entry_hash = "sha256:ac67263b7fde4e3d3cd99a4fbdcb5c57bc58ff550010ef32177bff144f7c0ce3"
+environment = "env(f1317fb9ac2ff624b54f8e3a27a7489203bb80c306964bce2c0b1b316334d32f)"
+
+[entry.toolchain]
+cgitsync = "3.8.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
