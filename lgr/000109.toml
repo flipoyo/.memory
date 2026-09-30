@@ -1,0 +1,23 @@
+[entry]
+seq = 109
+prev = "sha256:4fae672c05de8320961fd9a1c92975aab342f913ab076d67e6ce7ba8455cdeef"
+recorded_at = "2026-09-30T18:24:07Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.7.2 The spec tree check now reads one written manifest of every mount under the agent folder, and fails when that list and the developer spec disagree.",
+]
+state_id = "state(eb039272bc222f5c9b825189df99d6e148f07b2cb0248d23480de57f518c5332)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c57fffbad967c1191cc0751a4fd1265a3532003773575a0bde12ca1cad8e2939"
+entry_hash = "sha256:c8390f68e9bcd53d4ebe9d639c7c56db812585eaf2ac001ede6174aa3cbaedf7"
+environment = "env(4ed60191d0db5019a021b8bc3cb61183f344d8e3ab1942bd10b849d17d1b87a8)"
+
+[entry.toolchain]
+cgitsync = "3.7.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
