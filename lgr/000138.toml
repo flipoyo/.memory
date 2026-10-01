@@ -1,0 +1,23 @@
+[entry]
+seq = 138
+prev = "sha256:f14e766ea24be748fc14003a102798bc11ff1ca61223a4ca420ef2d544761e63"
+recorded_at = "2026-10-01T10:18:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync3.9.2 StateLocking is rewritten against today's code and moved to the end of the priority-2 pile: it waits for an agentic or automated deployment of cgitsync. Most concurrent writes are already safe; what remains is a ledger entry that can be lost quietly and Git's own lock stopping a tree-wide command halfway.",
+]
+state_id = "state(d118f814e4c59b2c8c8c106d8af343d160e68b8b2aadbcf2e0ed78d2f538ca82)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0a54fd8bb766b18cef4ebc66c611efcb105efffdcd8a0254fc0a41cffeeee1ef"
+entry_hash = "sha256:1167f0cd0fa0a7dd675484c3ace8d0897612fd98d6a11151dd5785f64bf34f65"
+environment = "env(51f50a6bf51bc2b0d39c67681853478a17cdd6cf5cd1a20bf362e14ebcda5a7d)"
+
+[entry.toolchain]
+cgitsync = "3.9.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
