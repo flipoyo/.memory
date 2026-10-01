@@ -1,0 +1,23 @@
+[entry]
+seq = 132
+prev = "sha256:253355fd68e54be04e8969124fbf0d35fa58a9c41ccb1b755d250cb9425b0644"
+recorded_at = "2026-10-01T09:33:11Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync3.9.1 UserInstallPath is moved off main to the tmpPyPi branch as a pending ticket, so no one implements it again on main, and LocalRunLogs becomes the first main ticket. The specs now list tmpPyPi as one of the project's branches.",
+]
+state_id = "state(0dc49bf4039bb43abd30d46d84f768d870a583a5fadd5ef6c6f42cd2e6426f40)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:9b5d36349467353526fab897b4eed36c19a24f2ae73b96b49b2bee3107acc9b5"
+entry_hash = "sha256:713ba661d777c3bb8762be8d4294c0df61830a8007803bb0f773b7e02839c084"
+environment = "env(0504a3ff65f0739eae8a09c846246f56558c492ec1da99e51a06bb0e3017b639)"
+
+[entry.toolchain]
+cgitsync = "3.9.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

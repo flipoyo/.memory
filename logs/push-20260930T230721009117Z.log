@@ -1,0 +1,10 @@
+{"operation": "CGS-PUSH", "event": "command_start", "command": "push", "source_path": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/state/0faef5452e70951738d7f207f818167027e3e1c2fa1bccab60902067c7579c36.gts", "project_root": null}
+{"operation": "CGS-RUN", "event": "gts_load", "snapshot_path": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/state/0faef5452e70951738d7f207f818167027e3e1c2fa1bccab60902067c7579c36.gts", "source_cgs_path": null}
+{"operation": "GT-CLONE", "event": "tree_state_transition", "previous_tree_state": "UNLOADED", "tree_lifecycle_state": "READY", "reason": "load_gts"}
+{"operation": "CGS-RUN", "event": "push_start", "scope": "writable"}
+{"operation": "CGS-RUN", "event": "self_history_push", "mount": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/.memory/.self-history", "branch": "ComplexGitSync_tmpPyPi", "committed": true}
+{"operation": "CGS-MEM", "event": "memory_push", "mount": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/.memory", "branch": "ComplexGitSync_tmpPyPi", "committed": true, "pushed": true}
+{"operation": "CGS-RUN", "event": "gts_write", "snapshot_path": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/state/28e494c07a6d6f355b486425e8b2533ba9db50bc71c1943e7c56ad7a04be117e.gts", "source_cgs_path": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/state/0faef5452e70951738d7f207f818167027e3e1c2fa1bccab60902067c7579c36.gts", "tree_lifecycle_state": "READY"}
+{"operation": "CGS-RUN", "event": "ledger_append", "register_path": "/home/nflipo/.cgs/CGS20260930210825/cgs380/.cgitsync/lgr", "seq": 130, "state_id": "state(28e494c07a6d6f355b486425e8b2533ba9db50bc71c1943e7c56ad7a04be117e)", "command": "push"}
+{"operation": "CGS-RUN", "event": "push_end", "pushed": 7}
+{"operation": "CGS-PUSH", "event": "command_end", "command": "push", "status": "ok", "tree_lifecycle_state": "READY"}
