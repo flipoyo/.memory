@@ -1,0 +1,23 @@
+[entry]
+seq = 144
+prev = "sha256:20b1df82feb8027326f2be025923756438fdff08df41bfa562b932188ef8ec6f"
+recorded_at = "2026-10-01T14:56:05Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.11.0 The new memory as-of command tells you what a tree looked like at a given time: it prints the State the memory recorded at or before that moment, or says nothing was recorded yet. If the memory's history has a clock that ran backwards, or does not verify, the answer comes with a warning instead of being given as certain.",
+]
+state_id = "state(c4a462f412e090f594829b8c13f54d31976b57e4cd32fd24e85736f4b7d2b8aa)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:bd2285f26a51c8d361d2dd43e38a2aa2e69f89df4a33c569cd0082e6d4eac074"
+entry_hash = "sha256:175af78c4b1e45777da9c5dc3f458cd3c9e9eaaff618718075f6ec0808f59b80"
+environment = "env(53976c9cc820c8e1c129d24a4fe6a3b9967e0e5685eb82d7845499aa3c240c74)"
+
+[entry.toolchain]
+cgitsync = "3.11.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
