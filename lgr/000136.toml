@@ -1,0 +1,23 @@
+[entry]
+seq = 136
+prev = "sha256:0c800e8705910e87e2e0e0898306e70331ffc5a31b5444c46b853dc8ed7e0630"
+recorded_at = "2026-10-01T10:07:48Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync3.9.2 A short ticket weighs installing cgitsync with pixi global install instead of pipx, with its risks: a preview feature that may change, bugs outside the project's control, and one more tool to learn.",
+]
+state_id = "state(a41b6f252a63d5221cf0af8df092c716c7559e7581ac3e2bf17eabfb92db7630)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b8c59b1e1c5e9b8a8885b0ec10e26db2b6f9f40faec6e00775f21ef226d73247"
+entry_hash = "sha256:d3ac06aa226c11bc628afe31665aef87af6b0fb0afa10b24636e8f31f9b98b0d"
+environment = "env(51f50a6bf51bc2b0d39c67681853478a17cdd6cf5cd1a20bf362e14ebcda5a7d)"
+
+[entry.toolchain]
+cgitsync = "3.9.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
