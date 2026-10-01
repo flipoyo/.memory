@@ -1,0 +1,23 @@
+[entry]
+seq = 142
+prev = "sha256:9a33586c91d2eab280a6dba184eccd45d5cb3984dbfa71b64afdaf62f9f2f992"
+recorded_at = "2026-10-01T14:31:15Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.10.0 Every command's help now says in one sentence what it does and shows examples, and a group's help lists each subcommand with its options. cgitsync --help groups commands under the README's headings, and the new cgitsync help --all prints every command and option on one page.",
+]
+state_id = "state(0d4614bff5aa219740db3b3f2664d7034677b2b5e6c738584e0e0aeec28b12ea)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ccd78a57331a93eb068a55c11201de4265e868d01d6877c9acb30c68036ce4f3"
+entry_hash = "sha256:325f62bfe4fb285a6ab00514f8bbeca31e83e86c19e0d0df6255c1473674df69"
+environment = "env(6e0c2ba331f5073220fc6a337fbadbd735c0223ca8e56d1f5482e7e55d02f03e)"
+
+[entry.toolchain]
+cgitsync = "3.10.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
