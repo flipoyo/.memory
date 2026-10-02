@@ -1,0 +1,23 @@
+[entry]
+seq = 2
+prev = "sha256:ab45c9af834b06d5f3ec012bf81edf9791138d4c9503834acf0afb5a96b95a7c"
+recorded_at = "2026-10-02T14:31:18Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.5 Release builds are now checked in CI, the docs PDFs are rebuilt after every version bump, and the pull request template points at the one checklist.",
+]
+state_id = "state(7ed856e9be2ce8e7ed285b1447c98939734543c343681dc2f8f028517d07c0e7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e34bbd579b92d710d0c1641eb9b5fd3c32a97e3f71cb57d3b36dcaa6b0c82d0c"
+entry_hash = "sha256:a24a2f2b3b404170ff68fa5506b3d5651d7363516533b8f7aadf061afc613512"
+environment = "env(734c206ab45fd2f262a8ace5efc422da9e1449f474d8f2e8c34f75dbb9250c0c)"
+
+[entry.toolchain]
+cgitsync = "3.14.5"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
