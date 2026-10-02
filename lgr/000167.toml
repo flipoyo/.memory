@@ -1,0 +1,23 @@
+[entry]
+seq = 167
+prev = "sha256:4eab7d66d451e89bc9bcd866ec414729f921902a0b8e3130b0561fc83c61f837"
+recorded_at = "2026-10-02T14:16:01Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.4 Placeholder names for an agent's vendor and model now apply to the public repositories only; private specs, tickets and records keep the real names they stand for.",
+]
+state_id = "state(72d4444bcb0816c73cfa1a4a1f9e1209e87cf92882583162b7f6dc9c36d16cda)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:10cad8ddf2b486d517c9c444f1c8792e495dc87760f1e170d69cc063a67696ea"
+entry_hash = "sha256:df760aa6245f203d8d235181257598fe5c403460be294821ace23a435e8b02c5"
+environment = "env(d6a6d3e05e9effe84e6842a088be82af66cdf5c979cef9d3a2d193f52a1c3e0c)"
+
+[entry.toolchain]
+cgitsync = "3.14.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
