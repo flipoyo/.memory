@@ -1,0 +1,23 @@
+[entry]
+seq = 150
+prev = "sha256:b5b6510047d5a6a346c22b1f6cfeeff65887a69b2d1526561304e2fc32520aee"
+recorded_at = "2026-10-02T10:29:21Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.13.0 The branch --list command now prints the project's own branches, local and on origin as of the last fetch, and names the repositories that lack each; branch --list --per-repo keeps the old one-line-per-repository view.",
+]
+state_id = "state(b85798ffb99af7e6bb56da1f632f3d29bcf9f7fc5bafcdf4ef4630798fa67470)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:011dd79250205c3ba047a479b5324213484d3e5b7c553ffeac75d6030892fd81"
+entry_hash = "sha256:0d5b165c92d555a2bbd6661372b3c49a06eb286ee9eacb94b70f4efa0732c5ac"
+environment = "env(841cf59b366ffaa94c20c91ceee3077e159a76fe6a6334a4a492489cc764f18b)"
+
+[entry.toolchain]
+cgitsync = "3.13.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
