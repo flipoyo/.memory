@@ -1,0 +1,23 @@
+[entry]
+seq = 30
+prev = "sha256:96ce0dac5d27a14d61403ab7fdb9cd11c6597d8058f14e8a87abd505e4d18093"
+recorded_at = "2026-10-02T18:56:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.1.0 Commands now follow one grammar: subcommands are plain words and -- is only an option, so close-branch is branch close and pull-force is pull --force; see CHANGELOG.md for each new spelling.",
+]
+state_id = "state(af5e9175c62a33bcebf0a97a3ca44b119804029ae26f55060777a5e696e9583f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:74c93eedbcacef688b05a24a00be359de4f84f5a7d469efabb3f205127e0be1d"
+entry_hash = "sha256:1b0dd0a548722c27c3127db0208420ed1d21f2f13df784969f53856902153c32"
+environment = "env(1eaf457e48580b9ad73e446b911fcb52afb1977cb6a06e5763ba408ffc107029)"
+
+[entry.toolchain]
+cgitsync = "4.1.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
