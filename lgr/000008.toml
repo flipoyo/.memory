@@ -1,0 +1,23 @@
+[entry]
+seq = 8
+prev = "sha256:dfa9c686e2bde0adcb767703f6ba1deaab0555ed9fcf47fefc87c228b831c887"
+recorded_at = "2026-10-02T15:02:58Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.7 close-branch now closes the branch each repository follows under the project branch, including one that exists only on the remote, never forces a push, and refuses to close a branch that lacks commits its remote holds.",
+]
+state_id = "state(e390e26757ef7e6177a336550c2846582deeac0816f4cb0731a3e1c494f8f7a9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8edefafaa006e9199e86af74c17dbff03fe94b476c13d0c12d260a99c6e5d7c6"
+entry_hash = "sha256:335418f76e1f92a5a785d9da9c3f0aa165ffcf8f0035ffb6ac0394f912901946"
+environment = "env(4ff3ca30b7c259f3e17a53f0a644d1bfdc161bb8504cfa38efbf255fd87918cd)"
+
+[entry.toolchain]
+cgitsync = "3.14.7"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
