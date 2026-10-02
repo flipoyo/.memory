@@ -1,0 +1,23 @@
+[entry]
+seq = 20
+prev = "sha256:afe77d6b44041dbd178de5692d759fde60a616a86c6d0a61b99cc10d234ae472"
+recorded_at = "2026-10-02T17:06:37Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.11 Plans cutting the CLI down to the commands that read like Git and the tools the owner uses, starting with the three that can delete unpushed work.",
+]
+state_id = "state(d4148bcb09485c32ee0aaf902e226ef85fc359966d2f6169f9e9f764f4628bd9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:61446559d0f4ff3cd4dfc2d6ba190adcf424a597cc1e9fe974a38d55cc262eb2"
+entry_hash = "sha256:7ef53dcdd881e90877f003420af72140f94ce331b0330ec0b0d9b731e00941f0"
+environment = "env(5ad55b44c57cd2f650c4880eae7bf8bd1debf7206a9eba1f89d1a033b147db65)"
+
+[entry.toolchain]
+cgitsync = "3.14.11"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
