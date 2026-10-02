@@ -1,0 +1,23 @@
+[entry]
+seq = 24
+prev = "sha256:db9e4589e829ad0a83fcab80053ccf145d7199d71ce74bb15a2876199f5367b4"
+recorded_at = "2026-10-02T17:30:46Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.11 Plans keeping what a branch alone holds on the project's ancestors branch when it is closed, recorded in the ledger and found by the search tools, so deleting it later with any tool loses nothing.",
+]
+state_id = "state(01e301c96916e8697812a1d0d3c3dbee20588a53b1a28aefbfe3c3f482bffde6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:91eba287c54a7625e9e19ace1c05a60a19d68bbc4f83824e8cd52d2470ab51a2"
+entry_hash = "sha256:3543362482eb5f4e54bc069bc0ac82e8fc1f18fa777bed4ff469f2834aaad6ec"
+environment = "env(5ad55b44c57cd2f650c4880eae7bf8bd1debf7206a9eba1f89d1a033b147db65)"
+
+[entry.toolchain]
+cgitsync = "3.14.11"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
