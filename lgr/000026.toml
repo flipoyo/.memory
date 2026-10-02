@@ -1,0 +1,23 @@
+[entry]
+seq = 26
+prev = "sha256:6b4e45e51fafd5e0f639ccb35d2c029039dff171b8816779bd6fcbc790744a6b"
+recorded_at = "2026-10-02T18:03:56Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.0.0 Removed ten old commands and flags (force-reclone, clean-init, purge, freeze, freeze-release-force, launch-release, clone, configure, create-cgs, force-gitignore-sync) so nothing can delete work that no remote holds; see CHANGELOG.md for what to run instead.",
+]
+state_id = "state(ef99715790bb17c85da903bfe93fc6a43621c067d1fa51981e63202f91b2802a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:47b502490032ba670fc886d26bdeb7d97e1579562c2917b3aa2b94ec5bfdb9ae"
+entry_hash = "sha256:17dedde2a86306e39299b44a2c29fe676a705648d0be74301a6b9a869a9c9502"
+environment = "env(cc49fca72561e2b8c9a4387fba6a31b6bd13b23271f0967f5d82e0bb9c200c7a)"
+
+[entry.toolchain]
+cgitsync = "4.0.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
