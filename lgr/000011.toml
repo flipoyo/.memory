@@ -1,0 +1,23 @@
+[entry]
+seq = 11
+prev = "sha256:5480959700ac18250411a8d729336adab3a03d3a760219b1ef4b337facbdbf95"
+recorded_at = "2026-10-02T15:17:30Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.8 close-branch no longer needs an extra internal import to tell a private repository from a project one, and the tmpAutoFix branch is closed.",
+]
+state_id = "state(ce7056c16fc9025a88541717f63136502056ece305399db76016cf084bc66332)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e580fe8ecc57b3bac532d1eadd1abd21b1e02ffd4c8eb4cc24fc7426407de723"
+entry_hash = "sha256:a2eff12e0b6379027dd09e4e2c8705b117bd2f2f25a76709367352c0583e1da9"
+environment = "env(a7b146116deb86e1f2a4d2af4039969dc11f27977816708bfd329cd63f6217d8)"
+
+[entry.toolchain]
+cgitsync = "3.14.8"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

@@ -1,0 +1,22 @@
+[entry]
+seq = 10
+prev = "sha256:b99073f51bc10d07778f7ca4a844154c67e21792a831f69375876e6c59266c9d"
+recorded_at = "2026-10-02T15:10:17Z"
+command = "close_branch"
+argv = [
+    "close-branch",
+    "tmpAutoFix",
+]
+state_id = "state(187db004467eb04899c7ba82effadd076cc173cd6c48df51668f9327a22fa657)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:5480959700ac18250411a8d729336adab3a03d3a760219b1ef4b337facbdbf95"
+environment = "env(a7b146116deb86e1f2a4d2af4039969dc11f27977816708bfd329cd63f6217d8)"
+
+[entry.toolchain]
+cgitsync = "3.14.8"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
