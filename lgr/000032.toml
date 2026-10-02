@@ -1,0 +1,59 @@
+[entry]
+seq = 32
+prev = "sha256:6a8a9c71a2cd778524c6b5c44f8bc0f23af1a06c629477cfade31f0c32c7c096"
+recorded_at = "2026-10-02T21:35:40Z"
+command = "branch_close_keep"
+argv = [
+    "branch",
+    "close",
+    "tmp-main-1-2_DiscoverRoundTrip",
+]
+state_id = "state(b740a8449b247fed7bd697b677c215718e5df98437e4a4f089f0097951e00cd6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:f4b61a4e609d46c12e13fd5218dcce6850033be094f462923abcf3195c3d7f7f"
+environment = "env(0994063dc0b8f87f0acea4e9ef6223ba7430623f8ea791bacf43cb859255b895)"
+
+[entry.toolchain]
+cgitsync = "4.2.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
+
+[[entry.relocations]]
+asset = "commit:.memory:b3acbc556cca907e00ebb32ac5772af3f7ddc005"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "b3acbc556cca907e00ebb32ac5772af3f7ddc005"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip:1"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:04fc317af552dbad603550c8c7e173eb43647c03374e1fa78ce71326f2ebae85"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip:2"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:063a2aeb681c4c14299b19c029b5299fc0a6cc4b642c553e4b218ee34414fb82"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip:3"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:8956c5e633cdb0c5c76bdf2c9e0a9e02eb710f6d9265e81e624d4241758ac521"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip:4"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:37b22f51491ec6667f7da716691c9fd39c7e0340098ac07b3978e0ff1effcb6a"
+
+[[entry.relocations]]
+asset = "commit:.localSpec:cd7f86c16f77b66bf4677a33aad11c64d74f221a"
+from = ".localSpec:refs/heads/closed/ComplexGitSync_tmp-main-1-2_DiscoverRoundTrip"
+to = ".localSpec:refs/heads/ComplexGitSync_ancestors"
+ancestor = "cd7f86c16f77b66bf4677a33aad11c64d74f221a"

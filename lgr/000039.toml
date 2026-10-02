@@ -1,0 +1,23 @@
+[entry]
+seq = 39
+prev = "sha256:0bda6323f1bf5188bda776d32f8092aac45014ddaf124db8b63c8895d3347619"
+recorded_at = "2026-10-02T21:58:49Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.2.1 Closing a branch now keeps what it alone holds on a permanent ancestors branch and records it in the ledger, so the closed branch can be deleted by any tool without losing a commit. New branch check and branch delete commands, and the memory commands can read a deleted branch's history; see CHANGELOG.md.",
+]
+state_id = "state(fee0acb458419ecf5108d3684283f18e16d10fc53509ba52042eb693f7aacf69)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f77741604e139c0850539693990fdd4546a2010b9397ec54bf9422bc72911a6f"
+entry_hash = "sha256:8117fd2b6e664e589f35d2328a4b8142de4d597070c92a1bda5e82e9f6523e27"
+environment = "env(6e496cb083403894ca7559ed4cfa885dd37b93c44578d5b3ff1918d594686bf8)"
+
+[entry.toolchain]
+cgitsync = "4.2.1"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

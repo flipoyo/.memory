@@ -1,0 +1,76 @@
+format_version = 1
+environment_root = ""
+credentials = [
+    { provider = "github", tool = "gh", available = false, authenticated = false },
+]
+
+[machine]
+architecture = "x86_64"
+pixi_platform = "linux-64"
+os_name = "ubuntu"
+os_version = "24.04"
+libc_name = "glibc"
+libc_version = "2.39"
+kernel_release = "6.8.0-142-generic"
+
+[[tools]]
+name = "cgitsync"
+raw = "4.2.0"
+version = "4.2.0"
+
+[[tools]]
+name = "dvc"
+raw = "none"
+version = "none"
+
+[[tools]]
+name = "gh"
+raw = "none"
+version = "none"
+
+[[tools]]
+name = "git"
+raw = "git version 2.43.0"
+version = "2.43.0"
+
+[[tools]]
+name = "git-lfs"
+raw = "none"
+version = "none"
+
+[[tools]]
+name = "pixi"
+raw = "pixi 0.66.0"
+version = "0.66.0"
+
+[[tools]]
+name = "python"
+raw = "3.11.15"
+version = "3.11.15"
+
+[[tools]]
+name = "ssh"
+raw = "OpenSSH_9.6p1 Ubuntu-3ubuntu13.19, OpenSSL 3.0.13 30 Jan 2024"
+version = "9.6"
+
+[[manifests]]
+repository = "root"
+path = "pixi.lock"
+digest = "sha256:6d4fab5ab5e31879fe8efa51fb39396badbc75d95c13aed9b9053392afe6ad43"
+platforms = [
+    "linux-64",
+    "osx-arm64",
+    "win-64",
+]
+
+[[manifests]]
+repository = "root"
+path = "pixi.toml"
+digest = "sha256:81d6d3a294f1a0b82f209bafd46d170dd7fcc8c5069a53f3d0d435a1125e141d"
+platforms = []
+
+[[manifests]]
+repository = "root"
+path = "pyproject.toml"
+digest = "sha256:b73522d89bf68cde836609747d0554dd22c01a4139584040605087e5221817dd"
+platforms = []

@@ -1,0 +1,83 @@
+[entry]
+seq = 34
+prev = "sha256:2b0d8b7ebbc4e6e15a603febd71c51d08ea3d6c9ca2b755a1829164db0ffb10a"
+recorded_at = "2026-10-02T21:36:39Z"
+command = "branch_close_keep"
+argv = [
+    "branch",
+    "close",
+    "tmpAutoFix",
+]
+state_id = "state(b740a8449b247fed7bd697b677c215718e5df98437e4a4f089f0097951e00cd6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:f0e08650e4c1f99f62e95539e62fbc494e1c65ee6117257aed6f0de3f402a4bb"
+environment = "env(0994063dc0b8f87f0acea4e9ef6223ba7430623f8ea791bacf43cb859255b895)"
+
+[entry.toolchain]
+cgitsync = "4.2.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
+
+[[entry.relocations]]
+asset = "commit:DocComplexGitSync:e7cc3cfaf9f3d2847112bf85fc292e62add3a670"
+from = "DocComplexGitSync:refs/heads/closed/tmpAutoFix"
+to = "DocComplexGitSync:refs/heads/ancestors"
+ancestor = "e7cc3cfaf9f3d2847112bf85fc292e62add3a670"
+
+[[entry.relocations]]
+asset = "commit:.memory:e8afb4f25ffb619ab6d09c65d84b46041d675141"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "e8afb4f25ffb619ab6d09c65d84b46041d675141"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpAutoFix:145"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:6ff237e1708a52c701469979a64eeb20360d0bdf630abc425633a6852beb74b8"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpAutoFix:146"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:f300835298d6f7ba43b37cb41985b5b4a4d09680e9a8ff16ad1c20560aa371ce"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpAutoFix:147"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:c8a6a8cfa8707da2c4a4b633343eb53a091082989fe087f296025bf3db4f1602"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpAutoFix:148"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:52ee7ba85448caac18c2bf21d3cf195762cb02ae3881ef44909e9e6e751a41bf"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpAutoFix:149"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:04547ab6a0e9054df305fb716d2482987067f884f1443bfc81204579a44780a9"
+
+[[entry.relocations]]
+asset = "commit:.localSpec:cbb9c7ffb7237d52ac92230b9712b7989a7c4a66"
+from = ".localSpec:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".localSpec:refs/heads/ComplexGitSync_ancestors"
+ancestor = "cbb9c7ffb7237d52ac92230b9712b7989a7c4a66"
+
+[[entry.relocations]]
+asset = "commit:.claude:93fb88b486124025d6012917236bef7c86d32546"
+from = ".claude:refs/heads/closed/ComplexGitSync_tmpAutoFix"
+to = ".claude:refs/heads/ComplexGitSync_ancestors"
+ancestor = "93fb88b486124025d6012917236bef7c86d32546"
+
+[[entry.relocations]]
+asset = "commit:ComplexGitSync:0e54d78edfa749b9eac680d57f068e754bd6e4d8"
+from = "ComplexGitSync:refs/heads/closed/tmpAutoFix"
+to = "ComplexGitSync:refs/heads/ancestors"
+ancestor = "0e54d78edfa749b9eac680d57f068e754bd6e4d8"

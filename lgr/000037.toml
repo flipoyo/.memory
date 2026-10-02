@@ -1,0 +1,23 @@
+[entry]
+seq = 37
+prev = "sha256:84bb811b203a9d73de9cb28f10adb522ca853c9c1fba2e38296afceda9a2886d"
+recorded_at = "2026-10-02T21:37:28Z"
+command = "close_branch"
+argv = [
+    "branch",
+    "close",
+    "tmpPyPi",
+]
+state_id = "state(b740a8449b247fed7bd697b677c215718e5df98437e4a4f089f0097951e00cd6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:ec669384cf56ef91e080aa8afb345a6da006451284fd72d2452a63424a1dfabf"
+environment = "env(0994063dc0b8f87f0acea4e9ef6223ba7430623f8ea791bacf43cb859255b895)"
+
+[entry.toolchain]
+cgitsync = "4.2.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

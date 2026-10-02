@@ -1,0 +1,77 @@
+[entry]
+seq = 36
+prev = "sha256:441b7ea3a3bd042274e432ecede0436fd87ccb697d745c0d2bf9ee54a1ea81d6"
+recorded_at = "2026-10-02T21:37:27Z"
+command = "branch_close_keep"
+argv = [
+    "branch",
+    "close",
+    "tmpPyPi",
+]
+state_id = "state(b740a8449b247fed7bd697b677c215718e5df98437e4a4f089f0097951e00cd6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:84bb811b203a9d73de9cb28f10adb522ca853c9c1fba2e38296afceda9a2886d"
+environment = "env(0994063dc0b8f87f0acea4e9ef6223ba7430623f8ea791bacf43cb859255b895)"
+
+[entry.toolchain]
+cgitsync = "4.2.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
+
+[[entry.relocations]]
+asset = "commit:DocComplexGitSync:d64fdec770adc37b3aa702471fc48a7bf811a7ed"
+from = "DocComplexGitSync:refs/heads/closed/tmpPyPi"
+to = "DocComplexGitSync:refs/heads/ancestors"
+ancestor = "d64fdec770adc37b3aa702471fc48a7bf811a7ed"
+
+[[entry.relocations]]
+asset = "commit:.memory:46d5a07fd1791e1646a286371c90c06f7a558501"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "46d5a07fd1791e1646a286371c90c06f7a558501"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpPyPi:126"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:37ad786aacb43fb3c1dfee68ab19517c0e8595f99108bd2c9ecad8a9826404f1"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpPyPi:127"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:b6e25fb75d25797af6dcf0bdfe586f13df482047a4ec0c2c52b760d4898d0d6a"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpPyPi:128"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:ba9b1f36c80f45dbe7d5fc3a2e89af9ea3da5dc98253154d113e6818464429a1"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_tmpPyPi:129"
+from = ".memory:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:1977ff31ef1824ae937c554a62f413d0e11e2a4d4323dad2f092f91501ad71ae"
+
+[[entry.relocations]]
+asset = "commit:.localSpec:ec864621aa76aed681f924c7acbf93d079f24649"
+from = ".localSpec:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".localSpec:refs/heads/ComplexGitSync_ancestors"
+ancestor = "ec864621aa76aed681f924c7acbf93d079f24649"
+
+[[entry.relocations]]
+asset = "commit:.claude:47393debfe6d4441b65d685f1e24ade3f7db5bd3"
+from = ".claude:refs/heads/closed/ComplexGitSync_tmpPyPi"
+to = ".claude:refs/heads/ComplexGitSync_ancestors"
+ancestor = "47393debfe6d4441b65d685f1e24ade3f7db5bd3"
+
+[[entry.relocations]]
+asset = "commit:ComplexGitSync:e8d874933ddfc8be82a7e4aff1b6406ceb27c83c"
+from = "ComplexGitSync:refs/heads/closed/tmpPyPi"
+to = "ComplexGitSync:refs/heads/ancestors"
+ancestor = "e8d874933ddfc8be82a7e4aff1b6406ceb27c83c"

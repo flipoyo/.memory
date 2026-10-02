@@ -1,0 +1,23 @@
+[entry]
+seq = 38
+prev = "sha256:ec669384cf56ef91e080aa8afb345a6da006451284fd72d2452a63424a1dfabf"
+recorded_at = "2026-10-02T21:39:34Z"
+command = "branch_delete"
+argv = [
+    "branch",
+    "delete",
+    "tmp-main-1-2_DiscoverRoundTrip",
+]
+state_id = "state(b740a8449b247fed7bd697b677c215718e5df98437e4a4f089f0097951e00cd6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:0bda6323f1bf5188bda776d32f8092aac45014ddaf124db8b63c8895d3347619"
+environment = "env(0994063dc0b8f87f0acea4e9ef6223ba7430623f8ea791bacf43cb859255b895)"
+
+[entry.toolchain]
+cgitsync = "4.2.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
