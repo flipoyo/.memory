@@ -1,0 +1,23 @@
+[entry]
+seq = 156
+prev = "sha256:8f2b4894b934ec0e8614b16f62a93e99875b05f1240f05a7fdf11c51c2d882c2"
+recorded_at = "2026-10-02T11:17:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.1 A failed fetch is now flagged on its repository in one line and leaves a run log that autofix can read, instead of being recognised by its message text.",
+]
+state_id = "state(cdaf92088e99e6d88e06f63a418f27fc6bfab0b0ad1fb69daf79be24ba748d91)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e3125f4d616dce9604250c911181fc5d08c49a45a932d6101bc280d507683fe7"
+entry_hash = "sha256:38a28c9344ee33c4f9a344ef9fb00078d6c5d3d81209f7099bdae7d4c7626a2a"
+environment = "env(e1d50964b9b8574f8231731db085f46758321214878b4956d80f8c04eb0e6781)"
+
+[entry.toolchain]
+cgitsync = "3.14.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
