@@ -1,0 +1,23 @@
+[entry]
+seq = 13
+prev = "sha256:f023c76dab34d489ffbca0535cc977851bb476739165d103615cf7ab9434cb98"
+recorded_at = "2026-10-02T15:57:27Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.11 pull-force and its variants now refuse, for the whole tree and before any change, while a commit exists that no remote holds, and set uncommitted work aside with a stash instead of discarding it.",
+]
+state_id = "state(7424425ca2fc0b261c466830dd76500288f78ed31f3c1ac74ff425ae0b11a9c4)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2a60072360c129abc11c7f416d48b459016db700144ea67ef2b149b96d04830d"
+entry_hash = "sha256:4fc2bf0f22cfab876948ee0e30377137617312dace49414df154de5ce864bfb7"
+environment = "env(5ad55b44c57cd2f650c4880eae7bf8bd1debf7206a9eba1f89d1a033b147db65)"
+
+[entry.toolchain]
+cgitsync = "3.14.11"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
