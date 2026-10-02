@@ -1,0 +1,23 @@
+[entry]
+seq = 152
+prev = "sha256:eee0804f602d952c65b4e86ada818e95f910cca16042d6c0550ceb2faba4d84e"
+recorded_at = "2026-10-02T10:44:37Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.13.1 The branch --list command now shows the branch the project is on as detached when it is, and one internal helper became public so the code no longer imports a private name.",
+]
+state_id = "state(a2570bc602767fb9ca19938cc98677f9f294b900e367b86a2c3732f0f194d620)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:bc8c7f77e68a43693e35695901d9b5e01eb592c0e412941e7748a6eb53e67507"
+entry_hash = "sha256:07d9ceebe0ccd4c7dad114c1c839a89f15699ac45f759c0845e5e19a2908766a"
+environment = "env(9dd0724c714c25369bdb937c775ebf91fae3469c6c874c7ccfe5e4db7df9a2c0)"
+
+[entry.toolchain]
+cgitsync = "3.13.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
