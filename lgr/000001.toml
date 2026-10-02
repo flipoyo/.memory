@@ -1,0 +1,22 @@
+[entry]
+seq = 1
+prev = "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+recorded_at = "2026-10-02T14:16:51Z"
+command = "memory_reboot"
+argv = [
+    "memory",
+    "reboot",
+]
+state_id = "state(155befe008f7ca62409a253f73b14fe25003812c3982a87203f888cda189fda4)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:ab45c9af834b06d5f3ec012bf81edf9791138d4c9503834acf0afb5a96b95a7c"
+environment = "env(d6a6d3e05e9effe84e6842a088be82af66cdf5c979cef9d3a2d193f52a1c3e0c)"
+
+[entry.toolchain]
+cgitsync = "3.14.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
