@@ -1,0 +1,23 @@
+[entry]
+seq = 164
+prev = "sha256:32e198adff113b6a58f40cad0f2c310dc9bbc351179af2f6ec61620d90d118ee"
+recorded_at = "2026-10-02T14:08:47Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync3.14.4 The ticket lifecycle now keeps each archived ticket twice, a history copy whose links may be corrected and an immutable deep copy, which ends the contradiction between never editing and fixing links.",
+]
+state_id = "state(c027adc072c469adba13ce7b96f184b49dd70f5272deef1e987ebb65ea30ade9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7a2dda3c8941601a73c0ff070c5f92d5fc83bfec236b04a28890583341117dda"
+entry_hash = "sha256:620e6815d69c43e3034c509de984904f4f914ac55253e1cc6126e5dd64c7070b"
+environment = "env(d6a6d3e05e9effe84e6842a088be82af66cdf5c979cef9d3a2d193f52a1c3e0c)"
+
+[entry.toolchain]
+cgitsync = "3.14.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
