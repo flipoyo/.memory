@@ -1,0 +1,23 @@
+[entry]
+seq = 47
+prev = "sha256:8f035ba829ad9a960480ef441c6936ec7bf383f9e9d231341bd37f3742a4c78b"
+recorded_at = "2026-10-06T12:01:07Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync4.2.2 New ticket ReleaseTags: tag and freeze-release record the tag as the branch every repository is on, so a push after a release misses main and checking out the tag restores nothing.",
+]
+state_id = "state(cb77f35ee9591e5d3e512dea32ea741db4ca28f334a721f581f337e778c3b68d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b6eeec5fc9c1ea18b3d7efc9bfb1ccf9bdcc327a3a6bdc8d75f8b282daff93b3"
+entry_hash = "sha256:a8fee8be652ac319c88826b22d11105f9edf24f80f5437faac1173439b3b6099"
+environment = "env(d6d48cf2654b149028f9b16f7384308d48edc7633c8dda29b14f5cefe9a7badb)"
+
+[entry.toolchain]
+cgitsync = "4.2.2"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
