@@ -1,0 +1,22 @@
+[entry]
+seq = 49
+prev = "sha256:9c2b6f25e8a5e6b0a4f3b5924e4239f9ddd5b520b9dccf95acf8f780f3036333"
+recorded_at = "2026-10-06T13:15:41Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync4.2.4 A push after freeze-release now reaches the branch instead of re-pushing the tag, and checking out a release tag restores it without creating a branch or moving the memory; see CHANGELOG.md.",
+]
+state_id = "state(483121c474813aa76e0da0e4ef24ca77f5006b5d0ade1ea2ac10bd5798452479)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:83012d084a9283bee5b27b0020816a6dfb82a6c6a887d8c37d6ae0d4acd82ee6"
+entry_hash = "sha256:4da542da696e689b9c34bb66c165fb0b47705d222eb53e189acb5b50456f8dff"
+environment = "env(1523c71ef189c21d8848510c0072104d9d3673ead0e4fa6f36ba1da5e51a9a61)"
+
+[entry.toolchain]
+cgitsync = "4.2.4"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
