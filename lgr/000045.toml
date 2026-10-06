@@ -1,0 +1,23 @@
+[entry]
+seq = 45
+prev = "sha256:18dd163d4e31a01a9403fa3017bde9253afceef6f8cd5571bc08be0fdc59a057"
+recorded_at = "2026-10-06T11:39:13Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.2.2 Tutorial 1 now only installs the sample tree, standalone or nested, and a new tutorial 2 shows the everyday commands on a ready tree, a release, and going back to it from its saved state; the other tutorials move to 3 to 6.",
+]
+state_id = "state(450006e3f9bea26ea21f09c0e556d2a893a28a6dc17f67435b9ae2cdf94e6090)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b1f21a57781ab20e207c9af12aec67135cc4ecfca5f0d6f7512989774a88fa94"
+entry_hash = "sha256:8ed681133b7a6f351eed484fdce849e04e51a8939dcf6aa39968b63d70a21114"
+environment = "env(d6d48cf2654b149028f9b16f7384308d48edc7633c8dda29b14f5cefe9a7badb)"
+
+[entry.toolchain]
+cgitsync = "4.2.2"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
