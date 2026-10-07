@@ -1,0 +1,23 @@
+[entry]
+seq = 2
+prev = "sha256:f927e546063136de6c8d0c43e6d1484505254109fe78418937d773eb52ae6580"
+recorded_at = "2026-10-07T10:22:57Z"
+command = "branch"
+argv = [
+    "branch",
+    "create",
+    "CGS-MOLO",
+]
+state_id = "state(a74af58f940cb909b96ee371612348c04575be1bfb1d2c8a89c6877250ef576a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:c52eb99946bab30789fb93d88a44a0e02600b536a88a5cdfa2d68523cf6db840"
+environment = "env(fd7d2e75f1727204286acf3c449f8670bbf8cd8b14b6e091feb04ffacf958052)"
+
+[entry.toolchain]
+cgitsync = "4.2.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

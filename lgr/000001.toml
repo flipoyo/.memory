@@ -1,0 +1,23 @@
+[entry]
+seq = 1
+prev = "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+recorded_at = "2026-10-07T10:21:29Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "examples/molonari-light.cgs",
+    "MOLOl2",
+]
+state_id = "state(563d2e963d5543fa485f93fadb1c485eedc794fd98ab2cc5b4c8856189449d84)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:f927e546063136de6c8d0c43e6d1484505254109fe78418937d773eb52ae6580"
+environment = "env(fd7d2e75f1727204286acf3c449f8670bbf8cd8b14b6e091feb04ffacf958052)"
+
+[entry.toolchain]
+cgitsync = "4.2.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

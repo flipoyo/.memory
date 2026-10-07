@@ -1,0 +1,23 @@
+[entry]
+seq = 4
+prev = "sha256:03f9874234775fc32fe06264e50d63c62e231affd1ca5e621d1e5fbdd38a7266"
+recorded_at = "2026-10-07T10:28:52Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "correcting install.cgs for MOLONARI-hardware after CGS-MOLO branch creation for firmware",
+]
+state_id = "state(5cb6e08f1d3b2b8abc2fd07d843fccfed5d228e486bf076c3195719cf0a9dfd8)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:468e52a5a4d941c48656231c30935f6945880e7431268b2c64edf2516c49c177"
+entry_hash = "sha256:3b62f4ec2d59ff0e52874077e89974fb658d5c9cabd3185e75a78ee6b0d3843f"
+environment = "env(fd7d2e75f1727204286acf3c449f8670bbf8cd8b14b6e091feb04ffacf958052)"
+
+[entry.toolchain]
+cgitsync = "4.2.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
