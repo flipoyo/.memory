@@ -1,0 +1,22 @@
+[entry]
+seq = 6
+prev = "sha256:df641f24f90dd7837f26b943f46ea7f054676e386ec12cf2faa6483ff7970b5b"
+recorded_at = "2026-10-07T10:34:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "mv platformio.ini from harware to firmware",
+]
+state_id = "state(982fed0ffeeddd4b0a4a9bcaec7eb6db31433c47e8ced3b298ca7ac3f2f0c2c4)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c0c8c58f0d1ca051dd0854f0be3821cc8f4eebd0958e3b9256f47a209e66212a"
+entry_hash = "sha256:931da28fd272c9af300cd545271c1eee8365bac994bc84c83b6946d97b974cb3"
+environment = "env(fd7d2e75f1727204286acf3c449f8670bbf8cd8b14b6e091feb04ffacf958052)"
+
+[entry.toolchain]
+cgitsync = "4.2.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
