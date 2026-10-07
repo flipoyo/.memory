@@ -1,0 +1,23 @@
+[entry]
+seq = 58
+prev = "sha256:942d091b392c2e864c9ee5c71faeba179fd158d0d2979e0e7208f97439bd5935"
+recorded_at = "2026-10-07T16:31:25Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.4.1 ReleaseTags ticket archived: it was implemented in 4.2.4 and left open by mistake. No code change.",
+]
+state_id = "state(20d09d1fb83eb47ff850b8a745683465c09a44289adc66a6934cac342b198e95)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f64bb1e7fa332ac2093a448ac6903680edf4319f37d1a9ff1604068ab6336af9"
+entry_hash = "sha256:c879097c4b162a784e7165141c62b56022ded03fa1481bf5c59fb7df8dd639a0"
+environment = "env(7d7b1421879f0e93efbd466d15aeaa20e9d7ab5d8305481433e55d5c0b0659ef)"
+
+[entry.toolchain]
+cgitsync = "4.4.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
