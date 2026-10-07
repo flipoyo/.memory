@@ -1,0 +1,23 @@
+[entry]
+seq = 53
+prev = "sha256:0d63084fe18deb463b903d2f4ff53b48772779ff146b356d4848b62c07b0eaeb"
+recorded_at = "2026-10-07T14:13:05Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.3.2 bootstrap now names the workspace after the project, in ~/.cgs/<project name>-<timestamp>, and the name argument is optional; an invalid name is refused in one line. See CHANGELOG.md.",
+]
+state_id = "state(593b6d8c995a6bd620e7067c8f58d2bc3c40f0fa075e80c8486a98a6901197ff)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:1934251f1cfb901ad2e76e4e9d865e3ee7eeef27af7b1d705284f514acbd1a71"
+entry_hash = "sha256:b5e4de928cf720ed8f425ef898222e5efee37ff243b2a74e5fc34692c913045e"
+environment = "env(58c6f7860f1ce273ef66f3bc7db68dcab8f29c38bb21e40131e3c36d2c4a57fc)"
+
+[entry.toolchain]
+cgitsync = "4.3.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
