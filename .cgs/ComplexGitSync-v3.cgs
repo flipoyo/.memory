@@ -1,0 +1,11 @@
+project = "ComplexGitSync"
+repos = [
+    "github:flipoyo/ComplexGitSync",
+    { repository = "github:flipoyo/.agentSpec", private = true },
+    { repository = "github:flipoyo/.claude", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true },
+    { repository = "github:flipoyo/.localSpec", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true },
+    { repository = "github:flipoyo/DocComplexGitSync", relative_path = "docs" },
+    { repository = "github:flipoyo/DevSpec", private = true, relative_path = ".agentSpec/DevSpec" },
+    { repository = "github:flipoyo/.memory", default_branch = "ComplexGitSync", fallback_branch = "main", private = true, writable = true, relative_path = ".cgitsync/.memory" },
+    { repository = "github:flipoyo/DocSpec", private = true, relative_path = "docs/DocSpec" },
+]
