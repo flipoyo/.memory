@@ -1,0 +1,23 @@
+[entry]
+seq = 2
+prev = "sha256:b2cf909213c622bb909ad41a96c95ff26a24c7c3f8c2af789f7940781257218b"
+recorded_at = "2026-10-08T19:12:50Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync5.0.0 A State is now named by a hash per repository, a Merkle root over the tree and a State hash on top, so verify says which repository changed; snapshots written before this are refused until memory reboot opens a new memory. The specs, the user guide and the planning ticket describe the new scheme, and the documentation is rebuilt for 5.0.0.",
+]
+state_id = "state(bf6cc1e127d0f17d26b68fa00516b6535247977065158e3ba17eda50a7b15a38)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:df3677c4e43739634fd35d4b89ca6e428723e40303a69845c9c9e76a859e2aff"
+entry_hash = "sha256:e715687847659308c8e6ed8d97dd4a03ef379ee775e5b73bae8b8712ab1f143b"
+environment = "env(7e15b9912521248a764adc86cc29d32bd1984d7a9769d6b3765e40a39b65fe6c)"
+
+[entry.toolchain]
+cgitsync = "5.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
