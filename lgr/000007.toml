@@ -1,22 +1,23 @@
 [entry]
 seq = 7
-prev = "sha256:35d3dbe0c3903e61fd339520927424a0b88294b5bbe23c5e8371cd00bb5e5d58"
-recorded_at = "2026-10-02T14:50:55Z"
-command = "close_branch"
+prev = "sha256:9ded8b4e351670cfbc7db395028d00ed2b536de5ee754f0c529e8e68c376b164"
+recorded_at = "2026-10-08T19:18:17Z"
+command = "branch_delete"
 argv = [
-    "close-branch",
-    "tmp-main-1-2_DiscoverRoundTrip",
+    "branch",
+    "delete",
+    "tmpPyPi",
 ]
-state_id = "state(4636b40df3461dd0cb7ca24b62292881d413752e10bd05e68d68b6f586f496df)"
+state_id = "state(962275e1b734e31e22f9a8ff856008ae04683dd788bd43602d0ae6c39418b651)"
 state_dir = "state"
 outcome = "ok"
 commit_log = ""
-entry_hash = "sha256:dfa9c686e2bde0adcb767703f6ba1deaab0555ed9fcf47fefc87c228b831c887"
-environment = "env(6c18e59c9795f68a003ed3e120864bb6573022baaa642a27adbb18db1627b569)"
+entry_hash = "sha256:2ee6bdea1e30f9571b4f2186b389b2a8d0ca2ab3426a863a30df61d00b939371"
+environment = "env(7e15b9912521248a764adc86cc29d32bd1984d7a9769d6b3765e40a39b65fe6c)"
 
 [entry.toolchain]
-cgitsync = "3.14.6"
+cgitsync = "5.0.0"
 dvc = "none"
-git = "git version 2.34.1"
+git = "git version 2.43.0"
 git-lfs = "none"
-pixi = "pixi 0.65.0"
+pixi = "pixi 0.66.0"

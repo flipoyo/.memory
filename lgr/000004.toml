@@ -1,22 +1,29 @@
 [entry]
 seq = 4
-prev = "sha256:53ff85f37dda919ebaf69eb3658ac48f884f75ab4562aa4540a695fdab3acfb7"
-recorded_at = "2026-10-02T14:32:17Z"
-command = "push"
+prev = "sha256:c39cd3c6627e762c169ac5c69c7d418f82ed393f1f2c523d85723161cdbaa585"
+recorded_at = "2026-10-08T19:15:35Z"
+command = "branch_close_keep"
 argv = [
-    "push",
-    "--all",
+    "branch",
+    "close",
+    "copilot/devplan-integration-petgraph",
 ]
-state_id = "state(3cd26190f5135e87568b701b1d98802cee7ea0270e25533c8da5006415589873)"
+state_id = "state(962275e1b734e31e22f9a8ff856008ae04683dd788bd43602d0ae6c39418b651)"
 state_dir = "state"
 outcome = "ok"
 commit_log = ""
-entry_hash = "sha256:f56a7fef6e696e7cf78b7890831d42d58d3035ea82b849b42a9d184b7ec95e5e"
-environment = "env(734c206ab45fd2f262a8ace5efc422da9e1449f474d8f2e8c34f75dbb9250c0c)"
+entry_hash = "sha256:7b5454ec1ae8c84a07a0417d42d483ffc567cc24164a355acda735634dcdce86"
+environment = "env(7e15b9912521248a764adc86cc29d32bd1984d7a9769d6b3765e40a39b65fe6c)"
 
 [entry.toolchain]
-cgitsync = "3.14.5"
+cgitsync = "5.0.0"
 dvc = "none"
-git = "git version 2.34.1"
+git = "git version 2.43.0"
 git-lfs = "none"
-pixi = "pixi 0.65.0"
+pixi = "pixi 0.66.0"
+
+[[entry.relocations]]
+asset = "commit:ComplexGitSync:987b534ce317ac532b6070dfdbf8762fe7aaff9f"
+from = "ComplexGitSync:refs/heads/copilot/devplan-integration-petgraph"
+to = "ComplexGitSync:refs/heads/ancestors"
+ancestor = "987b534ce317ac532b6070dfdbf8762fe7aaff9f"
