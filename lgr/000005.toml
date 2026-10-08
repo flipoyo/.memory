@@ -1,0 +1,23 @@
+[entry]
+seq = 5
+prev = "sha256:1141bd505db264c2d0bbdbbd3a32e64bb1cd26a262e08d637a5a01b218fd1b18"
+recorded_at = "2026-10-08T20:13:49Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync5.0.0 AgenticTwoLevels and GtsHashRepoPrecision are archived as implemented, each with a note on what landed and what was left undone, and a deep-archived copy. The two data tickets now link to GtsHashRepoPrecision's archived file.",
+]
+state_id = "state(fe7120bfdda0140acd8326af2e87258ee23921f1c8a056c06b932d6e44acf181)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3dba2b100f625dd7f05c12ddef0d45e4aae07ab9f877c42d2901fb40c4ee91e7"
+entry_hash = "sha256:359306ba5be342811f5cb3782423c14bed0a71ba5b3ac583c4c6b50a62206c8a"
+environment = "env(7e15b9912521248a764adc86cc29d32bd1984d7a9769d6b3765e40a39b65fe6c)"
+
+[entry.toolchain]
+cgitsync = "5.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
