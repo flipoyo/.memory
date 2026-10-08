@@ -1,0 +1,23 @@
+[entry]
+seq = 3
+prev = "sha256:e6e02eabda2fc73ed279006c0dc3ea2b3ceb2803ca9625532daf40dc8562ec54"
+recorded_at = "2026-10-08T20:05:41Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync5.0.0 New planning ticket UnrelatedHistoryMerge on main: memory merge b1 --into b2 --ours or --theirs keeps one branch's memory whole and the other as history, and merge --private does the same for .memory, keeping the target's. A module holding one class may now pass 2000 lines, recorded and ratcheted instead of split; both owner requests are filed with the closed short tickets.",
+]
+state_id = "state(dc9f56736a9c97e39c2673e242a425c8b8d21d7f84e31b7a51a92179f5c12064)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:fd50fbdd40c63ffc3d028f367415d71c9bc2eb32fd5b11cd40758caa97868b50"
+entry_hash = "sha256:e50b4de3e1dc4549833c2e429bc8584f7088ad5a79b6f5762afdc277c69b1490"
+environment = "env(7e15b9912521248a764adc86cc29d32bd1984d7a9769d6b3765e40a39b65fe6c)"
+
+[entry.toolchain]
+cgitsync = "5.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
