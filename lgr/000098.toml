@@ -1,0 +1,21 @@
+[entry]
+seq = 98
+prev = "sha256:a02eb00f40bd0bea3db7f407a0d8eeec7c26482f882500d25ac89db3b660c9f1"
+recorded_at = "2026-10-08T12:56:10Z"
+command = "commit"
+argv = [
+    "commit",
+    "before merge",
+]
+state_id = "state(514d6de460cdc673968367d5742ed887f3d06d15443dec045aaf7b430cc9e205)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f2aa8a075deb4c2b6ab5936193eebf86aca1f76676132fbf4c78411baa052f67"
+entry_hash = "sha256:89b542030c736765473da872a3b1b26da7f3913e2100d2b10157e9e8c0cfc582"
+
+[entry.toolchain]
+cgitsync = "0002.80"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
