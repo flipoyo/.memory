@@ -1,0 +1,23 @@
+[entry]
+seq = 9
+prev = "sha256:2e94ad2d1d9bd525ea8ab946399cab6b46280c18759d4645fc07be2df80a60bb"
+recorded_at = "2026-10-08T21:27:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync5.1.1 a memory is merged by keeping one side whole, and both sides stay reachable",
+]
+state_id = "state(10a5ae5fe68354c3dbb0da1ca70d4fd00a7f15b8d92cc71cac1b08198427e673)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f1c3ae3277fbf829970009b36f389011e7524531c0640acab09b6812829f145a"
+entry_hash = "sha256:7af8f8107874634518f7fa5a48d260e9997aa8818669c8f6d486db6c554e5796"
+environment = "env(e921eee47eb96930c875dc2a6e819005424c7ecdc50161375f420b122c33d125)"
+
+[entry.toolchain]
+cgitsync = "5.1.1"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
