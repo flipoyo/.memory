@@ -1,0 +1,23 @@
+[entry]
+seq = 62
+prev = "sha256:cb00b660e77cfc5aaed074221c7db5040bcc67070f6fbb31d17b5460e11d9932"
+recorded_at = "2026-10-08T12:18:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync4.4.3 Each development rule is now written once, as a shared pattern with a short local fill-in, and the planning tickets moved from .localSpec to .dev. The developer install now mounts six agentic repositories instead of eight: .versioning is folded into .dev and .auto is dropped. The tool itself behaves exactly as before; check-ceilings now also fails on a dead .agent path cited in the code, even when it is wrapped over two lines.",
+]
+state_id = "state(30a9f2966f2c8e39f70cb0253c2a3699d81efaf8aae3a8083f966839cb93e9ad)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:fc04947aa042626af13f079efd97a5b9645231e0556c7bba54200fea76834313"
+entry_hash = "sha256:ec8e3d43d06c40e96242e0cb5835064c937ff7c1e7984c36f5c2af9a0ebe53d4"
+environment = "env(efde846be65170b3cfa02169e45f46fc44692fee31a1ea6650bc2efae2efb5b4)"
+
+[entry.toolchain]
+cgitsync = "4.4.3"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
