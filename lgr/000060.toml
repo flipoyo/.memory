@@ -1,0 +1,23 @@
+[entry]
+seq = 60
+prev = "sha256:86c0e05f57c1883acf688bc54e221c26e1dc17ff0191ad47b4fcdf0bc6afd968"
+recorded_at = "2026-10-08T11:05:35Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync4.4.1 Plan to split every agentic rule into a shared pattern and a short local fill-in, and to move DevTickets into .dev",
+]
+state_id = "state(608193709e57410caa553fd7ccd55bb1d981fb5249e936015be061d758c3f5e8)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:25fddd7f37431de869864ae14741de81609d3e59f65c5c41d80993be07ea55d7"
+entry_hash = "sha256:61d883b73cc5f962cab9f2e1130547132f1f60efd4cfef3e5b9bb9df6c3c32cd"
+environment = "env(667313597087fa6f6992128eea8c8519918a38e242baa01d03b1c591b75ad38a)"
+
+[entry.toolchain]
+cgitsync = "4.4.1"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
