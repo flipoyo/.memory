@@ -1,0 +1,23 @@
+[entry]
+seq = 7
+prev = "sha256:c7f045e87e6b6246f4287ee5ff85cc0cb07ffab090c1737d782a6553b712921c"
+recorded_at = "2026-10-08T20:26:32Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync5.0.0 Ticket review: each priority is now one pile across branches, so UnrelatedHistoryMerge is 1-1, MergeErgonomics 1-2, and pile 2 runs 2-1 to 2-12 with StateLocking last; every path link is repaired. New planning ticket MergeErgonomics: merge --resolve never merges a memory file by file, never loops, never resolves in silence, plus a seventh tutorial on merge;",
+]
+state_id = "state(5e5da8618757dc75d6fe94f143156ebc51ff435de99d2145b2af5dcfd66fbee0)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8f446ba14cc42d6682e9bb6f0360a0c52251b579eaca0cfdd554173824ebf335"
+entry_hash = "sha256:c46e3714cc614ac4799c63cd888dd7acc457d2eccdfd40c4e2c625c41e81be90"
+environment = "env(7e15b9912521248a764adc86cc29d32bd1984d7a9769d6b3765e40a39b65fe6c)"
+
+[entry.toolchain]
+cgitsync = "5.0.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
