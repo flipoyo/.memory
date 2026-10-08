@@ -1,0 +1,69 @@
+project = "ComplexGitSync"
+
+[[repos]]
+repository = "github:flipoyo/ComplexGitSync"
+branch = "memory-dev"
+
+[[repos]]
+repository = "github:flipoyo/DocComplexGitSync"
+relative_path = "docs"
+branch = "memory-dev"
+
+[[repos]]
+repository = "github:flipoyo/.memory"
+default_branch = "ComplexGitSync"
+fallback_branch = "main"
+private = true
+writable = true
+relative_path = ".cgitsync/.memory"
+branch = "ComplexGitSync_memory-dev"
+
+[[repos]]
+repository = "github:flipoyo/DevSpec"
+private = true
+relative_path = ".agent/.distant/dev-sync"
+
+[[repos]]
+repository = "github:flipoyo/DocSpec"
+private = true
+relative_path = ".agent/.distant/documentation"
+
+[[repos]]
+repository = "github:flipoyo/.ticketing"
+private = true
+relative_path = ".agent/.distant/ticket"
+
+[[repos]]
+repository = "github:flipoyo/.claude"
+default_branch = "ComplexGitSync"
+fallback_branch = "main"
+private = true
+writable = true
+relative_path = ".agent/.local/.claude"
+branch = "ComplexGitSync_memory-dev"
+
+[[repos]]
+repository = "github:flipoyo/.dev"
+default_branch = "ComplexGitSync"
+fallback_branch = "main"
+private = true
+writable = true
+relative_path = ".agent/.local/.dev"
+branch = "ComplexGitSync_memory-dev"
+
+[[repos]]
+repository = "github:flipoyo/.localSpec"
+default_branch = "ComplexGitSync"
+fallback_branch = "main"
+private = true
+writable = true
+relative_path = ".agent/.local/.localSpec"
+branch = "ComplexGitSync_memory-dev"
+
+[[repos]]
+repository = "github:flipoyo/.self-history"
+default_branch = "ComplexGitSync"
+private = true
+writable = true
+relative_path = ".cgitsync/.memory/.self-history"
+branch = "ComplexGitSync_memory-dev"
