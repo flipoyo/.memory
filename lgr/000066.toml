@@ -1,0 +1,24 @@
+[entry]
+seq = 66
+prev = "sha256:be7cf661497bee202f4772e20a2c14438bcd39516542efb1368b7313defbde04"
+recorded_at = "2026-10-08T19:43:59Z"
+command = "merge"
+argv = [
+    "merge",
+    "memory-dev",
+    "--gts",
+    ".cgitsync/.memory/state/d5095a665207825fe6c6cec38b59e787fa243c5fe8b95ac3c03587387860a65f.gts",
+]
+state_id = "state(dce2837ce367c91ce310909d4f7d24bb609c99edc0004abc6809ee1d1f9f5669)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:4d3046ad43c2314d3fc272602b29dee45204f06c0bc7ea43bbd52872480d52d5"
+environment = "env(4fa26988af513ffebdb42a20c3f7b1181dfbc53a6551931b1ce5e60b5e552080)"
+
+[entry.toolchain]
+cgitsync = "4.4.3"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
