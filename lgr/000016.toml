@@ -1,0 +1,23 @@
+[entry]
+seq = 16
+prev = "sha256:b598ab622ae5c267228cefca237a7295bd86d1229c0ef0aa406717252f1e8f1a"
+recorded_at = "2026-10-09T16:07:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync5.2.1 An agent asked to implement a ticket is now told, as an order, to ask the owner's decisions first and launch an independent orchestrator, and never to bump the version or score its own work. cgitsync commit refuses to add a planning ticket archived without its orchestrator's record, naming it, and pixi run check-tickets checks the whole archive. The stale settings.json is removed, and the user guide documents both commit refusals.",
+]
+state_id = "state(d4c422e8277a5a5d7ccf24c04b422bd497ed1badf57bfd9a9421020ee70b77ad)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:da1d59a7c1bae713db240b6794ee7132c8c66a79db124fe14cb49b7570f011c9"
+entry_hash = "sha256:5639ffc6524859ad2e94904791138fe8448fa6764128e161f51f2dde719e6d23"
+environment = "env(fe55ae51011d4eb10fdb0f30ae9a9a70081361a7242e8a92422f83c3ce00e6f4)"
+
+[entry.toolchain]
+cgitsync = "5.2.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
