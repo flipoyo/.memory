@@ -1,0 +1,23 @@
+[entry]
+seq = 18
+prev = "sha256:911575ff3bcef36baa7cf6b0cb35ac176281b3dc5284e943f88158cf4fcf6f9d"
+recorded_at = "2026-10-09T16:20:36Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync5.2.1 The implement-cmd request becomes the PairRuleUpstream plan: the shared AgentConduct pair rule states its trigger, the owner's decisions first, what the worker never does and a recommended gate, and the shared Versioning stops letting a worker release a ticket's work. The short ticket is closed, and the owner lifts the read-only rule on DevSpec for this ticket only.",
+]
+state_id = "state(88209093e50b7d9919710aea28413074785ea5d1d89289804259c7e5cbeb631a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:491f248b2ec50b0dd7396f16ce4b96ab8eaac6e2a439ce759dd421fcf3e17546"
+entry_hash = "sha256:3916b233f684e4a03fad47254fe79a3abbd2f65e450cc3c7a9dcda9ec87f7974"
+environment = "env(fe55ae51011d4eb10fdb0f30ae9a9a70081361a7242e8a92422f83c3ce00e6f4)"
+
+[entry.toolchain]
+cgitsync = "5.2.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
