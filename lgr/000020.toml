@@ -1,0 +1,23 @@
+[entry]
+seq = 20
+prev = "sha256:4b48baf30c557abb73114dd87a2cc1ddb95a69a2c6e027bcde1f27c2478278d9"
+recorded_at = "2026-10-09T17:01:06Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync5.2.1 The pair rule's orders in CLAUDE.md are now this project's statement of the shared AgentConduct section 4.1, recorded as an exception, and the old descriptive paragraph is gone. The digest, the dev checklist and the versioning fill-in follow the shared rule, and the PairRuleUpstream ticket is archived with its record.",
+]
+state_id = "state(a604d192493c3720e4c8e0f0d5c6d6af5937cc19c62b93352d3f889f60dec4aa)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c8439af23050ca0f6739f40cc85255465b297c245799c3da035da7bedc761f29"
+entry_hash = "sha256:f46b56b711c416ff2e323d575d1e5845d017426049998bb314cb000e5fc0f68b"
+environment = "env(fe55ae51011d4eb10fdb0f30ae9a9a70081361a7242e8a92422f83c3ce00e6f4)"
+
+[entry.toolchain]
+cgitsync = "5.2.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
