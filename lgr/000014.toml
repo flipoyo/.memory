@@ -1,0 +1,23 @@
+[entry]
+seq = 14
+prev = "sha256:972aba4ac42e55baa17e7118f91e9522ab08354eee90b26f165f520b6ffcadc6"
+recorded_at = "2026-10-09T14:46:19Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync5.1.3 The release-management request becomes the ReleaseCommand plan: release freeze, list and load, a project-name-dash-version tag read from pixi.toml or numbered, --force-tag prefixed with the project name, and the same separator for commit messages. The short ticket is closed, and the data tickets now name release freeze and release load.",
+]
+state_id = "state(77bae2b1b0a89b96aef99e3f4b80dda26286095473d8435f2f2450253503e2e6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a9f97ba534dcd07f13d7e0a48fe8e24fafed81351b911dbe8c57342cd09abe76"
+entry_hash = "sha256:f1cf194a9bee1241b1b9fd4900706a892fd90a54091c0edd664e336ef8e6f30e"
+environment = "env(60e956ec921b04b56c3bc69dacc393c8b80647cfd208d07b7f02111192cc4e29)"
+
+[entry.toolchain]
+cgitsync = "5.1.3"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
