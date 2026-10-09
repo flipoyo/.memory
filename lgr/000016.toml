@@ -1,0 +1,22 @@
+[entry]
+seq = 16
+prev = "sha256:9d2a2df1690bb748eb596a555f5006390f9d984f6bbb5c42526dc716d4c5815c"
+recorded_at = "2026-10-09T14:33:56Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "data_import",
+]
+state_id = "state(a91b03e8fbe8b763cc91b41c56a67304c52fccc55f853842ef0efe7b9f9b0849)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:d857efe17a76f95fa4f671474b86ccc738083c91fc2390b6728199a8e298fb71"
+environment = "env(6b6896599bbf5a58c5448cfe0cf41fa8fd6bb753f321b9e35a4bf6e9ceb39609)"
+
+[entry.toolchain]
+cgitsync = "5.1.3"
+dvc = "none"
+git = "git version 2.39.5 (Apple Git-154)"
+git-lfs = "none"
+pixi = "pixi 0.81.0"

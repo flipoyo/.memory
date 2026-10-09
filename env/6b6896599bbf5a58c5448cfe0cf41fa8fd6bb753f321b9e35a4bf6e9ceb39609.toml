@@ -1,0 +1,48 @@
+format_version = 1
+environment_root = ""
+tools = [
+    { name = "cgitsync", raw = "5.1.3", version = "5.1.3" },
+    { name = "dvc", raw = "none", version = "none" },
+    { name = "gh", raw = "none", version = "none" },
+    { name = "git", raw = "git version 2.39.5 (Apple Git-154)", version = "2.39.5" },
+    { name = "git-lfs", raw = "none", version = "none" },
+    { name = "pixi", raw = "pixi 0.81.0", version = "0.81.0" },
+    { name = "python", raw = "3.11.15", version = "3.11.15" },
+    { name = "ssh", raw = "OpenSSH_9.9p2, LibreSSL 3.3.6", version = "9.9" },
+]
+credentials = [
+    { provider = "github", tool = "gh", available = false, authenticated = false },
+]
+
+[machine]
+architecture = "arm64"
+pixi_platform = "osx-arm64"
+os_name = "macos"
+os_version = "15.5"
+libc_name = "none"
+libc_version = "none"
+kernel_release = "24.5.0"
+
+[[manifests]]
+repository = "root:Molonaviz"
+path = "Molonaviz/pyproject.toml"
+digest = "sha256:f6cff6f7f78f560b7064b64080fcce4c17fd36156a122fb7f9444b88fd65e505"
+platforms = []
+
+[[manifests]]
+repository = "root"
+path = "pixi.toml"
+digest = "sha256:f3e84386ae5c099bcdd46b323622b8e7d4d97d7f832f7125b68171436774cb8e"
+platforms = []
+
+[[manifests]]
+repository = "root:pyheatmy"
+path = "pyheatmy/Makefile"
+digest = "sha256:df175c9d429ee0fc72ff17b7797c22536fb0ea5405fd033c24b9814bb6bc4042"
+platforms = []
+
+[[manifests]]
+repository = "root:pyheatmy"
+path = "pyheatmy/pyproject.toml"
+digest = "sha256:b28937e3860bf09f8ce23a075894604a6d2993ffbd5dad976bbe0fa6755de494"
+platforms = []
