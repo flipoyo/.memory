@@ -1,0 +1,23 @@
+[entry]
+seq = 23
+prev = "sha256:ea2b69c4e12c8257ae1be32a8abe97805717c9942487b23ccf5d07ba19705766"
+recorded_at = "2026-10-09T18:03:17Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.0.1 New command release freeze, list and load: a release is tagged with the project name and the version from pixi.toml, or numbered, and the root tag carries its State, so any user can list it and load it back, in place or in a new workspace. freeze-release is removed, and commit messages now start with the project name, a dash and the version. Tutorial 2 teaches loading a release a colleague made, and the user guide, API docs and specs follow.",
+]
+state_id = "state(6bb938afd2ae5d0cf402cbbf496f8a6fed5a5bb585cce4d945116ae45bbe8f5f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b9c414686c801d26f70aed13be03dfcc97f4502a01ffb195ded8bee59ab29734"
+entry_hash = "sha256:b50c5903e2db9455036f6f26eb7502c2a5ed01269bfb78115c803340f7a1d8c2"
+environment = "env(cb2d9505c27261b55ad1050ff388ca9ca1ca6805a754d25e7cff0bbd6b66e0a6)"
+
+[entry.toolchain]
+cgitsync = "6.0.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
