@@ -1,0 +1,22 @@
+[entry]
+seq = 11
+prev = "sha256:2f782ef81523759b969a7428254bb946b21b93b986367ab1968c2c1076f21d34"
+recorded_at = "2026-10-09T10:33:35Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync5.1.3 merge --resolve --all-conflicts no longer loops on branches with no common commit, never touches the memory, and stages or regenerates nothing on its own. After the merge tool resolves a text conflict it commits and lists that merge, and it stops by name on a binary file, an unresolved file or a missing merge tool. A seventh tutorial teaches merging a tree, every tutorial and the README now count seven, and the user guide covers --all-conflicts.",
+]
+state_id = "state(47af9af4c21890fd6107d594f4e65b709473a8962e06f82f6520071895cff77d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2b95dba7706487ab3b56f1b465d92f7f048c8310c51b38ff6976ef88a2b2ef81"
+entry_hash = "sha256:1c8828b2d6f5f159600e017a1d864737dad9f9f347550b38caca605fd08d23bd"
+environment = "env(60e956ec921b04b56c3bc69dacc393c8b80647cfd208d07b7f02111192cc4e29)"
+
+[entry.toolchain]
+cgitsync = "5.1.3"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
