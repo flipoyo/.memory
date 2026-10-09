@@ -1,0 +1,23 @@
+[entry]
+seq = 8
+prev = "sha256:bd1e79b8efa632b66d7ff76f4ad575133bac1e4b4e1d23f1e337a7b4048bd0fb"
+recorded_at = "2026-10-09T13:15:19Z"
+command = "pull"
+argv = [
+    "freeze-release",
+    "v2026.00",
+    "State 0 of the molonari-light.cgs repo",
+]
+state_id = "state(2383488991a25f354391b885c49cd6c9ad0ddbb653fe64ab1e31f5e5976b4c67)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:7a501df5f92f820ea1ff8d4106bc0c52084b240655408fae50885c4e4960f441"
+environment = "env(6b6896599bbf5a58c5448cfe0cf41fa8fd6bb753f321b9e35a4bf6e9ceb39609)"
+
+[entry.toolchain]
+cgitsync = "5.1.3"
+dvc = "none"
+git = "git version 2.39.5 (Apple Git-154)"
+git-lfs = "none"
+pixi = "pixi 0.81.0"
