@@ -1,0 +1,23 @@
+[entry]
+seq = 17
+prev = "sha256:ae709ce3acaec38378af75546612a130ef541678a1c7f32d6d201800d365e95f"
+recorded_at = "2026-10-12T08:25:10Z"
+command = "push"
+argv = [
+    "release",
+    "freeze",
+    "on essaie le nouveau release freeze",
+]
+state_id = "state(5cf368363da83e1fc3842e92c64ee29b86845afc4c0771b3b84eb2f04205d7bb)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:3423717741235ecb0016157bab5b229dd95da62251436c6f9c61eb26bb52dea2"
+environment = "env(7f4f54642ea460e678b49d1b75dff2374be021792742f44333e56496a2db1008)"
+
+[entry.toolchain]
+cgitsync = "6.0.1"
+dvc = "none"
+git = "git version 2.55.0"
+git-lfs = "none"
+pixi = "pixi 0.81.0"
