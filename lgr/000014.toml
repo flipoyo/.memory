@@ -1,0 +1,28 @@
+[entry]
+seq = 14
+prev = "sha256:2bfb123b6ef2195dbc408ca0beab57ebc1fbd2ed7d2b6ea1533cf577a9f8da75"
+recorded_at = "2026-10-09T14:03:03Z"
+command = "freeze_release"
+argv = [
+    "freeze-release",
+    "v2026.00",
+    "first release of the year 2026: our state 0",
+]
+state_id = "state(b1f7f691db1ba5620eac2cb5279c8caa3f8b693428ae9cea88deebc4b70556ed)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:7e62347a3545dd12bded8ec05ca527b30e484995a22960f4ccfacf9b67568018"
+environment = "env(566b60029d1ad2e68fbd00f01bde9e6243f1e9b42fb21a7573f671d1271e1062)"
+
+[entry.toolchain]
+cgitsync = "5.1.3"
+dvc = "none"
+git = "git version 2.55.0"
+git-lfs = "none"
+pixi = "pixi 0.81.0"
+
+[entry.release]
+"artefact:src" = "0003.76"
+git_tag = "v2026.00"
+semver = "5.1.3"
