@@ -1,0 +1,46 @@
+[project]
+name = "MOLONARI1D"
+default_branch = "CGS-MOLO"
+
+[[repos]]
+repository = "github:flipoyo/MOLONARI1D"
+branch = "data_import"
+
+[[repos]]
+repository = "github:flipoyo/MOLONARI-API"
+relative_path = "Molonaviz"
+branch = "data_import"
+
+[[repos]]
+repository = "github:flipoyo/MOLONARI-data"
+relative_path = "data"
+branch = "data_import"
+
+[[repos]]
+repository = "github:flipoyo/MOLONARI-hardware"
+relative_path = "hardware"
+branch = "data_import"
+
+[[repos]]
+repository = "github:flipoyo/MOLONARI-gate"
+relative_path = "molonari.io"
+branch = "data_import"
+
+[[repos]]
+repository = "github:flipoyo/MOLONARI-computo"
+relative_path = "pyheatmy"
+branch = "data_import"
+
+[[repos]]
+repository = "github:flipoyo/.memory"
+default_branch = "MOLONARI1D_CGS-MOLO"
+fallback_branch = "main"
+private = true
+writable = true
+relative_path = ".cgitsync/.memory"
+branch = "MOLONARI1D_data_import"
+
+[[repos]]
+repository = "github:flipoyo/firmware"
+relative_path = "hardware/firmware"
+branch = "data_import"
