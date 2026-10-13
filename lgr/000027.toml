@@ -1,0 +1,23 @@
+[entry]
+seq = 27
+prev = "sha256:c99d1aaa58ad08ec0e32eaa63450fcf2d9de7775095408515df3de250b8669ec"
+recorded_at = "2026-10-13T17:47:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.2.0 branch close and branch delete are now refused in a user's tree, one that declares no private repository, before anything is touched. It is a guard against a mistake, not a lock: no flag overrides it, and only the provider's branch protection stops a determined user. The user guide, API guide, Tutorial 7 and the specs say so, and a test names every caller that deletes a branch on a remote.",
+]
+state_id = "state(354a09dc2fda819c4048415c07ed704ba615c726f89f45ec567b6a8fbf5a2004)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c8b0ba0ebc86aeb88e9caff95be5468c6845c240ad06eb0f6db1a4acb5ee1175"
+entry_hash = "sha256:0527b385799488cddeb9e5968db56444a8d46c871b2c40cc4e301e0441f3f6a1"
+environment = "env(ba83f45752a6e5239ed365a913d2b0c5fb30655c186fc6563fb7020e6864f189)"
+
+[entry.toolchain]
+cgitsync = "6.0.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
