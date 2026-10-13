@@ -1,0 +1,23 @@
+[entry]
+seq = 29
+prev = "sha256:07976ec0eb833a8c5d41317f259ac485d633309f15594c3ec0574400967a9b98"
+recorded_at = "2026-10-13T18:27:17Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.3.0 autofix, when no command failed, now reports a tip commit of yours that breaks the commit-message rule or looks shell-damaged. It gives the commands that extract the message intact and changes nothing; a commit pulled from someone else is not judged. The user guide, API guide and specs say so, and a test rebuilds the mangled message of commit 701a98f.",
+]
+state_id = "state(71fbe5af68d3c6f01a49f15fccfa4c69fab3f4d096d5ec0eaff2f30b7cc6c9c0)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f76d3938e3472722783b72c1cecf6ce6f4e4ff9afb76e0313b5b3ea6a292a0c2"
+entry_hash = "sha256:ee0b0170acf39141372916eb02b655a57d9e781bb27d5fb2c5653a3f26a07a4f"
+environment = "env(b5578ee4983b9e6df1ee999d801fd3377094b070f82fbb283f9cfc6752b9deaa)"
+
+[entry.toolchain]
+cgitsync = "6.0.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
