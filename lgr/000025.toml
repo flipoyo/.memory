@@ -1,0 +1,23 @@
+[entry]
+seq = 25
+prev = "sha256:4abcbf84417d2e5526688d1a708e3eb721d7f633567a5b1e63bc94cb38115aa6"
+recorded_at = "2026-10-13T16:24:33Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.1.0 release freeze now writes its message and a readable TOML State into the release tag, and old tags still load. release load in place clones any missing repository and says how to leave the detached tree; --workspace prints the export CGSHOME line. checkout refuses to leave a commit made while detached that no branch or tag holds; the user guide, Tutorial 2 and the specs follow.",
+]
+state_id = "state(d2cd6c0c6438619c972c354785799f59f90e5d8b31dbf9ec5a7ef510fd775223)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:18bd360db677dfaff2b6d1617f94b9ea21df8e9da7c6c6e5fd89481db9dd3ddb"
+entry_hash = "sha256:985f3a7921510c485b8a145c7e2bb05248d4de158b5afb4cb869f1b6d7abe7f1"
+environment = "env(c85f58195f657b9197a8be4583a5b43832fefdb51fc95e3c810585b5ee237783)"
+
+[entry.toolchain]
+cgitsync = "6.0.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
