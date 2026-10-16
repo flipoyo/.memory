@@ -1,0 +1,23 @@
+[entry]
+seq = 37
+prev = "sha256:7ecda42dd8a1ec4342c1ba7da6b790afb3e20ce7d63f716252d116b454d6b520"
+recorded_at = "2026-10-16T15:43:37Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.3.4 cgitsync now works from Git Bash on Windows: the export lines it prints use forward slashes, the default workspace follows HOME, and a checkout no longer stops on an untracked file that differs from the branch's only by CRLF line ends.\nCloning over a read-only .git directory works, and the tutorials and guides say they are written for bash and how to adapt PowerShell and cmd.",
+]
+state_id = "state(b63d9bc6a7017302356f393288c3396a47b8333c5ecee42be3850cdc2b047ac6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:417466b5e31d69503007a272e709a2bc441b1de56315b71dd8639d0edb3be227"
+entry_hash = "sha256:f9e1e652edef37390c50d3c6d31e435b133cb5848cb586b47394909b54411a2d"
+environment = "env(868cf5a1450e7c31a3d025aa88e68d77510397b47e8e65393b3878cd0013ff5d)"
+
+[entry.toolchain]
+cgitsync = "6.3.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
