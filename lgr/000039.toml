@@ -1,0 +1,23 @@
+[entry]
+seq = 39
+prev = "sha256:09387b16db808a06efc8cf3714f4385e6b7c8612497b9c05bbc6317c40a1b4e9"
+recorded_at = "2026-10-16T15:50:06Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.3.4 The commit-message rule is now stated the same way everywhere: one message, used unchanged in every repository the change touched. AgentConduct, the ticket lifecycle, CLAUDE.md and the developer checklist no longer say each repository needs a message of its own.",
+]
+state_id = "state(c6ed861d0593d36a271a7c8c8efa7694e363f05f694730fcd7a1b8a3ec802d48)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0fffe30f0dc2eca0bcb1159702c631106ed95f4d10f3df8e8666789343b504a3"
+entry_hash = "sha256:805ec9d3e5b9b51c103a6a8c63534e9a96e25670e6a9ecb66b3553e6ed3f59be"
+environment = "env(868cf5a1450e7c31a3d025aa88e68d77510397b47e8e65393b3878cd0013ff5d)"
+
+[entry.toolchain]
+cgitsync = "6.3.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
