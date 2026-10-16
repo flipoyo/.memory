@@ -1,0 +1,23 @@
+[entry]
+seq = 35
+prev = "sha256:036de58cdec23551be9e1dafe88142053c449e028043319af5b8d5d3f87e4b26"
+recorded_at = "2026-10-16T10:52:44Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-6.3.3 Plan WindowsCompatibility from the owner's short ticket: a Windows user could not use ~ and had to double backslashes in Tutorial 1; the plan inventories the causes and records the owner's decisions. The short ticket is closed.",
+]
+state_id = "state(cfebb4985a9cda6db87ef0ce51293aaa13a9558595c85006b028765d0202a836)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3f566f54581a8bf91f2e3267fa9d6764a08e1fa0a10a941ddedfb3858f9f115c"
+entry_hash = "sha256:6deca4e5d96e2bdbbf9e2b2ba659e4daec21417dbf84b68bb5bdf28dd732a64a"
+environment = "env(89f4a4a8b66e5407b158db2317646f54e49d1d357708b603fcbd7a4f23b7ef59)"
+
+[entry.toolchain]
+cgitsync = "6.3.3"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
