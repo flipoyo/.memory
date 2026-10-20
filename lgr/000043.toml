@@ -1,0 +1,23 @@
+[entry]
+seq = 43
+prev = "sha256:0ddd86b9d9ef2de603bff5b2e1b79d504237a156c7c3307e231c5119da579f45"
+recorded_at = "2026-10-20T18:47:22Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.4.0 The tutorials now clone over HTTPS, so a reader with no SSH key can follow them: every command that clones carries --force-protocol https, except Tutorial 5, which stays on SSH and shows HTTPS beside it. release load takes --force-protocol, and pull of a .gts honours its own when it restores a missing repository, so a tree cloned over HTTPS no longer falls back to SSH for a later clone.",
+]
+state_id = "state(c153e121d466af2ae08bc275181d4d096adb0f0d4b01510576488b1f2d62621f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:672f96db2df841e7cbd3b930830ef5e08791ef1d791b1999360d7809a9bdff6e"
+entry_hash = "sha256:d0f71563aa4b43bdf0db51dd4d20ac6d0f6842cc2880c1f27b859e0764c78a08"
+environment = "env(b374a42bb822ccabae93827c6bdf5e46527d3315b22a3f6f7bee4b97742bd011)"
+
+[entry.toolchain]
+cgitsync = "6.4.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
