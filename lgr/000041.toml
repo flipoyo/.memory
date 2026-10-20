@@ -1,0 +1,23 @@
+[entry]
+seq = 41
+prev = "sha256:e04284b2c48b92d161e4264cd6502aaabb3d592383b8469dbc0c495935cdb850"
+recorded_at = "2026-10-20T17:27:52Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-6.3.4 Plan TutorialsOverHttps: the tutorials must work for a user with no SSH key, while SSH stays the default. Tutorial 5 needs a developer's credentials, so it stays on SSH and offers HTTPS only as an optional way through the tutorial.",
+]
+state_id = "state(64f9d0af8a9971e18ecc08937ab865c9e04d9823bccb2aea860ec47546a9c8ba)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:dafbb6a9531a3ac3833d0cc81b44eaffb0d7308e0970721bd69d72491e9d9a1e"
+entry_hash = "sha256:63c670a9d80a32fafed3dba733db74e73cc98a290148829cf07fdb5c0db4e00f"
+environment = "env(836f857264603e39095bb063bb6c5eb685b9f8687de6a41917f38feb0c1212af)"
+
+[entry.toolchain]
+cgitsync = "6.3.4"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
