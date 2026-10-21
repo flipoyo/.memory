@@ -1,0 +1,23 @@
+[entry]
+seq = 49
+prev = "sha256:fd2bed135e2c61074d8032e170c1c06aec44f8fa0102721fe0bb584640b5dae7"
+recorded_at = "2026-10-21T08:23:31Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.6.0 Every project now has one id, os_id, the SHA-256 of its root project name in Unicode NFC with case kept, the same on every machine.\nstatus --json and memory show print it, and validate warns about a name it would refuse, such as an empty one or one with edge whitespace or control characters. The id comes from a new OperatingSpace class that wraps the loaded tree; a refused name leaves the tree working with no id.",
+]
+state_id = "state(f13a78f8fc0d05e475e919de0d17129d6ed834245485302558298731cbfedbc8)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:262eba8759aa9e600b76bef305a13ab594ff218c12d1fa97d562d7ca3d95fa8a"
+entry_hash = "sha256:8f0c176b1add3bb5feaa67d85717093d7823b847ab80db18adc899092c9803bf"
+environment = "env(3e9cee059330017b22c2f84c79b2c6c656d40ca5ae3d3d6deb8efd67da80fb7b)"
+
+[entry.toolchain]
+cgitsync = "6.6.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
