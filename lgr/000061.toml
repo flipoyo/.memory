@@ -1,0 +1,23 @@
+[entry]
+seq = 61
+prev = "sha256:2f480e9db42050428185f87a2d38c41675dfdf84ee7928990c49cf6a4fcb8a42"
+recorded_at = "2026-10-21T19:20:48Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.10.0 Omniscience can now be asked: omniscience get, branches, history, state, proof, verify, status, report and memory read the shared register without writing to it, with a checkable proof for each State. Every answer is verified, invalid, unavailable, unauthorized or not_registered. A registered memory is read at its exact commit in a temporary clone that is removed, and a failed read is never reported as deleted. A new eighth tutorial, Omniscience, is tested end to end; the README, user guide and API guide are updated.",
+]
+state_id = "state(8cab7ac260ec05f353cb186a29b02dd6dc9dd912c9aaaf61fab4e155e5498df6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:cbeaac443fbdc0dd1042b7556c69203167c657ec06ee52bd998f502ae2acd220"
+entry_hash = "sha256:44c6ac58af25ccfa4ee05815de1a15fbb5d58fb29eb128463c5ae798e1af527e"
+environment = "env(7d5cd44dfb27427f56815be3b4c524e05c804cbdf26a07cd562b87c1c6254b99)"
+
+[entry.toolchain]
+cgitsync = "6.10.0"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

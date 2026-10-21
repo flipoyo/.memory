@@ -1,0 +1,39 @@
+[[commit]]
+entry = 61
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "30f4a8da917fa17fb5ca0fba27c3897aa1bc56f6"
+message = "cgitsync-6.10.0 Omniscience can now be asked: omniscience get, branches, history, state, proof, verify, status, report and memory read the shared register without writing to it, with a checkable proof for each State. Every answer is verified, invalid, unavailable, unauthorized or not_registered. A registered memory is read at its exact commit in a temporary clone that is removed, and a failed read is never reported as deleted. A new eighth tutorial, Omniscience, is tested end to end; the README, user guide and API guide are updated."
+authored_at = "2026-10-21T21:20:47+02:00"
+
+[[commit]]
+entry = 61
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "6b36102714c8302466e245da273667d9a4ca16cf"
+message = "cgitsync-6.10.0 Omniscience can now be asked: omniscience get, branches, history, state, proof, verify, status, report and memory read the shared register without writing to it, with a checkable proof for each State. Every answer is verified, invalid, unavailable, unauthorized or not_registered. A registered memory is read at its exact commit in a temporary clone that is removed, and a failed read is never reported as deleted. A new eighth tutorial, Omniscience, is tested end to end; the README, user guide and API guide are updated."
+authored_at = "2026-10-21T21:20:47+02:00"
+
+[[commit]]
+entry = 61
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c94c32937dd6e54dd8c3e3a6227fb2f7523473d7"
+message = "cgitsync-6.10.0 Omniscience can now be asked: omniscience get, branches, history, state, proof, verify, status, report and memory read the shared register without writing to it, with a checkable proof for each State. Every answer is verified, invalid, unavailable, unauthorized or not_registered. A registered memory is read at its exact commit in a temporary clone that is removed, and a failed read is never reported as deleted. A new eighth tutorial, Omniscience, is tested end to end; the README, user guide and API guide are updated."
+authored_at = "2026-10-21T21:20:47+02:00"
+
+[[commit]]
+entry = 61
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "a91aa7d30d370b1492cc3d6d18f7b4598103ec07"
+message = "cgitsync-6.10.0 Omniscience can now be asked: omniscience get, branches, history, state, proof, verify, status, report and memory read the shared register without writing to it, with a checkable proof for each State. Every answer is verified, invalid, unavailable, unauthorized or not_registered. A registered memory is read at its exact commit in a temporary clone that is removed, and a failed read is never reported as deleted. A new eighth tutorial, Omniscience, is tested end to end; the README, user guide and API guide are updated."
+authored_at = "2026-10-21T21:20:47+02:00"
