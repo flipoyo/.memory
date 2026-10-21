@@ -1,0 +1,23 @@
+[entry]
+seq = 47
+prev = "sha256:cd86c69523ac6974624b1b2c8ebdb33ff2ce0545d337f2be18f9acd3975917f3"
+recorded_at = "2026-10-21T00:40:08Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.5.1 After a push, cgitsync now asks each remote what it holds and records the answer beside the publication row, so a push carries the remote's own word about it. New command cgitsync memory verify --published asks the remotes again and reports each push as attested, moved or unreachable; a moved push is only reported, never repaired.",
+]
+state_id = "state(1e692c486cd169d5fe194395fefaddb3187b45f331dc50ecca08e2655e436b18)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:aa3cfda6220058967cbd10185da563e8687de2456d0598f5f6888e892c4b99e8"
+entry_hash = "sha256:c47dc064637aba97cec96653fb0c2f016cba9dd9113a8ef7d2fbaf5724944986"
+environment = "env(9cb9a92cff5e1bccd5598518190882fa5e6e75847e34dbe176a108896c3bd266)"
+
+[entry.toolchain]
+cgitsync = "6.5.1"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
