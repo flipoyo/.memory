@@ -1,0 +1,23 @@
+[entry]
+seq = 51
+prev = "sha256:9392cb180232443c285bc75940b60f7c40517ed4df67cd7d85b4143fae267bc5"
+recorded_at = "2026-10-21T09:41:55Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.7.1 A project now has one name, its .cgs project, set once at load; private branches, the memory branch, release tags and the id follow it, and a root repository named otherwise on its provider is warned about. Git operations other than clone and pull now run on OperatingSpace and refuse a tree that is not READY, except branch listing, and the Merkle root is computed from the tree, so a snapshot that disagrees with it is never written. A new test checks that the tree, its .gts and .cgs, memory show and status --json all give the same id and Merkle root.",
+]
+state_id = "state(03086b7783dd0eacda9cd444905a1124036dceae90deccd3bd01dc3b79382690)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:6b66ab765c3261f6d05ae2c5b557bbbd630cf5390da7fabf8632bf877da05722"
+entry_hash = "sha256:a780c3aed615a71ec531ef363f2655b9c29bef955e3c806891091e4ae0cc372e"
+environment = "env(087c435f1e8114b95ff45019ba0bca900d9cbe9b03f05ed27b6cd730510f02cd)"
+
+[entry.toolchain]
+cgitsync = "6.7.1"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
