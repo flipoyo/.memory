@@ -1,0 +1,39 @@
+[[commit]]
+entry = 57
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "b6cc187adc7f699368155929e94ffd89ec6ebcef"
+message = "cgitsync-6.8.1 Omniscience registration: a record format with H_OS_STATE and a global index root (GLOBAL_SCHEMA 1), plus omniscience mount (developer trees only) and omniscience record, which register nothing. The memory push fold now keeps each commit message and publication row; it read the pending commit logs from the wrong directory and deleted them, so every one was lost at the first fold. Rows already lost are not recovered."
+authored_at = "2026-10-21T13:34:59+02:00"
+
+[[commit]]
+entry = 57
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "1c6126d4e11e9cd6342adf30746a3b6eefc5f727"
+message = "cgitsync-6.8.1 Omniscience registration: a record format with H_OS_STATE and a global index root (GLOBAL_SCHEMA 1), plus omniscience mount (developer trees only) and omniscience record, which register nothing. The memory push fold now keeps each commit message and publication row; it read the pending commit logs from the wrong directory and deleted them, so every one was lost at the first fold. Rows already lost are not recovered."
+authored_at = "2026-10-21T13:34:59+02:00"
+
+[[commit]]
+entry = 57
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c79bc88aca99fb8fde8c904541a80e8830fcaf0e"
+message = "cgitsync-6.8.1 Omniscience registration: a record format with H_OS_STATE and a global index root (GLOBAL_SCHEMA 1), plus omniscience mount (developer trees only) and omniscience record, which register nothing. The memory push fold now keeps each commit message and publication row; it read the pending commit logs from the wrong directory and deleted them, so every one was lost at the first fold. Rows already lost are not recovered."
+authored_at = "2026-10-21T13:34:59+02:00"
+
+[[commit]]
+entry = 57
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "04634c66ea4571c1e1ca2df06fc22249d0ec21de"
+message = "cgitsync-6.8.1 Omniscience registration: a record format with H_OS_STATE and a global index root (GLOBAL_SCHEMA 1), plus omniscience mount (developer trees only) and omniscience record, which register nothing. The memory push fold now keeps each commit message and publication row; it read the pending commit logs from the wrong directory and deleted them, so every one was lost at the first fold. Rows already lost are not recovered."
+authored_at = "2026-10-21T13:34:59+02:00"

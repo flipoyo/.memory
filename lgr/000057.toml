@@ -1,0 +1,23 @@
+[entry]
+seq = 57
+prev = "sha256:d7f3f608e6b24c2a9461c70d543e354c5f0d3ef2fbf928f7bd038cce3c2d9a3a"
+recorded_at = "2026-10-21T11:34:59Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.8.1 Omniscience registration: a record format with H_OS_STATE and a global index root (GLOBAL_SCHEMA 1), plus omniscience mount (developer trees only) and omniscience record, which register nothing. The memory push fold now keeps each commit message and publication row; it read the pending commit logs from the wrong directory and deleted them, so every one was lost at the first fold. Rows already lost are not recovered.",
+]
+state_id = "state(7ff4a25a9ae4a13e725c2fab75680d3d4f35cc6183d01a91053facd00107acae)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:36e52afd0c69d8046411b9108fec7667f8268bf29dd020a0144e3dc242efa6ac"
+entry_hash = "sha256:4d73009402969f1b2aae4054abdf1fe8ed9f425cad606fe70ee2b5fcdcd1c846"
+environment = "env(512a72f8c183ca11d33823ad9a1e0db7189b0e67f57f2827093b05434f7c9187)"
+
+[entry.toolchain]
+cgitsync = "6.8.1"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
