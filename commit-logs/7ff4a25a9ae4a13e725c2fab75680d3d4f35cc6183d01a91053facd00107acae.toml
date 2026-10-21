@@ -37,3 +37,43 @@ branch = "main"
 sha = "04634c66ea4571c1e1ca2df06fc22249d0ec21de"
 message = "cgitsync-6.8.1 Omniscience registration: a record format with H_OS_STATE and a global index root (GLOBAL_SCHEMA 1), plus omniscience mount (developer trees only) and omniscience record, which register nothing. The memory push fold now keeps each commit message and publication row; it read the pending commit logs from the wrong directory and deleted them, so every one was lost at the first fold. Rows already lost are not recovered."
 authored_at = "2026-10-21T13:34:59+02:00"
+
+[[published]]
+entry = 62
+repository = "DocComplexGitSync"
+sha = "b6cc187adc7f699368155929e94ffd89ec6ebcef"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "30f4a8da917fa17fb5ca0fba27c3897aa1bc56f6"
+observed_at = "2026-10-21T19:21:17+00:00"
+
+[[published]]
+entry = 62
+repository = ".localSpec"
+sha = "1c6126d4e11e9cd6342adf30746a3b6eefc5f727"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "6b36102714c8302466e245da273667d9a4ca16cf"
+observed_at = "2026-10-21T19:21:17+00:00"
+
+[[published]]
+entry = 62
+repository = ".dev"
+sha = "c79bc88aca99fb8fde8c904541a80e8830fcaf0e"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "c94c32937dd6e54dd8c3e3a6227fb2f7523473d7"
+observed_at = "2026-10-21T19:21:17+00:00"
+
+[[published]]
+entry = 62
+repository = "ComplexGitSync"
+sha = "04634c66ea4571c1e1ca2df06fc22249d0ec21de"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "a91aa7d30d370b1492cc3d6d18f7b4598103ec07"
+observed_at = "2026-10-21T19:21:17+00:00"

@@ -37,3 +37,43 @@ branch = "main"
 sha = "70da20dfc8caefe24b7796624a977adf74629072"
 message = "cgitsync-6.9.0 Omniscience can now be appended to by several people at once: omniscience register commits and pushes a State's record fast-forward only, retrying when another contributor wins and never forcing, then extends a global checkpoint chain that accepts a hand-added record only when it validates. omniscience observe records, as new files beside the register, whether each registered repository and memory is still there; a repository the host says is missing is a warning first and a permanent failure only after at least two findings over seven days, and a deletion is confirmed only by the owner's signed note. Records with a hostile published row are refused when read, and observe never hands Git an option-like commit or ref or a local path taken from a record."
 authored_at = "2026-10-21T18:40:19+02:00"
+
+[[published]]
+entry = 62
+repository = "DocComplexGitSync"
+sha = "61a6adb9b7c9e78a4416d8de45d578bd1c5ffc73"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "30f4a8da917fa17fb5ca0fba27c3897aa1bc56f6"
+observed_at = "2026-10-21T19:21:17+00:00"
+
+[[published]]
+entry = 62
+repository = ".localSpec"
+sha = "c9d3ba604e1bec6e79ffaa19c48b7fd265203421"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "6b36102714c8302466e245da273667d9a4ca16cf"
+observed_at = "2026-10-21T19:21:17+00:00"
+
+[[published]]
+entry = 62
+repository = ".dev"
+sha = "5be7cb298addb191bea2a6c980051869c6b6f32b"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "c94c32937dd6e54dd8c3e3a6227fb2f7523473d7"
+observed_at = "2026-10-21T19:21:17+00:00"
+
+[[published]]
+entry = 62
+repository = "ComplexGitSync"
+sha = "70da20dfc8caefe24b7796624a977adf74629072"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-21T19:21:17+00:00"
+remote_commit = "a91aa7d30d370b1492cc3d6d18f7b4598103ec07"
+observed_at = "2026-10-21T19:21:17+00:00"

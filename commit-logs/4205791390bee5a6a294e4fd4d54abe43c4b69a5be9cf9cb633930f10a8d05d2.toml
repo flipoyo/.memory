@@ -1,0 +1,9 @@
+[[commit]]
+entry = 63
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "311299d93b648cecb3470d39cea34e07543fbf95"
+message = "cgitsync-6.10.0 update LLM assistance in README"
+authored_at = "2026-10-21T21:33:56+02:00"
