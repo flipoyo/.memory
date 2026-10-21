@@ -1,0 +1,23 @@
+[entry]
+seq = 53
+prev = "sha256:23e85d1772515399b321f35676a540b8dc843751b393e81559e774667d889dea"
+recorded_at = "2026-10-21T10:14:03Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.7.2 A repository can now be proved to be in a tree without showing the other repositories: a new private InclusionProof builds the RFC 6962 path from its leaf to the Merkle root and checks it against a trusted root and tree size. The proof uses only the existing schema-1 hash functions, so no recorded root or golden vector changes, and OperatingSpace builds one from the tree. It is stored as a table of hex strings; no command or client method uses it yet.",
+]
+state_id = "state(4b91e83a2932355f9598df14291dd4f1d87bfcfa332549fa351f739edc6ef484)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0f44fb26f1cce5ce33020cc9937b2e04e48cf144e50c7a4f0ecb7710454ec41c"
+entry_hash = "sha256:41ce0328a5ff7f38ae6a9179d02e9ec77bf61bf6348da2642a344fe5e7a02f18"
+environment = "env(8fe8e326689242a26998cad39758f063274a7d2240c689f37e336cd29e5b7549)"
+
+[entry.toolchain]
+cgitsync = "6.7.2"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
