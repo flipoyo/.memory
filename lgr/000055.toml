@@ -1,0 +1,23 @@
+[entry]
+seq = 55
+prev = "sha256:d432c7ccf0744e3a8094b690ffaebe3872b21cd1dca58a9722e335aab787bb0f"
+recorded_at = "2026-10-21T10:19:07Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-6.7.3 The code, tests and specs now cite RFC 9162, which obsoletes RFC 6962 and keeps its Merkle tree hash unchanged, so no digest or behaviour changes. AdditionalSpecs gains a paragraph saying why: the version-2 changes concern a log, not the tree, and CGS domain tags replace the RFC's prefixes anyway.",
+]
+state_id = "state(f1fb5a7bc3816d1a2006dace2ffd5bdcbc6c4b0e7b7856c907dc209b71a04da7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:33241b628241b17d2a76bdbf35de8a95de64d8e6a0704b393cdf1719282a8c71"
+entry_hash = "sha256:b6045592aaa1d3ab5785efab0a5ec3d9796239b0a4b89482543468a7d1ea7319"
+environment = "env(59d30a2d396eddf3541ab8228d4084046ae833e4799aef4615e0c5b09e714e34)"
+
+[entry.toolchain]
+cgitsync = "6.7.3"
+dvc = "none"
+git = "git version 2.43.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
