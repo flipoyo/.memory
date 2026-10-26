@@ -1,0 +1,19 @@
+[[commit]]
+entry = 65
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "9548750f665238be33955ba0649b31c87f223f7e"
+message = "cgitsync-6.10.0 DevPlan for gx4g coupling"
+authored_at = "2026-10-26T20:46:00+01:00"
+
+[[commit]]
+entry = 65
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "4cd4993b5b61d3b8ab39be8f9a789abeee6e4a49"
+message = "cgitsync-6.10.0 DevPlan for gx4g coupling"
+authored_at = "2026-10-26T20:46:00+01:00"
