@@ -1,0 +1,39 @@
+[[commit]]
+entry = 75
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "9c08e44c980729be299ae1207fc1bb3f257d34bc"
+message = "cgitsync-7.1.1 omniscience register now refuses, before writing anything, a file the register already holds under the same name with other content, so a content-address collision or a hand-edited register can never edit a record; the same bytes again change nothing. Tests now show a push the provider refuses is reported unchanged and never retried, and that a tree keeps one os_id however it is installed or restored."
+authored_at = "2026-10-27T13:43:24+01:00"
+
+[[commit]]
+entry = 75
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "e063d49c542bce7722c1c3c7f50998ece956b8a6"
+message = "cgitsync-7.1.1 omniscience register now refuses, before writing anything, a file the register already holds under the same name with other content, so a content-address collision or a hand-edited register can never edit a record; the same bytes again change nothing. Tests now show a push the provider refuses is reported unchanged and never retried, and that a tree keeps one os_id however it is installed or restored."
+authored_at = "2026-10-27T13:43:24+01:00"
+
+[[commit]]
+entry = 75
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "f7dee6d6f14737edeae26dfbcea69a7745102d4b"
+message = "cgitsync-7.1.1 omniscience register now refuses, before writing anything, a file the register already holds under the same name with other content, so a content-address collision or a hand-edited register can never edit a record; the same bytes again change nothing. Tests now show a push the provider refuses is reported unchanged and never retried, and that a tree keeps one os_id however it is installed or restored."
+authored_at = "2026-10-27T13:43:25+01:00"
+
+[[commit]]
+entry = 75
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "3268833e7fa6ee1e9429a85c24c8aff0e51ddf2f"
+message = "cgitsync-7.1.1 omniscience register now refuses, before writing anything, a file the register already holds under the same name with other content, so a content-address collision or a hand-edited register can never edit a record; the same bytes again change nothing. Tests now show a push the provider refuses is reported unchanged and never retried, and that a tree keeps one os_id however it is installed or restored."
+authored_at = "2026-10-27T13:43:25+01:00"

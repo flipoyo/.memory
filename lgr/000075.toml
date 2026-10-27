@@ -1,0 +1,23 @@
+[entry]
+seq = 75
+prev = "sha256:3befda56446333e2fe00fc67ee1a08e83bf5da3c5fea91008480cc71255903ae"
+recorded_at = "2026-10-27T12:43:25Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.1.1 omniscience register now refuses, before writing anything, a file the register already holds under the same name with other content, so a content-address collision or a hand-edited register can never edit a record; the same bytes again change nothing. Tests now show a push the provider refuses is reported unchanged and never retried, and that a tree keeps one os_id however it is installed or restored.",
+]
+state_id = "state(f8e7909fcceb35e423572e54117bc7d2a582d8e76fcb760084e19ec7cd9d12f5)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:314ff159ff72f3e96effaa5422159a63b0b16858638bd0d7469e5fa30f3b60aa"
+entry_hash = "sha256:6eec116936d858943d214b966ce305454e34d09cc007f942329be8f85b6f7b77"
+environment = "env(4b1fb5a5da50c5b312c9f23529c72c0e04e11f4425e5a7af28bdacb1bcffb609)"
+
+[entry.toolchain]
+cgitsync = "7.1.1"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
