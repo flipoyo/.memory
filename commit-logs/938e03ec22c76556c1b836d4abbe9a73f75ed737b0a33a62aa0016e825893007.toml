@@ -1,0 +1,39 @@
+[[commit]]
+entry = 91
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "e37375cebb467fec0e4e5843c4ab6123e7eda27d"
+message = "cgitsync-7.3.2 scripts/map_surface.py now prints the Minimalism map (rings, unused names, CLI leaves to client methods, provider, Merkle and GitRepo surfaces), and tests hold the provider, Merkle and GitRepo constraints as snapshots. The Minimalism ticket gains its map, section 7, and the owner's answers D1 to D7 (autonomous rule, one-way mirror, every hash MerkleRoot's, Omniscience gx4g's) are carried into MerkleRoot, CliReduction, SrcLayout, ProviderMigration, BeforeBeta, AdditionalSpecs and the digest."
+authored_at = "2026-10-27T19:47:32+01:00"
+
+[[commit]]
+entry = 91
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "d4b2edfcc67ae2a02bf07d0f32b9cbbf27ad3375"
+message = "cgitsync-7.3.2 scripts/map_surface.py now prints the Minimalism map (rings, unused names, CLI leaves to client methods, provider, Merkle and GitRepo surfaces), and tests hold the provider, Merkle and GitRepo constraints as snapshots. The Minimalism ticket gains its map, section 7, and the owner's answers D1 to D7 (autonomous rule, one-way mirror, every hash MerkleRoot's, Omniscience gx4g's) are carried into MerkleRoot, CliReduction, SrcLayout, ProviderMigration, BeforeBeta, AdditionalSpecs and the digest."
+authored_at = "2026-10-27T19:47:32+01:00"
+
+[[commit]]
+entry = 91
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "42d9cd780b9eca832612c198736319dc73282d75"
+message = "cgitsync-7.3.2 scripts/map_surface.py now prints the Minimalism map (rings, unused names, CLI leaves to client methods, provider, Merkle and GitRepo surfaces), and tests hold the provider, Merkle and GitRepo constraints as snapshots. The Minimalism ticket gains its map, section 7, and the owner's answers D1 to D7 (autonomous rule, one-way mirror, every hash MerkleRoot's, Omniscience gx4g's) are carried into MerkleRoot, CliReduction, SrcLayout, ProviderMigration, BeforeBeta, AdditionalSpecs and the digest."
+authored_at = "2026-10-27T19:47:32+01:00"
+
+[[commit]]
+entry = 91
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "490251176f45b8744206e8a8061a823d969824d3"
+message = "cgitsync-7.3.2 scripts/map_surface.py now prints the Minimalism map (rings, unused names, CLI leaves to client methods, provider, Merkle and GitRepo surfaces), and tests hold the provider, Merkle and GitRepo constraints as snapshots. The Minimalism ticket gains its map, section 7, and the owner's answers D1 to D7 (autonomous rule, one-way mirror, every hash MerkleRoot's, Omniscience gx4g's) are carried into MerkleRoot, CliReduction, SrcLayout, ProviderMigration, BeforeBeta, AdditionalSpecs and the digest."
+authored_at = "2026-10-27T19:47:32+01:00"

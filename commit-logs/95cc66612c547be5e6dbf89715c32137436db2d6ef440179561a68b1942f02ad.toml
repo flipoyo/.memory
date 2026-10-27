@@ -37,3 +37,43 @@ branch = "main"
 sha = "393325b32494124f3c9a5f7c0e4a35b77ee62b13"
 message = "cgitsync-7.3.1 push, tag and release freeze that stop part-way now raise TreePartialFailure naming the repositories completed, failed and never tried, write no State, and converge when run again.\nA tag is judged by what it points at, and a release cut short is resumed by its root tag."
 authored_at = "2026-10-27T19:05:14+01:00"
+
+[[published]]
+entry = 90
+repository = "DocComplexGitSync"
+sha = "7d5bc08383bc529aa7bf971baa71b29d45834343"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T18:05:45+00:00"
+remote_commit = "7d5bc08383bc529aa7bf971baa71b29d45834343"
+observed_at = "2026-10-27T18:05:45+00:00"
+
+[[published]]
+entry = 90
+repository = ".localSpec"
+sha = "c3fe690c0730e80817fc1997036a8ad3c36e9d59"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T18:05:45+00:00"
+remote_commit = "c3fe690c0730e80817fc1997036a8ad3c36e9d59"
+observed_at = "2026-10-27T18:05:45+00:00"
+
+[[published]]
+entry = 90
+repository = ".dev"
+sha = "988c6d84180a7267c435284b02118b9de3dd60dd"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T18:05:45+00:00"
+remote_commit = "988c6d84180a7267c435284b02118b9de3dd60dd"
+observed_at = "2026-10-27T18:05:45+00:00"
+
+[[published]]
+entry = 90
+repository = "ComplexGitSync"
+sha = "393325b32494124f3c9a5f7c0e4a35b77ee62b13"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T18:05:45+00:00"
+remote_commit = "393325b32494124f3c9a5f7c0e4a35b77ee62b13"
+observed_at = "2026-10-27T18:05:45+00:00"

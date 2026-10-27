@@ -1,0 +1,23 @@
+[entry]
+seq = 91
+prev = "sha256:70d2ee35d5847f806fcc68d6ea7b644c9f75f398a6d87e81a612b70295b79c1f"
+recorded_at = "2026-10-27T18:47:32Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.3.2 scripts/map_surface.py now prints the Minimalism map (rings, unused names, CLI leaves to client methods, provider, Merkle and GitRepo surfaces), and tests hold the provider, Merkle and GitRepo constraints as snapshots. The Minimalism ticket gains its map, section 7, and the owner's answers D1 to D7 (autonomous rule, one-way mirror, every hash MerkleRoot's, Omniscience gx4g's) are carried into MerkleRoot, CliReduction, SrcLayout, ProviderMigration, BeforeBeta, AdditionalSpecs and the digest.",
+]
+state_id = "state(938e03ec22c76556c1b836d4abbe9a73f75ed737b0a33a62aa0016e825893007)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2d544782a9dcedc0e0d1cff9d696e08a6645d587dc936370604a9180e7b6ccdf"
+entry_hash = "sha256:50b0177529e60ceea1c85b80bca4eab1377c49675ff8e126c26759b3b4fe60f4"
+environment = "env(e53cbace1eae0fc79a0d3ca6fc27c032b96aec88fbf97ddb4d9754eba79f4181)"
+
+[entry.toolchain]
+cgitsync = "7.3.2"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
