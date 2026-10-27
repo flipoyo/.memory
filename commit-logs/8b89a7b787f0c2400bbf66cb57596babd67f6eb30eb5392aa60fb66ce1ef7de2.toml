@@ -17,3 +17,23 @@ branch = "ComplexGitSync"
 sha = "c791a2bcce448dc8ed2f3a687032dbb0a02da5f5"
 message = "cgitsync-7.3.0 ticket review integrates the short ticket gitRepo: SrcLayout splits src into GitRepo, Merkle, Tree and OperatingSpace before beta, with GitRepo a dependency that imports nothing back, and MerkleRoot lives in Merkle. The Omniscience register is gx4g's: ProviderMigration now covers its writes, and BranchProtection hands dead-branch findings to gx4g instead of writing them. BeforeBeta gains step S8 and constraints 6 and 7; Minimalism maps folders and the GitRepo boundary; AdditionalSpecs and the digest carry the register rule."
 authored_at = "2026-10-27T18:11:40+01:00"
+
+[[published]]
+entry = 86
+repository = ".localSpec"
+sha = "9b954dea58c1a8598ba60a264567aa28af3ff5df"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T17:12:07+00:00"
+remote_commit = "9b954dea58c1a8598ba60a264567aa28af3ff5df"
+observed_at = "2026-10-27T17:12:07+00:00"
+
+[[published]]
+entry = 86
+repository = ".dev"
+sha = "c791a2bcce448dc8ed2f3a687032dbb0a02da5f5"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T17:12:07+00:00"
+remote_commit = "c791a2bcce448dc8ed2f3a687032dbb0a02da5f5"
+observed_at = "2026-10-27T17:12:07+00:00"

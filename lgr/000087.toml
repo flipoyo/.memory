@@ -1,0 +1,23 @@
+[entry]
+seq = 87
+prev = "sha256:d04844a39078d803867b6b9bf65aea9fc6cae24023b83140e4d460ea822345a2"
+recorded_at = "2026-10-27T17:34:43Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-7.3.0 ticket review merges AgenticControl into NestedAgentMaster (main_1-8): gx4g's DEV bootstrap refuses its own State on a duplicate relative_path, and under initialise the PROJECT's .agent is master and a nested project's agentics its slave.\nIts section 7 carries the Project, Parent and Leaf model and the questions still open on how a project's orchestrator mobilises a local agent; the short ticket mount is closed into it. BeforeBeta runs it as S10, before the user install and the inspection of three trees; MerkleRoot is to host its integrity schema 2.",
+]
+state_id = "state(2ed679a60c855202b69c805c12f165a52d36271f7705f5b78c55a55d7c7535d9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c1bdc6c9882ac0bdc1178a77b150e28b47a23c2849f87ab0d6699ef825fae1bb"
+entry_hash = "sha256:ada5e8deef0b71e2bea09b44db2a1ce9bd715dd7d392e4d662469f7c01dd3f89"
+environment = "env(1920d3d620a78a92af69f38133a613981f2b2445234def512e44d0e387f33801)"
+
+[entry.toolchain]
+cgitsync = "7.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
