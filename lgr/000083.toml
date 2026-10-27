@@ -1,0 +1,23 @@
+[entry]
+seq = 83
+prev = "sha256:4b3eeb8a9dd9f44969553f656f11d40646a9d38b0527494e61243fd36969afd1"
+recorded_at = "2026-10-27T16:43:37Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-7.3.0 pointeur fix in .dev, nothing to report really",
+]
+state_id = "state(3fc77ffc8a97a90f4ad6f3ac6771d9e35706601fe46f1dc83986ef512b45ad7b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:341c1b91fe78b0bac79fc20c27677b79944bf9ed853d16858554422a095cb276"
+entry_hash = "sha256:723527d47cfb003acc5d157c8d9f92a9b23e9035fa686bef2b286005a9dda3b6"
+environment = "env(1920d3d620a78a92af69f38133a613981f2b2445234def512e44d0e387f33801)"
+
+[entry.toolchain]
+cgitsync = "7.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

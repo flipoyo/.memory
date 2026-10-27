@@ -1,0 +1,9 @@
+[[commit]]
+entry = 83
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c5655c4b68cd19555a04750d959c3b891dacb9a7"
+message = "cgitsync-7.3.0 pointeur fix in .dev, nothing to report really"
+authored_at = "2026-10-27T17:43:37+01:00"

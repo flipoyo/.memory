@@ -17,3 +17,23 @@ branch = "ComplexGitSync"
 sha = "19f0cfdac2706e15abb6734a8d1d5008db3badba"
 message = "cgitsync-7.3.0 ticket review integrates the short ticket minimalism: Minimalism maps every class, method and command by ring, MerkleRoot puts every State hash behind one class, and CliReduction applies the map, all before beta.\nBranchProtection is split: cgitsync keeps the USER guard and the dead-branch report, while the provider's lock and roles go to gx4g with every other provider API call (ProviderMigration). BeforeBeta gains steps S5 to S8 and the constraints of its section 2.5, and AdditionalSpecs and the digest carry the three rules."
 authored_at = "2026-10-27T17:39:10+01:00"
+
+[[published]]
+entry = 82
+repository = ".localSpec"
+sha = "8a12da2be1865655a4e402dd8f66beab7e6fd04d"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T16:39:50+00:00"
+remote_commit = "8a12da2be1865655a4e402dd8f66beab7e6fd04d"
+observed_at = "2026-10-27T16:39:50+00:00"
+
+[[published]]
+entry = 82
+repository = ".dev"
+sha = "19f0cfdac2706e15abb6734a8d1d5008db3badba"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T16:39:50+00:00"
+remote_commit = "19f0cfdac2706e15abb6734a8d1d5008db3badba"
+observed_at = "2026-10-27T16:39:50+00:00"
