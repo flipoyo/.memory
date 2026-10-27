@@ -1,0 +1,23 @@
+[entry]
+seq = 72
+prev = "sha256:d25bc5dabf1e89c3cdc9a959aca788169eb49051dccf2017585520723306817e"
+recorded_at = "2026-10-27T03:01:54Z"
+command = "close_branch"
+argv = [
+    "branch",
+    "close",
+    "memory-dev",
+]
+state_id = "state(345f1c9e71f0284e90185873cc2f5a48e6e33614864917fb4afa3ebd385ffe5c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:5fd369d05cfcdf1aefdce180a8ae3be4a47c17bc84fee36b1f2582575a84cd13"
+environment = "env(dca427495ffcfae9dfa5af80f94d75d36f497c631f1ea94bca634f7a87d85e50)"
+
+[entry.toolchain]
+cgitsync = "7.1.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

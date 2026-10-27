@@ -37,3 +37,43 @@ branch = "main"
 sha = "806f358c016ed45e18a0daff04edc276a5d18f0c"
 message = "cgitsync-7.1.0 verify now reports a memory whose commit messages were deleted by the memory push fold before 6.8.1 as incomplete, exit 0, listing each lost entry as COMMIT_LOG_LOST and counting them, instead of calling it corrupt.\nThe build that wrote an entry is inside the entry's hash, so it cannot be edited to excuse a loss; a partial, changed or later loss is still corrupt, and nothing is repaired. branch close and branch delete, which refuse a corrupt ledger, now run on such a tree."
 authored_at = "2026-10-27T03:59:29+01:00"
+
+[[published]]
+entry = 71
+repository = "DocComplexGitSync"
+sha = "a3f4c569276dd138d6dfb7dcde5fe91c95503820"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T02:59:51+00:00"
+remote_commit = "a3f4c569276dd138d6dfb7dcde5fe91c95503820"
+observed_at = "2026-10-27T02:59:51+00:00"
+
+[[published]]
+entry = 71
+repository = ".localSpec"
+sha = "63248a04b9ee0d81df948962e08e49b71fb2088c"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T02:59:51+00:00"
+remote_commit = "63248a04b9ee0d81df948962e08e49b71fb2088c"
+observed_at = "2026-10-27T02:59:51+00:00"
+
+[[published]]
+entry = 71
+repository = ".dev"
+sha = "c59955f00ee377f83a27a14ef253e4173ab68c9f"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T02:59:51+00:00"
+remote_commit = "c59955f00ee377f83a27a14ef253e4173ab68c9f"
+observed_at = "2026-10-27T02:59:51+00:00"
+
+[[published]]
+entry = 71
+repository = "ComplexGitSync"
+sha = "806f358c016ed45e18a0daff04edc276a5d18f0c"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T02:59:51+00:00"
+remote_commit = "806f358c016ed45e18a0daff04edc276a5d18f0c"
+observed_at = "2026-10-27T02:59:51+00:00"
