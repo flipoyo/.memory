@@ -1,0 +1,23 @@
+[entry]
+seq = 67
+prev = "sha256:43f01a058ee982c740c5c1e52e893d8830f57dc9617fdadad19d65913e224022"
+recorded_at = "2026-10-27T01:01:04Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.0.0 initialise now takes a .cgs only: a .gts is refused by name, pointing to bootstrap or to release load, which now also takes a State's full hash, found on disk or in the memory and loaded only if its content still has that name. A standalone tree's memory and its self-history are now filed on ComplexGitSync_<project>, apart from the nested tree's <project>. New project and branch names may not contain an underscore, and a memory branch that already exists is never created again. A developer install that leaves a writable private repository on a fallback branch now ends READY, warns by name not to commit there, and for the memory offers the command that creates its branch.",
+]
+state_id = "state(30e82a4dcb5ad6d9d1a6ef5164c32b7edaf4accc3323f8cd114d7420e5a08474)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:062fb84fa9a7051e75d65cfc29edfb04557136040bb97535f0edfba1bdf89746"
+entry_hash = "sha256:89e3f826dce464d8b900720118cb84d23efffa3c40c0a44804fa234a8dbf7f31"
+environment = "env(b7fe96f1fad5c48d1b85bbec8f6b70e6b5df7b00f3e8e03722059044834156e8)"
+
+[entry.toolchain]
+cgitsync = "7.0.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

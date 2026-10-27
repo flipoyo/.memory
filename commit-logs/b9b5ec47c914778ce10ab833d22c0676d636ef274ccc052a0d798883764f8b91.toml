@@ -17,3 +17,23 @@ branch = "ComplexGitSync"
 sha = "4cd4993b5b61d3b8ab39be8f9a789abeee6e4a49"
 message = "cgitsync-6.10.0 DevPlan for gx4g coupling"
 authored_at = "2026-10-26T20:46:00+01:00"
+
+[[published]]
+entry = 66
+repository = ".localSpec"
+sha = "9548750f665238be33955ba0649b31c87f223f7e"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-26T19:46:23+00:00"
+remote_commit = "9548750f665238be33955ba0649b31c87f223f7e"
+observed_at = "2026-10-26T19:46:23+00:00"
+
+[[published]]
+entry = 66
+repository = ".dev"
+sha = "4cd4993b5b61d3b8ab39be8f9a789abeee6e4a49"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-26T19:46:23+00:00"
+remote_commit = "4cd4993b5b61d3b8ab39be8f9a789abeee6e4a49"
+observed_at = "2026-10-26T19:46:23+00:00"

@@ -1,0 +1,39 @@
+[[commit]]
+entry = 67
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "4dedfb35b7e4b15c54c4430899ba016e4de6ead0"
+message = "cgitsync-7.0.0 initialise now takes a .cgs only: a .gts is refused by name, pointing to bootstrap or to release load, which now also takes a State's full hash, found on disk or in the memory and loaded only if its content still has that name. A standalone tree's memory and its self-history are now filed on ComplexGitSync_<project>, apart from the nested tree's <project>. New project and branch names may not contain an underscore, and a memory branch that already exists is never created again. A developer install that leaves a writable private repository on a fallback branch now ends READY, warns by name not to commit there, and for the memory offers the command that creates its branch."
+authored_at = "2026-10-27T02:01:03+01:00"
+
+[[commit]]
+entry = 67
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "2b235a2342bee1ec372bd54208c3e430e4fa59a9"
+message = "cgitsync-7.0.0 initialise now takes a .cgs only: a .gts is refused by name, pointing to bootstrap or to release load, which now also takes a State's full hash, found on disk or in the memory and loaded only if its content still has that name. A standalone tree's memory and its self-history are now filed on ComplexGitSync_<project>, apart from the nested tree's <project>. New project and branch names may not contain an underscore, and a memory branch that already exists is never created again. A developer install that leaves a writable private repository on a fallback branch now ends READY, warns by name not to commit there, and for the memory offers the command that creates its branch."
+authored_at = "2026-10-27T02:01:03+01:00"
+
+[[commit]]
+entry = 67
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "9fda1edccb7753feb79d2d0df55a290d53fde21e"
+message = "cgitsync-7.0.0 initialise now takes a .cgs only: a .gts is refused by name, pointing to bootstrap or to release load, which now also takes a State's full hash, found on disk or in the memory and loaded only if its content still has that name. A standalone tree's memory and its self-history are now filed on ComplexGitSync_<project>, apart from the nested tree's <project>. New project and branch names may not contain an underscore, and a memory branch that already exists is never created again. A developer install that leaves a writable private repository on a fallback branch now ends READY, warns by name not to commit there, and for the memory offers the command that creates its branch."
+authored_at = "2026-10-27T02:01:03+01:00"
+
+[[commit]]
+entry = 67
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "a48fbc6165c57d066af7b54dc8acaff2f53eca0d"
+message = "cgitsync-7.0.0 initialise now takes a .cgs only: a .gts is refused by name, pointing to bootstrap or to release load, which now also takes a State's full hash, found on disk or in the memory and loaded only if its content still has that name. A standalone tree's memory and its self-history are now filed on ComplexGitSync_<project>, apart from the nested tree's <project>. New project and branch names may not contain an underscore, and a memory branch that already exists is never created again. A developer install that leaves a writable private repository on a fallback branch now ends READY, warns by name not to commit there, and for the memory offers the command that creates its branch."
+authored_at = "2026-10-27T02:01:03+01:00"
