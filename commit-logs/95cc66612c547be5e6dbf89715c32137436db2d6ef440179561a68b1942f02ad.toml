@@ -1,0 +1,39 @@
+[[commit]]
+entry = 89
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "7d5bc08383bc529aa7bf971baa71b29d45834343"
+message = "cgitsync-7.3.1 push, tag and release freeze that stop part-way now raise TreePartialFailure naming the repositories completed, failed and never tried, write no State, and converge when run again.\nA tag is judged by what it points at, and a release cut short is resumed by its root tag."
+authored_at = "2026-10-27T19:05:14+01:00"
+
+[[commit]]
+entry = 89
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c3fe690c0730e80817fc1997036a8ad3c36e9d59"
+message = "cgitsync-7.3.1 push, tag and release freeze that stop part-way now raise TreePartialFailure naming the repositories completed, failed and never tried, write no State, and converge when run again.\nA tag is judged by what it points at, and a release cut short is resumed by its root tag."
+authored_at = "2026-10-27T19:05:14+01:00"
+
+[[commit]]
+entry = 89
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "988c6d84180a7267c435284b02118b9de3dd60dd"
+message = "cgitsync-7.3.1 push, tag and release freeze that stop part-way now raise TreePartialFailure naming the repositories completed, failed and never tried, write no State, and converge when run again.\nA tag is judged by what it points at, and a release cut short is resumed by its root tag."
+authored_at = "2026-10-27T19:05:14+01:00"
+
+[[commit]]
+entry = 89
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "393325b32494124f3c9a5f7c0e4a35b77ee62b13"
+message = "cgitsync-7.3.1 push, tag and release freeze that stop part-way now raise TreePartialFailure naming the repositories completed, failed and never tried, write no State, and converge when run again.\nA tag is judged by what it points at, and a release cut short is resumed by its root tag."
+authored_at = "2026-10-27T19:05:14+01:00"

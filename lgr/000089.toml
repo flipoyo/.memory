@@ -1,0 +1,23 @@
+[entry]
+seq = 89
+prev = "sha256:628f83bd7c53b6cedc47d8cc07da0b64e0cc59ea83c5b20b705016d3537450d6"
+recorded_at = "2026-10-27T18:05:14Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.3.1 push, tag and release freeze that stop part-way now raise TreePartialFailure naming the repositories completed, failed and never tried, write no State, and converge when run again.\nA tag is judged by what it points at, and a release cut short is resumed by its root tag.",
+]
+state_id = "state(95cc66612c547be5e6dbf89715c32137436db2d6ef440179561a68b1942f02ad)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:457d6c92064465bf5ed86995de84c6d87f3419e34f7d237adf0b96c4695feb2e"
+entry_hash = "sha256:ac262c49544faad686a27a5b46df374736c5feb07560fab6725a0507598c2d06"
+environment = "env(26acee34a99f3378884b46c60f91a9dbfb6a6f0028fe9418b1f9cf09f3ac1ed6)"
+
+[entry.toolchain]
+cgitsync = "7.3.1"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
