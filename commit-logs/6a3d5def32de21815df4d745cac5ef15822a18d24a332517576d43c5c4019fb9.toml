@@ -1,0 +1,39 @@
+[[commit]]
+entry = 77
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "4a8382afdbdba7ca9b3e808cf35bf4d2a32b664e"
+message = "cgitsync-7.2.0 memory status now names the two halves of a memory folded and pending and prints how many entries sit in each, and memory_status returns pending_entries. The tutorial, user guide, API docs and AdditionalSpecs use those two words; the .cgitsync directory keeps its name."
+authored_at = "2026-10-27T15:39:11+01:00"
+
+[[commit]]
+entry = 77
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "7058084ea540a5aa40eb93a8df6f981de2342bca"
+message = "cgitsync-7.2.0 memory status now names the two halves of a memory folded and pending and prints how many entries sit in each, and memory_status returns pending_entries. The tutorial, user guide, API docs and AdditionalSpecs use those two words; the .cgitsync directory keeps its name."
+authored_at = "2026-10-27T15:39:11+01:00"
+
+[[commit]]
+entry = 77
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "2e0b54ed2d0b71b1da8fd6c24d5909db251ff08f"
+message = "cgitsync-7.2.0 memory status now names the two halves of a memory folded and pending and prints how many entries sit in each, and memory_status returns pending_entries. The tutorial, user guide, API docs and AdditionalSpecs use those two words; the .cgitsync directory keeps its name."
+authored_at = "2026-10-27T15:39:11+01:00"
+
+[[commit]]
+entry = 77
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "7e3ef4b7faecfa2194e21e02560edaf82e0a2825"
+message = "cgitsync-7.2.0 memory status now names the two halves of a memory folded and pending and prints how many entries sit in each, and memory_status returns pending_entries. The tutorial, user guide, API docs and AdditionalSpecs use those two words; the .cgitsync directory keeps its name."
+authored_at = "2026-10-27T15:39:11+01:00"

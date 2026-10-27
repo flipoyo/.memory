@@ -1,0 +1,23 @@
+[entry]
+seq = 77
+prev = "sha256:236d018878be5b74384eab99a9f9bd0838215c9bd6780a2caa8c3ca05e35a1fc"
+recorded_at = "2026-10-27T14:39:12Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.2.0 memory status now names the two halves of a memory folded and pending and prints how many entries sit in each, and memory_status returns pending_entries. The tutorial, user guide, API docs and AdditionalSpecs use those two words; the .cgitsync directory keeps its name.",
+]
+state_id = "state(6a3d5def32de21815df4d745cac5ef15822a18d24a332517576d43c5c4019fb9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:98ff97a31248efa82ea16ef08f87bc92b76911912b0fccb0acf4d7f699cb2bf9"
+entry_hash = "sha256:87ff2be0ea7b19472bdf37e48340f948b50a8751e807c34259ba7b6bcf8a5042"
+environment = "env(4991eadb3a000f8e4dfc1d200154cb05e3e7de97cf6eba9b44f06cfafe9876f9)"
+
+[entry.toolchain]
+cgitsync = "7.2.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

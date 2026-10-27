@@ -37,3 +37,43 @@ branch = "main"
 sha = "3268833e7fa6ee1e9429a85c24c8aff0e51ddf2f"
 message = "cgitsync-7.1.1 omniscience register now refuses, before writing anything, a file the register already holds under the same name with other content, so a content-address collision or a hand-edited register can never edit a record; the same bytes again change nothing. Tests now show a push the provider refuses is reported unchanged and never retried, and that a tree keeps one os_id however it is installed or restored."
 authored_at = "2026-10-27T13:43:25+01:00"
+
+[[published]]
+entry = 76
+repository = "DocComplexGitSync"
+sha = "9c08e44c980729be299ae1207fc1bb3f257d34bc"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T12:43:48+00:00"
+remote_commit = "9c08e44c980729be299ae1207fc1bb3f257d34bc"
+observed_at = "2026-10-27T12:43:48+00:00"
+
+[[published]]
+entry = 76
+repository = ".localSpec"
+sha = "e063d49c542bce7722c1c3c7f50998ece956b8a6"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T12:43:48+00:00"
+remote_commit = "e063d49c542bce7722c1c3c7f50998ece956b8a6"
+observed_at = "2026-10-27T12:43:48+00:00"
+
+[[published]]
+entry = 76
+repository = ".dev"
+sha = "f7dee6d6f14737edeae26dfbcea69a7745102d4b"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T12:43:48+00:00"
+remote_commit = "f7dee6d6f14737edeae26dfbcea69a7745102d4b"
+observed_at = "2026-10-27T12:43:48+00:00"
+
+[[published]]
+entry = 76
+repository = "ComplexGitSync"
+sha = "3268833e7fa6ee1e9429a85c24c8aff0e51ddf2f"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T12:43:48+00:00"
+remote_commit = "3268833e7fa6ee1e9429a85c24c8aff0e51ddf2f"
+observed_at = "2026-10-27T12:43:48+00:00"
