@@ -1,0 +1,23 @@
+[entry]
+seq = 70
+prev = "sha256:be1c3d4e2254613d52cf414e9134db4b9b3ca5a6437775718c7d5dfd4a681c15"
+recorded_at = "2026-10-27T02:59:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.1.0 verify now reports a memory whose commit messages were deleted by the memory push fold before 6.8.1 as incomplete, exit 0, listing each lost entry as COMMIT_LOG_LOST and counting them, instead of calling it corrupt.\nThe build that wrote an entry is inside the entry's hash, so it cannot be edited to excuse a loss; a partial, changed or later loss is still corrupt, and nothing is repaired. branch close and branch delete, which refuse a corrupt ledger, now run on such a tree.",
+]
+state_id = "state(cee0fbf740a9cea5a761b0118c3a1b82f0f726472d5601eb8eb117b912011d0e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3ecb14c33b413cce6e8602f63949888b82b4ec680b1b7243bc86b6fe19029ba5"
+entry_hash = "sha256:852513fb9b8719ced47fa448cb73db5f26adcfacb263a9fb8ae3dd26ec592af6"
+environment = "env(dca427495ffcfae9dfa5af80f94d75d36f497c631f1ea94bca634f7a87d85e50)"
+
+[entry.toolchain]
+cgitsync = "7.1.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

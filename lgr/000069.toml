@@ -1,0 +1,41 @@
+[entry]
+seq = 69
+prev = "sha256:a6e13b3cbe17b2d355a6f9fb91d4159c3a95a1aea67b72bc84c915429e327db0"
+recorded_at = "2026-10-27T01:35:22Z"
+command = "branch_close_keep"
+argv = [
+    "branch",
+    "close",
+    "memory-dev",
+]
+state_id = "state(48b36220c6134523cd06e96f4d2c71e7d60d59c7cbd7d3cb007f6d89e437a97c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:be1c3d4e2254613d52cf414e9134db4b9b3ca5a6437775718c7d5dfd4a681c15"
+environment = "env(b7fe96f1fad5c48d1b85bbec8f6b70e6b5df7b00f3e8e03722059044834156e8)"
+
+[entry.toolchain]
+cgitsync = "7.0.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
+
+[[entry.relocations]]
+asset = "commit:.memory:67d62e7116f2217429bd31994513093e9024963b"
+from = ".memory:refs/heads/ComplexGitSync_memory-dev"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "67d62e7116f2217429bd31994513093e9024963b"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_memory-dev:1"
+from = ".memory:refs/heads/ComplexGitSync_memory-dev"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:b2cf909213c622bb909ad41a96c95ff26a24c7c3f8c2af789f7940781257218b"
+
+[[entry.relocations]]
+asset = "lgr:.memory:ComplexGitSync_memory-dev:2"
+from = ".memory:refs/heads/ComplexGitSync_memory-dev"
+to = ".memory:refs/heads/ComplexGitSync_ancestors"
+ancestor = "sha256:e715687847659308c8e6ed8d97dd4a03ef379ee775e5b73bae8b8712ab1f143b"

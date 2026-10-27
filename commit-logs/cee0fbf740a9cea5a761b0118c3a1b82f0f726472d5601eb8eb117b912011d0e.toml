@@ -1,0 +1,39 @@
+[[commit]]
+entry = 70
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "a3f4c569276dd138d6dfb7dcde5fe91c95503820"
+message = "cgitsync-7.1.0 verify now reports a memory whose commit messages were deleted by the memory push fold before 6.8.1 as incomplete, exit 0, listing each lost entry as COMMIT_LOG_LOST and counting them, instead of calling it corrupt.\nThe build that wrote an entry is inside the entry's hash, so it cannot be edited to excuse a loss; a partial, changed or later loss is still corrupt, and nothing is repaired. branch close and branch delete, which refuse a corrupt ledger, now run on such a tree."
+authored_at = "2026-10-27T03:59:29+01:00"
+
+[[commit]]
+entry = 70
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "63248a04b9ee0d81df948962e08e49b71fb2088c"
+message = "cgitsync-7.1.0 verify now reports a memory whose commit messages were deleted by the memory push fold before 6.8.1 as incomplete, exit 0, listing each lost entry as COMMIT_LOG_LOST and counting them, instead of calling it corrupt.\nThe build that wrote an entry is inside the entry's hash, so it cannot be edited to excuse a loss; a partial, changed or later loss is still corrupt, and nothing is repaired. branch close and branch delete, which refuse a corrupt ledger, now run on such a tree."
+authored_at = "2026-10-27T03:59:29+01:00"
+
+[[commit]]
+entry = 70
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c59955f00ee377f83a27a14ef253e4173ab68c9f"
+message = "cgitsync-7.1.0 verify now reports a memory whose commit messages were deleted by the memory push fold before 6.8.1 as incomplete, exit 0, listing each lost entry as COMMIT_LOG_LOST and counting them, instead of calling it corrupt.\nThe build that wrote an entry is inside the entry's hash, so it cannot be edited to excuse a loss; a partial, changed or later loss is still corrupt, and nothing is repaired. branch close and branch delete, which refuse a corrupt ledger, now run on such a tree."
+authored_at = "2026-10-27T03:59:29+01:00"
+
+[[commit]]
+entry = 70
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "806f358c016ed45e18a0daff04edc276a5d18f0c"
+message = "cgitsync-7.1.0 verify now reports a memory whose commit messages were deleted by the memory push fold before 6.8.1 as incomplete, exit 0, listing each lost entry as COMMIT_LOG_LOST and counting them, instead of calling it corrupt.\nThe build that wrote an entry is inside the entry's hash, so it cannot be edited to excuse a loss; a partial, changed or later loss is still corrupt, and nothing is repaired. branch close and branch delete, which refuse a corrupt ledger, now run on such a tree."
+authored_at = "2026-10-27T03:59:29+01:00"
