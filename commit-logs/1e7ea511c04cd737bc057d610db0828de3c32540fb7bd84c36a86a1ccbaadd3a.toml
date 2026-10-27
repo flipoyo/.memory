@@ -37,3 +37,43 @@ branch = "main"
 sha = "a492f07f711d28a7301eb09dd78918dad0059ffa"
 message = "cgitsync-7.3.0 every writing command now takes one advisory lock per workspace (.cgitsync/.lock, never folded or pushed) and a second writer is refused before it touches any repository, naming the holder and the lock's age.\ncgitsync unlock clears a lock whose process is gone (a live holder only with --force); a ledger entry that could not be written now reaches the person as a warning. pull locks the workspace its source sits in, pull --private is covered too, and the tests include two real processes."
 authored_at = "2026-10-27T17:12:39+01:00"
+
+[[published]]
+entry = 80
+repository = "DocComplexGitSync"
+sha = "f4ebb73d9d130743c02583edda2496f4c70d8f66"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T16:13:04+00:00"
+remote_commit = "f4ebb73d9d130743c02583edda2496f4c70d8f66"
+observed_at = "2026-10-27T16:13:04+00:00"
+
+[[published]]
+entry = 80
+repository = ".localSpec"
+sha = "bb90270a0e802ef5e4dc0bb19a4e03dbe3f1c219"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T16:13:04+00:00"
+remote_commit = "bb90270a0e802ef5e4dc0bb19a4e03dbe3f1c219"
+observed_at = "2026-10-27T16:13:04+00:00"
+
+[[published]]
+entry = 80
+repository = ".dev"
+sha = "7e03f696896b9369b1b887406f88e6f0f90a3684"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T16:13:04+00:00"
+remote_commit = "7e03f696896b9369b1b887406f88e6f0f90a3684"
+observed_at = "2026-10-27T16:13:04+00:00"
+
+[[published]]
+entry = 80
+repository = "ComplexGitSync"
+sha = "a492f07f711d28a7301eb09dd78918dad0059ffa"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T16:13:04+00:00"
+remote_commit = "a492f07f711d28a7301eb09dd78918dad0059ffa"
+observed_at = "2026-10-27T16:13:04+00:00"

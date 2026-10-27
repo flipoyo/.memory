@@ -1,0 +1,19 @@
+[[commit]]
+entry = 81
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "8a12da2be1865655a4e402dd8f66beab7e6fd04d"
+message = "cgitsync-7.3.0 ticket review integrates the short ticket minimalism: Minimalism maps every class, method and command by ring, MerkleRoot puts every State hash behind one class, and CliReduction applies the map, all before beta.\nBranchProtection is split: cgitsync keeps the USER guard and the dead-branch report, while the provider's lock and roles go to gx4g with every other provider API call (ProviderMigration). BeforeBeta gains steps S5 to S8 and the constraints of its section 2.5, and AdditionalSpecs and the digest carry the three rules."
+authored_at = "2026-10-27T17:39:10+01:00"
+
+[[commit]]
+entry = 81
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "19f0cfdac2706e15abb6734a8d1d5008db3badba"
+message = "cgitsync-7.3.0 ticket review integrates the short ticket minimalism: Minimalism maps every class, method and command by ring, MerkleRoot puts every State hash behind one class, and CliReduction applies the map, all before beta.\nBranchProtection is split: cgitsync keeps the USER guard and the dead-branch report, while the provider's lock and roles go to gx4g with every other provider API call (ProviderMigration). BeforeBeta gains steps S5 to S8 and the constraints of its section 2.5, and AdditionalSpecs and the digest carry the three rules."
+authored_at = "2026-10-27T17:39:10+01:00"

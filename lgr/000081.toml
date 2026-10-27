@@ -1,0 +1,23 @@
+[entry]
+seq = 81
+prev = "sha256:a90817e1b4a131058e89e805c58814e5df544bcc7ac34ac2608b771d3ca96145"
+recorded_at = "2026-10-27T16:39:11Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-7.3.0 ticket review integrates the short ticket minimalism: Minimalism maps every class, method and command by ring, MerkleRoot puts every State hash behind one class, and CliReduction applies the map, all before beta.\nBranchProtection is split: cgitsync keeps the USER guard and the dead-branch report, while the provider's lock and roles go to gx4g with every other provider API call (ProviderMigration). BeforeBeta gains steps S5 to S8 and the constraints of its section 2.5, and AdditionalSpecs and the digest carry the three rules.",
+]
+state_id = "state(29acdeba084a76caf8874ad9b6721bdd5b50390d147cef1e1b18aa84790ac6cd)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:bd18c3e5f173e706bb6ab181d72400379b5cc5528d7f160de7fe8b4d3ac9ad7f"
+entry_hash = "sha256:d46c31f92797ca34a05cebe9c1747f421b4fa626f9add5f67dee198987529237"
+environment = "env(1920d3d620a78a92af69f38133a613981f2b2445234def512e44d0e387f33801)"
+
+[entry.toolchain]
+cgitsync = "7.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
