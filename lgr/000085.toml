@@ -1,0 +1,23 @@
+[entry]
+seq = 85
+prev = "sha256:f643671531a79f5a66a43f8b52207f82863a47030183fbff622304daa4b510d0"
+recorded_at = "2026-10-27T17:11:41Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-7.3.0 ticket review integrates the short ticket gitRepo: SrcLayout splits src into GitRepo, Merkle, Tree and OperatingSpace before beta, with GitRepo a dependency that imports nothing back, and MerkleRoot lives in Merkle. The Omniscience register is gx4g's: ProviderMigration now covers its writes, and BranchProtection hands dead-branch findings to gx4g instead of writing them. BeforeBeta gains step S8 and constraints 6 and 7; Minimalism maps folders and the GitRepo boundary; AdditionalSpecs and the digest carry the register rule.",
+]
+state_id = "state(8b89a7b787f0c2400bbf66cb57596babd67f6eb30eb5392aa60fb66ce1ef7de2)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8b4946b620cd33c5bb50bee14768b9e5775cd32511d88ac3e5eb84ffc69b69cf"
+entry_hash = "sha256:3962984943bf1883fa630f0f9e246e9ec5883cae166b1405d89f32c214c43125"
+environment = "env(1920d3d620a78a92af69f38133a613981f2b2445234def512e44d0e387f33801)"
+
+[entry.toolchain]
+cgitsync = "7.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
