@@ -1,0 +1,23 @@
+[entry]
+seq = 79
+prev = "sha256:dae4d48b46474bfe3d131f91f487bf3781df757c91f7ea549022c748d47f5325"
+recorded_at = "2026-10-27T16:12:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-7.3.0 every writing command now takes one advisory lock per workspace (.cgitsync/.lock, never folded or pushed) and a second writer is refused before it touches any repository, naming the holder and the lock's age.\ncgitsync unlock clears a lock whose process is gone (a live holder only with --force); a ledger entry that could not be written now reaches the person as a warning. pull locks the workspace its source sits in, pull --private is covered too, and the tests include two real processes.",
+]
+state_id = "state(1e7ea511c04cd737bc057d610db0828de3c32540fb7bd84c36a86a1ccbaadd3a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2db4e6428f0ed40187abb805e99fc17082dbc121073f7e47fd257a6fd9a1ee85"
+entry_hash = "sha256:661db2f995593c38e1279ca2ce13920bb619c1c7afca162162b2cd3a4d67b9e4"
+environment = "env(1920d3d620a78a92af69f38133a613981f2b2445234def512e44d0e387f33801)"
+
+[entry.toolchain]
+cgitsync = "7.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

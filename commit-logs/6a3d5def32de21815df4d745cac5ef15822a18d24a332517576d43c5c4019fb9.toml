@@ -37,3 +37,43 @@ branch = "main"
 sha = "7e3ef4b7faecfa2194e21e02560edaf82e0a2825"
 message = "cgitsync-7.2.0 memory status now names the two halves of a memory folded and pending and prints how many entries sit in each, and memory_status returns pending_entries. The tutorial, user guide, API docs and AdditionalSpecs use those two words; the .cgitsync directory keeps its name."
 authored_at = "2026-10-27T15:39:11+01:00"
+
+[[published]]
+entry = 78
+repository = "DocComplexGitSync"
+sha = "4a8382afdbdba7ca9b3e808cf35bf4d2a32b664e"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T14:39:37+00:00"
+remote_commit = "4a8382afdbdba7ca9b3e808cf35bf4d2a32b664e"
+observed_at = "2026-10-27T14:39:37+00:00"
+
+[[published]]
+entry = 78
+repository = ".localSpec"
+sha = "7058084ea540a5aa40eb93a8df6f981de2342bca"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T14:39:37+00:00"
+remote_commit = "7058084ea540a5aa40eb93a8df6f981de2342bca"
+observed_at = "2026-10-27T14:39:37+00:00"
+
+[[published]]
+entry = 78
+repository = ".dev"
+sha = "2e0b54ed2d0b71b1da8fd6c24d5909db251ff08f"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T14:39:37+00:00"
+remote_commit = "2e0b54ed2d0b71b1da8fd6c24d5909db251ff08f"
+observed_at = "2026-10-27T14:39:37+00:00"
+
+[[published]]
+entry = 78
+repository = "ComplexGitSync"
+sha = "7e3ef4b7faecfa2194e21e02560edaf82e0a2825"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T14:39:37+00:00"
+remote_commit = "7e3ef4b7faecfa2194e21e02560edaf82e0a2825"
+observed_at = "2026-10-27T14:39:37+00:00"

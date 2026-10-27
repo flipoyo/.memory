@@ -1,0 +1,39 @@
+[[commit]]
+entry = 79
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "f4ebb73d9d130743c02583edda2496f4c70d8f66"
+message = "cgitsync-7.3.0 every writing command now takes one advisory lock per workspace (.cgitsync/.lock, never folded or pushed) and a second writer is refused before it touches any repository, naming the holder and the lock's age.\ncgitsync unlock clears a lock whose process is gone (a live holder only with --force); a ledger entry that could not be written now reaches the person as a warning. pull locks the workspace its source sits in, pull --private is covered too, and the tests include two real processes."
+authored_at = "2026-10-27T17:12:39+01:00"
+
+[[commit]]
+entry = 79
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "bb90270a0e802ef5e4dc0bb19a4e03dbe3f1c219"
+message = "cgitsync-7.3.0 every writing command now takes one advisory lock per workspace (.cgitsync/.lock, never folded or pushed) and a second writer is refused before it touches any repository, naming the holder and the lock's age.\ncgitsync unlock clears a lock whose process is gone (a live holder only with --force); a ledger entry that could not be written now reaches the person as a warning. pull locks the workspace its source sits in, pull --private is covered too, and the tests include two real processes."
+authored_at = "2026-10-27T17:12:39+01:00"
+
+[[commit]]
+entry = 79
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "7e03f696896b9369b1b887406f88e6f0f90a3684"
+message = "cgitsync-7.3.0 every writing command now takes one advisory lock per workspace (.cgitsync/.lock, never folded or pushed) and a second writer is refused before it touches any repository, naming the holder and the lock's age.\ncgitsync unlock clears a lock whose process is gone (a live holder only with --force); a ledger entry that could not be written now reaches the person as a warning. pull locks the workspace its source sits in, pull --private is covered too, and the tests include two real processes."
+authored_at = "2026-10-27T17:12:39+01:00"
+
+[[commit]]
+entry = 79
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "a492f07f711d28a7301eb09dd78918dad0059ffa"
+message = "cgitsync-7.3.0 every writing command now takes one advisory lock per workspace (.cgitsync/.lock, never folded or pushed) and a second writer is refused before it touches any repository, naming the holder and the lock's age.\ncgitsync unlock clears a lock whose process is gone (a live holder only with --force); a ledger entry that could not be written now reaches the person as a warning. pull locks the workspace its source sits in, pull --private is covered too, and the tests include two real processes."
+authored_at = "2026-10-27T17:12:39+01:00"
