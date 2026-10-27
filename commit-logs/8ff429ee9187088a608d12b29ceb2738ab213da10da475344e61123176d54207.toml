@@ -1,0 +1,39 @@
+[[commit]]
+entry = 93
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "fbd71e948b08308d1751080219c6e1da56371819"
+message = "cgitsync-8.0.1 release level: MAJOR against the last committed 7.3.2 (the omniscience proof --json field siblings is removed), reached as 8.0.0 plus this PATCH, as 8.0.0 was never committed. One class, MerkleRoot, now computes every hash the project records and never shows a tree; GtsIntegrity, GlobalIntegrity and the inclusion_proof module are removed, every hash is bit for bit the same, and a proof cannot be walked into giving up its path."
+authored_at = "2026-10-27T21:19:52+01:00"
+
+[[commit]]
+entry = 93
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "84dd584686de56c4f6ed456cc8a2d817d8fe5af3"
+message = "cgitsync-8.0.1 release level: MAJOR against the last committed 7.3.2 (the omniscience proof --json field siblings is removed), reached as 8.0.0 plus this PATCH, as 8.0.0 was never committed. One class, MerkleRoot, now computes every hash the project records and never shows a tree; GtsIntegrity, GlobalIntegrity and the inclusion_proof module are removed, every hash is bit for bit the same, and a proof cannot be walked into giving up its path."
+authored_at = "2026-10-27T21:19:52+01:00"
+
+[[commit]]
+entry = 93
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "7de350dc2afdf16b98b167ae7dc67722f758d4c2"
+message = "cgitsync-8.0.1 release level: MAJOR against the last committed 7.3.2 (the omniscience proof --json field siblings is removed), reached as 8.0.0 plus this PATCH, as 8.0.0 was never committed. One class, MerkleRoot, now computes every hash the project records and never shows a tree; GtsIntegrity, GlobalIntegrity and the inclusion_proof module are removed, every hash is bit for bit the same, and a proof cannot be walked into giving up its path."
+authored_at = "2026-10-27T21:19:52+01:00"
+
+[[commit]]
+entry = 93
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "6c90b26eb2f3dab3a62d8ab50da3a8f0d79f6535"
+message = "cgitsync-8.0.1 release level: MAJOR against the last committed 7.3.2 (the omniscience proof --json field siblings is removed), reached as 8.0.0 plus this PATCH, as 8.0.0 was never committed. One class, MerkleRoot, now computes every hash the project records and never shows a tree; GtsIntegrity, GlobalIntegrity and the inclusion_proof module are removed, every hash is bit for bit the same, and a proof cannot be walked into giving up its path."
+authored_at = "2026-10-27T21:19:52+01:00"

@@ -37,3 +37,43 @@ branch = "main"
 sha = "490251176f45b8744206e8a8061a823d969824d3"
 message = "cgitsync-7.3.2 scripts/map_surface.py now prints the Minimalism map (rings, unused names, CLI leaves to client methods, provider, Merkle and GitRepo surfaces), and tests hold the provider, Merkle and GitRepo constraints as snapshots. The Minimalism ticket gains its map, section 7, and the owner's answers D1 to D7 (autonomous rule, one-way mirror, every hash MerkleRoot's, Omniscience gx4g's) are carried into MerkleRoot, CliReduction, SrcLayout, ProviderMigration, BeforeBeta, AdditionalSpecs and the digest."
 authored_at = "2026-10-27T19:47:32+01:00"
+
+[[published]]
+entry = 92
+repository = "DocComplexGitSync"
+sha = "e37375cebb467fec0e4e5843c4ab6123e7eda27d"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T18:47:58+00:00"
+remote_commit = "e37375cebb467fec0e4e5843c4ab6123e7eda27d"
+observed_at = "2026-10-27T18:47:58+00:00"
+
+[[published]]
+entry = 92
+repository = ".localSpec"
+sha = "d4b2edfcc67ae2a02bf07d0f32b9cbbf27ad3375"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T18:47:58+00:00"
+remote_commit = "d4b2edfcc67ae2a02bf07d0f32b9cbbf27ad3375"
+observed_at = "2026-10-27T18:47:58+00:00"
+
+[[published]]
+entry = 92
+repository = ".dev"
+sha = "42d9cd780b9eca832612c198736319dc73282d75"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-27T18:47:58+00:00"
+remote_commit = "42d9cd780b9eca832612c198736319dc73282d75"
+observed_at = "2026-10-27T18:47:58+00:00"
+
+[[published]]
+entry = 92
+repository = "ComplexGitSync"
+sha = "490251176f45b8744206e8a8061a823d969824d3"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-27T18:47:58+00:00"
+remote_commit = "490251176f45b8744206e8a8061a823d969824d3"
+observed_at = "2026-10-27T18:47:58+00:00"

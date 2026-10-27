@@ -1,0 +1,23 @@
+[entry]
+seq = 93
+prev = "sha256:45f08a2eae9afca382e5a8e3de3c4c6dfcf03eb0a3ccef16373c3f1d9c9bcef8"
+recorded_at = "2026-10-27T20:19:53Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.0.1 release level: MAJOR against the last committed 7.3.2 (the omniscience proof --json field siblings is removed), reached as 8.0.0 plus this PATCH, as 8.0.0 was never committed. One class, MerkleRoot, now computes every hash the project records and never shows a tree; GtsIntegrity, GlobalIntegrity and the inclusion_proof module are removed, every hash is bit for bit the same, and a proof cannot be walked into giving up its path.",
+]
+state_id = "state(8ff429ee9187088a608d12b29ceb2738ab213da10da475344e61123176d54207)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:4184418d3f5278fb7d2def3b581fb6d957544cbfa8720efaf8ac5bedaeda2dce"
+entry_hash = "sha256:b3e33104814b525d5d171fe43f2f7b6968f0b40e84b4ff241d0b9ee4358d4ea4"
+environment = "env(a7dc299e14d88b4deea2b3e5a0a10de183b35df03dac5cdb167150817faf92bf)"
+
+[entry.toolchain]
+cgitsync = "8.0.1"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
