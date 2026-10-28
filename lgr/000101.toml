@@ -1,0 +1,23 @@
+[entry]
+seq = 101
+prev = "sha256:1489b8f3e7b03bfefd0888dff4f07719dd0d0a5a701ac4e8a9dd9bca11b9e994"
+recorded_at = "2026-10-28T12:11:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.0.4 BeforeBeta records the corrections that will need a MAJOR release (section 3b): removing legacy_paths.py after one release, withdrawing repo create and the 12 omniscience commands with ProviderMigration, and S8 SrcLayout marked done.\nRelease level: none (a planning ticket in the private .dev repository only; no code, no version bump); the delivery stays 8.0.x, MAJOR against the last committed 7.3.2.",
+]
+state_id = "state(f70912f9e53a2e0e5671631096c4c12d23344e2c3d203b35183cb6a1679b2097)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:9617c960177f00434554e13c8641e54782def98cf6b27ee79fc6e2a085e5cfa6"
+entry_hash = "sha256:2b95220210f092f10680a7bb5a3301612f5625b7f957cc28d6421b4cbcc4d3ca"
+environment = "env(bf7c1e6756e905ccd7b5e39c1a16db77499fc3e9dfbd6f4441be4852042497da)"
+
+[entry.toolchain]
+cgitsync = "8.0.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

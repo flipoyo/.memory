@@ -37,3 +37,43 @@ branch = "main"
 sha = "685ab12f0f3a393ca7ae7886a67cbeef5f92f419"
 message = "cgitsync-8.0.4 SrcLayout: 74 modules move into git_repo/, tree/, omniscience/ and operating_space/ folders; git_repo/ imports nothing from the package (GitRunner takes error and scratch, tree/git_runner.py is the cgitsync one), and the old import paths keep working for one release."
 authored_at = "2026-10-28T13:07:06+01:00"
+
+[[published]]
+entry = 100
+repository = "DocComplexGitSync"
+sha = "7418c94b8f1c7e8687d6c3f2bd514da47130c26b"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T12:08:15+00:00"
+remote_commit = "7418c94b8f1c7e8687d6c3f2bd514da47130c26b"
+observed_at = "2026-10-28T12:08:15+00:00"
+
+[[published]]
+entry = 100
+repository = ".localSpec"
+sha = "1b4b658e230cc95419ace831f6d059397be6c736"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T12:08:15+00:00"
+remote_commit = "1b4b658e230cc95419ace831f6d059397be6c736"
+observed_at = "2026-10-28T12:08:15+00:00"
+
+[[published]]
+entry = 100
+repository = ".dev"
+sha = "ae2255e1dc8792c389cd343b9bb6beab74a7687e"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T12:08:15+00:00"
+remote_commit = "ae2255e1dc8792c389cd343b9bb6beab74a7687e"
+observed_at = "2026-10-28T12:08:15+00:00"
+
+[[published]]
+entry = 100
+repository = "ComplexGitSync"
+sha = "685ab12f0f3a393ca7ae7886a67cbeef5f92f419"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T12:08:15+00:00"
+remote_commit = "685ab12f0f3a393ca7ae7886a67cbeef5f92f419"
+observed_at = "2026-10-28T12:08:15+00:00"
