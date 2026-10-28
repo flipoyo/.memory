@@ -1,0 +1,39 @@
+[[commit]]
+entry = 107
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "bd00bd73839245b4f454a9371fdd9a7814c6d46b"
+message = "cgitsync-8.2.0 NestedAgentMaster: a tree mounts a repository once (the mount nearest the trunk wins, a nested duplicate becomes a relative symlink), and a State shared-key tree is written under integrity schema 2 only when needed.\nRelease level: MINOR (schema 2 is additive and written only when needed; schema-1 States keep their names and a different repository at a used path is refused by name)."
+authored_at = "2026-10-28T17:53:22+01:00"
+
+[[commit]]
+entry = 107
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "a2cf5d0c11c8576dd9ccd522ff5d17264c8b0860"
+message = "cgitsync-8.2.0 NestedAgentMaster: a tree mounts a repository once (the mount nearest the trunk wins, a nested duplicate becomes a relative symlink), and a State shared-key tree is written under integrity schema 2 only when needed.\nRelease level: MINOR (schema 2 is additive and written only when needed; schema-1 States keep their names and a different repository at a used path is refused by name)."
+authored_at = "2026-10-28T17:53:23+01:00"
+
+[[commit]]
+entry = 107
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "a6f2ec339ebc8c592220c725a9682dd7889fcca6"
+message = "cgitsync-8.2.0 NestedAgentMaster: a tree mounts a repository once (the mount nearest the trunk wins, a nested duplicate becomes a relative symlink), and a State shared-key tree is written under integrity schema 2 only when needed.\nRelease level: MINOR (schema 2 is additive and written only when needed; schema-1 States keep their names and a different repository at a used path is refused by name)."
+authored_at = "2026-10-28T17:53:23+01:00"
+
+[[commit]]
+entry = 107
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "42563e6bc58ba9c8c13e24fb0beeaafc96e57d2b"
+message = "cgitsync-8.2.0 NestedAgentMaster: a tree mounts a repository once (the mount nearest the trunk wins, a nested duplicate becomes a relative symlink), and a State shared-key tree is written under integrity schema 2 only when needed.\nRelease level: MINOR (schema 2 is additive and written only when needed; schema-1 States keep their names and a different repository at a used path is refused by name)."
+authored_at = "2026-10-28T17:53:23+01:00"

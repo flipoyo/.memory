@@ -1,0 +1,23 @@
+[entry]
+seq = 107
+prev = "sha256:d0c0db63238df1de6fe27b9d792aa486cde3993ba81b683339935b4bb4fe6c36"
+recorded_at = "2026-10-28T16:53:23Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.2.0 NestedAgentMaster: a tree mounts a repository once (the mount nearest the trunk wins, a nested duplicate becomes a relative symlink), and a State shared-key tree is written under integrity schema 2 only when needed.\nRelease level: MINOR (schema 2 is additive and written only when needed; schema-1 States keep their names and a different repository at a used path is refused by name).",
+]
+state_id = "state(add8adb1895287bc55e5141fed289f3f8719722a10f955c13966c58aec3ad6c0)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8625b9549d97a6cba2565e2e39a96c39d46fc8f485172b3014392e7c83a271ff"
+entry_hash = "sha256:dad2dc08ac4888d7e16ff3b0fffd72e45d94b46b12a2d43d405dd168b2d077c9"
+environment = "env(c076b86c23a6dc3e0310a610b8b764568e9e706712644eb2944334ff9f2bb763)"
+
+[entry.toolchain]
+cgitsync = "8.2.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
