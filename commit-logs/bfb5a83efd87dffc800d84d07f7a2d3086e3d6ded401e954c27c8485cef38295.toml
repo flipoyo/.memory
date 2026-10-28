@@ -1,0 +1,39 @@
+[[commit]]
+entry = 103
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "d877efd94265fcbd03ba723458e9566b9ae015f2"
+message = "cgitsync-8.1.0 BranchProtection M5: status and branch list now report a dead or dying project branch (vanished, half-closed, split, orphaned-private, closed) with its evidence, and branch list gains --json; nothing is recorded, gx4g writes."
+authored_at = "2026-10-28T17:10:16+01:00"
+
+[[commit]]
+entry = 103
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "f8ee7f10f32a62007a3895c9d1e18364a74f9db4"
+message = "cgitsync-8.1.0 BranchProtection M5: status and branch list now report a dead or dying project branch (vanished, half-closed, split, orphaned-private, closed) with its evidence, and branch list gains --json; nothing is recorded, gx4g writes."
+authored_at = "2026-10-28T17:10:16+01:00"
+
+[[commit]]
+entry = 103
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "80cc509732b5d23326e99de4a02c6cf775b1ce8c"
+message = "cgitsync-8.1.0 BranchProtection M5: status and branch list now report a dead or dying project branch (vanished, half-closed, split, orphaned-private, closed) with its evidence, and branch list gains --json; nothing is recorded, gx4g writes."
+authored_at = "2026-10-28T17:10:16+01:00"
+
+[[commit]]
+entry = 103
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "5089d7571c981ddb56d79348e29d5d79e808889c"
+message = "cgitsync-8.1.0 BranchProtection M5: status and branch list now report a dead or dying project branch (vanished, half-closed, split, orphaned-private, closed) with its evidence, and branch list gains --json; nothing is recorded, gx4g writes."
+authored_at = "2026-10-28T17:10:16+01:00"

@@ -1,0 +1,23 @@
+[entry]
+seq = 103
+prev = "sha256:6464713b67d9fc4abc3e2220913ea2e0252fb6b424d9d0218c66232f2adb250a"
+recorded_at = "2026-10-28T16:10:17Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.1.0 BranchProtection M5: status and branch list now report a dead or dying project branch (vanished, half-closed, split, orphaned-private, closed) with its evidence, and branch list gains --json; nothing is recorded, gx4g writes.",
+]
+state_id = "state(bfb5a83efd87dffc800d84d07f7a2d3086e3d6ded401e954c27c8485cef38295)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:1a727bb54513ca6584050db132fa7ad9439e661b95ccdcb4600923011afcfead"
+entry_hash = "sha256:a8b85c9d9b716eb832ea9ca744dc64627513c6f0c15ada0215865031992d0755"
+environment = "env(0fd5ea57ca65e6b1ac41da8186492fe92b05d062903dbd7e62a4d697c2a58310)"
+
+[entry.toolchain]
+cgitsync = "8.1.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

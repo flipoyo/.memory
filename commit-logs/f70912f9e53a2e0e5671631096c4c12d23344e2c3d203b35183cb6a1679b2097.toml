@@ -7,3 +7,13 @@ branch = "ComplexGitSync"
 sha = "987b155cfe30f6007ca53bb5770982501df8c3c8"
 message = "cgitsync-8.0.4 BeforeBeta records the corrections that will need a MAJOR release (section 3b): removing legacy_paths.py after one release, withdrawing repo create and the 12 omniscience commands with ProviderMigration, and S8 SrcLayout marked done.\nRelease level: none (a planning ticket in the private .dev repository only; no code, no version bump); the delivery stays 8.0.x, MAJOR against the last committed 7.3.2."
 authored_at = "2026-10-28T13:11:29+01:00"
+
+[[published]]
+entry = 102
+repository = ".dev"
+sha = "987b155cfe30f6007ca53bb5770982501df8c3c8"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T12:11:49+00:00"
+remote_commit = "987b155cfe30f6007ca53bb5770982501df8c3c8"
+observed_at = "2026-10-28T12:11:49+00:00"
