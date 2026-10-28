@@ -1,0 +1,39 @@
+[[commit]]
+entry = 95
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "0d83d2ec5027a8bd75b5f75b75c458f07f769e7d"
+message = "cgitsync-8.0.2 submodules import now needs --dry-run or --now (submodules report is gone, bare import no longer converts), unlock, verify repair and release freeze --dry-run go through the client, and 14 unused names are removed with their tests."
+authored_at = "2026-10-28T03:05:54+01:00"
+
+[[commit]]
+entry = 95
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "3572a9eb09d57d7d84741e7bb9b062ed12f4c24c"
+message = "cgitsync-8.0.2 submodules import now needs --dry-run or --now (submodules report is gone, bare import no longer converts), unlock, verify repair and release freeze --dry-run go through the client, and 14 unused names are removed with their tests."
+authored_at = "2026-10-28T03:05:54+01:00"
+
+[[commit]]
+entry = 95
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "67b56ceae9d9e27cacbbf0f90089fd30e226b8b0"
+message = "cgitsync-8.0.2 submodules import now needs --dry-run or --now (submodules report is gone, bare import no longer converts), unlock, verify repair and release freeze --dry-run go through the client, and 14 unused names are removed with their tests."
+authored_at = "2026-10-28T03:05:55+01:00"
+
+[[commit]]
+entry = 95
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "199563638cc123659d95208a2bd686fccd233282"
+message = "cgitsync-8.0.2 submodules import now needs --dry-run or --now (submodules report is gone, bare import no longer converts), unlock, verify repair and release freeze --dry-run go through the client, and 14 unused names are removed with their tests."
+authored_at = "2026-10-28T03:05:55+01:00"

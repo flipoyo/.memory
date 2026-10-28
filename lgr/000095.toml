@@ -1,0 +1,23 @@
+[entry]
+seq = 95
+prev = "sha256:cf8f5270bd3d99312a53a9ea284224a7833da46e0a5f0c7056cfdd162e3eb750"
+recorded_at = "2026-10-28T02:05:55Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.0.2 submodules import now needs --dry-run or --now (submodules report is gone, bare import no longer converts), unlock, verify repair and release freeze --dry-run go through the client, and 14 unused names are removed with their tests.",
+]
+state_id = "state(f6156eb1c82212c0f77215399dbe198cfe9bbd648483adb6ff7b9978f6d1b9c3)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:957c0083cafe03e945e03c7e73baf043a8fcf6855490fbfd8b6e0f8a30640d3c"
+entry_hash = "sha256:0a368667b68202d3e2b26f3602fdd23799cd46a4eff6e33de10c2856519db8de"
+environment = "env(fc700dd3b0464e2927fa78f9bfeb110fecff7a34236bef16fa3865be2d714073)"
+
+[entry.toolchain]
+cgitsync = "8.0.2"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
