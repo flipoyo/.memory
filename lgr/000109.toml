@@ -1,0 +1,23 @@
+[entry]
+seq = 109
+prev = "sha256:3a7b875eff3a1d5119cbafcf83da79368b9f09463d26e1121a70a489ac27e1e6"
+recorded_at = "2026-10-28T17:26:49Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.2.0 IntegrityMount answered: a repository is held once per branch, a nested Parent's private repository takes <Parent>_<Project>, a schema-1 key collision and a same-branch duplicate are denied before cloning and said in the log file, never in the .gts.Release level: none (planning tickets in the private .dev repository only); the release stays 8.2.0.",
+]
+state_id = "state(1e49fce152882ebaa5834e4af0bafc48f50932063b08785318720e19dbb552ca)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3c6f5989202e3485b679388856258098cdb85ceff7e9f96a9efcbc27815d78ab"
+entry_hash = "sha256:6df5a4377bdb689c1305efa48b84f23d988ce102c36e75842c32392cccecfe9f"
+environment = "env(c076b86c23a6dc3e0310a610b8b764568e9e706712644eb2944334ff9f2bb763)"
+
+[entry.toolchain]
+cgitsync = "8.2.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

@@ -1,0 +1,19 @@
+[[commit]]
+entry = 109
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "b90bbd9b2dba3203e00410f0d6bccaf5f6319f47"
+message = "cgitsync-8.2.0 IntegrityMount answered: a repository is held once per branch, a nested Parent's private repository takes <Parent>_<Project>, a schema-1 key collision and a same-branch duplicate are denied before cloning and said in the log file, never in the .gts.Release level: none (planning tickets in the private .dev repository only); the release stays 8.2.0."
+authored_at = "2026-10-28T18:26:49+01:00"
+
+[[commit]]
+entry = 109
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "cbbd35e283d535cf4af73af29efa4d51a9080fcf"
+message = "cgitsync-8.2.0 IntegrityMount answered: a repository is held once per branch, a nested Parent's private repository takes <Parent>_<Project>, a schema-1 key collision and a same-branch duplicate are denied before cloning and said in the log file, never in the .gts.Release level: none (planning tickets in the private .dev repository only); the release stays 8.2.0."
+authored_at = "2026-10-28T18:26:49+01:00"

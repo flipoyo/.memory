@@ -37,3 +37,43 @@ branch = "main"
 sha = "42563e6bc58ba9c8c13e24fb0beeaafc96e57d2b"
 message = "cgitsync-8.2.0 NestedAgentMaster: a tree mounts a repository once (the mount nearest the trunk wins, a nested duplicate becomes a relative symlink), and a State shared-key tree is written under integrity schema 2 only when needed.\nRelease level: MINOR (schema 2 is additive and written only when needed; schema-1 States keep their names and a different repository at a used path is refused by name)."
 authored_at = "2026-10-28T17:53:23+01:00"
+
+[[published]]
+entry = 108
+repository = "DocComplexGitSync"
+sha = "bd00bd73839245b4f454a9371fdd9a7814c6d46b"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T16:53:52+00:00"
+remote_commit = "bd00bd73839245b4f454a9371fdd9a7814c6d46b"
+observed_at = "2026-10-28T16:53:52+00:00"
+
+[[published]]
+entry = 108
+repository = ".localSpec"
+sha = "a2cf5d0c11c8576dd9ccd522ff5d17264c8b0860"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T16:53:52+00:00"
+remote_commit = "a2cf5d0c11c8576dd9ccd522ff5d17264c8b0860"
+observed_at = "2026-10-28T16:53:52+00:00"
+
+[[published]]
+entry = 108
+repository = ".dev"
+sha = "a6f2ec339ebc8c592220c725a9682dd7889fcca6"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T16:53:52+00:00"
+remote_commit = "a6f2ec339ebc8c592220c725a9682dd7889fcca6"
+observed_at = "2026-10-28T16:53:52+00:00"
+
+[[published]]
+entry = 108
+repository = "ComplexGitSync"
+sha = "42563e6bc58ba9c8c13e24fb0beeaafc96e57d2b"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T16:53:52+00:00"
+remote_commit = "42563e6bc58ba9c8c13e24fb0beeaafc96e57d2b"
+observed_at = "2026-10-28T16:53:52+00:00"
