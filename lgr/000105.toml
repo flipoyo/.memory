@@ -1,0 +1,23 @@
+[entry]
+seq = 105
+prev = "sha256:274d4dbcf5180e0d19711837ed9f4fffe021e8ce4379ae2f356cc9659f4173ad"
+recorded_at = "2026-10-28T16:19:46Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.1.0 BranchProtection archived: BeforeBeta §3c records the lock and the role tiers as gx4g's requirement and what cgitsync keeps; deletion4devOnly closed",
+]
+state_id = "state(c5ad275972527b2b6998ec9af09eebb3256de2f632c445f5f0b8c2ebac67c12c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ddcbe8c4bfe001be4b5215dacc72d0f126d894504bf74422d19c329ff1314c15"
+entry_hash = "sha256:bdcc49140348b4cd062c93510681e200881d27de06b1dad7661b95b7a92c4254"
+environment = "env(0fd5ea57ca65e6b1ac41da8186492fe92b05d062903dbd7e62a4d697c2a58310)"
+
+[entry.toolchain]
+cgitsync = "8.1.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

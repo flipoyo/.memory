@@ -37,3 +37,43 @@ branch = "main"
 sha = "5089d7571c981ddb56d79348e29d5d79e808889c"
 message = "cgitsync-8.1.0 BranchProtection M5: status and branch list now report a dead or dying project branch (vanished, half-closed, split, orphaned-private, closed) with its evidence, and branch list gains --json; nothing is recorded, gx4g writes."
 authored_at = "2026-10-28T17:10:16+01:00"
+
+[[published]]
+entry = 104
+repository = "DocComplexGitSync"
+sha = "d877efd94265fcbd03ba723458e9566b9ae015f2"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T16:10:46+00:00"
+remote_commit = "d877efd94265fcbd03ba723458e9566b9ae015f2"
+observed_at = "2026-10-28T16:10:46+00:00"
+
+[[published]]
+entry = 104
+repository = ".localSpec"
+sha = "f8ee7f10f32a62007a3895c9d1e18364a74f9db4"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T16:10:46+00:00"
+remote_commit = "f8ee7f10f32a62007a3895c9d1e18364a74f9db4"
+observed_at = "2026-10-28T16:10:46+00:00"
+
+[[published]]
+entry = 104
+repository = ".dev"
+sha = "80cc509732b5d23326e99de4a02c6cf775b1ce8c"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T16:10:46+00:00"
+remote_commit = "80cc509732b5d23326e99de4a02c6cf775b1ce8c"
+observed_at = "2026-10-28T16:10:46+00:00"
+
+[[published]]
+entry = 104
+repository = "ComplexGitSync"
+sha = "5089d7571c981ddb56d79348e29d5d79e808889c"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T16:10:46+00:00"
+remote_commit = "5089d7571c981ddb56d79348e29d5d79e808889c"
+observed_at = "2026-10-28T16:10:46+00:00"

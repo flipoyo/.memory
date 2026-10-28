@@ -1,0 +1,9 @@
+[[commit]]
+entry = 105
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "6add20b381398a8cecc495ba504d6e35d6f805c8"
+message = "cgitsync-8.1.0 BranchProtection archived: BeforeBeta §3c records the lock and the role tiers as gx4g's requirement and what cgitsync keeps; deletion4devOnly closed"
+authored_at = "2026-10-28T17:19:46+01:00"
