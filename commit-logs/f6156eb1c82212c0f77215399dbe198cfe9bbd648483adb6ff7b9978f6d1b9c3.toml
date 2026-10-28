@@ -37,3 +37,43 @@ branch = "main"
 sha = "199563638cc123659d95208a2bd686fccd233282"
 message = "cgitsync-8.0.2 submodules import now needs --dry-run or --now (submodules report is gone, bare import no longer converts), unlock, verify repair and release freeze --dry-run go through the client, and 14 unused names are removed with their tests."
 authored_at = "2026-10-28T03:05:55+01:00"
+
+[[published]]
+entry = 96
+repository = "DocComplexGitSync"
+sha = "0d83d2ec5027a8bd75b5f75b75c458f07f769e7d"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T02:06:26+00:00"
+remote_commit = "0d83d2ec5027a8bd75b5f75b75c458f07f769e7d"
+observed_at = "2026-10-28T02:06:26+00:00"
+
+[[published]]
+entry = 96
+repository = ".localSpec"
+sha = "3572a9eb09d57d7d84741e7bb9b062ed12f4c24c"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T02:06:26+00:00"
+remote_commit = "3572a9eb09d57d7d84741e7bb9b062ed12f4c24c"
+observed_at = "2026-10-28T02:06:26+00:00"
+
+[[published]]
+entry = 96
+repository = ".dev"
+sha = "67b56ceae9d9e27cacbbf0f90089fd30e226b8b0"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T02:06:26+00:00"
+remote_commit = "67b56ceae9d9e27cacbbf0f90089fd30e226b8b0"
+observed_at = "2026-10-28T02:06:26+00:00"
+
+[[published]]
+entry = 96
+repository = "ComplexGitSync"
+sha = "199563638cc123659d95208a2bd686fccd233282"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T02:06:26+00:00"
+remote_commit = "199563638cc123659d95208a2bd686fccd233282"
+observed_at = "2026-10-28T02:06:26+00:00"

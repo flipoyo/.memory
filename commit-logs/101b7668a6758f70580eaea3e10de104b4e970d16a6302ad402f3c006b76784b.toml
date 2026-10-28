@@ -1,0 +1,29 @@
+[[commit]]
+entry = 97
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "272aac68c993741a71494b7ba1bcddaeaa30b906"
+message = "cgitsync-8.0.3 MemoryStateDirectory, unused since CliReduction, is removed with its export and mentions; the 8.0.2 self-history record is re-added with a valid digest."
+authored_at = "2026-10-28T03:26:19+01:00"
+
+[[commit]]
+entry = 97
+repository = ".self-history"
+repo_id = "root:.cgitsync/.memory:.self-history"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "c745c11763b2e54ce4d1c82f65caec3f2f593ad4"
+message = "cgitsync-8.0.3 MemoryStateDirectory, unused since CliReduction, is removed with its export and mentions; the 8.0.2 self-history record is re-added with a valid digest."
+authored_at = "2026-10-28T03:26:19+01:00"
+
+[[commit]]
+entry = 97
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "ae7915786d87bad481af8c5632f170ce1fb19be1"
+message = "cgitsync-8.0.3 MemoryStateDirectory, unused since CliReduction, is removed with its export and mentions; the 8.0.2 self-history record is re-added with a valid digest."
+authored_at = "2026-10-28T03:26:19+01:00"

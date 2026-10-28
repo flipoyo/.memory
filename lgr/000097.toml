@@ -1,0 +1,23 @@
+[entry]
+seq = 97
+prev = "sha256:524cd75735c8c9c120751a327d69a6b5a485cf9c1a9fba295279daf967732a2e"
+recorded_at = "2026-10-28T02:26:19Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.0.3 MemoryStateDirectory, unused since CliReduction, is removed with its export and mentions; the 8.0.2 self-history record is re-added with a valid digest.",
+]
+state_id = "state(101b7668a6758f70580eaea3e10de104b4e970d16a6302ad402f3c006b76784b)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b61223853e12796e174c311313fde6bece15f10e06a1dee001d8f96f85dc0cc5"
+entry_hash = "sha256:41a2deab853e1d998a11dbf765433efb08468f9ea716f9830f7bd8a832528683"
+environment = "env(077e54cc91320d7ee116f0a443793716f1ab9e82f16dad52b765590bd0503c89)"
+
+[entry.toolchain]
+cgitsync = "8.0.3"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
