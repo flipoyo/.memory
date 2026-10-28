@@ -1,0 +1,39 @@
+[[commit]]
+entry = 99
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "7418c94b8f1c7e8687d6c3f2bd514da47130c26b"
+message = "cgitsync-8.0.4 SrcLayout: 74 modules move into git_repo/, tree/, omniscience/ and operating_space/ folders; git_repo/ imports nothing from the package (GitRunner takes error and scratch, tree/git_runner.py is the cgitsync one), and the old import paths keep working for one release."
+authored_at = "2026-10-28T13:07:06+01:00"
+
+[[commit]]
+entry = 99
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "1b4b658e230cc95419ace831f6d059397be6c736"
+message = "cgitsync-8.0.4 SrcLayout: 74 modules move into git_repo/, tree/, omniscience/ and operating_space/ folders; git_repo/ imports nothing from the package (GitRunner takes error and scratch, tree/git_runner.py is the cgitsync one), and the old import paths keep working for one release."
+authored_at = "2026-10-28T13:07:06+01:00"
+
+[[commit]]
+entry = 99
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "ae2255e1dc8792c389cd343b9bb6beab74a7687e"
+message = "cgitsync-8.0.4 SrcLayout: 74 modules move into git_repo/, tree/, omniscience/ and operating_space/ folders; git_repo/ imports nothing from the package (GitRunner takes error and scratch, tree/git_runner.py is the cgitsync one), and the old import paths keep working for one release."
+authored_at = "2026-10-28T13:07:06+01:00"
+
+[[commit]]
+entry = 99
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "685ab12f0f3a393ca7ae7886a67cbeef5f92f419"
+message = "cgitsync-8.0.4 SrcLayout: 74 modules move into git_repo/, tree/, omniscience/ and operating_space/ folders; git_repo/ imports nothing from the package (GitRunner takes error and scratch, tree/git_runner.py is the cgitsync one), and the old import paths keep working for one release."
+authored_at = "2026-10-28T13:07:06+01:00"

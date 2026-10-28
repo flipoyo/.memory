@@ -1,0 +1,23 @@
+[entry]
+seq = 99
+prev = "sha256:4da6115ee3a529e7a6828709285471dc9794a045a6aa951a3636aa89a5ccaa81"
+recorded_at = "2026-10-28T12:07:07Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.0.4 SrcLayout: 74 modules move into git_repo/, tree/, omniscience/ and operating_space/ folders; git_repo/ imports nothing from the package (GitRunner takes error and scratch, tree/git_runner.py is the cgitsync one), and the old import paths keep working for one release.",
+]
+state_id = "state(8739b434459a18002c5d6c99cd213cc21464cc613bf71220f7f9cefab66bace3)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:0594ae1dc4fbfbeb8904f57ea7c939da91a2d2fad9716357ddfc3a4785dee2b7"
+entry_hash = "sha256:aa389b49a93aad9ba448164356082e0a253193712f0bd1297e25995caecc7d97"
+environment = "env(bf7c1e6756e905ccd7b5e39c1a16db77499fc3e9dfbd6f4441be4852042497da)"
+
+[entry.toolchain]
+cgitsync = "8.0.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

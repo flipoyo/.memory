@@ -27,3 +27,23 @@ branch = "main"
 sha = "ae7915786d87bad481af8c5632f170ce1fb19be1"
 message = "cgitsync-8.0.3 MemoryStateDirectory, unused since CliReduction, is removed with its export and mentions; the 8.0.2 self-history record is re-added with a valid digest."
 authored_at = "2026-10-28T03:26:19+01:00"
+
+[[published]]
+entry = 98
+repository = "DocComplexGitSync"
+sha = "272aac68c993741a71494b7ba1bcddaeaa30b906"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T02:26:44+00:00"
+remote_commit = "272aac68c993741a71494b7ba1bcddaeaa30b906"
+observed_at = "2026-10-28T02:26:44+00:00"
+
+[[published]]
+entry = 98
+repository = "ComplexGitSync"
+sha = "ae7915786d87bad481af8c5632f170ce1fb19be1"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T02:26:44+00:00"
+remote_commit = "ae7915786d87bad481af8c5632f170ce1fb19be1"
+observed_at = "2026-10-28T02:26:44+00:00"
