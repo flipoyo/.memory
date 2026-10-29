@@ -37,3 +37,43 @@ branch = "main"
 sha = "1c071b13d083bed756e68ccc36119e6fbca29684"
 message = "cgitsync-8.3.0 IntegrityMount: a .cgs is a request and the .gts may refuse it. A nested mount of a repository already held on the same branch, at a used relative_path, or of a different repository at a used path is denied before cloning, printed and logged as mount_denied, never in the .gts; a nested Parent's private repositories are on <Parent>_<Project>; 8.2.0's integrity schema 2, tree_path, aliases and symlinks are removed."
 authored_at = "2026-10-29T01:34:51+01:00"
+
+[[published]]
+entry = 112
+repository = "DocComplexGitSync"
+sha = "aee3703f2d3594c7f6bf3c0e624f1ab9adae9c25"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T00:35:20+00:00"
+remote_commit = "aee3703f2d3594c7f6bf3c0e624f1ab9adae9c25"
+observed_at = "2026-10-29T00:35:20+00:00"
+
+[[published]]
+entry = 112
+repository = ".localSpec"
+sha = "da19cf32ba1ca3234b7c1d44769017f2227cd442"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T00:35:20+00:00"
+remote_commit = "da19cf32ba1ca3234b7c1d44769017f2227cd442"
+observed_at = "2026-10-29T00:35:20+00:00"
+
+[[published]]
+entry = 112
+repository = ".dev"
+sha = "f01351a9d2d86c122138ce84f7cc99b5ba4458e4"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T00:35:20+00:00"
+remote_commit = "f01351a9d2d86c122138ce84f7cc99b5ba4458e4"
+observed_at = "2026-10-29T00:35:20+00:00"
+
+[[published]]
+entry = 112
+repository = "ComplexGitSync"
+sha = "1c071b13d083bed756e68ccc36119e6fbca29684"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T00:35:20+00:00"
+remote_commit = "1c071b13d083bed756e68ccc36119e6fbca29684"
+observed_at = "2026-10-29T00:35:20+00:00"
