@@ -17,3 +17,23 @@ branch = "main"
 sha = "b3cb33fe636514ff991b805e6d87fbdb3a16eac1"
 message = "cgitsync-8.4.0 alpha2beta filed (main_1-2, BeforeBeta S10b) from the short ticket alpha2beta and the open ticket FixGoldenVector merged in: Part A, a yyyy-xxx.cgs opened by initialise holds project = { name = yyyy, default_branch = xxx, fallback_branch = CGS-BETA }; Part B, CI's golden vectors run and agree on Linux, macOS and Windows."
 authored_at = "2026-10-29T17:00:35+01:00"
+
+[[published]]
+entry = 122
+repository = ".dev"
+sha = "17b30bfdf218d72642924b009afa7bd75b8b8383"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T16:00:59+00:00"
+remote_commit = "17b30bfdf218d72642924b009afa7bd75b8b8383"
+observed_at = "2026-10-29T16:00:59+00:00"
+
+[[published]]
+entry = 122
+repository = "ComplexGitSync"
+sha = "b3cb33fe636514ff991b805e6d87fbdb3a16eac1"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T16:00:59+00:00"
+remote_commit = "b3cb33fe636514ff991b805e6d87fbdb3a16eac1"
+observed_at = "2026-10-29T16:00:59+00:00"

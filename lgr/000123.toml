@@ -1,0 +1,23 @@
+[entry]
+seq = 123
+prev = "sha256:e2b5ee5630853bd2f1a77952a862dbc4141beaef0edae41a3fca00574d36b792"
+recorded_at = "2026-10-29T16:30:06Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.4.0 BeforeCGS-BETA (main_1-1) merges BeforeBeta and alpha2beta and integrates the short ticket A2B-frontier: §6 the ALPHA/BETA frontier (OP exposes GitTree leaves only and verifies GitRepo-ALPHA in .cgitsync == GitRepo-BETA in .omniscience, step S10c), §7 the yyyy-xxx.cgs rule and §8 CI on three systems (step S10b); BeforeBeta's sections keep their numbers.",
+]
+state_id = "state(b4700e1523e5bb877b17df7148defaa8eeeb9aacb6bba5ba8b4cd98f0839642f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:058e23f733f856882192d3fbeb74e42e8101c27ffb2a264f72866fc17d95dd8b"
+entry_hash = "sha256:481cd577e6374c4bdf3d065fe1d4289715a55704642177fc98e7f65b5678da17"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

@@ -1,0 +1,29 @@
+[[commit]]
+entry = 123
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "a3e8611f5b8792096ce41cc136985c2ba1f1a0af"
+message = "cgitsync-8.4.0 BeforeCGS-BETA (main_1-1) merges BeforeBeta and alpha2beta and integrates the short ticket A2B-frontier: §6 the ALPHA/BETA frontier (OP exposes GitTree leaves only and verifies GitRepo-ALPHA in .cgitsync == GitRepo-BETA in .omniscience, step S10c), §7 the yyyy-xxx.cgs rule and §8 CI on three systems (step S10b); BeforeBeta's sections keep their numbers."
+authored_at = "2026-10-29T17:30:05+01:00"
+
+[[commit]]
+entry = 123
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "be8acbe58762417e1a4b73674d78b254b72befa6"
+message = "cgitsync-8.4.0 BeforeCGS-BETA (main_1-1) merges BeforeBeta and alpha2beta and integrates the short ticket A2B-frontier: §6 the ALPHA/BETA frontier (OP exposes GitTree leaves only and verifies GitRepo-ALPHA in .cgitsync == GitRepo-BETA in .omniscience, step S10c), §7 the yyyy-xxx.cgs rule and §8 CI on three systems (step S10b); BeforeBeta's sections keep their numbers."
+authored_at = "2026-10-29T17:30:05+01:00"
+
+[[commit]]
+entry = 123
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "5b6de8c84fb501a07eeb9d5b51461c78b1dd73b6"
+message = "cgitsync-8.4.0 BeforeCGS-BETA (main_1-1) merges BeforeBeta and alpha2beta and integrates the short ticket A2B-frontier: §6 the ALPHA/BETA frontier (OP exposes GitTree leaves only and verifies GitRepo-ALPHA in .cgitsync == GitRepo-BETA in .omniscience, step S10c), §7 the yyyy-xxx.cgs rule and §8 CI on three systems (step S10b); BeforeBeta's sections keep their numbers."
+authored_at = "2026-10-29T17:30:05+01:00"
