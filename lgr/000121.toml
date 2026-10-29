@@ -1,0 +1,23 @@
+[entry]
+seq = 121
+prev = "sha256:ec8fa9bebe4706c7a83ee52513f6f709d9f9f6f7dd7212054e2167bf06548474"
+recorded_at = "2026-10-29T16:00:35Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.4.0 alpha2beta filed (main_1-2, BeforeBeta S10b) from the short ticket alpha2beta and the open ticket FixGoldenVector merged in: Part A, a yyyy-xxx.cgs opened by initialise holds project = { name = yyyy, default_branch = xxx, fallback_branch = CGS-BETA }; Part B, CI's golden vectors run and agree on Linux, macOS and Windows.",
+]
+state_id = "state(dee09dbc11e2a3404ca5ebd02f0ddaa6aea3cf3aa98549e9fad3251ecc9d7914)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:4210dc205ce8cf2fc032c898d4af737f89f24fb8f9abfdc4622e8f1a70e690f8"
+entry_hash = "sha256:de8a2918727328565727ba5b1e7c08703786151e94b4ada14192a2f2307e8515"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

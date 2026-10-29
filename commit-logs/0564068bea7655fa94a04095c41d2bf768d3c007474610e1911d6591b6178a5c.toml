@@ -37,3 +37,43 @@ branch = "main"
 sha = "e8787978f5de1044c6b49a4043919e9267a3f183"
 message = "cgitsync-8.4.0 CORR resolved in examples/gx4g-dev.cgs and gx4g-opx.cgs: the OP is renamed gx4g4xxx -> gx4g-xxx (G.OP.NAME), and the file, .NAME-.OP.NAME.cgs, is *NAME.OP.NAME = G.EDGE.NAME; MemoryMount uses the new names.\nRelease level: none (examples and a planning ticket; no change under src/); the release stays 8.4.0."
 authored_at = "2026-10-29T16:47:26+01:00"
+
+[[published]]
+entry = 120
+repository = ".localSpec"
+sha = "88fb3d894e75324b118a2c2d9181d18ebb681697"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T15:47:51+00:00"
+remote_commit = "88fb3d894e75324b118a2c2d9181d18ebb681697"
+observed_at = "2026-10-29T15:47:51+00:00"
+
+[[published]]
+entry = 120
+repository = ".dev"
+sha = "3a64f449d7e67f9e06662dea1ba2434ebb5283cc"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T15:47:51+00:00"
+remote_commit = "3a64f449d7e67f9e06662dea1ba2434ebb5283cc"
+observed_at = "2026-10-29T15:47:51+00:00"
+
+[[published]]
+entry = 120
+repository = ".claude"
+sha = "ce8b4dbd9cbdae68e2029d31e7aab271d9698f9a"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T15:47:51+00:00"
+remote_commit = "ce8b4dbd9cbdae68e2029d31e7aab271d9698f9a"
+observed_at = "2026-10-29T15:47:51+00:00"
+
+[[published]]
+entry = 120
+repository = "ComplexGitSync"
+sha = "e8787978f5de1044c6b49a4043919e9267a3f183"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T15:47:51+00:00"
+remote_commit = "e8787978f5de1044c6b49a4043919e9267a3f183"
+observed_at = "2026-10-29T15:47:51+00:00"

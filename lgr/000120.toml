@@ -1,0 +1,22 @@
+[entry]
+seq = 120
+prev = "sha256:1e7434384731c508983abc03a517b4e0072b815613e4cfea0699e9a93b40ccd2"
+recorded_at = "2026-10-29T15:47:57Z"
+command = "push"
+argv = [
+    "push",
+    "--all",
+]
+state_id = "state(bc45abd3c609b4752e556ce04b2b9bf8988cf7f4ae7bd40d9fd4fd2f4e10ef13)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:d6e161f6c75683ea332c5008d34635c03d84432858fddb11649cb99ceb33e16c"
+entry_hash = "sha256:ec8fa9bebe4706c7a83ee52513f6f709d9f9f6f7dd7212054e2167bf06548474"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
