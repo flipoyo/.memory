@@ -1,0 +1,23 @@
+[entry]
+seq = 125
+prev = "sha256:feee7b1049a045233c6abadd8dcf03ea6e0580f1a7aca348bc0ed3b0eef81fbb"
+recorded_at = "2026-10-29T16:52:19Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.4.0 BeforeCGS-BETA §7.0 integrates the short ticket yyyy-xxx: CGS-BETA has a GX4G node compute XXX, and OP emits the level's command on YYYY.node (OPX bootstrap yyyy-opx.gts, DEV bootstrap yyyy-dev.cgs, USR initialise ../install.cgs); domains DATA, COMPUTO, TWIN, HW; steps N6-N8, decisions AD6-AD9, AD6 being the conflict with §6's domains; MemoryMount points to it.",
+]
+state_id = "state(a1a628c40ab1180e39c233a9be3225a2eea02c6a7933edbeb9e702d9398d725c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c922b3b067ec51198df3668460782db390745baa4bd6cb5237d6dc7875a3aa6c"
+entry_hash = "sha256:d4bff43d4c23b3e7c4766d8bcc0ecf38bbad2d26c08f6e683abd395ef6fb6633"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
