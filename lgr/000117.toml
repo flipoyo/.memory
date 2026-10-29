@@ -1,0 +1,23 @@
+[entry]
+seq = 117
+prev = "sha256:1291658b52dcd459159284b52ca0eeff946864f74358943db58cfe832f3cf682"
+recorded_at = "2026-10-29T13:53:17Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.4.0 OpBoundary: Op (orchestre/op_boundary.py) is the boundary through which the client's writing methods, verify with repair, and fetch enter, internal from the CLI through RoutedClient or external from GX4G through the Python API; isPoE returns OP*, the operation, *NAME and SHA256 of the Merkle root, bounded by a four-bit PoE vector (.PUBLIC 1111, .USER 1100, .DEV 1000, .OPX 0000) read from the tree profile, never a branch, message or path, and the origin never changes it. OmniscienceRecord gains sigma, shown in its record table and committed only when present, so existing records keep their hash and GLOBAL_SCHEMA stays 1; register is unchanged and no command is added.",
+]
+state_id = "state(19c1c9ef14652ce4e70dde9ff161c973c1a91bb17c4edf4d45e05b9d0d290a4f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:1964e56005a3f2cacece7e9aa10c8ac22383a049a89b87e31ce074cae396b295"
+entry_hash = "sha256:a241cdd90cadd9101575caf8c89da3f6946ec25c9112666e4b41bf63792c9981"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
