@@ -1,0 +1,19 @@
+[[commit]]
+entry = 127
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "97e54f8b951e5883a5ac428e64325b3f00926862"
+message = "cgitsync-8.4.0 BeforeCGS-BETA: every decision answered before implementation (D2, D5, FD1-FD4, AD1-AD9, BD1-BD5); USR holds the .gts, and a leading . names an EDGE, an OP-NODE (*EDGE an OP*-NODE)."
+authored_at = "2026-10-29T18:21:29+01:00"
+
+[[commit]]
+entry = 127
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "ad86bd6103bf85c7ceff3ac58d59f27448ee642b"
+message = "cgitsync-8.4.0 BeforeCGS-BETA: every decision answered before implementation (D2, D5, FD1-FD4, AD1-AD9, BD1-BD5); USR holds the .gts, and a leading . names an EDGE, an OP-NODE (*EDGE an OP*-NODE)."
+authored_at = "2026-10-29T18:21:29+01:00"

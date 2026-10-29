@@ -1,0 +1,23 @@
+[entry]
+seq = 127
+prev = "sha256:fca535b731a319b6b5b6720b7bf7048a0e40befeb6bafb7002564bd0ebcc390c"
+recorded_at = "2026-10-29T17:21:30Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.4.0 BeforeCGS-BETA: every decision answered before implementation (D2, D5, FD1-FD4, AD1-AD9, BD1-BD5); USR holds the .gts, and a leading . names an EDGE, an OP-NODE (*EDGE an OP*-NODE).",
+]
+state_id = "state(41ed97d033e4152a4a1a5a92d5a916ee798c6d6eb36b5f277706a2536c5d3392)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e6cce92a4a6689864bc60abbd7676f01e3035468595dce10d3254858e0370810"
+entry_hash = "sha256:732db6edcaa9731c45ea8247cbe052e32275147bf840803dc7eda5bc04778856"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

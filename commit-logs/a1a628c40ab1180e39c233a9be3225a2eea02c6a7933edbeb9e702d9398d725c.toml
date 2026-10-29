@@ -17,3 +17,23 @@ branch = "main"
 sha = "4deb1c99e2f6380f32e61b8f8004c82e1490167e"
 message = "cgitsync-8.4.0 BeforeCGS-BETA §7.0 integrates the short ticket yyyy-xxx: CGS-BETA has a GX4G node compute XXX, and OP emits the level's command on YYYY.node (OPX bootstrap yyyy-opx.gts, DEV bootstrap yyyy-dev.cgs, USR initialise ../install.cgs); domains DATA, COMPUTO, TWIN, HW; steps N6-N8, decisions AD6-AD9, AD6 being the conflict with §6's domains; MemoryMount points to it."
 authored_at = "2026-10-29T17:52:19+01:00"
+
+[[published]]
+entry = 126
+repository = ".dev"
+sha = "253bc479cd2d7f8396b00779b9c8dd13df109da4"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T16:52:43+00:00"
+remote_commit = "253bc479cd2d7f8396b00779b9c8dd13df109da4"
+observed_at = "2026-10-29T16:52:43+00:00"
+
+[[published]]
+entry = 126
+repository = "ComplexGitSync"
+sha = "4deb1c99e2f6380f32e61b8f8004c82e1490167e"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T16:52:43+00:00"
+remote_commit = "4deb1c99e2f6380f32e61b8f8004c82e1490167e"
+observed_at = "2026-10-29T16:52:43+00:00"
