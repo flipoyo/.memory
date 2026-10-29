@@ -1,0 +1,23 @@
+[entry]
+seq = 130
+prev = "sha256:a1f21dd670986e970fca0a52eaa95a6182a7eb7fc8acc1bab6c1f360e7b2c69a"
+recorded_at = "2026-10-29T23:02:49Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.5.0 BeforeCGS-BETA S10b+S10c: a yyyy-xxx.cgs must say its own project line (refused by name otherwise, memory reboot exports excepted), project.fallback_branch and the clone chain target, fallback, main; OP emits the level's command and OP* carries the ALPHA/BETA leaf verdicts. CI runs the full suite and the golden vectors on Linux, macOS and Windows (pytest marker golden); the four .agent gitlinks leave the index. Release level: MINOR (additive; the only refusal is of a file named yyyy-xxx.cgs whose project line contradicts its name).",
+]
+state_id = "state(742d8d6510315911336ffb79673ea93e053c51c2289de9e87c809cf8e7f6ab46)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:6e2f80f1ecde2f389d6c3d191a5f628ab256af6d3abca6fc042628209d705563"
+entry_hash = "sha256:3cd96a06abc2d1a8f280ce0482bb743f850233567a3a9303d87f984d5236999a"
+environment = "env(0a94192654cef35e3386f564a006d1c465d9e82662c8f142f0eb957c90147564)"
+
+[entry.toolchain]
+cgitsync = "8.5.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

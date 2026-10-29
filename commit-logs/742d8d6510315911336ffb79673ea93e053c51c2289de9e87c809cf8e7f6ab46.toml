@@ -1,0 +1,39 @@
+[[commit]]
+entry = 130
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "ed83921b73e45af40b15ef417d6a0798c36aa440"
+message = "cgitsync-8.5.0 BeforeCGS-BETA S10b+S10c: a yyyy-xxx.cgs must say its own project line (refused by name otherwise, memory reboot exports excepted), project.fallback_branch and the clone chain target, fallback, main; OP emits the level's command and OP* carries the ALPHA/BETA leaf verdicts. CI runs the full suite and the golden vectors on Linux, macOS and Windows (pytest marker golden); the four .agent gitlinks leave the index. Release level: MINOR (additive; the only refusal is of a file named yyyy-xxx.cgs whose project line contradicts its name)."
+authored_at = "2026-10-30T00:02:48+01:00"
+
+[[commit]]
+entry = 130
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "5f02062b0781858b43a0a4f517ab9ae882c399bc"
+message = "cgitsync-8.5.0 BeforeCGS-BETA S10b+S10c: a yyyy-xxx.cgs must say its own project line (refused by name otherwise, memory reboot exports excepted), project.fallback_branch and the clone chain target, fallback, main; OP emits the level's command and OP* carries the ALPHA/BETA leaf verdicts. CI runs the full suite and the golden vectors on Linux, macOS and Windows (pytest marker golden); the four .agent gitlinks leave the index. Release level: MINOR (additive; the only refusal is of a file named yyyy-xxx.cgs whose project line contradicts its name)."
+authored_at = "2026-10-30T00:02:48+01:00"
+
+[[commit]]
+entry = 130
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "97566ea004a0e490164a4a828a89e643aaaa3216"
+message = "cgitsync-8.5.0 BeforeCGS-BETA S10b+S10c: a yyyy-xxx.cgs must say its own project line (refused by name otherwise, memory reboot exports excepted), project.fallback_branch and the clone chain target, fallback, main; OP emits the level's command and OP* carries the ALPHA/BETA leaf verdicts. CI runs the full suite and the golden vectors on Linux, macOS and Windows (pytest marker golden); the four .agent gitlinks leave the index. Release level: MINOR (additive; the only refusal is of a file named yyyy-xxx.cgs whose project line contradicts its name)."
+authored_at = "2026-10-30T00:02:48+01:00"
+
+[[commit]]
+entry = 130
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "5b0a120c74e1942821b987999745c4addac2a5a0"
+message = "cgitsync-8.5.0 BeforeCGS-BETA S10b+S10c: a yyyy-xxx.cgs must say its own project line (refused by name otherwise, memory reboot exports excepted), project.fallback_branch and the clone chain target, fallback, main; OP emits the level's command and OP* carries the ALPHA/BETA leaf verdicts. CI runs the full suite and the golden vectors on Linux, macOS and Windows (pytest marker golden); the four .agent gitlinks leave the index. Release level: MINOR (additive; the only refusal is of a file named yyyy-xxx.cgs whose project line contradicts its name)."
+authored_at = "2026-10-30T00:02:48+01:00"
