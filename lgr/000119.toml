@@ -1,0 +1,23 @@
+[entry]
+seq = 119
+prev = "sha256:f17aa88bf77f8b3a53a68d3a52f83d59e81be965f2412ca629404cb68c1eaac2"
+recorded_at = "2026-10-29T15:47:26Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.4.0 CORR resolved in examples/gx4g-dev.cgs and gx4g-opx.cgs: the OP is renamed gx4g4xxx -> gx4g-xxx (G.OP.NAME), and the file, .NAME-.OP.NAME.cgs, is *NAME.OP.NAME = G.EDGE.NAME; MemoryMount uses the new names.\nRelease level: none (examples and a planning ticket; no change under src/); the release stays 8.4.0.",
+]
+state_id = "state(0564068bea7655fa94a04095c41d2bf768d3c007474610e1911d6591b6178a5c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e75275cd714f2a3068ed54c78fe93532b18c6223b3bab4c5bd29705a4a962d12"
+entry_hash = "sha256:1e7434384731c508983abc03a517b4e0072b815613e4cfea0699e9a93b40ccd2"
+environment = "env(369ff5edd9e997d504c2b2d9954c21ab9264762df814075fde548d1aed012c2f)"
+
+[entry.toolchain]
+cgitsync = "8.4.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

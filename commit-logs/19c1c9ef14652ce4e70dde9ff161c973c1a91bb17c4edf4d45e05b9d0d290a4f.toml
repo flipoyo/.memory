@@ -37,3 +37,43 @@ branch = "main"
 sha = "33b6195941b961f5001d1fc894b9e422f832c0c2"
 message = "cgitsync-8.4.0 OpBoundary: Op (orchestre/op_boundary.py) is the boundary through which the client's writing methods, verify with repair, and fetch enter, internal from the CLI through RoutedClient or external from GX4G through the Python API; isPoE returns OP*, the operation, *NAME and SHA256 of the Merkle root, bounded by a four-bit PoE vector (.PUBLIC 1111, .USER 1100, .DEV 1000, .OPX 0000) read from the tree profile, never a branch, message or path, and the origin never changes it. OmniscienceRecord gains sigma, shown in its record table and committed only when present, so existing records keep their hash and GLOBAL_SCHEMA stays 1; register is unchanged and no command is added."
 authored_at = "2026-10-29T14:53:16+01:00"
+
+[[published]]
+entry = 118
+repository = "DocComplexGitSync"
+sha = "be43e9b422039db50df6de7394497592dfb3cdb0"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T13:53:42+00:00"
+remote_commit = "be43e9b422039db50df6de7394497592dfb3cdb0"
+observed_at = "2026-10-29T13:53:42+00:00"
+
+[[published]]
+entry = 118
+repository = ".localSpec"
+sha = "64f12b94219c0f843267a2633195cc9c7b0517e2"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T13:53:42+00:00"
+remote_commit = "64f12b94219c0f843267a2633195cc9c7b0517e2"
+observed_at = "2026-10-29T13:53:42+00:00"
+
+[[published]]
+entry = 118
+repository = ".dev"
+sha = "32625f261bb2ae3d1332b31acb94161740240266"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T13:53:42+00:00"
+remote_commit = "32625f261bb2ae3d1332b31acb94161740240266"
+observed_at = "2026-10-29T13:53:42+00:00"
+
+[[published]]
+entry = 118
+repository = "ComplexGitSync"
+sha = "33b6195941b961f5001d1fc894b9e422f832c0c2"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T13:53:42+00:00"
+remote_commit = "33b6195941b961f5001d1fc894b9e422f832c0c2"
+observed_at = "2026-10-29T13:53:42+00:00"

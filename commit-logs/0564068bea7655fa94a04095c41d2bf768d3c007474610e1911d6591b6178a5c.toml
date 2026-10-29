@@ -1,0 +1,39 @@
+[[commit]]
+entry = 119
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "88fb3d894e75324b118a2c2d9181d18ebb681697"
+message = "cgitsync-8.4.0 CORR resolved in examples/gx4g-dev.cgs and gx4g-opx.cgs: the OP is renamed gx4g4xxx -> gx4g-xxx (G.OP.NAME), and the file, .NAME-.OP.NAME.cgs, is *NAME.OP.NAME = G.EDGE.NAME; MemoryMount uses the new names.\nRelease level: none (examples and a planning ticket; no change under src/); the release stays 8.4.0."
+authored_at = "2026-10-29T16:47:26+01:00"
+
+[[commit]]
+entry = 119
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "3a64f449d7e67f9e06662dea1ba2434ebb5283cc"
+message = "cgitsync-8.4.0 CORR resolved in examples/gx4g-dev.cgs and gx4g-opx.cgs: the OP is renamed gx4g4xxx -> gx4g-xxx (G.OP.NAME), and the file, .NAME-.OP.NAME.cgs, is *NAME.OP.NAME = G.EDGE.NAME; MemoryMount uses the new names.\nRelease level: none (examples and a planning ticket; no change under src/); the release stays 8.4.0."
+authored_at = "2026-10-29T16:47:26+01:00"
+
+[[commit]]
+entry = 119
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "ce8b4dbd9cbdae68e2029d31e7aab271d9698f9a"
+message = "cgitsync-8.4.0 CORR resolved in examples/gx4g-dev.cgs and gx4g-opx.cgs: the OP is renamed gx4g4xxx -> gx4g-xxx (G.OP.NAME), and the file, .NAME-.OP.NAME.cgs, is *NAME.OP.NAME = G.EDGE.NAME; MemoryMount uses the new names.\nRelease level: none (examples and a planning ticket; no change under src/); the release stays 8.4.0."
+authored_at = "2026-10-29T16:47:26+01:00"
+
+[[commit]]
+entry = 119
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "e8787978f5de1044c6b49a4043919e9267a3f183"
+message = "cgitsync-8.4.0 CORR resolved in examples/gx4g-dev.cgs and gx4g-opx.cgs: the OP is renamed gx4g4xxx -> gx4g-xxx (G.OP.NAME), and the file, .NAME-.OP.NAME.cgs, is *NAME.OP.NAME = G.EDGE.NAME; MemoryMount uses the new names.\nRelease level: none (examples and a planning ticket; no change under src/); the release stays 8.4.0."
+authored_at = "2026-10-29T16:47:26+01:00"
