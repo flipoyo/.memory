@@ -17,3 +17,23 @@ branch = "main"
 sha = "ad86bd6103bf85c7ceff3ac58d59f27448ee642b"
 message = "cgitsync-8.4.0 BeforeCGS-BETA: every decision answered before implementation (D2, D5, FD1-FD4, AD1-AD9, BD1-BD5); USR holds the .gts, and a leading . names an EDGE, an OP-NODE (*EDGE an OP*-NODE)."
 authored_at = "2026-10-29T18:21:29+01:00"
+
+[[published]]
+entry = 128
+repository = ".dev"
+sha = "97e54f8b951e5883a5ac428e64325b3f00926862"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T17:21:51+00:00"
+remote_commit = "97e54f8b951e5883a5ac428e64325b3f00926862"
+observed_at = "2026-10-29T17:21:51+00:00"
+
+[[published]]
+entry = 128
+repository = "ComplexGitSync"
+sha = "ad86bd6103bf85c7ceff3ac58d59f27448ee642b"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-29T17:21:51+00:00"
+remote_commit = "ad86bd6103bf85c7ceff3ac58d59f27448ee642b"
+observed_at = "2026-10-29T17:21:51+00:00"
