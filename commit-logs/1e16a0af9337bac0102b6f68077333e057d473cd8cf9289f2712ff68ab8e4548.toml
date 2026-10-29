@@ -7,3 +7,13 @@ branch = "ComplexGitSync"
 sha = "3a19483df3c4e5232e01e644fea6294b7cb3fcfe"
 message = "cgitsync-8.3.0 Planning from ExplDistantLocal: MemoryMount (gx4g-main_1-1, new prefix gx4g-main_) sets the install protocol by PoE level (.USER 1100, .DEV 1000, .OPX 0000), and OpBoundary (main_2-11) makes OP the boundary class every request from G or GX4G passes through, with isPoE(OP) = OP* and *G = G{NAME,NODE,EDGE,OP*}.\nOnly a *G is registered, and its Sigma becomes a sigma field of OmniscienceRecord, hashed only when present; CGS-ALPHA is ComplexGitSync; ProviderMigration notes the rule.\nRelease level: none (planning tickets in the private .dev repository only); the release stays 8.3.0."
 authored_at = "2026-10-29T03:07:10+01:00"
+
+[[published]]
+entry = 114
+repository = ".dev"
+sha = "3a19483df3c4e5232e01e644fea6294b7cb3fcfe"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-29T02:07:34+00:00"
+remote_commit = "3a19483df3c4e5232e01e644fea6294b7cb3fcfe"
+observed_at = "2026-10-29T02:07:34+00:00"

@@ -1,0 +1,23 @@
+[entry]
+seq = 115
+prev = "sha256:b23e2fefb145f41539f48fb8396708757f26de0e66bcce57cbf00e503cd8711e"
+recorded_at = "2026-10-29T02:21:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.3.0 Planning from ExplDistantLocal: MemoryMount (gx4g-main_1-1, new prefix gx4g-main_) sets the install protocol by PoE level, and OpBoundary (main_2-11) makes OP the boundary class for requests from G or GX4G; final cut *NAME{NODE,EDGE*} = G{NAME,NODE,EDGE,OP*}, the only graph registered and read by gx4g, under *NAME, a name of its own; the PoE is signalled by the *, never written, and Sigma (four bits, .PUBLIC {1,1,1,1} invariant) is a sigma field of OmniscienceRecord hashed when present. BeforeBeta re-evaluated (§3d, a §3b row, D5 open: do OpBoundary and MemoryMount land before beta) with what gx4g must take; CGS-ALPHA is ComplexGitSync; ProviderMigration notes the rule.",
+]
+state_id = "state(749239a2f29da6dff1a8b1f9e4ca574853a58354d1932d58bc05247e352af4d1)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ac38830091712c8c96d7df5d5a85fb73a7c331cbd551705d7b9992bd161aeab6"
+entry_hash = "sha256:405880064dcc54581a3993e2af0b3ac0f917880b216bb5916909158022a8a7ca"
+environment = "env(6979a731c3e0b2f7795fa82b06ee1ef1922c9a9b141e7972fb3920735079b559)"
+
+[entry.toolchain]
+cgitsync = "8.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
