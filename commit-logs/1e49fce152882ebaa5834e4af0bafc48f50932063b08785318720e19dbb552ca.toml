@@ -17,3 +17,23 @@ branch = "main"
 sha = "cbbd35e283d535cf4af73af29efa4d51a9080fcf"
 message = "cgitsync-8.2.0 IntegrityMount answered: a repository is held once per branch, a nested Parent's private repository takes <Parent>_<Project>, a schema-1 key collision and a same-branch duplicate are denied before cloning and said in the log file, never in the .gts.Release level: none (planning tickets in the private .dev repository only); the release stays 8.2.0."
 authored_at = "2026-10-28T18:26:49+01:00"
+
+[[published]]
+entry = 110
+repository = ".dev"
+sha = "b90bbd9b2dba3203e00410f0d6bccaf5f6319f47"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync"
+at = "2026-10-28T17:27:14+00:00"
+remote_commit = "b90bbd9b2dba3203e00410f0d6bccaf5f6319f47"
+observed_at = "2026-10-28T17:27:14+00:00"
+
+[[published]]
+entry = 110
+repository = "ComplexGitSync"
+sha = "cbbd35e283d535cf4af73af29efa4d51a9080fcf"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/main"
+at = "2026-10-28T17:27:14+00:00"
+remote_commit = "cbbd35e283d535cf4af73af29efa4d51a9080fcf"
+observed_at = "2026-10-28T17:27:14+00:00"

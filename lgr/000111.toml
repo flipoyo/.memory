@@ -1,0 +1,23 @@
+[entry]
+seq = 111
+prev = "sha256:5b3afc3fce6bbfa3d58db469f5d83171791be65880bd8c0306b326e98c0f3008"
+recorded_at = "2026-10-29T00:34:52Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.3.0 IntegrityMount: a .cgs is a request and the .gts may refuse it. A nested mount of a repository already held on the same branch, at a used relative_path, or of a different repository at a used path is denied before cloning, printed and logged as mount_denied, never in the .gts; a nested Parent's private repositories are on <Parent>_<Project>; 8.2.0's integrity schema 2, tree_path, aliases and symlinks are removed.",
+]
+state_id = "state(45cffbc1877ff63b8d2c0c1245c1d094081f1d22c45b62baa5ed798efde707ca)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ffbd7a02dce489c3ddd80b9d3ab6e47cc211509a5458906f5213874e5898e655"
+entry_hash = "sha256:856db24c9af116a0182af6b93f9dae8ca5dc737566407b8027d9f63832beb012"
+environment = "env(6979a731c3e0b2f7795fa82b06ee1ef1922c9a9b141e7972fb3920735079b559)"
+
+[entry.toolchain]
+cgitsync = "8.3.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
