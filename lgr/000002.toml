@@ -1,0 +1,23 @@
+[entry]
+seq = 2
+prev = "sha256:a0e4cd77bde47f6eb4ef69cf5e122b75ea9e0bb6435cf62f1d434ca00f655260"
+recorded_at = "2026-10-30T17:44:12Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.6.1\nGenerate the complexgitsync-opx, -dev, -usr and -pub example specs, replacing complexgitsync4dev, and repoint every citation.\nCI now initialises from examples/complexgitsync-dev.cgs; the project name stays ComplexGitSync on main.",
+]
+state_id = "state(a0d350ce2f43942830a5455e9fda94c3ec34911ba93557cc9c47d615f431d884)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c069ec94907547b69577b33a152601ffe64169a020ed1aa3f0a409a709b3f612"
+entry_hash = "sha256:99391cc857c4c88d5bf3bdd0b43dda2a8f793070a758a4dd83105590fae81d0b"
+environment = "env(74e2046dc204511a6d89522a188aa0b8a37018ace6ac35461cbc204fd81a032e)"
+
+[entry.toolchain]
+cgitsync = "8.6.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

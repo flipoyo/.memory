@@ -1,0 +1,39 @@
+[[commit]]
+entry = 2
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "6cddc5f30e909019daa6574ff9f32549d18c1c11"
+message = "cgitsync-8.6.1\nGenerate the complexgitsync-opx, -dev, -usr and -pub example specs, replacing complexgitsync4dev, and repoint every citation.\nCI now initialises from examples/complexgitsync-dev.cgs; the project name stays ComplexGitSync on main."
+authored_at = "2026-10-30T18:44:11+01:00"
+
+[[commit]]
+entry = 2
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "0d4014aad3473cb240576397891a92ef8f85c9c0"
+message = "cgitsync-8.6.1\nGenerate the complexgitsync-opx, -dev, -usr and -pub example specs, replacing complexgitsync4dev, and repoint every citation.\nCI now initialises from examples/complexgitsync-dev.cgs; the project name stays ComplexGitSync on main."
+authored_at = "2026-10-30T18:44:11+01:00"
+
+[[commit]]
+entry = 2
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "2b4b5021e8540ebc9f09dbade281b8a16c4b07e4"
+message = "cgitsync-8.6.1\nGenerate the complexgitsync-opx, -dev, -usr and -pub example specs, replacing complexgitsync4dev, and repoint every citation.\nCI now initialises from examples/complexgitsync-dev.cgs; the project name stays ComplexGitSync on main."
+authored_at = "2026-10-30T18:44:11+01:00"
+
+[[commit]]
+entry = 2
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "015f7ddfb6541f8f64fd96c0b4b64cb2508db557"
+message = "cgitsync-8.6.1\nGenerate the complexgitsync-opx, -dev, -usr and -pub example specs, replacing complexgitsync4dev, and repoint every citation.\nCI now initialises from examples/complexgitsync-dev.cgs; the project name stays ComplexGitSync on main."
+authored_at = "2026-10-30T18:44:11+01:00"
