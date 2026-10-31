@@ -1,0 +1,39 @@
+[[commit]]
+entry = 4
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "main"
+sha = "aa42a0ccfa71802ca4c0668458e1c64aafa2f133"
+message = "cgitsync-8.6.2 A writing command, fetch included, now refuses when CGSHOME names a workspace that does not contain the current directory.\nRead commands keep their warning. --search-dir, an explicit snapshot or unset CGSHOME say which workspace you mean"
+authored_at = "2026-10-31T12:48:19+01:00"
+
+[[commit]]
+entry = 4
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "8900f878ac1d47855e3a1c6f0fdf8e0f11f36a11"
+message = "cgitsync-8.6.2 A writing command, fetch included, now refuses when CGSHOME names a workspace that does not contain the current directory.\nRead commands keep their warning. --search-dir, an explicit snapshot or unset CGSHOME say which workspace you mean"
+authored_at = "2026-10-31T12:48:19+01:00"
+
+[[commit]]
+entry = 4
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync"
+sha = "5cbf24fa1154ebc05a6d541657fa7972cfeb487e"
+message = "cgitsync-8.6.2 A writing command, fetch included, now refuses when CGSHOME names a workspace that does not contain the current directory.\nRead commands keep their warning. --search-dir, an explicit snapshot or unset CGSHOME say which workspace you mean"
+authored_at = "2026-10-31T12:48:19+01:00"
+
+[[commit]]
+entry = 4
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "main"
+sha = "9594d7e51ab9008458335cda09c80538f1a0bf98"
+message = "cgitsync-8.6.2 A writing command, fetch included, now refuses when CGSHOME names a workspace that does not contain the current directory.\nRead commands keep their warning. --search-dir, an explicit snapshot or unset CGSHOME say which workspace you mean"
+authored_at = "2026-10-31T12:48:19+01:00"

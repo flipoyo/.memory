@@ -1,0 +1,23 @@
+[entry]
+seq = 4
+prev = "sha256:d622a766483df3c5be030a89d02c9ddc7442243622a67b2335736948bb0dbcdb"
+recorded_at = "2026-10-31T11:48:20Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.6.2 A writing command, fetch included, now refuses when CGSHOME names a workspace that does not contain the current directory.\nRead commands keep their warning. --search-dir, an explicit snapshot or unset CGSHOME say which workspace you mean",
+]
+state_id = "state(45febad5939eb140de86beedf1e2b57eed4324783555219b0356f8d8820690c2)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a8a30efeb4caa48aa56ddf70aa47b6694bfc9409770da98224315d18a2dc8a0e"
+entry_hash = "sha256:efc1672adcf72be5a275c17e027e08faeb9dc38ccefa07640f21db07dbbaa955"
+environment = "env(6967e2f47e8eafb3dfb43b8389db1c185c98bfc6e6d3e359eeba64f0256c3f5c)"
+
+[entry.toolchain]
+cgitsync = "8.6.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
