@@ -1,0 +1,23 @@
+[entry]
+seq = 10
+prev = "sha256:351b98b7be85de268423c3b43d7e503dc809d0d7bb03ab7eb34d8518d3e39bb8"
+recorded_at = "2026-10-31T20:56:18Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.7.0 LinkAtCGS: a yyyy-xxx.cgs now falls back to CGS-ALPHA, then main, and one still naming the beta branch is refused by name; every reference to the beta branch leaves the code, examples, specs and open tickets, and the molonari OpFrontier targets ComplexGraphSync. The developer spec keeps CGS-ALPHA first for ComplexGitSync and DocComplexGitSync, its private entries taking the derived branch; the ticket is renamed LinkAtCGS and moves to CGS-ALPHA. Release level: MINOR.",
+]
+state_id = "state(efcd95ded10d3473b83811862fb759013dea2816362132f62b9297888ad19ac8)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e09b4788189df6cb34cbd75cb5cf43236134da763c18e2b365b6ae73a0191364"
+entry_hash = "sha256:fe6ecdfa67e1479b1116f1f4e4a0e7debc866dbcc901398df686f20c998254da"
+environment = "env(7b8ffa50ef683a4a128482aa4de1fdd7fc5509b26c266fe3cd275f3dbaacf857)"
+
+[entry.toolchain]
+cgitsync = "8.7.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

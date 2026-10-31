@@ -1,0 +1,39 @@
+[[commit]]
+entry = 10
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "51e48328760099df455cc69ac17c2bad153808e6"
+message = "cgitsync-8.7.0 LinkAtCGS: a yyyy-xxx.cgs now falls back to CGS-ALPHA, then main, and one still naming the beta branch is refused by name; every reference to the beta branch leaves the code, examples, specs and open tickets, and the molonari OpFrontier targets ComplexGraphSync. The developer spec keeps CGS-ALPHA first for ComplexGitSync and DocComplexGitSync, its private entries taking the derived branch; the ticket is renamed LinkAtCGS and moves to CGS-ALPHA. Release level: MINOR."
+authored_at = "2026-10-31T21:56:17+01:00"
+
+[[commit]]
+entry = 10
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "fb7552c9c90781b09b1bc7c6c27486bea2620f37"
+message = "cgitsync-8.7.0 LinkAtCGS: a yyyy-xxx.cgs now falls back to CGS-ALPHA, then main, and one still naming the beta branch is refused by name; every reference to the beta branch leaves the code, examples, specs and open tickets, and the molonari OpFrontier targets ComplexGraphSync. The developer spec keeps CGS-ALPHA first for ComplexGitSync and DocComplexGitSync, its private entries taking the derived branch; the ticket is renamed LinkAtCGS and moves to CGS-ALPHA. Release level: MINOR."
+authored_at = "2026-10-31T21:56:17+01:00"
+
+[[commit]]
+entry = 10
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "eb04f382222343495ec83a192f669842628bd3fd"
+message = "cgitsync-8.7.0 LinkAtCGS: a yyyy-xxx.cgs now falls back to CGS-ALPHA, then main, and one still naming the beta branch is refused by name; every reference to the beta branch leaves the code, examples, specs and open tickets, and the molonari OpFrontier targets ComplexGraphSync. The developer spec keeps CGS-ALPHA first for ComplexGitSync and DocComplexGitSync, its private entries taking the derived branch; the ticket is renamed LinkAtCGS and moves to CGS-ALPHA. Release level: MINOR."
+authored_at = "2026-10-31T21:56:17+01:00"
+
+[[commit]]
+entry = 10
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "8e17f59fdf866919db00c36d89e6b92640a5ff11"
+message = "cgitsync-8.7.0 LinkAtCGS: a yyyy-xxx.cgs now falls back to CGS-ALPHA, then main, and one still naming the beta branch is refused by name; every reference to the beta branch leaves the code, examples, specs and open tickets, and the molonari OpFrontier targets ComplexGraphSync. The developer spec keeps CGS-ALPHA first for ComplexGitSync and DocComplexGitSync, its private entries taking the derived branch; the ticket is renamed LinkAtCGS and moves to CGS-ALPHA. Release level: MINOR."
+authored_at = "2026-10-31T21:56:17+01:00"

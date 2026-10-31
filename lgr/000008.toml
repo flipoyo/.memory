@@ -1,0 +1,22 @@
+[entry]
+seq = 8
+prev = "sha256:f962ddbb00f9d0c33a6c2cc9cb0cd16d7c81cac547f1a5f21e9f2b6249805e2a"
+recorded_at = "2026-10-31T20:16:52Z"
+command = "merge"
+argv = [
+    "merge",
+    "main",
+]
+state_id = "state(b780f7ad74cbc915432c9cf8c48b1f9fdb1f0348ebcb19fe610532e306e21584)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:890aac1d085eb0b0b5cfedada00dc8fe186e58fe5ac599dd1822947823a6d0a7"
+environment = "env(87efc06f959e8ad358bfbbd7ac9633d1a390c4811136c5ed58c284bb6ca9e9aa)"
+
+[entry.toolchain]
+cgitsync = "8.5.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
