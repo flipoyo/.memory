@@ -1,0 +1,22 @@
+[entry]
+seq = 13
+prev = "sha256:1343dee8dfd89707bb6d0314237770f137d2a6e20cdc0f07f85190fccf4c536a"
+recorded_at = "2026-11-02T17:34:31Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync-8.7.0 test supp last line complexgitsync-opx.cgs",
+]
+state_id = "state(1654a667e7395e5c3be38bc5acf706aee2fe40e229e699956dfc279ac68aaf67)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:662b886e4f44dd9469bee628a51b5cbd925144a04ca9979e345bfa2c8164e772"
+entry_hash = "sha256:b6b69e26b8a33390e17e5f07944330d82d2ed87ec72caef1f1e499912b8ab91a"
+environment = "env(eb8a1f56ccfaea0f569bab4d09880ebc257a6aa04cf5f94db7879e904f599489)"
+
+[entry.toolchain]
+cgitsync = "8.7.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

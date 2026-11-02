@@ -1,0 +1,22 @@
+[entry]
+seq = 11
+prev = "sha256:fe6ecdfa67e1479b1116f1f4e4a0e7debc866dbcc901398df686f20c998254da"
+recorded_at = "2026-11-02T17:23:01Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "./examples/complexgitsync-opx.cgs",
+]
+state_id = "state(e5c800a71ca4dfe1392ef1f53822f3ea55dfbcc34d71bde4293004a4b2d62a7c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:3b7b6bbf81e2e52c0a3e1e7230eb476d713d187d2a1e93adb3b89e67be880ae1"
+environment = "env(eb8a1f56ccfaea0f569bab4d09880ebc257a6aa04cf5f94db7879e904f599489)"
+
+[entry.toolchain]
+cgitsync = "8.7.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
