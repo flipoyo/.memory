@@ -1,0 +1,22 @@
+[entry]
+seq = 10
+prev = "sha256:5ed0d294082cba13c6fc3b019c37fed656965cb61657a0230e3d67836781683c"
+recorded_at = "2026-11-03T17:51:48Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgs-1-7.1-alpha mounting github.com/flipoyo/omniscience properly on branch ComplexGraphSync_CGS-ALPHA",
+]
+state_id = "state(b75db76f4f6fe4722e5bfdd33f3cdb86311f734929edbc5a7c730444ceb613c9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:fd1be08b13259c6d3f1ea2978542b96eb6e4560a91c19b3438e5b5a52b97ce70"
+entry_hash = "sha256:ef2567da604481aac0d55ce54621d26c4d5a9b22065fd5ca0c08f2a5687a77e9"
+environment = "env(2d3c7d3e61e5173dc5482117efc165d58ef9686f75103da61471599d0ec378d3)"
+
+[entry.toolchain]
+cgitsync = "8.7.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
