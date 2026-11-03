@@ -1,0 +1,21 @@
+[entry]
+seq = 2
+prev = "sha256:a0e4260eeead26fae4140455ca6356b2040ea583b39a8f56b1346dc9e7223583"
+recorded_at = "2026-11-03T13:46:38Z"
+command = "pull"
+argv = [
+    "pull",
+]
+state_id = "state(296e790fa83bd85c9c823c19ef59af64674ca93ddeb88e87625dea31bd3a9e9c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:3659c8fce8e68ba98e0a113a27939b5f054b3a1db05363ffddad7b8cc7960f89"
+environment = "env(e9033d31a4ee3579b3018e7caf182e5afb43b1e312d838916165838d4245e8e6)"
+
+[entry.toolchain]
+cgitsync = "8.6.2"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
