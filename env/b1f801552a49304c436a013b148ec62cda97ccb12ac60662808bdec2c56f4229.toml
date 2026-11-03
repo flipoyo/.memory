@@ -1,0 +1,62 @@
+format_version = 1
+environment_root = ""
+tools = [
+    { name = "cgitsync", raw = "8.6.2", version = "8.6.2" },
+    { name = "dvc", raw = "none", version = "none" },
+    { name = "gh", raw = "gh version 2.46.0 (2025-12-13 Ubuntu 2.46.0-4)", version = "2.46.0" },
+    { name = "git", raw = "git version 2.53.0", version = "2.53.0" },
+    { name = "git-lfs", raw = "none", version = "none" },
+    { name = "pixi", raw = "pixi 0.66.0", version = "0.66.0" },
+    { name = "python", raw = "3.11.18", version = "3.11.18" },
+    { name = "ssh", raw = "OpenSSH_10.5p1, OpenSSL 3.6.5 29 Sep 2026", version = "10.5" },
+]
+credentials = [
+    { provider = "github", tool = "gh", available = true, authenticated = true },
+]
+
+[machine]
+architecture = "x86_64"
+pixi_platform = "linux-64"
+os_name = "ubuntu"
+os_version = "26.04"
+libc_name = "glibc"
+libc_version = "2.43"
+kernel_release = "7.0.0-42-generic"
+
+[[manifests]]
+repository = "root:ComplexGitSync"
+path = "ComplexGitSync/pixi.lock"
+digest = "sha256:c43ad5a0f02e711664553542daf60feb1e4f2f6178c43c4708dc1a2892fbb4b8"
+platforms = [
+    "linux-64",
+    "osx-arm64",
+    "win-64",
+]
+
+[[manifests]]
+repository = "root:ComplexGitSync"
+path = "ComplexGitSync/pixi.toml"
+digest = "sha256:71704dbb88d0f077f502c32cc9619fc7866c8bebd4b5bc87aaa7980a5b9b861b"
+platforms = []
+
+[[manifests]]
+repository = "root:ComplexGitSync"
+path = "ComplexGitSync/pyproject.toml"
+digest = "sha256:b5a426e5dfab2cdd0b6ad853b54018408ecbe48abbe3b38d04489def12a403f3"
+platforms = []
+
+[[manifests]]
+repository = "root"
+path = "pixi.lock"
+digest = "sha256:78d48ae98813a16706d8f72dd9a02ba8974061d49c57d260f9c7a2da8f47481d"
+platforms = [
+    "linux-64",
+    "osx-arm64",
+    "win-64",
+]
+
+[[manifests]]
+repository = "root"
+path = "pixi.toml"
+digest = "sha256:23ad1eaba9c60bce6765941df7fe6c6722eb2113ec53add1d3591ba553b2e158"
+platforms = []

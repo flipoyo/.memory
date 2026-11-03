@@ -1,0 +1,22 @@
+[entry]
+seq = 5
+prev = "sha256:b956c5bf8c0566a6b3e1e86e7379d854ad5bfadfe1fd79c93b7ef4231b9dd4d9"
+recorded_at = "2026-11-03T14:24:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgs-1.7.0 id manager and ssh keys",
+]
+state_id = "state(365291585f64b4280e15d45445a3a704e700e13ec6833b4c827c7b21f64f4db4)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:da15acaa9d6a654e11b18d5b6182c58d6ac5ebdd0493bee5621d7e49081c48cf"
+entry_hash = "sha256:9b003485d7e62b12235a1eee3d2d194372cab250bcc046c2ed6dd9b2707cda86"
+environment = "env(b1f801552a49304c436a013b148ec62cda97ccb12ac60662808bdec2c56f4229)"
+
+[entry.toolchain]
+cgitsync = "8.6.2"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
