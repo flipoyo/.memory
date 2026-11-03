@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "0e205004236d92ce782bdaaccf8384142136b7e5"
 message = "cgs-1.7.0 dogfooding ticket for a full cgs-ComplexGitSync POC"
 authored_at = "2026-11-03T15:50:49+01:00"
+
+[[published]]
+entry = 8
+repository = "ComplexGraphSync"
+sha = "0e205004236d92ce782bdaaccf8384142136b7e5"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-03T14:51:03+00:00"
+remote_commit = "0e205004236d92ce782bdaaccf8384142136b7e5"
+observed_at = "2026-11-03T14:51:03+00:00"
