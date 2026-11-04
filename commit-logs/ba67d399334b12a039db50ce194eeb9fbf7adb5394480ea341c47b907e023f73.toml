@@ -37,3 +37,43 @@ branch = "CGS-ALPHA"
 sha = "47d4100c0c78d633143b95ef13663106146c52ef"
 message = "cgitsync-8.8.0 BehindGate: while the root of a yyyy-xxx.cgs tree waits on its fallback, every private branch derives from its level, never from the fallback.\nComplexGitSync mounted behind another project's gate is on <project>_<branch>; the install report names branch create then checkout of the level."
 authored_at = "2026-11-04T09:27:21+01:00"
+
+[[published]]
+entry = 26
+repository = "DocComplexGitSync"
+sha = "863e7456fb5d75b4cf5ab4c11d8919a3c40ef348"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-04T08:27:49+00:00"
+remote_commit = "863e7456fb5d75b4cf5ab4c11d8919a3c40ef348"
+observed_at = "2026-11-04T08:27:49+00:00"
+
+[[published]]
+entry = 26
+repository = ".localSpec"
+sha = "a64ef1dbc1926c32cdeb9011c8ac9f55c6bfccd5"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-04T08:27:49+00:00"
+remote_commit = "a64ef1dbc1926c32cdeb9011c8ac9f55c6bfccd5"
+observed_at = "2026-11-04T08:27:49+00:00"
+
+[[published]]
+entry = 26
+repository = ".dev"
+sha = "b7f075843363d9adfc657507a67d2623f65d4682"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-04T08:27:49+00:00"
+remote_commit = "b7f075843363d9adfc657507a67d2623f65d4682"
+observed_at = "2026-11-04T08:27:49+00:00"
+
+[[published]]
+entry = 26
+repository = "ComplexGitSync"
+sha = "47d4100c0c78d633143b95ef13663106146c52ef"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-04T08:27:49+00:00"
+remote_commit = "47d4100c0c78d633143b95ef13663106146c52ef"
+observed_at = "2026-11-04T08:27:49+00:00"
