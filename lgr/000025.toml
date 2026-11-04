@@ -1,0 +1,23 @@
+[entry]
+seq = 25
+prev = "sha256:da1199a73cf83070a8f16798f013aadaea2431fea4a354998dfce0be332bde19"
+recorded_at = "2026-11-04T08:27:21Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.8.0 BehindGate: while the root of a yyyy-xxx.cgs tree waits on its fallback, every private branch derives from its level, never from the fallback.\nComplexGitSync mounted behind another project's gate is on <project>_<branch>; the install report names branch create then checkout of the level.",
+]
+state_id = "state(ba67d399334b12a039db50ce194eeb9fbf7adb5394480ea341c47b907e023f73)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:783a60c14812645e96e767b9281c6bfefcf931db0ec7cea2c7071d288b4d8f98"
+entry_hash = "sha256:8170fc2be291d110c6b2bd2136dd2647b9fb762b9f552d83b1ca766447e54068"
+environment = "env(c5a57791b2297351a570205405230d07fad432e615ce339f0104cf6f839f66ce)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

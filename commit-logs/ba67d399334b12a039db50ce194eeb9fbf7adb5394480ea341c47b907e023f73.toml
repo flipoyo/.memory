@@ -1,0 +1,39 @@
+[[commit]]
+entry = 25
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "863e7456fb5d75b4cf5ab4c11d8919a3c40ef348"
+message = "cgitsync-8.8.0 BehindGate: while the root of a yyyy-xxx.cgs tree waits on its fallback, every private branch derives from its level, never from the fallback.\nComplexGitSync mounted behind another project's gate is on <project>_<branch>; the install report names branch create then checkout of the level."
+authored_at = "2026-11-04T09:27:21+01:00"
+
+[[commit]]
+entry = 25
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "a64ef1dbc1926c32cdeb9011c8ac9f55c6bfccd5"
+message = "cgitsync-8.8.0 BehindGate: while the root of a yyyy-xxx.cgs tree waits on its fallback, every private branch derives from its level, never from the fallback.\nComplexGitSync mounted behind another project's gate is on <project>_<branch>; the install report names branch create then checkout of the level."
+authored_at = "2026-11-04T09:27:21+01:00"
+
+[[commit]]
+entry = 25
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "b7f075843363d9adfc657507a67d2623f65d4682"
+message = "cgitsync-8.8.0 BehindGate: while the root of a yyyy-xxx.cgs tree waits on its fallback, every private branch derives from its level, never from the fallback.\nComplexGitSync mounted behind another project's gate is on <project>_<branch>; the install report names branch create then checkout of the level."
+authored_at = "2026-11-04T09:27:21+01:00"
+
+[[commit]]
+entry = 25
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "47d4100c0c78d633143b95ef13663106146c52ef"
+message = "cgitsync-8.8.0 BehindGate: while the root of a yyyy-xxx.cgs tree waits on its fallback, every private branch derives from its level, never from the fallback.\nComplexGitSync mounted behind another project's gate is on <project>_<branch>; the install report names branch create then checkout of the level."
+authored_at = "2026-11-04T09:27:21+01:00"
