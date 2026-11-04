@@ -1,0 +1,22 @@
+[entry]
+seq = 20
+prev = "sha256:7b8da5a08ae82671c6daff383828630fd2d6023f3407a0dd3dd8bcf4a265ce80"
+recorded_at = "2026-11-04T01:12:43Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync-8.7.6 Tutorials: each tutorial cut to about 200 lines and opened with a twenty-line Getting started section; titles say of 8, the index is updated.",
+]
+state_id = "state(e4c220e293090e3ca07929ec6eecca747e6ef3983322d333a18d00a7fb077a5e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f93c720f2a9f7ee9444a1eb33373f5d8370cd23bed453a32147c59097471aa9b"
+entry_hash = "sha256:4d64582c0b0b7597991341fc419648118f47f6c7ab5922b3f02f18ae6ec8972c"
+environment = "env(21f0b8d79d62a175a20271b7c6458d22644740d78a7d794faea1a9834c62c061)"
+
+[entry.toolchain]
+cgitsync = "8.7.6"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

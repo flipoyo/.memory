@@ -37,3 +37,43 @@ branch = "main"
 sha = "9594d7e51ab9008458335cda09c80538f1a0bf98"
 message = "cgitsync-8.6.2 A writing command, fetch included, now refuses when CGSHOME names a workspace that does not contain the current directory.\nRead commands keep their warning. --search-dir, an explicit snapshot or unset CGSHOME say which workspace you mean"
 authored_at = "2026-10-31T12:48:19+01:00"
+
+[[published]]
+entry = 19
+repository = "DocComplexGitSync"
+sha = "aa42a0ccfa71802ca4c0668458e1c64aafa2f133"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-04T01:01:53+00:00"
+remote_commit = "31cc371b862ab354e79f6d536c67f2243d1d9001"
+observed_at = "2026-11-04T01:01:53+00:00"
+
+[[published]]
+entry = 19
+repository = ".localSpec"
+sha = "8900f878ac1d47855e3a1c6f0fdf8e0f11f36a11"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-04T01:01:53+00:00"
+remote_commit = "ccf677860713e67faa78464e75b44c4383a8f48e"
+observed_at = "2026-11-04T01:01:53+00:00"
+
+[[published]]
+entry = 19
+repository = ".dev"
+sha = "5cbf24fa1154ebc05a6d541657fa7972cfeb487e"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-04T01:01:53+00:00"
+remote_commit = "abe824d69c5716903e798315c7a318eb26eaf36f"
+observed_at = "2026-11-04T01:01:53+00:00"
+
+[[published]]
+entry = 19
+repository = "ComplexGitSync"
+sha = "9594d7e51ab9008458335cda09c80538f1a0bf98"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-04T01:01:53+00:00"
+remote_commit = "223a4f90ad177a1dbe0e4cd1a33d82ee6fc0dd31"
+observed_at = "2026-11-04T01:01:53+00:00"
