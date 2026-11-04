@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "06c34bc66396fdc9f68a9ec9600caf7fbe749821"
 message = "cgitsync-8.7.6 Tutorials: each tutorial cut to about 200 lines and opened with a twenty-line Getting started section; titles say of 8, the index is updated."
 authored_at = "2026-11-04T02:12:42+01:00"
+
+[[published]]
+entry = 21
+repository = "ComplexGitSync"
+sha = "06c34bc66396fdc9f68a9ec9600caf7fbe749821"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-04T01:12:58+00:00"
+remote_commit = "06c34bc66396fdc9f68a9ec9600caf7fbe749821"
+observed_at = "2026-11-04T01:12:58+00:00"
