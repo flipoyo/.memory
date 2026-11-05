@@ -1,0 +1,9 @@
+[[commit]]
+entry = 27
+repository = "cgs"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "094b0057cacab46a068fa3db61ff4abdd65767aa"
+message = "cgs-1.8.0-alpha pixi run cgs: one command, live ComplexGitSync where checked out; MolonariCgsMolo archived"
+authored_at = "2026-11-05T15:51:49+01:00"
