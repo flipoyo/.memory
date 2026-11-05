@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "7c217c45c79b0f13365859dcdbfea1f18530f0f2"
 message = "cgs-1.7.2-alpha MolonariCgsMolo S1-S4: publish, project registers, molonari.cgs"
 authored_at = "2026-11-05T13:55:26+01:00"
+
+[[published]]
+entry = 17
+repository = "cgs"
+sha = "7c217c45c79b0f13365859dcdbfea1f18530f0f2"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T12:55:43+00:00"
+remote_commit = "7c217c45c79b0f13365859dcdbfea1f18530f0f2"
+observed_at = "2026-11-05T12:55:43+00:00"
