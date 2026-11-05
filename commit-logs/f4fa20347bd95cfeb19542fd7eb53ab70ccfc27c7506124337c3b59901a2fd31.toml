@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "dbf140dc2a612a1fbbbf9783d2627d49f25b6ea6"
 message = "cgs-1.7.2-alpha @cgs/pixi.toml declares the development space; pin 47d4100; OPX promote"
 authored_at = "2026-11-05T15:26:08+01:00"
+
+[[published]]
+entry = 23
+repository = "cgs"
+sha = "dbf140dc2a612a1fbbbf9783d2627d49f25b6ea6"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T14:26:54+00:00"
+remote_commit = "dbf140dc2a612a1fbbbf9783d2627d49f25b6ea6"
+observed_at = "2026-11-05T14:26:54+00:00"
