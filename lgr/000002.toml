@@ -1,0 +1,22 @@
+[entry]
+seq = 2
+prev = "sha256:d457bafd3810a4cbc3cb8b6d1dea76e80ea165016a30be6d88cb8ef4bf63ec16"
+recorded_at = "2026-11-05T18:46:04Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "CGS-MOLO",
+]
+state_id = "state(5392f9f36a61e5b2d2f478d356371ab1755582e1668672d1d532eccf93915243)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:b47d97ddfcd466ef1b301285858836733c0a4d15ef56b016cb3fe0f1b2eb0758"
+environment = "env(9987b240863e2952f676f654ff1d44abc681a90fe87c0f8cd7086b8f26c9674a)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

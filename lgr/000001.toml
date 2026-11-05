@@ -1,0 +1,23 @@
+[entry]
+seq = 1
+prev = "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+recorded_at = "2026-11-05T18:44:06Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "examples/molo_hrdw.cgs",
+    "MOLO-HRDW",
+]
+state_id = "state(a15803d9c1310ae37b5db935a217db5a8f6eb10cc5076eb4c3b52db9fdcead68)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:d457bafd3810a4cbc3cb8b6d1dea76e80ea165016a30be6d88cb8ef4bf63ec16"
+environment = "env(9987b240863e2952f676f654ff1d44abc681a90fe87c0f8cd7086b8f26c9674a)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
