@@ -1,0 +1,22 @@
+[entry]
+seq = 25
+prev = "sha256:99ca69728189e1c95fd2d08edfd1c9a9f1c7757851b2d1071d3ad810f785f324"
+recorded_at = "2026-11-05T14:43:59Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgs-1.8.0-alpha bump minor: the pixi CLI is pixi run -m @cgs for the development space",
+]
+state_id = "state(35df38c1249c5812b1ed922f0d28afe95bb659a3adcc3ae01b6061e3a8dc6f97)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:63f46b71e9a463dd2941805b45a0f5d90f806c2f01e251c04a5e1886279ea5bb"
+entry_hash = "sha256:837cb53b546f55a0d106e21b7fe6a246e8ac37c4b7787a1f44d6569a7a69e00a"
+environment = "env(bde6d52e53047c8ef59184564bdb7e66db70b4b4bd33a910f799f9b1380cbd92)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

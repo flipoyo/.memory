@@ -1,0 +1,9 @@
+[[commit]]
+entry = 25
+repository = "cgs"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "9f279d69d0e7993a7bae859cc4732d3554d5f23c"
+message = "cgs-1.8.0-alpha bump minor: the pixi CLI is pixi run -m @cgs for the development space"
+authored_at = "2026-11-05T15:43:58+01:00"
