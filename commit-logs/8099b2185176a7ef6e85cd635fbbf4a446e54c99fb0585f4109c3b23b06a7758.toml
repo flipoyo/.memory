@@ -1,0 +1,9 @@
+[[commit]]
+entry = 10
+repository = "cgs"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "b78d332b8de478c222c177d481d9776e44c06d5e"
+message = "cgs-1.7.1-alpha TUTOS: OPX first mission; drop BIOS, PRIME G, POEX"
+authored_at = "2026-11-05T12:35:01+01:00"

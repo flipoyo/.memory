@@ -1,0 +1,22 @@
+[entry]
+seq = 10
+prev = "sha256:2a1535371129630dfa942699eb65e61c2d572ba627a10c5e31fb17eb60d76f5c"
+recorded_at = "2026-11-05T11:35:02Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgs-1.7.1-alpha TUTOS: OPX first mission; drop BIOS, PRIME G, POEX",
+]
+state_id = "state(8099b2185176a7ef6e85cd635fbbf4a446e54c99fb0585f4109c3b23b06a7758)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7282b1165e40b038c0e5f1f6ce0ba197f5cc66197833c3c4e0275d02b779e17b"
+entry_hash = "sha256:f612858b27761e630f63a3e7beec616db313193ac23212d29bc15e417793b420"
+environment = "env(3426c5d7ed0537e6ada4eccb572a864c2095358a9339fc2312a851ae29be00a3)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

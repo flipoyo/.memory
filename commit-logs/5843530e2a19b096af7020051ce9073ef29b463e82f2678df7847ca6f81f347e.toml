@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "aa470b2547ac9b8252efc43e91b19232fe38220d"
 message = "cgs-1.7.1-alpha Dogfooding: negative proof recorded"
 authored_at = "2026-11-05T12:21:14+01:00"
+
+[[published]]
+entry = 9
+repository = "cgs"
+sha = "aa470b2547ac9b8252efc43e91b19232fe38220d"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T11:21:32+00:00"
+remote_commit = "aa470b2547ac9b8252efc43e91b19232fe38220d"
+observed_at = "2026-11-05T11:21:32+00:00"
