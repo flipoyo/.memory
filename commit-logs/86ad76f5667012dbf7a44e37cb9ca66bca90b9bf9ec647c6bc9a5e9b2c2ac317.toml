@@ -1,0 +1,9 @@
+[[commit]]
+entry = 5
+repository = "MOLO-HRDW"
+repo_id = "root"
+scope = "project"
+branch = "CGS-MOLO"
+sha = "772530e502a43d6e15330bd8d86b103214bf865c"
+message = "MOLO-HRDW under @cgs: the gate mounts are ignored"
+authored_at = "2026-11-05T20:07:03+01:00"

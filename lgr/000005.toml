@@ -1,0 +1,22 @@
+[entry]
+seq = 5
+prev = "sha256:a9c9c483344409496e492c7df6e386ab8c8c343e9de34f81c51e79e4bfe79996"
+recorded_at = "2026-11-05T19:07:03Z"
+command = "commit"
+argv = [
+    "commit",
+    "MOLO-HRDW under @cgs: the gate mounts are ignored",
+]
+state_id = "state(86ad76f5667012dbf7a44e37cb9ca66bca90b9bf9ec647c6bc9a5e9b2c2ac317)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2a6453db80a084f267c7019f7ebe1b3244edd61677f4a911891a932138e37bd5"
+entry_hash = "sha256:bccbc3fc32f9aa6b7a520640815fc502d009a4a650cd0f258f7ccd235e567bb3"
+environment = "env(9987b240863e2952f676f654ff1d44abc681a90fe87c0f8cd7086b8f26c9674a)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
