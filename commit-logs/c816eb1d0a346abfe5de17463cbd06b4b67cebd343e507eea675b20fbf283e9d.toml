@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "041e2cba8467faa6ce1ecb0035c29ab244325d54"
 message = "cgs-1.7.2-alpha TUTO 05 second mission; PIXI_FROZEN for plain clones; stray memory branch deleted"
 authored_at = "2026-11-05T14:51:00+01:00"
+
+[[published]]
+entry = 21
+repository = "cgs"
+sha = "041e2cba8467faa6ce1ecb0035c29ab244325d54"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T13:51:21+00:00"
+remote_commit = "041e2cba8467faa6ce1ecb0035c29ab244325d54"
+observed_at = "2026-11-05T13:51:21+00:00"
