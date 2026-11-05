@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "094b0057cacab46a068fa3db61ff4abdd65767aa"
 message = "cgs-1.8.0-alpha pixi run cgs: one command, live ComplexGitSync where checked out; MolonariCgsMolo archived"
 authored_at = "2026-11-05T15:51:49+01:00"
+
+[[published]]
+entry = 28
+repository = "cgs"
+sha = "094b0057cacab46a068fa3db61ff4abdd65767aa"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T14:52:05+00:00"
+remote_commit = "094b0057cacab46a068fa3db61ff4abdd65767aa"
+observed_at = "2026-11-05T14:52:05+00:00"

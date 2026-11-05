@@ -1,0 +1,23 @@
+[entry]
+seq = 29
+prev = "sha256:82947a2eb4118e2a09546fe4f7264c01987285da0a4359823398f1140ec7a277"
+recorded_at = "2026-11-05T18:41:14Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgs-1.9.0-alpha MOLO twins (molo_hrdw, molo_data, molo_cmpt, molo_twx); OPX enrol; sessions read their USR grants; bump-version",
+]
+state_id = "state(bcc69bc13ce34f4b2f57d09bc85b6c5520b0b6f794091d6ff27b6573b8f20430)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:5b46ae89726fdde07ec4035e2e6e400861c8cad754e90b7cb509a5051efd140e"
+entry_hash = "sha256:65b934362a75a57857354672c773974ccf18524361d6e67354a850820d8ac5a1"
+environment = "env(90aa3ba1dd6f29d3b12f7c5d897723c12248f68ae3bc58155c571d6f67c15c6b)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
