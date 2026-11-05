@@ -17,3 +17,23 @@ branch = "CGS-ALPHA"
 sha = "0e506e8a0a7f45087a294e795faf3518456a12c3"
 message = "cgs-1.9.0-alpha MOLO twins (molo_hrdw, molo_data, molo_cmpt, molo_twx); OPX enrol; sessions read their USR grants; bump-version"
 authored_at = "2026-11-05T19:41:14+01:00"
+
+[[published]]
+entry = 30
+repository = ".dev"
+sha = "1943c6453c37b2a85108ebfa7edf1d596beafba4"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/cgs_CGS-ALPHA"
+at = "2026-11-05T18:41:43+00:00"
+remote_commit = "1943c6453c37b2a85108ebfa7edf1d596beafba4"
+observed_at = "2026-11-05T18:41:43+00:00"
+
+[[published]]
+entry = 30
+repository = "cgs"
+sha = "0e506e8a0a7f45087a294e795faf3518456a12c3"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T18:41:43+00:00"
+remote_commit = "0e506e8a0a7f45087a294e795faf3518456a12c3"
+observed_at = "2026-11-05T18:41:43+00:00"

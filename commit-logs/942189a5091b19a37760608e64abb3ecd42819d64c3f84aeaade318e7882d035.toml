@@ -1,0 +1,29 @@
+[[commit]]
+entry = 31
+repository = ".memory"
+repo_id = "root:.cgitsync/.memory"
+scope = "private"
+branch = "ComplexGitSync_cgs_CGS-ALPHA"
+sha = "15c38b3d23ab8874a679f947ef6a3c77cfb82ce6"
+message = "cgs-1.9.1-alpha user README around MOLONARI; TUTOS register, twin, subtwins; operator guide"
+authored_at = "2026-11-05T20:38:09+01:00"
+
+[[commit]]
+entry = 31
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "cgs_CGS-ALPHA"
+sha = "747b2d3b77c91b5f9a5f162f1a6340af865d5921"
+message = "cgs-1.9.1-alpha user README around MOLONARI; TUTOS register, twin, subtwins; operator guide"
+authored_at = "2026-11-05T20:38:09+01:00"
+
+[[commit]]
+entry = 31
+repository = "cgs"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "9b9974dac4d4ea594bc5d55599135a11f689d645"
+message = "cgs-1.9.1-alpha user README around MOLONARI; TUTOS register, twin, subtwins; operator guide"
+authored_at = "2026-11-05T20:38:09+01:00"

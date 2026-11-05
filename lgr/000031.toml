@@ -1,0 +1,23 @@
+[entry]
+seq = 31
+prev = "sha256:5ff025fb7bbcf9f8632175770985966b0c105a6bfaec9c7b76a3879260cef49b"
+recorded_at = "2026-11-05T19:38:10Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgs-1.9.1-alpha user README around MOLONARI; TUTOS register, twin, subtwins; operator guide",
+]
+state_id = "state(942189a5091b19a37760608e64abb3ecd42819d64c3f84aeaade318e7882d035)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:c3a51e207855fa66f546eaae5cbc82447687e5ffe1e0fb1214a20d55c367afab"
+entry_hash = "sha256:790326ccabdc7b72a2c6ecc608ce400cdd8fc2c135203b7eae21f9f96c9b338a"
+environment = "env(0477fd828b6c2633ab19bbe82ed6298a3fea6a93272d2bce816d37102735b9dd)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
