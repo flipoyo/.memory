@@ -1,0 +1,9 @@
+[[commit]]
+entry = 12
+repository = "cgs"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "4b74f4291f290f137a4882c971560a25b4273724"
+message = "cgs-1.7.2-alpha login prints the login only, not the repos and keys"
+authored_at = "2026-11-05T12:49:52+01:00"

@@ -1,0 +1,22 @@
+[entry]
+seq = 12
+prev = "sha256:5107dad2516b568f06dc616b8d993395502873955e93c3765d122709e4b97b63"
+recorded_at = "2026-11-05T11:49:52Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgs-1.7.2-alpha login prints the login only, not the repos and keys",
+]
+state_id = "state(e0abec24c8492251b35ff2a719296178fc64da15177150d09bba670e074853e0)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:728ca6080ffd18d1ef72d2a49771a0e03f71ab0d759f09fe24c34be695f54d0e"
+entry_hash = "sha256:f29df7e33224335e56dbbc4661bc6aef9ee4d32a10e4ca40264285c09bcf1fda"
+environment = "env(484d6bf3209ba1cecd1639f78f9de007db6387637d0408d7634a4bea3e2d7891)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

@@ -7,3 +7,13 @@ branch = "CGS-ALPHA"
 sha = "b78d332b8de478c222c177d481d9776e44c06d5e"
 message = "cgs-1.7.1-alpha TUTOS: OPX first mission; drop BIOS, PRIME G, POEX"
 authored_at = "2026-11-05T12:35:01+01:00"
+
+[[published]]
+entry = 11
+repository = "cgs"
+sha = "b78d332b8de478c222c177d481d9776e44c06d5e"
+remote = "github:flipoyo/atCGS"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-05T11:35:21+00:00"
+remote_commit = "b78d332b8de478c222c177d481d9776e44c06d5e"
+observed_at = "2026-11-05T11:35:21+00:00"
