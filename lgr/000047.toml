@@ -1,0 +1,23 @@
+[entry]
+seq = 47
+prev = "sha256:db9d8c3fce9115a0d216b01c2aca8e679d50ba15856ede442f14542f7664519c"
+recorded_at = "2026-11-11T14:03:06Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.9.1 TwinMemoryMerge: plan a tree-wide merge that derives a twin memory's branches through the one resolver, carries the memory, or refuses before anything moves.\nEvery decision is answered; the short ticket merge-into-twin-memory is closed with the plan.",
+]
+state_id = "state(ea67695f9ba61258ff8830d79a25252c27e070e5cf0e415e8d78cd4db4035b9f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b0f2b920e9d60c768195d5a739a678393d828239a22985b4d5de550d8f193f0d"
+entry_hash = "sha256:fa1247447a3c3ab203ad3121df2e72e362a7592b8c5254f5fa58b597687888dc"
+environment = "env(662609f2b505ef0475878cbc5034f37914c6409723e547a02004864c2cea8ed4)"
+
+[entry.toolchain]
+cgitsync = "8.9.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
