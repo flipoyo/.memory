@@ -1,0 +1,24 @@
+[entry]
+seq = 56
+prev = "sha256:ba62446fc426c7c5c3cc0bd3f2c602f477fe4bbc94436c51ed65d316f7e5c842"
+recorded_at = "2026-11-11T17:29:52Z"
+command = "merge-into"
+argv = [
+    "merge",
+    "CGS-ALPHA",
+    "--into",
+    "main",
+]
+state_id = "state(329f11cb88746ac83864c63805696bf73fa3c355c24e2d34ce814509d316e5a0)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:f77ea58d8003f1aa5c760d8cc3cc358c4ec7b12e2c2c1727e760f4f37cdd1209"
+environment = "env(55a66ca5c0a43c938f5cf4544a65d294eddecb8c1af6d3e810651e68e87a7e56)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
