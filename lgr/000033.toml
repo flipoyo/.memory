@@ -1,0 +1,23 @@
+[entry]
+seq = 33
+prev = "sha256:904300d958d1c3f5d2069e003bf12753eff6d1c232766de6ec1fdb51fd160050"
+recorded_at = "2026-11-11T11:05:25Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files.",
+]
+state_id = "state(4dc635723a16d2da48a755aa585a8b949668a613da7bc48077ef3d3b1c0e9ea9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:086a2674d9636681424ab5c9cd2fa4e822bb204264c5bedd3cb357104ad9b119"
+entry_hash = "sha256:c6d79bd0372ad4b3b69b8e8564b0b9ab729a8b30e4d5c7c76054ed892056871a"
+environment = "env(8a59d98064ebf5a0c2653de65b723d5fe4e87de985c6f7931b13dfa9eb214c0f)"
+
+[entry.toolchain]
+cgitsync = "8.8.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

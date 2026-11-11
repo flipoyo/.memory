@@ -1,0 +1,49 @@
+[[commit]]
+entry = 33
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "e9a3350edb7553703c22b53c76d7cfa7757a0476"
+message = "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files."
+authored_at = "2026-11-11T12:05:25+01:00"
+
+[[commit]]
+entry = 33
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "32063fb9b916bd26609b52a1be4ba235b9a7af98"
+message = "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files."
+authored_at = "2026-11-11T12:05:25+01:00"
+
+[[commit]]
+entry = 33
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "b75cb230514c44e8185d79c82523a0be85952473"
+message = "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files."
+authored_at = "2026-11-11T12:05:25+01:00"
+
+[[commit]]
+entry = 33
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "16d7e7a1de4e938463f5ac5b93b2d13ef37a3d8b"
+message = "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files."
+authored_at = "2026-11-11T12:05:25+01:00"
+
+[[commit]]
+entry = 33
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "e4bd4736415610d4d73bae2e8b82ddfcfb79e992"
+message = "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files."
+authored_at = "2026-11-11T12:05:25+01:00"
