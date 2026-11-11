@@ -47,3 +47,53 @@ branch = "CGS-ALPHA"
 sha = "86f0edd4702d3b18334ab6115798e91fff90a1bb"
 message = "cgitsync-8.9.1 TreeVersion: new command group cgitsync version with diagnose, init and bump, which bumps every modified repository of a DEV or OPX tree through its own task or Pixi, leaf first and root last, and checks the root moved by the level asked. \\ A project's version is one class, VersionScheme, which absorbed ProjectVersion; bump_version.py rebuilds the docs PDFs itself (--no-pdf skips); BehindGate is rewritten on the new foreign_tool predicate \\ Ceilings raised by the owner: client.py LOC 1418, cli LOC 97, git_branch public symbols 21, and one Minimalism provider row"
 authored_at = "2026-11-11T14:28:21+01:00"
+
+[[published]]
+entry = 43
+repository = "DocComplexGitSync"
+sha = "89d451ce39dc7a1908fa824855542656d62fe55a"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T13:28:54+00:00"
+remote_commit = "89d451ce39dc7a1908fa824855542656d62fe55a"
+observed_at = "2026-11-11T13:28:54+00:00"
+
+[[published]]
+entry = 43
+repository = ".localSpec"
+sha = "aaaead9949d2e9a859722e8a499236ebe4fc6aaf"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T13:28:54+00:00"
+remote_commit = "aaaead9949d2e9a859722e8a499236ebe4fc6aaf"
+observed_at = "2026-11-11T13:28:54+00:00"
+
+[[published]]
+entry = 43
+repository = ".dev"
+sha = "0d8779468a90846268334fbf5c3ef5b89a101370"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T13:28:54+00:00"
+remote_commit = "0d8779468a90846268334fbf5c3ef5b89a101370"
+observed_at = "2026-11-11T13:28:54+00:00"
+
+[[published]]
+entry = 43
+repository = ".claude"
+sha = "d57def4e6eb261a23507cf7c8830db8ed8f880fa"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T13:28:54+00:00"
+remote_commit = "d57def4e6eb261a23507cf7c8830db8ed8f880fa"
+observed_at = "2026-11-11T13:28:54+00:00"
+
+[[published]]
+entry = 43
+repository = "ComplexGitSync"
+sha = "86f0edd4702d3b18334ab6115798e91fff90a1bb"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T13:28:54+00:00"
+remote_commit = "86f0edd4702d3b18334ab6115798e91fff90a1bb"
+observed_at = "2026-11-11T13:28:54+00:00"
