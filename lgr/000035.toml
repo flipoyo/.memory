@@ -1,0 +1,23 @@
+[entry]
+seq = 35
+prev = "sha256:e78021d4ead055070f59d2d2831dcf9f83c7b9e7a09f1328413a28209c753f22"
+recorded_at = "2026-11-11T11:09:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.8.1 TwoInstalls: the developer install's name is the project's choice, stated in its fill-in, and never one named for a level. A project whose levels share one branch may name it for that series (<project-name>-alpha.cgs); <project-name>4dev.cgs stays the convention. DevSpec README and this project's digest line follow the rule.",
+]
+state_id = "state(050fd50218b32ede1e060178c03430bc46d57c64c0e0ea52313adef55ddc892d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:2fab0c5f283bac23aef50ee917c2db65d9d000c80b9c0a97dc87f31118dc9159"
+entry_hash = "sha256:f0b00036eb7d0359795f39cf8afd7719e60212c79d6d8f84af5cb3387a88b615"
+environment = "env(8a59d98064ebf5a0c2653de65b723d5fe4e87de985c6f7931b13dfa9eb214c0f)"
+
+[entry.toolchain]
+cgitsync = "8.8.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

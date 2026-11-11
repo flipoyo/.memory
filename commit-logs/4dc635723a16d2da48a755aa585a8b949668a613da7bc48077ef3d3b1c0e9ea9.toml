@@ -47,3 +47,53 @@ branch = "CGS-ALPHA"
 sha = "e4bd4736415610d4d73bae2e8b82ddfcfb79e992"
 message = "cgitsync-8.8.1 alpha-examples: the level files complexgitsync-opx, dev, usr, pub and gx4g-opx, dev are removed; every reader of the developer install now reads examples/cgitsync-alpha.cgs, and examples/gx4g-alpha.cgs replaces the two gx4g level files."
 authored_at = "2026-11-11T12:05:25+01:00"
+
+[[published]]
+entry = 34
+repository = "DocComplexGitSync"
+sha = "e9a3350edb7553703c22b53c76d7cfa7757a0476"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T11:05:57+00:00"
+remote_commit = "e9a3350edb7553703c22b53c76d7cfa7757a0476"
+observed_at = "2026-11-11T11:05:57+00:00"
+
+[[published]]
+entry = 34
+repository = ".localSpec"
+sha = "32063fb9b916bd26609b52a1be4ba235b9a7af98"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T11:05:57+00:00"
+remote_commit = "32063fb9b916bd26609b52a1be4ba235b9a7af98"
+observed_at = "2026-11-11T11:05:57+00:00"
+
+[[published]]
+entry = 34
+repository = ".dev"
+sha = "b75cb230514c44e8185d79c82523a0be85952473"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T11:05:57+00:00"
+remote_commit = "b75cb230514c44e8185d79c82523a0be85952473"
+observed_at = "2026-11-11T11:05:57+00:00"
+
+[[published]]
+entry = 34
+repository = ".claude"
+sha = "16d7e7a1de4e938463f5ac5b93b2d13ef37a3d8b"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T11:05:57+00:00"
+remote_commit = "16d7e7a1de4e938463f5ac5b93b2d13ef37a3d8b"
+observed_at = "2026-11-11T11:05:57+00:00"
+
+[[published]]
+entry = 34
+repository = "ComplexGitSync"
+sha = "e4bd4736415610d4d73bae2e8b82ddfcfb79e992"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T11:05:57+00:00"
+remote_commit = "e4bd4736415610d4d73bae2e8b82ddfcfb79e992"
+observed_at = "2026-11-11T11:05:57+00:00"
