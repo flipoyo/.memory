@@ -1,0 +1,9 @@
+[[commit]]
+entry = 38
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "5184ac62df87c0a2505860b9f5122f2bc1ea7b4b"
+message = "cgitsync-8.8.1 MergeIntoLocalTarget: plan the fix for merge --into, which calls a target that exists only on the remote unrelated.\nThe merge will refuse by name instead, giving the git branch command that creates each missing local branch; a target typed as origin/main is refused too."
+authored_at = "2026-11-11T12:23:13+01:00"

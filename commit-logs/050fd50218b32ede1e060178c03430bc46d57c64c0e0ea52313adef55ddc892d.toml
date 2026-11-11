@@ -7,3 +7,13 @@ branch = "ComplexGitSync_CGS-ALPHA"
 sha = "ef3f9a43ecd155a492972452692c35fa1f767b06"
 message = "cgitsync-8.8.1 TwoInstalls: the developer install's name is the project's choice, stated in its fill-in, and never one named for a level. A project whose levels share one branch may name it for that series (<project-name>-alpha.cgs); <project-name>4dev.cgs stays the convention. DevSpec README and this project's digest line follow the rule."
 authored_at = "2026-11-11T12:09:28+01:00"
+
+[[published]]
+entry = 36
+repository = ".localSpec"
+sha = "ef3f9a43ecd155a492972452692c35fa1f767b06"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T11:09:55+00:00"
+remote_commit = "ef3f9a43ecd155a492972452692c35fa1f767b06"
+observed_at = "2026-11-11T11:09:55+00:00"
