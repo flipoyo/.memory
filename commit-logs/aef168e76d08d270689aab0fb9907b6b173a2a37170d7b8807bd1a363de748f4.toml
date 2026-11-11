@@ -1,0 +1,49 @@
+[[commit]]
+entry = 42
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "89d451ce39dc7a1908fa824855542656d62fe55a"
+message = "cgitsync-8.9.1 TreeVersion: new command group cgitsync version with diagnose, init and bump, which bumps every modified repository of a DEV or OPX tree through its own task or Pixi, leaf first and root last, and checks the root moved by the level asked. \\ A project's version is one class, VersionScheme, which absorbed ProjectVersion; bump_version.py rebuilds the docs PDFs itself (--no-pdf skips); BehindGate is rewritten on the new foreign_tool predicate \\ Ceilings raised by the owner: client.py LOC 1418, cli LOC 97, git_branch public symbols 21, and one Minimalism provider row"
+authored_at = "2026-11-11T14:28:21+01:00"
+
+[[commit]]
+entry = 42
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "aaaead9949d2e9a859722e8a499236ebe4fc6aaf"
+message = "cgitsync-8.9.1 TreeVersion: new command group cgitsync version with diagnose, init and bump, which bumps every modified repository of a DEV or OPX tree through its own task or Pixi, leaf first and root last, and checks the root moved by the level asked. \\ A project's version is one class, VersionScheme, which absorbed ProjectVersion; bump_version.py rebuilds the docs PDFs itself (--no-pdf skips); BehindGate is rewritten on the new foreign_tool predicate \\ Ceilings raised by the owner: client.py LOC 1418, cli LOC 97, git_branch public symbols 21, and one Minimalism provider row"
+authored_at = "2026-11-11T14:28:21+01:00"
+
+[[commit]]
+entry = 42
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "0d8779468a90846268334fbf5c3ef5b89a101370"
+message = "cgitsync-8.9.1 TreeVersion: new command group cgitsync version with diagnose, init and bump, which bumps every modified repository of a DEV or OPX tree through its own task or Pixi, leaf first and root last, and checks the root moved by the level asked. \\ A project's version is one class, VersionScheme, which absorbed ProjectVersion; bump_version.py rebuilds the docs PDFs itself (--no-pdf skips); BehindGate is rewritten on the new foreign_tool predicate \\ Ceilings raised by the owner: client.py LOC 1418, cli LOC 97, git_branch public symbols 21, and one Minimalism provider row"
+authored_at = "2026-11-11T14:28:21+01:00"
+
+[[commit]]
+entry = 42
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "d57def4e6eb261a23507cf7c8830db8ed8f880fa"
+message = "cgitsync-8.9.1 TreeVersion: new command group cgitsync version with diagnose, init and bump, which bumps every modified repository of a DEV or OPX tree through its own task or Pixi, leaf first and root last, and checks the root moved by the level asked. \\ A project's version is one class, VersionScheme, which absorbed ProjectVersion; bump_version.py rebuilds the docs PDFs itself (--no-pdf skips); BehindGate is rewritten on the new foreign_tool predicate \\ Ceilings raised by the owner: client.py LOC 1418, cli LOC 97, git_branch public symbols 21, and one Minimalism provider row"
+authored_at = "2026-11-11T14:28:21+01:00"
+
+[[commit]]
+entry = 42
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "86f0edd4702d3b18334ab6115798e91fff90a1bb"
+message = "cgitsync-8.9.1 TreeVersion: new command group cgitsync version with diagnose, init and bump, which bumps every modified repository of a DEV or OPX tree through its own task or Pixi, leaf first and root last, and checks the root moved by the level asked. \\ A project's version is one class, VersionScheme, which absorbed ProjectVersion; bump_version.py rebuilds the docs PDFs itself (--no-pdf skips); BehindGate is rewritten on the new foreign_tool predicate \\ Ceilings raised by the owner: client.py LOC 1418, cli LOC 97, git_branch public symbols 21, and one Minimalism provider row"
+authored_at = "2026-11-11T14:28:21+01:00"

@@ -37,3 +37,43 @@ branch = "CGS-ALPHA"
 sha = "751368dd18af530d4685cc16c0b4100f47a7938d"
 message = "cgitsync-8.8.2 MergeIntoLocalTarget: merge --into with a target that only the remote holds is refused by name with the git branch command that creates it, no longer reported as no commit in common. A target typed as origin/main is refused with the word to type"
 authored_at = "2026-11-11T12:45:03+01:00"
+
+[[published]]
+entry = 41
+repository = "DocComplexGitSync"
+sha = "88c34b5187ca3d9d246ecd87bca57d0a26bbf2a9"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T11:45:35+00:00"
+remote_commit = "88c34b5187ca3d9d246ecd87bca57d0a26bbf2a9"
+observed_at = "2026-11-11T11:45:35+00:00"
+
+[[published]]
+entry = 41
+repository = ".localSpec"
+sha = "c43025eac2781e34574786c13ec7c0fd6f46d8d6"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T11:45:35+00:00"
+remote_commit = "c43025eac2781e34574786c13ec7c0fd6f46d8d6"
+observed_at = "2026-11-11T11:45:35+00:00"
+
+[[published]]
+entry = 41
+repository = ".dev"
+sha = "17fabf565f2d39ac9fd3730bfd80f5c069f1cd2b"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T11:45:35+00:00"
+remote_commit = "17fabf565f2d39ac9fd3730bfd80f5c069f1cd2b"
+observed_at = "2026-11-11T11:45:35+00:00"
+
+[[published]]
+entry = 41
+repository = "ComplexGitSync"
+sha = "751368dd18af530d4685cc16c0b4100f47a7938d"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T11:45:35+00:00"
+remote_commit = "751368dd18af530d4685cc16c0b4100f47a7938d"
+observed_at = "2026-11-11T11:45:35+00:00"
