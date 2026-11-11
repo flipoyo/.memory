@@ -1,0 +1,23 @@
+[entry]
+seq = 49
+prev = "sha256:65b5ae791ba099cb94541a7368a2394d0556836ec04fef69f9654aa1aaee4114"
+recorded_at = "2026-11-11T14:47:20Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.9.3 TwinMemoryMerge: merge, merge --into and merge --resolve now derive every branch through the one resolver that checkout uses, so a bootstrap twin's memory and its self-history follow the project instead of being skipped\nA memory that is only behind fast-forwards, and one that has no branch to follow the project on refuses the merge before anything moves, naming the memory branch command\nTutorial 7, the user guide and AdditionalSpecs say so; MountGuard.base, now unused, is removed",
+]
+state_id = "state(b0158590a9704797ce1b083322e38e424f9fcd791f1d48c8196100e40b813c9e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:29125779f843a4c0235ad09b189ef72b0e0c20afbb230104e8c623a40720160b"
+entry_hash = "sha256:ed912662621aacb993feb731c56588de50ed223c8d2713953ff260f2ab0bf4e1"
+environment = "env(9b6c54b6cfc4d455acd97a2424f160663fe80347a7a877cff299c814d4db155c)"
+
+[entry.toolchain]
+cgitsync = "8.9.3"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
