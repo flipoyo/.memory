@@ -1,0 +1,23 @@
+[entry]
+seq = 53
+prev = "sha256:ce608d7b61d771e4c86cb6945c175f03b706da5febf60b51e3ce878db810e440"
+recorded_at = "2026-11-11T16:35:24Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.9.4 LinkAtCGS: the CI no longer fails on three counts: the golden tests skip where the private spec tree is not mounted, initialise no longer dies on a character a Windows console cannot encode, and the deep-tree test sizes itself to the platform path limit\nThe ticket stays open until the CI runs green on three systems; the cli LOC ceiling is raised to 99 by the owner",
+]
+state_id = "state(902f4567b0aab0ee30f88f52f39c3d5de53b63e2a789ae60258ae450b27004f9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:14aab6426373834d4199c76647730b237abc206c5c6ec18caf98a33d2875155a"
+entry_hash = "sha256:a781552cbe3679202873a2231e21a5c6cfd0670fb97f14ab8ce673ca27f13781"
+environment = "env(2927fc10fad8f76817df9cce51e8c7e54f9a1a3c47de41a764b823b9bf116fcf)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

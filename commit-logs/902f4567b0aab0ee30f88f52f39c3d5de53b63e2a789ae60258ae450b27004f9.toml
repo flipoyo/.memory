@@ -1,0 +1,39 @@
+[[commit]]
+entry = 53
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "8fae1b805da7bfc04c375827b6e0dbffe4da9277"
+message = "cgitsync-8.9.4 LinkAtCGS: the CI no longer fails on three counts: the golden tests skip where the private spec tree is not mounted, initialise no longer dies on a character a Windows console cannot encode, and the deep-tree test sizes itself to the platform path limit\nThe ticket stays open until the CI runs green on three systems; the cli LOC ceiling is raised to 99 by the owner"
+authored_at = "2026-11-11T17:35:23+01:00"
+
+[[commit]]
+entry = 53
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "fdf1e82abc25abf1111473081bd232030df3da78"
+message = "cgitsync-8.9.4 LinkAtCGS: the CI no longer fails on three counts: the golden tests skip where the private spec tree is not mounted, initialise no longer dies on a character a Windows console cannot encode, and the deep-tree test sizes itself to the platform path limit\nThe ticket stays open until the CI runs green on three systems; the cli LOC ceiling is raised to 99 by the owner"
+authored_at = "2026-11-11T17:35:23+01:00"
+
+[[commit]]
+entry = 53
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "17cb0622144b89c2d2d7aad110f95f1a05a2ffc7"
+message = "cgitsync-8.9.4 LinkAtCGS: the CI no longer fails on three counts: the golden tests skip where the private spec tree is not mounted, initialise no longer dies on a character a Windows console cannot encode, and the deep-tree test sizes itself to the platform path limit\nThe ticket stays open until the CI runs green on three systems; the cli LOC ceiling is raised to 99 by the owner"
+authored_at = "2026-11-11T17:35:23+01:00"
+
+[[commit]]
+entry = 53
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "82479321d5fca9fc5cd773e5ec35145ba20b18f0"
+message = "cgitsync-8.9.4 LinkAtCGS: the CI no longer fails on three counts: the golden tests skip where the private spec tree is not mounted, initialise no longer dies on a character a Windows console cannot encode, and the deep-tree test sizes itself to the platform path limit\nThe ticket stays open until the CI runs green on three systems; the cli LOC ceiling is raised to 99 by the owner"
+authored_at = "2026-11-11T17:35:23+01:00"
