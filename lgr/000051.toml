@@ -1,0 +1,23 @@
+[entry]
+seq = 51
+prev = "sha256:3f3891024c6e22a034310311a46223520aed120d9b5c73d0cb275d41b72bda6c"
+recorded_at = "2026-11-11T15:41:14Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.9.3 TicketReview 2026-11-11: pile 1 holds LinkAtCGS alone, the gate tickets head pile 2, the data tickets come last, and the four former main tickets now land on CGS-ALPHA.\nLinks to renamed tickets repaired in the open tickets and four history tickets; the README says CGS-ALPHA is where work lands and main its mirror.",
+]
+state_id = "state(64dd0faf0f79fa4480c95e85a77a17f20258965f24049148375b507721b1f24a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a4c7f8112eb99bf2cbeb36110be62ad5829f43d5ba155da77b496dab800e4f9e"
+entry_hash = "sha256:cd050d2661ac8a81278c1781587c3b1c745d7afd0d174bf668266df58344f5e7"
+environment = "env(9b6c54b6cfc4d455acd97a2424f160663fe80347a7a877cff299c814d4db155c)"
+
+[entry.toolchain]
+cgitsync = "8.9.3"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

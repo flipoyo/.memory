@@ -37,3 +37,43 @@ branch = "CGS-ALPHA"
 sha = "11a40b0a665eb1bb3ee033fbcb8654f3b5729ed8"
 message = "cgitsync-8.9.3 TwinMemoryMerge: merge, merge --into and merge --resolve now derive every branch through the one resolver that checkout uses, so a bootstrap twin's memory and its self-history follow the project instead of being skipped\nA memory that is only behind fast-forwards, and one that has no branch to follow the project on refuses the merge before anything moves, naming the memory branch command\nTutorial 7, the user guide and AdditionalSpecs say so; MountGuard.base, now unused, is removed"
 authored_at = "2026-11-11T15:47:20+01:00"
+
+[[published]]
+entry = 50
+repository = "DocComplexGitSync"
+sha = "3f6d79f9958b8cf4fdd2b79833eaeaf411ba342c"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T14:47:51+00:00"
+remote_commit = "3f6d79f9958b8cf4fdd2b79833eaeaf411ba342c"
+observed_at = "2026-11-11T14:47:51+00:00"
+
+[[published]]
+entry = 50
+repository = ".localSpec"
+sha = "3ab52a6cd4f08ecfd30ccf35b68c2d9c9aab5253"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T14:47:51+00:00"
+remote_commit = "3ab52a6cd4f08ecfd30ccf35b68c2d9c9aab5253"
+observed_at = "2026-11-11T14:47:51+00:00"
+
+[[published]]
+entry = 50
+repository = ".dev"
+sha = "7463e5958daabf8ec576597297204979ff94e19e"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T14:47:51+00:00"
+remote_commit = "7463e5958daabf8ec576597297204979ff94e19e"
+observed_at = "2026-11-11T14:47:51+00:00"
+
+[[published]]
+entry = 50
+repository = "ComplexGitSync"
+sha = "11a40b0a665eb1bb3ee033fbcb8654f3b5729ed8"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T14:47:51+00:00"
+remote_commit = "11a40b0a665eb1bb3ee033fbcb8654f3b5729ed8"
+observed_at = "2026-11-11T14:47:51+00:00"
