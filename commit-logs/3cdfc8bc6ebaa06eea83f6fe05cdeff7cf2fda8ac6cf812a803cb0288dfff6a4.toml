@@ -1,0 +1,39 @@
+[[commit]]
+entry = 40
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "88c34b5187ca3d9d246ecd87bca57d0a26bbf2a9"
+message = "cgitsync-8.8.2 MergeIntoLocalTarget: merge --into with a target that only the remote holds is refused by name with the git branch command that creates it, no longer reported as no commit in common. A target typed as origin/main is refused with the word to type"
+authored_at = "2026-11-11T12:45:03+01:00"
+
+[[commit]]
+entry = 40
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "c43025eac2781e34574786c13ec7c0fd6f46d8d6"
+message = "cgitsync-8.8.2 MergeIntoLocalTarget: merge --into with a target that only the remote holds is refused by name with the git branch command that creates it, no longer reported as no commit in common. A target typed as origin/main is refused with the word to type"
+authored_at = "2026-11-11T12:45:03+01:00"
+
+[[commit]]
+entry = 40
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "17fabf565f2d39ac9fd3730bfd80f5c069f1cd2b"
+message = "cgitsync-8.8.2 MergeIntoLocalTarget: merge --into with a target that only the remote holds is refused by name with the git branch command that creates it, no longer reported as no commit in common. A target typed as origin/main is refused with the word to type"
+authored_at = "2026-11-11T12:45:03+01:00"
+
+[[commit]]
+entry = 40
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "CGS-ALPHA"
+sha = "751368dd18af530d4685cc16c0b4100f47a7938d"
+message = "cgitsync-8.8.2 MergeIntoLocalTarget: merge --into with a target that only the remote holds is refused by name with the git branch command that creates it, no longer reported as no commit in common. A target typed as origin/main is refused with the word to type"
+authored_at = "2026-11-11T12:45:03+01:00"

@@ -1,0 +1,23 @@
+[entry]
+seq = 40
+prev = "sha256:d1320b291f54a633f6bc3c155855774874f10369b2476b08f7d9ea01449d571c"
+recorded_at = "2026-11-11T11:45:04Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.8.2 MergeIntoLocalTarget: merge --into with a target that only the remote holds is refused by name with the git branch command that creates it, no longer reported as no commit in common. A target typed as origin/main is refused with the word to type",
+]
+state_id = "state(3cdfc8bc6ebaa06eea83f6fe05cdeff7cf2fda8ac6cf812a803cb0288dfff6a4)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:d44cc6bb878a9663e9763ff50c8d7283d7f645b742a6403f4859910fee4e63bf"
+entry_hash = "sha256:6fb84e9eacff0ecbafd6606eb7c0769a15b5e4a8707b9fbeb59784bb4b8906dd"
+environment = "env(e0a7a31552aeb9f6cb49b586905474abba82e81aa3324613950163391ecee2f6)"
+
+[entry.toolchain]
+cgitsync = "8.8.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
