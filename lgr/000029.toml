@@ -1,0 +1,23 @@
+[entry]
+seq = 29
+prev = "sha256:d9855ca26943f02af6aee719d7cf76bcdd01652fa8b99c8e3bd42858299f3fea"
+recorded_at = "2026-11-11T09:23:30Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.8.0 adding two tickets",
+]
+state_id = "state(c9471a5343e8084f365c5d3ed6f7e847b802890cd9a5384df08a1dae86c3520a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:b025a2a07df61555129e3ac599be9db008907aed7b8b236de84d2d7f324623dc"
+entry_hash = "sha256:6f3d86b25b6464a0fc1e8ee121ce80f0c8bc148c40801e247dcc3907ac561dfd"
+environment = "env(f661ed56ece8370d719f73dc2785bf16af5b42efe28bc14db3d6b5f1d310dd8f)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
