@@ -7,3 +7,13 @@ branch = "ComplexGitSync_CGS-ALPHA"
 sha = "8b583a6dfc40e7972585e45cbc64b1fcb41b52d3"
 message = "cgitsync-8.8.0 Idea merkle-seed"
 authored_at = "2026-11-04T09:32:41+01:00"
+
+[[published]]
+entry = 30
+repository = ".dev"
+sha = "8b583a6dfc40e7972585e45cbc64b1fcb41b52d3"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_CGS-ALPHA"
+at = "2026-11-11T09:23:54+00:00"
+remote_commit = "6cd47c19ecd624549229ea9761795b9dff890120"
+observed_at = "2026-11-11T09:23:54+00:00"

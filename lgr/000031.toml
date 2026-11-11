@@ -1,0 +1,23 @@
+[entry]
+seq = 31
+prev = "sha256:917705a10aa253deaea11707d2146447a5afdfacff745894a51a05cd5595cd5c"
+recorded_at = "2026-11-11T10:08:20Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.8.0 TreeVersion: plan the version command group (diagnose, init, bump) for DEV and OPX trees, every version read and bumped through pixi.toml. \\ Every decision is answered: each repository's own bump task first, Pixi's own command only for plain SemVer, leaf first then the root, and another project's tool never bumped. \\ Replaces the ReleaseBump draft; the short ticket alpha-examples lists what still reads the removed level files.",
+]
+state_id = "state(c82daa04597dac0d7383e3f1802e3072b11fa102269060dd09a61f91881c17bc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a0aff9da2e83f14516e245c75561024281d8b52302a434ff48294c92afa6824c"
+entry_hash = "sha256:210e0cf81501d949a527a13545ebdc12edc0881c3909d72dc33f522e7951ec33"
+environment = "env(f661ed56ece8370d719f73dc2785bf16af5b42efe28bc14db3d6b5f1d310dd8f)"
+
+[entry.toolchain]
+cgitsync = "8.8.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

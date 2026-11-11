@@ -1,0 +1,9 @@
+[[commit]]
+entry = 31
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_CGS-ALPHA"
+sha = "c507da213cd090fb7a4e7a7c9f10fbc6c9830ee0"
+message = "cgitsync-8.8.0 TreeVersion: plan the version command group (diagnose, init, bump) for DEV and OPX trees, every version read and bumped through pixi.toml. \\ Every decision is answered: each repository's own bump task first, Pixi's own command only for plain SemVer, leaf first then the root, and another project's tool never bumped. \\ Replaces the ReleaseBump draft; the short ticket alpha-examples lists what still reads the removed level files."
+authored_at = "2026-11-11T11:08:19+01:00"
