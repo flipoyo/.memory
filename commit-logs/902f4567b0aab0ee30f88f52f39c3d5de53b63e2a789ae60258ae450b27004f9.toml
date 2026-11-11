@@ -37,3 +37,23 @@ branch = "CGS-ALPHA"
 sha = "82479321d5fca9fc5cd773e5ec35145ba20b18f0"
 message = "cgitsync-8.9.4 LinkAtCGS: the CI no longer fails on three counts: the golden tests skip where the private spec tree is not mounted, initialise no longer dies on a character a Windows console cannot encode, and the deep-tree test sizes itself to the platform path limit\nThe ticket stays open until the CI runs green on three systems; the cli LOC ceiling is raised to 99 by the owner"
 authored_at = "2026-11-11T17:35:23+01:00"
+
+[[published]]
+entry = 54
+repository = "DocComplexGitSync"
+sha = "8fae1b805da7bfc04c375827b6e0dbffe4da9277"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T16:35:47+00:00"
+remote_commit = "8fae1b805da7bfc04c375827b6e0dbffe4da9277"
+observed_at = "2026-11-11T16:35:47+00:00"
+
+[[published]]
+entry = 54
+repository = "ComplexGitSync"
+sha = "82479321d5fca9fc5cd773e5ec35145ba20b18f0"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/CGS-ALPHA"
+at = "2026-11-11T16:35:47+00:00"
+remote_commit = "82479321d5fca9fc5cd773e5ec35145ba20b18f0"
+observed_at = "2026-11-11T16:35:47+00:00"
