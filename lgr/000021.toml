@@ -1,0 +1,23 @@
+[entry]
+seq = 21
+prev = "sha256:169b127dd6d7e025d5be68a05c879b481f656b69c154538fea3fd45b7e736419"
+recorded_at = "2026-11-19T14:14:04Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "HydrologicalTwinAlphaSeries-1.0.0 Planning ticket HtasCli: a pixi run htas CLI built as cgitsync's, with a general surface on the CaWaQS-ViZ ring and a DEV surface on HTAS's macro-verbs\nFour milestones (skeleton, general, DEV, tutorials and documentation) and seven decisions for the owner\naudit.md records the Python 3.11 floor against the QGIS Python CaWaQS-ViZ installs into",
+]
+state_id = "state(c6c7b1858aa080fa5a4549b91425b912fe76c6c5314023fe480db337c6f7f230)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:192138c861dc8ea9319bdcfcd7bcb39bbe2d48b869e207550cd396bd05bef911"
+entry_hash = "sha256:e1d05a8a5f384d199f9352fad651a4697005342d8ca19bec20d185f65c92769c"
+environment = "env(5f6e94f995e48bbdd7a2c1d79b6ab6eda8c3ad70ba9e2f944f91ce6f2d6db299)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
