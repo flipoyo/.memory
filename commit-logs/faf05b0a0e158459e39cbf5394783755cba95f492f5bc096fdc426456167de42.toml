@@ -1,0 +1,19 @@
+[[commit]]
+entry = 25
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "686d78492b62f0d8a7ce9331cdca830facec4ac7"
+message = "HydrologicalTwinAlphaSeries-1.0.1\nOpen DocsOnTheFly: documents updated in the same change as the code, drift tests, and a tutorials/ section\nHtasCli M4 and audit.md #4 now point to its D1"
+authored_at = "2026-11-19T17:58:06+01:00"
+
+[[commit]]
+entry = 25
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "7a6e5b4c8cb7775ee543cba5eac90ed2cf8ed83e"
+message = "HydrologicalTwinAlphaSeries-1.0.1\nOpen DocsOnTheFly: documents updated in the same change as the code, drift tests, and a tutorials/ section\nHtasCli M4 and audit.md #4 now point to its D1"
+authored_at = "2026-11-19T17:58:06+01:00"

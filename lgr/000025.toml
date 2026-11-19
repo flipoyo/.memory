@@ -1,0 +1,23 @@
+[entry]
+seq = 25
+prev = "sha256:6b83370582247c551a65fd0dbba9e1c905c5dc1e6c381597563392544d9b10c4"
+recorded_at = "2026-11-19T16:58:07Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.0.1\nOpen DocsOnTheFly: documents updated in the same change as the code, drift tests, and a tutorials/ section\nHtasCli M4 and audit.md #4 now point to its D1",
+]
+state_id = "state(faf05b0a0e158459e39cbf5394783755cba95f492f5bc096fdc426456167de42)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:f49acb4e1371d3b5f3e7a2c0104e4d30b59cc81a15c9caf478b1ed563a4eabde"
+entry_hash = "sha256:2a63b366824ece8b9cd1d125ac70f13148ac985a6bfa1676c4e6e66e1d0f25bb"
+environment = "env(cb44d1030255f77689dae0d84ab64b2e24154425b53b66ede9630057161c4590)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

@@ -17,3 +17,13 @@ branch = "HydrologicalTwinAlphaSeries_HT-BETA"
 sha = "188e9f7e9f6423dcf8e28cf74671ea94eb26d7b9"
 message = "HydrologicalTwinAlphaSeries-1.0.0 Planning ticket HtasCli: a pixi run htas CLI built as cgitsync's, with a general surface on the CaWaQS-ViZ ring and a DEV surface on HTAS's macro-verbs\nFour milestones (skeleton, general, DEV, tutorials and documentation) and seven decisions for the owner\naudit.md records the Python 3.11 floor against the QGIS Python CaWaQS-ViZ installs into"
 authored_at = "2026-11-19T15:14:04+01:00"
+
+[[published]]
+entry = 24
+repository = ".localSpec"
+sha = "117964c0ca404f57ffce71e6fcc9509576cf8a75"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T16:51:19+00:00"
+remote_commit = "2899ab13807654f43486dee8a96b73b74bcb2017"
+observed_at = "2026-11-19T16:51:19+00:00"
