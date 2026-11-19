@@ -1,0 +1,22 @@
+[entry]
+seq = 3
+prev = "sha256:7398ab954108c66c465a656d01971f618784daaabc2da3cefdd1f3edb65ba464"
+recorded_at = "2026-11-19T09:39:19Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "HT-BETA",
+]
+state_id = "state(8859318b29e48e1ff1ea4131ce1c57e38d8ddf83ed7ca4646e07a08d5cbc959d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:db11c5a485c1998c64ea811a65fef607b12aa40480f8dda7f691b0dc555702e8"
+environment = "env(48976c5ca71c57ff2ce3f45ad8dd12609377037ed6f47ded39dae66abaa1e5e9)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
