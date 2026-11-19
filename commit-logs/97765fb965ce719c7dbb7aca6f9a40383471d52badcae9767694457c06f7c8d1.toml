@@ -1,0 +1,9 @@
+[[commit]]
+entry = 18
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "40737eb07fef08437d657f4d34c847c6f01bc7d3"
+message = "HydrologicalTwinAlphaSeries-1.0.0\nMove to SemVer in a root pixi.toml, add bump-version and bump-build, delete the CI version bump\nUser guide version now written by bump-version; the last alpha is tagged 000.alpha.40"
+authored_at = "2026-11-19T14:36:15+01:00"

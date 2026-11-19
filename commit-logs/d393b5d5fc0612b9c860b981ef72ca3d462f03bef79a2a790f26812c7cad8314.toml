@@ -47,3 +47,53 @@ branch = "HT-BETA"
 sha = "cb19612ca3934c639229a77086f9606e5e24d918"
 message = "HydrologicalTwinAlphaSeries-1.0.0\nMove to SemVer in a root pixi.toml, add bump-version and bump-build, delete the CI version bump\nUser guide version now written by bump-version; the last alpha is tagged 000.alpha.40"
 authored_at = "2026-11-19T14:30:51+01:00"
+
+[[published]]
+entry = 17
+repository = "hydrological_twin"
+sha = "c703de1f0ff12ebc8977a4960f41e41d3d9fc941"
+remote = "github:flipoyo/hydrological_twin"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-19T13:31:23+00:00"
+remote_commit = "c703de1f0ff12ebc8977a4960f41e41d3d9fc941"
+observed_at = "2026-11-19T13:31:23+00:00"
+
+[[published]]
+entry = 17
+repository = ".localSpec"
+sha = "3d63d1a7d603c8b074c519337e3c819b26bbf37c"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T13:31:23+00:00"
+remote_commit = "3d63d1a7d603c8b074c519337e3c819b26bbf37c"
+observed_at = "2026-11-19T13:31:23+00:00"
+
+[[published]]
+entry = 17
+repository = ".dev"
+sha = "54aa3783f896980f798ea85c211ee89f519db1e5"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T13:31:23+00:00"
+remote_commit = "54aa3783f896980f798ea85c211ee89f519db1e5"
+observed_at = "2026-11-19T13:31:23+00:00"
+
+[[published]]
+entry = 17
+repository = ".claude"
+sha = "019149b4621ca080998da2ee66b63fab91c273e2"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T13:31:23+00:00"
+remote_commit = "019149b4621ca080998da2ee66b63fab91c273e2"
+observed_at = "2026-11-19T13:31:23+00:00"
+
+[[published]]
+entry = 17
+repository = "HydrologicalTwinAlphaSeries"
+sha = "cb19612ca3934c639229a77086f9606e5e24d918"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-19T13:31:23+00:00"
+remote_commit = "cb19612ca3934c639229a77086f9606e5e24d918"
+observed_at = "2026-11-19T13:31:23+00:00"

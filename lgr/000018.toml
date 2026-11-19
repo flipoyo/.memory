@@ -1,0 +1,23 @@
+[entry]
+seq = 18
+prev = "sha256:7ec2aa7509eae749588534d7fb856868537fb287c4ef469a98c99f6e2551160a"
+recorded_at = "2026-11-19T13:36:15Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.0.0\nMove to SemVer in a root pixi.toml, add bump-version and bump-build, delete the CI version bump\nUser guide version now written by bump-version; the last alpha is tagged 000.alpha.40",
+]
+state_id = "state(97765fb965ce719c7dbb7aca6f9a40383471d52badcae9767694457c06f7c8d1)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3e2ea65a7232e36eed3961d3b95d22327eb365d11992ee81b9351a4befce68a6"
+entry_hash = "sha256:bcf99ce6704d38d1d56eaf2de486555ceea16fe0e8acf51748f5e283a0ea95d0"
+environment = "env(5f6e94f995e48bbdd7a2c1d79b6ab6eda8c3ad70ba9e2f944f91ce6f2d6db299)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
