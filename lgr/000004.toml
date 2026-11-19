@@ -1,0 +1,22 @@
+[entry]
+seq = 4
+prev = "sha256:db11c5a485c1998c64ea811a65fef607b12aa40480f8dda7f691b0dc555702e8"
+recorded_at = "2026-11-19T10:24:37Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "../.config/htas-dev-beta.cgs",
+]
+state_id = "state(c8dece1eb2c6374bbe38b7dcbb6ebd800eb5d5139e3fa6ef03f3db3839db5371)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:d841cc59c4c529f84539c089a058c9aa3b08999860a88b318c0861a56ce99835"
+environment = "env(fe3b18d4ba18aa26571e6f6e8b73e0ed06dfed1eaad16c411b01035484f93180)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
