@@ -1,0 +1,29 @@
+[[commit]]
+entry = 23
+repository = "hydrological_twin"
+repo_id = "root:docs/hydrological_twin"
+scope = "project"
+branch = "HT-BETA"
+sha = "53e89890d79c84f1cb156f104c6bd450686b7895"
+message = "HydrologicalTwinAlphaSeries-1.0.1\nAdd the htas command line (L0 adapter ring): detect run, detect neighbors and describe, with an htas.toml project file, --json, did-you-mean and exit codes 0/1/2\nAdd FileGeoProvider, a QGIS-free file layer provider, and document both in the API docs and AdditionalSpecs"
+authored_at = "2026-11-19T17:50:16+01:00"
+
+[[commit]]
+entry = 23
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "2899ab13807654f43486dee8a96b73b74bcb2017"
+message = "HydrologicalTwinAlphaSeries-1.0.1\nAdd the htas command line (L0 adapter ring): detect run, detect neighbors and describe, with an htas.toml project file, --json, did-you-mean and exit codes 0/1/2\nAdd FileGeoProvider, a QGIS-free file layer provider, and document both in the API docs and AdditionalSpecs"
+authored_at = "2026-11-19T17:50:16+01:00"
+
+[[commit]]
+entry = 23
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "4e6821e8308149254a56a9cbc2addd36b280c96a"
+message = "HydrologicalTwinAlphaSeries-1.0.1\nAdd the htas command line (L0 adapter ring): detect run, detect neighbors and describe, with an htas.toml project file, --json, did-you-mean and exit codes 0/1/2\nAdd FileGeoProvider, a QGIS-free file layer provider, and document both in the API docs and AdditionalSpecs"
+authored_at = "2026-11-19T17:50:16+01:00"

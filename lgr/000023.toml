@@ -1,0 +1,23 @@
+[entry]
+seq = 23
+prev = "sha256:943a83b2806d508eddf0d48e7d7cef64887a3f8b08381d439e1672e245592e9d"
+recorded_at = "2026-11-19T16:50:17Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.0.1\nAdd the htas command line (L0 adapter ring): detect run, detect neighbors and describe, with an htas.toml project file, --json, did-you-mean and exit codes 0/1/2\nAdd FileGeoProvider, a QGIS-free file layer provider, and document both in the API docs and AdditionalSpecs",
+]
+state_id = "state(59e81ea3aac013833ead76bab38cfb61b0e71f31a080b47e5b089e0dcb30f83f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:76bfa70bb475aa9b39cdbbfdc3dac4eb00a6a2c702aa817d3c0b52e8b3cabe12"
+entry_hash = "sha256:6e4fed6c72233e11032bc9dd73c881ca87a9a4bd7fab269c05f0d9aa921f5a8d"
+environment = "env(cb44d1030255f77689dae0d84ab64b2e24154425b53b66ede9630057161c4590)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
