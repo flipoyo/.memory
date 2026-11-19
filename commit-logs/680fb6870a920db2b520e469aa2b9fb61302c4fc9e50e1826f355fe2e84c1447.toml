@@ -37,3 +37,43 @@ branch = "HT-BETA"
 sha = "ae8fd6a6c9c3fd5e98e0fcead0278c27ffec357d"
 message = "HydrologicalTwinAlphaSeries-000.alpha.40 HT-BETA spec tree: the agentic Markdown seeded from ComplexGitSync is adapted to HTAS (CLAUDE.md, AGENT.md, AdditionalSpecs, digest, audit, manifest, htas-dev checklist, Versioning)\nDevTickets restart empty with one planning ticket, SemVerPixi, which moves the version to SemVer in pixi.toml bumped by the orchestrator instead of CI\nCLAUDE.md and AGENT.md at the root link into .agent/.local/.claude"
 authored_at = "2026-11-19T13:39:58+01:00"
+
+[[published]]
+entry = 13
+repository = ".localSpec"
+sha = "aca84b437304da389ea970e3b0d96955b0ad43f9"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T12:40:25+00:00"
+remote_commit = "aca84b437304da389ea970e3b0d96955b0ad43f9"
+observed_at = "2026-11-19T12:40:25+00:00"
+
+[[published]]
+entry = 13
+repository = ".dev"
+sha = "773b1f7d1c4484f9a1e63f4f9060cb4ac1ec5c86"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T12:40:25+00:00"
+remote_commit = "773b1f7d1c4484f9a1e63f4f9060cb4ac1ec5c86"
+observed_at = "2026-11-19T12:40:25+00:00"
+
+[[published]]
+entry = 13
+repository = ".claude"
+sha = "85a8ecff47adee53abc2cfb855b7dbc46945fa03"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T12:40:25+00:00"
+remote_commit = "85a8ecff47adee53abc2cfb855b7dbc46945fa03"
+observed_at = "2026-11-19T12:40:25+00:00"
+
+[[published]]
+entry = 13
+repository = "HydrologicalTwinAlphaSeries"
+sha = "ae8fd6a6c9c3fd5e98e0fcead0278c27ffec357d"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-19T12:40:25+00:00"
+remote_commit = "ae8fd6a6c9c3fd5e98e0fcead0278c27ffec357d"
+observed_at = "2026-11-19T12:40:25+00:00"
