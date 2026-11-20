@@ -17,3 +17,23 @@ branch = "data-encrypt"
 sha = "c74dbb7af4bd972616208d265f50542f4ec4d13a"
 message = "cgitsync-8.9.4 DevTicket for encrypted data repos"
 authored_at = "2026-11-21T00:28:17+01:00"
+
+[[published]]
+entry = 64
+repository = ".dev"
+sha = "50c3c250e2674fbd39a2479df84ebbd89ff5c6f6"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-20T23:28:57+00:00"
+remote_commit = "50c3c250e2674fbd39a2479df84ebbd89ff5c6f6"
+observed_at = "2026-11-20T23:28:57+00:00"
+
+[[published]]
+entry = 64
+repository = "ComplexGitSync"
+sha = "c74dbb7af4bd972616208d265f50542f4ec4d13a"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/data-encrypt"
+at = "2026-11-20T23:28:57+00:00"
+remote_commit = "c74dbb7af4bd972616208d265f50542f4ec4d13a"
+observed_at = "2026-11-20T23:28:57+00:00"

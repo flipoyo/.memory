@@ -57,3 +57,23 @@ ref = "refs/heads/CGS-ALPHA"
 at = "2026-11-11T16:35:47+00:00"
 remote_commit = "82479321d5fca9fc5cd773e5ec35145ba20b18f0"
 observed_at = "2026-11-11T16:35:47+00:00"
+
+[[published]]
+entry = 64
+repository = ".localSpec"
+sha = "fdf1e82abc25abf1111473081bd232030df3da78"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-20T23:28:57+00:00"
+remote_commit = "fdf1e82abc25abf1111473081bd232030df3da78"
+observed_at = "2026-11-20T23:28:57+00:00"
+
+[[published]]
+entry = 64
+repository = ".dev"
+sha = "17cb0622144b89c2d2d7aad110f95f1a05a2ffc7"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-20T23:28:57+00:00"
+remote_commit = "50c3c250e2674fbd39a2479df84ebbd89ff5c6f6"
+observed_at = "2026-11-20T23:28:57+00:00"

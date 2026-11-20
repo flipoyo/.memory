@@ -1,0 +1,9 @@
+[[commit]]
+entry = 65
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_data-encrypt"
+sha = "f109fef496130955d42a935676db0238ef032fa0"
+message = "cgitsync-8.9.4 git-crypt-encryption closed\nThe short ticket moves to archive/.closedUserTicket/20261121_git-crypt-encryption.md, stamped with the day the EncryptedRepos plan carried it"
+authored_at = "2026-11-21T00:35:40+01:00"
