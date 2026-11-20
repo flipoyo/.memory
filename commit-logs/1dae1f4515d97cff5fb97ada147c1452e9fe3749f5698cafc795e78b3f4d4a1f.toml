@@ -47,3 +47,53 @@ branch = "HT-BETA"
 sha = "afc18352835e20938dfc57fdd0d12cf9a86cc5bb"
 message = "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)"
 authored_at = "2026-11-20T11:47:03+01:00"
+
+[[published]]
+entry = 37
+repository = "hydrological_twin"
+sha = "47307ba8a3615c024daefc96b97c974f9b8966d5"
+remote = "github:flipoyo/hydrological_twin"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T10:47:33+00:00"
+remote_commit = "47307ba8a3615c024daefc96b97c974f9b8966d5"
+observed_at = "2026-11-20T10:47:33+00:00"
+
+[[published]]
+entry = 37
+repository = ".localSpec"
+sha = "f8eefc02b2261e295b6f60351ea54e6b71d5d8a7"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T10:47:33+00:00"
+remote_commit = "f8eefc02b2261e295b6f60351ea54e6b71d5d8a7"
+observed_at = "2026-11-20T10:47:33+00:00"
+
+[[published]]
+entry = 37
+repository = ".dev"
+sha = "f87615c1e7933f54b4bba293a30dbffd6b6b4a51"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T10:47:33+00:00"
+remote_commit = "f87615c1e7933f54b4bba293a30dbffd6b6b4a51"
+observed_at = "2026-11-20T10:47:33+00:00"
+
+[[published]]
+entry = 37
+repository = ".claude"
+sha = "343f0cd9fda61f4d61de8a4e867a6cfc65a23abe"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T10:47:33+00:00"
+remote_commit = "343f0cd9fda61f4d61de8a4e867a6cfc65a23abe"
+observed_at = "2026-11-20T10:47:33+00:00"
+
+[[published]]
+entry = 37
+repository = "HydrologicalTwinAlphaSeries"
+sha = "afc18352835e20938dfc57fdd0d12cf9a86cc5bb"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T10:47:33+00:00"
+remote_commit = "afc18352835e20938dfc57fdd0d12cf9a86cc5bb"
+observed_at = "2026-11-20T10:47:33+00:00"

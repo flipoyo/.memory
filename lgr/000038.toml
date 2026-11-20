@@ -1,0 +1,23 @@
+[entry]
+seq = 38
+prev = "sha256:d9d0ee6732f4de32219ff4beab2c7819a589ece58ce748d9e0434709911030f6"
+recorded_at = "2026-11-20T11:00:43Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.2.0\nCarry the framework's definition into the docs: HydrologicalTwin is a systemic framework for socio-hydrological systems, HTAS its first implementation, the scientific backend for CaWaQS",
+]
+state_id = "state(2a5a6e41321b66c98d69b6fb64cdc249b85e5425127205c72f976060cddc4dee)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:80c2ced54e87b92fa1e7a9c7d350e2537ca9b8a582d6b2c3254966566835b9c5"
+entry_hash = "sha256:c61b1b7dfa37abbf98f1d49000aed511dc8415f3ce929050ee28ee6f25a42e42"
+environment = "env(e03fbea36227d45cf0a74e97c7c3b918b96399ce1234cb3446f2e8761c832c06)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
