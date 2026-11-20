@@ -1,0 +1,19 @@
+[[commit]]
+entry = 67
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_data-encrypt"
+sha = "99b60cb6053d99390374373ce09a8daa370e36e3"
+message = "cgitsync-8.9.4 EncryptedRepos test tree at two levels: .config/cgitsync-encrypt.cgs is a USER fixture of the three CGSenc repositories on main, .config/cgitsync-encrypt-devel.cgs a DEV tree adding ComplexGitSync on data-encrypt as environment_root and a CGSenc-memory test memory\nThe unsafe git-crypt keys .keys/unsafe-key-1 and -2 serve the prototype only, on synthetic data; real keys are the owner's, made when the feature is used for real"
+authored_at = "2026-11-21T00:56:03+01:00"
+
+[[commit]]
+entry = 67
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "data-encrypt"
+sha = "c6c5f044e8e339badf9fc7e05dbbfcda7b530d58"
+message = "cgitsync-8.9.4 EncryptedRepos test tree at two levels: .config/cgitsync-encrypt.cgs is a USER fixture of the three CGSenc repositories on main, .config/cgitsync-encrypt-devel.cgs a DEV tree adding ComplexGitSync on data-encrypt as environment_root and a CGSenc-memory test memory\nThe unsafe git-crypt keys .keys/unsafe-key-1 and -2 serve the prototype only, on synthetic data; real keys are the owner's, made when the feature is used for real"
+authored_at = "2026-11-21T00:56:03+01:00"

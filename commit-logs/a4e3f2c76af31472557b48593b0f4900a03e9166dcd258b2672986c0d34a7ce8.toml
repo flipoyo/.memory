@@ -7,3 +7,13 @@ branch = "ComplexGitSync_data-encrypt"
 sha = "f109fef496130955d42a935676db0238ef032fa0"
 message = "cgitsync-8.9.4 git-crypt-encryption closed\nThe short ticket moves to archive/.closedUserTicket/20261121_git-crypt-encryption.md, stamped with the day the EncryptedRepos plan carried it"
 authored_at = "2026-11-21T00:35:40+01:00"
+
+[[published]]
+entry = 66
+repository = ".dev"
+sha = "f109fef496130955d42a935676db0238ef032fa0"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-20T23:36:01+00:00"
+remote_commit = "f109fef496130955d42a935676db0238ef032fa0"
+observed_at = "2026-11-20T23:36:01+00:00"

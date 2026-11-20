@@ -1,0 +1,23 @@
+[entry]
+seq = 67
+prev = "sha256:4d4891f498de994ce02153bd4b5dea13a97a287db6e2732fc21459836095d4f4"
+recorded_at = "2026-11-20T23:56:04Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.9.4 EncryptedRepos test tree at two levels: .config/cgitsync-encrypt.cgs is a USER fixture of the three CGSenc repositories on main, .config/cgitsync-encrypt-devel.cgs a DEV tree adding ComplexGitSync on data-encrypt as environment_root and a CGSenc-memory test memory\nThe unsafe git-crypt keys .keys/unsafe-key-1 and -2 serve the prototype only, on synthetic data; real keys are the owner's, made when the feature is used for real",
+]
+state_id = "state(05f964462d1c9e583631af462126148233cef401e241ebc58c68d05a4aaf3416)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e3875e777ad2aba04f3f28f4ba0e35d05330ca96d5aca4847cce804505bb2064"
+entry_hash = "sha256:fa7311716a8fa9c63722a83eb4d51fce3bf1fb1f3553e58b5a7d9d1ddf2dd609"
+environment = "env(55a66ca5c0a43c938f5cf4544a65d294eddecb8c1af6d3e810651e68e87a7e56)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
