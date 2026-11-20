@@ -1,0 +1,23 @@
+[entry]
+seq = 45
+prev = "sha256:b6fa4133b6f90d62f03d3011f7a843778f30156e331ad39a693d30e0d29332d9"
+recorded_at = "2026-11-20T16:53:23Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "htas-1.2.0 HydrologicalTwinAlphaSeries-1.2.0 Plan VersionSync: every document that states the version moves with a bump, and a test fails on a stray copy\nClose the short ticket README-SemVer; the owner's answers D1, D3 and D4 are recorded, D2 and the PDF tracking are asked during the implement",
+]
+state_id = "state(e52e0a52767e7afbc0f69f1a594b239d02a594febccc33b6e4fdc83acfd7d526)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:50026f3161601e8e5cc16754b7ee4acaa21c5164d46ee53bc072017e1e9020ab"
+entry_hash = "sha256:e18e61cc97ab7a1e032a2c4f69d9da9ebafbef2471bb1d43b6209941879fba4e"
+environment = "env(5a28f0edd0eb6fbf27904b80986fbec68fca85bf4d807f8a03d04d9ab015222c)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

@@ -7,3 +7,13 @@ branch = "HT-BETA"
 sha = "d7e73e75f32b4a27b75da49ee6b8533f1e88d43d"
 message = "htas-1.2.0 update README.md"
 authored_at = "2026-11-20T17:07:31+01:00"
+
+[[published]]
+entry = 43
+repository = "HydrologicalTwinAlphaSeries"
+sha = "d7e73e75f32b4a27b75da49ee6b8533f1e88d43d"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T16:07:46+00:00"
+remote_commit = "d7e73e75f32b4a27b75da49ee6b8533f1e88d43d"
+observed_at = "2026-11-20T16:07:46+00:00"
