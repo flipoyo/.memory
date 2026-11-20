@@ -1,0 +1,39 @@
+[[commit]]
+entry = 34
+repository = "hydrological_twin"
+repo_id = "root:docs/hydrological_twin"
+scope = "project"
+branch = "HT-BETA"
+sha = "bcce42a92dd154e83b17cd9edab16b81745caf79"
+message = "HydrologicalTwinAlphaSeries-1.2.0 Add the htas-dev command line: one command per developer verb and one subcommand per kind (htas-dev fetch simulation-matrix), generated from a new kinds registry in ht/developer and from the request dataclasses\nEvery request field is an option, array and mapping fields read .npy, .json or vector files, --output writes the result, --json shows long arrays as shapes; describe reads its catalog from the registry and gains mask_kinds and assemble_kinds\nDocument the command in the API docs, the user guide, the README and the specs, and share one parse and exit-code runner between htas and htas-dev"
+authored_at = "2026-11-20T11:34:02+01:00"
+
+[[commit]]
+entry = 34
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "661f505c09c4db062816ad041886aec4e10d9e17"
+message = "HydrologicalTwinAlphaSeries-1.2.0 Add the htas-dev command line: one command per developer verb and one subcommand per kind (htas-dev fetch simulation-matrix), generated from a new kinds registry in ht/developer and from the request dataclasses\nEvery request field is an option, array and mapping fields read .npy, .json or vector files, --output writes the result, --json shows long arrays as shapes; describe reads its catalog from the registry and gains mask_kinds and assemble_kinds\nDocument the command in the API docs, the user guide, the README and the specs, and share one parse and exit-code runner between htas and htas-dev"
+authored_at = "2026-11-20T11:34:02+01:00"
+
+[[commit]]
+entry = 34
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "d1aaf4e62b8a5711c32a4500519b7e8ddcf104a0"
+message = "HydrologicalTwinAlphaSeries-1.2.0 Add the htas-dev command line: one command per developer verb and one subcommand per kind (htas-dev fetch simulation-matrix), generated from a new kinds registry in ht/developer and from the request dataclasses\nEvery request field is an option, array and mapping fields read .npy, .json or vector files, --output writes the result, --json shows long arrays as shapes; describe reads its catalog from the registry and gains mask_kinds and assemble_kinds\nDocument the command in the API docs, the user guide, the README and the specs, and share one parse and exit-code runner between htas and htas-dev"
+authored_at = "2026-11-20T11:34:02+01:00"
+
+[[commit]]
+entry = 34
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "6d9976748311b1531a55ca3c22e82223c450693e"
+message = "HydrologicalTwinAlphaSeries-1.2.0 Add the htas-dev command line: one command per developer verb and one subcommand per kind (htas-dev fetch simulation-matrix), generated from a new kinds registry in ht/developer and from the request dataclasses\nEvery request field is an option, array and mapping fields read .npy, .json or vector files, --output writes the result, --json shows long arrays as shapes; describe reads its catalog from the registry and gains mask_kinds and assemble_kinds\nDocument the command in the API docs, the user guide, the README and the specs, and share one parse and exit-code runner between htas and htas-dev"
+authored_at = "2026-11-20T11:34:02+01:00"

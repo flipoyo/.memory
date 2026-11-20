@@ -37,3 +37,43 @@ branch = "HT-BETA"
 sha = "9340db4ef24a56c1ef9e1216d175f13f6ad5a3fd"
 message = "HydrologicalTwinAlphaSeries-1.1.0 Add one htas command per client operation: budget barplot, regime show, map watbal, map aq, compare simobs, criteria compute, mask internal, mask hyd and mask aq\nGive the commands --json, exit codes 0/1/2, --spec/--specs-file and --mode/--mode-file, and put the simulated years in the client's metadata (audit #15)\nDocument the commands in the API docs, the user guide, the README and the specs"
 authored_at = "2026-11-20T11:19:01+01:00"
+
+[[published]]
+entry = 33
+repository = "hydrological_twin"
+sha = "52177a4079839c19226c36385cf131a92f558a63"
+remote = "github:flipoyo/hydrological_twin"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T10:19:34+00:00"
+remote_commit = "52177a4079839c19226c36385cf131a92f558a63"
+observed_at = "2026-11-20T10:19:34+00:00"
+
+[[published]]
+entry = 33
+repository = ".localSpec"
+sha = "e4a6d9771bb914b770222cd9083e6f537aae23d0"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T10:19:34+00:00"
+remote_commit = "e4a6d9771bb914b770222cd9083e6f537aae23d0"
+observed_at = "2026-11-20T10:19:34+00:00"
+
+[[published]]
+entry = 33
+repository = ".dev"
+sha = "f2f2e6699b3165c0764b21ff810937017bf6a36c"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T10:19:34+00:00"
+remote_commit = "f2f2e6699b3165c0764b21ff810937017bf6a36c"
+observed_at = "2026-11-20T10:19:34+00:00"
+
+[[published]]
+entry = 33
+repository = "HydrologicalTwinAlphaSeries"
+sha = "9340db4ef24a56c1ef9e1216d175f13f6ad5a3fd"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T10:19:34+00:00"
+remote_commit = "9340db4ef24a56c1ef9e1216d175f13f6ad5a3fd"
+observed_at = "2026-11-20T10:19:34+00:00"

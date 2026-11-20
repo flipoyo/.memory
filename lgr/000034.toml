@@ -1,0 +1,23 @@
+[entry]
+seq = 34
+prev = "sha256:c1e5aab0dfc53b4b1ec39f2ef2294e1a221f98464b354779b2c45c3b77621dab"
+recorded_at = "2026-11-20T10:34:03Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.2.0 Add the htas-dev command line: one command per developer verb and one subcommand per kind (htas-dev fetch simulation-matrix), generated from a new kinds registry in ht/developer and from the request dataclasses\nEvery request field is an option, array and mapping fields read .npy, .json or vector files, --output writes the result, --json shows long arrays as shapes; describe reads its catalog from the registry and gains mask_kinds and assemble_kinds\nDocument the command in the API docs, the user guide, the README and the specs, and share one parse and exit-code runner between htas and htas-dev",
+]
+state_id = "state(d7c921ffcdf64eea9cc4e1412f442a6e796c5b6b3f933c3a95ee40c0e461d5b1)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:5bacbfcffed9d3c19e7f01fc0e31d058968ffc83ae401a3ad95501f936d64e2f"
+entry_hash = "sha256:0dd177c10cc5c597aee6e1f374594e0efd256b52c7ae3ba7e768531c3b936323"
+environment = "env(e03fbea36227d45cf0a74e97c7c3b918b96399ce1234cb3446f2e8761c832c06)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
