@@ -37,3 +37,13 @@ branch = "HT-BETA"
 sha = "4e4fa638b64e5dbbfaad7d2863781454616d7824"
 message = "HydrologicalTwinAlphaSeries-1.2.0\nCarry the framework's definition into the docs: HydrologicalTwin is a systemic framework for socio-hydrological systems, HTAS its first implementation, the scientific backend for CaWaQS"
 authored_at = "2026-11-20T12:00:42+01:00"
+
+[[published]]
+entry = 41
+repository = "HydrologicalTwinAlphaSeries"
+sha = "4e4fa638b64e5dbbfaad7d2863781454616d7824"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T15:04:30+00:00"
+remote_commit = "2bc7f3b0ab9d1c68feff0fc1d1df7f95bf1fff4f"
+observed_at = "2026-11-20T15:04:30+00:00"
