@@ -1,0 +1,49 @@
+[[commit]]
+entry = 27
+repository = "hydrological_twin"
+repo_id = "root:docs/hydrological_twin"
+scope = "project"
+branch = "HT-BETA"
+sha = "a64206d9320537d2775a1637073c542c4a7ea3c5"
+message = "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src"
+authored_at = "2026-11-20T10:47:17+01:00"
+
+[[commit]]
+entry = 27
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "07305d27712eb69048117373c1cf3f644bd553e4"
+message = "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src"
+authored_at = "2026-11-20T10:47:17+01:00"
+
+[[commit]]
+entry = 27
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "da88eb9a9522a5dba1313f544454eaba157a31c1"
+message = "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src"
+authored_at = "2026-11-20T10:47:17+01:00"
+
+[[commit]]
+entry = 27
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "6051d4430187ce4fa9e82292c028716389196c34"
+message = "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src"
+authored_at = "2026-11-20T10:47:18+01:00"
+
+[[commit]]
+entry = 27
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "c1b4784569d11f6d88df984873daa443b3c8aecd"
+message = "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src"
+authored_at = "2026-11-20T10:47:18+01:00"

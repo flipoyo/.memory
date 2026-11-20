@@ -17,3 +17,23 @@ branch = "HydrologicalTwinAlphaSeries_HT-BETA"
 sha = "7a6e5b4c8cb7775ee543cba5eac90ed2cf8ed83e"
 message = "HydrologicalTwinAlphaSeries-1.0.1\nOpen DocsOnTheFly: documents updated in the same change as the code, drift tests, and a tutorials/ section\nHtasCli M4 and audit.md #4 now point to its D1"
 authored_at = "2026-11-19T17:58:06+01:00"
+
+[[published]]
+entry = 26
+repository = ".localSpec"
+sha = "686d78492b62f0d8a7ce9331cdca830facec4ac7"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T16:59:31+00:00"
+remote_commit = "686d78492b62f0d8a7ce9331cdca830facec4ac7"
+observed_at = "2026-11-19T16:59:31+00:00"
+
+[[published]]
+entry = 26
+repository = ".dev"
+sha = "7a6e5b4c8cb7775ee543cba5eac90ed2cf8ed83e"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T16:59:31+00:00"
+remote_commit = "7a6e5b4c8cb7775ee543cba5eac90ed2cf8ed83e"
+observed_at = "2026-11-19T16:59:31+00:00"

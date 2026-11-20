@@ -27,3 +27,13 @@ ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
 at = "2026-11-19T16:51:19+00:00"
 remote_commit = "2899ab13807654f43486dee8a96b73b74bcb2017"
 observed_at = "2026-11-19T16:51:19+00:00"
+
+[[published]]
+entry = 26
+repository = ".dev"
+sha = "188e9f7e9f6423dcf8e28cf74671ea94eb26d7b9"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-19T16:59:31+00:00"
+remote_commit = "7a6e5b4c8cb7775ee543cba5eac90ed2cf8ed83e"
+observed_at = "2026-11-19T16:59:31+00:00"

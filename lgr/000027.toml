@@ -1,0 +1,23 @@
+[entry]
+seq = 27
+prev = "sha256:ba955878be3a2608b4fafe19f9184e0aaf1a3a548b5138e8fb8d7d4daeacfa4b"
+recorded_at = "2026-11-20T09:47:18Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src",
+]
+state_id = "state(2a709a82f82b01592d63ccdd3457ba771a559db32558bb2280b8eb667aa83f0c)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:95abaf4f2020b960a0cdb30e48cb14dd61a5aab9076147e49d8a16fc43e11acf"
+entry_hash = "sha256:2369d866c7bd8b009e771eef76358e9ae590fff59c303ba9d31d6c7eddf66784"
+environment = "env(9f7dea7909a4823b58190e2db74e77a01a631949eea21505114ca337fb1d739f)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
