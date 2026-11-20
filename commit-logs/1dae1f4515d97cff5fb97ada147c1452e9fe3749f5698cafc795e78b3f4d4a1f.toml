@@ -1,0 +1,49 @@
+[[commit]]
+entry = 36
+repository = "hydrological_twin"
+repo_id = "root:docs/hydrological_twin"
+scope = "project"
+branch = "HT-BETA"
+sha = "47307ba8a3615c024daefc96b97c974f9b8966d5"
+message = "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)"
+authored_at = "2026-11-20T11:47:02+01:00"
+
+[[commit]]
+entry = 36
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "f8eefc02b2261e295b6f60351ea54e6b71d5d8a7"
+message = "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)"
+authored_at = "2026-11-20T11:47:03+01:00"
+
+[[commit]]
+entry = 36
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "f87615c1e7933f54b4bba293a30dbffd6b6b4a51"
+message = "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)"
+authored_at = "2026-11-20T11:47:03+01:00"
+
+[[commit]]
+entry = 36
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "343f0cd9fda61f4d61de8a4e867a6cfc65a23abe"
+message = "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)"
+authored_at = "2026-11-20T11:47:03+01:00"
+
+[[commit]]
+entry = 36
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "afc18352835e20938dfc57fdd0d12cf9a86cc5bb"
+message = "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)"
+authored_at = "2026-11-20T11:47:03+01:00"

@@ -1,0 +1,23 @@
+[entry]
+seq = 36
+prev = "sha256:0dc995ca6d33a468759f0d5360777cece081c6055e913a5ce500a1a53b4361f8"
+recorded_at = "2026-11-20T10:47:03Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.2.0\nAdd the user guide's command reference for htas and htas-dev, held to the parsers by a new test that fails when a command, option, verb or kind is not named\nClose HtasCli: the CLI tutorials move to DocsOnTheFly and the fixture tests are recorded as unrun (audit finding 16)",
+]
+state_id = "state(1dae1f4515d97cff5fb97ada147c1452e9fe3749f5698cafc795e78b3f4d4a1f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:26d04c3575414f333656c1330c912f293890dabfbf2f9e54f864dbef39a6f9f5"
+entry_hash = "sha256:c9e538416aac7f18bd000a25f44b21858126e56661452614d73a367b13ddf9ec"
+environment = "env(e03fbea36227d45cf0a74e97c7c3b918b96399ce1234cb3446f2e8761c832c06)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
