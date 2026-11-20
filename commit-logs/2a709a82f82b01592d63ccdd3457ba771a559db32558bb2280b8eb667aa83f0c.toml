@@ -47,3 +47,53 @@ branch = "HT-BETA"
 sha = "c1b4784569d11f6d88df984873daa443b3c8aecd"
 message = "HydrologicalTwinAlphaSeries-1.0.2 Hold every document to src: drift tests over the README, docs/*.md, the LaTeX guide and the Slidev deck, and a QGIS-free test in place of the CI grep\nRemove CI: the local gate (pixi run lint, pixi run test) runs before every commit; add the doc-impact map, step 7 and the Docs touched line to the specs\nRewrite the README for users, move the developer workflow to docs/developer_guide.md, and rewrite the API docs and the White Book's HTAS chapters against src"
 authored_at = "2026-11-20T10:47:18+01:00"
+
+[[published]]
+entry = 28
+repository = "hydrological_twin"
+sha = "a64206d9320537d2775a1637073c542c4a7ea3c5"
+remote = "github:flipoyo/hydrological_twin"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T09:47:51+00:00"
+remote_commit = "a64206d9320537d2775a1637073c542c4a7ea3c5"
+observed_at = "2026-11-20T09:47:51+00:00"
+
+[[published]]
+entry = 28
+repository = ".localSpec"
+sha = "07305d27712eb69048117373c1cf3f644bd553e4"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T09:47:51+00:00"
+remote_commit = "07305d27712eb69048117373c1cf3f644bd553e4"
+observed_at = "2026-11-20T09:47:51+00:00"
+
+[[published]]
+entry = 28
+repository = ".dev"
+sha = "da88eb9a9522a5dba1313f544454eaba157a31c1"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T09:47:51+00:00"
+remote_commit = "da88eb9a9522a5dba1313f544454eaba157a31c1"
+observed_at = "2026-11-20T09:47:51+00:00"
+
+[[published]]
+entry = 28
+repository = ".claude"
+sha = "6051d4430187ce4fa9e82292c028716389196c34"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-20T09:47:51+00:00"
+remote_commit = "6051d4430187ce4fa9e82292c028716389196c34"
+observed_at = "2026-11-20T09:47:51+00:00"
+
+[[published]]
+entry = 28
+repository = "HydrologicalTwinAlphaSeries"
+sha = "c1b4784569d11f6d88df984873daa443b3c8aecd"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T09:47:51+00:00"
+remote_commit = "c1b4784569d11f6d88df984873daa443b3c8aecd"
+observed_at = "2026-11-20T09:47:51+00:00"

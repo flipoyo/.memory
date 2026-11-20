@@ -1,0 +1,23 @@
+[entry]
+seq = 30
+prev = "sha256:6873d466ff843ede3e5f82895ad5c8a5b38c66d2904181409db88810769d61f9"
+recorded_at = "2026-11-20T09:50:55Z"
+command = "close_branch"
+argv = [
+    "branch",
+    "close",
+    "copilot/perform-review-pr-84",
+]
+state_id = "state(8f5d89b902185b5b31ef71fd8d9b856658d737f9962a5f105cc22ee33811b268)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:46cd66ed6a265b3066c4aa58fb8b523001fb49938f5b6416190ec6ff89b51960"
+environment = "env(9f7dea7909a4823b58190e2db74e77a01a631949eea21505114ca337fb1d739f)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

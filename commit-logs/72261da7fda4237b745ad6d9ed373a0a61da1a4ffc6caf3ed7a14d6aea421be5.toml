@@ -1,0 +1,39 @@
+[[commit]]
+entry = 32
+repository = "hydrological_twin"
+repo_id = "root:docs/hydrological_twin"
+scope = "project"
+branch = "HT-BETA"
+sha = "52177a4079839c19226c36385cf131a92f558a63"
+message = "HydrologicalTwinAlphaSeries-1.1.0 Add one htas command per client operation: budget barplot, regime show, map watbal, map aq, compare simobs, criteria compute, mask internal, mask hyd and mask aq\nGive the commands --json, exit codes 0/1/2, --spec/--specs-file and --mode/--mode-file, and put the simulated years in the client's metadata (audit #15)\nDocument the commands in the API docs, the user guide, the README and the specs"
+authored_at = "2026-11-20T11:19:01+01:00"
+
+[[commit]]
+entry = 32
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "e4a6d9771bb914b770222cd9083e6f537aae23d0"
+message = "HydrologicalTwinAlphaSeries-1.1.0 Add one htas command per client operation: budget barplot, regime show, map watbal, map aq, compare simobs, criteria compute, mask internal, mask hyd and mask aq\nGive the commands --json, exit codes 0/1/2, --spec/--specs-file and --mode/--mode-file, and put the simulated years in the client's metadata (audit #15)\nDocument the commands in the API docs, the user guide, the README and the specs"
+authored_at = "2026-11-20T11:19:01+01:00"
+
+[[commit]]
+entry = 32
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "f2f2e6699b3165c0764b21ff810937017bf6a36c"
+message = "HydrologicalTwinAlphaSeries-1.1.0 Add one htas command per client operation: budget barplot, regime show, map watbal, map aq, compare simobs, criteria compute, mask internal, mask hyd and mask aq\nGive the commands --json, exit codes 0/1/2, --spec/--specs-file and --mode/--mode-file, and put the simulated years in the client's metadata (audit #15)\nDocument the commands in the API docs, the user guide, the README and the specs"
+authored_at = "2026-11-20T11:19:01+01:00"
+
+[[commit]]
+entry = 32
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "9340db4ef24a56c1ef9e1216d175f13f6ad5a3fd"
+message = "HydrologicalTwinAlphaSeries-1.1.0 Add one htas command per client operation: budget barplot, regime show, map watbal, map aq, compare simobs, criteria compute, mask internal, mask hyd and mask aq\nGive the commands --json, exit codes 0/1/2, --spec/--specs-file and --mode/--mode-file, and put the simulated years in the client's metadata (audit #15)\nDocument the commands in the API docs, the user guide, the README and the specs"
+authored_at = "2026-11-20T11:19:01+01:00"

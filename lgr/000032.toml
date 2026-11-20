@@ -1,0 +1,23 @@
+[entry]
+seq = 32
+prev = "sha256:b993c49e3e8e60f8f6440e830c5df3896f23897e6f009a59a4743d57797d0534"
+recorded_at = "2026-11-20T10:19:02Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.1.0 Add one htas command per client operation: budget barplot, regime show, map watbal, map aq, compare simobs, criteria compute, mask internal, mask hyd and mask aq\nGive the commands --json, exit codes 0/1/2, --spec/--specs-file and --mode/--mode-file, and put the simulated years in the client's metadata (audit #15)\nDocument the commands in the API docs, the user guide, the README and the specs",
+]
+state_id = "state(72261da7fda4237b745ad6d9ed373a0a61da1a4ffc6caf3ed7a14d6aea421be5)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:18a0d11edaacfb15785ad1347f27961e88dcb841024d6aec3f8c165fbd48e834"
+entry_hash = "sha256:1f46341844a32e734bfdc554799970930b83eb704513ecff91caebd48daeb740"
+environment = "env(72679402fd9c0e73ca646ed173b6b7ebf7987080a2984ab697f5bb4d852c6d3d)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
