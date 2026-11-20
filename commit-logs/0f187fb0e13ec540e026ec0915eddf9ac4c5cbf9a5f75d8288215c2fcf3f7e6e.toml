@@ -1,0 +1,9 @@
+[[commit]]
+entry = 40
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "2bc7f3b0ab9d1c68feff0fc1d1df7f95bf1fff4f"
+message = "htas-1.2.0 ComplexGitSync HT-BETA rather than CGS-ALPHA"
+authored_at = "2026-11-20T16:03:58+01:00"

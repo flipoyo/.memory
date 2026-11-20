@@ -1,0 +1,22 @@
+[entry]
+seq = 40
+prev = "sha256:0b99cc1d238164ff1fc9967240463ee004843dfeaef1bc4bfb978b573d9d572d"
+recorded_at = "2026-11-20T15:03:59Z"
+command = "commit"
+argv = [
+    "commit",
+    "htas-1.2.0 ComplexGitSync HT-BETA rather than CGS-ALPHA",
+]
+state_id = "state(0f187fb0e13ec540e026ec0915eddf9ac4c5cbf9a5f75d8288215c2fcf3f7e6e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:3293c84189aa04b9465ce2e8aa0a8fa17ce734b5ea23de63723d266854acbb32"
+entry_hash = "sha256:5025280bcbe1ac1f0f3c88e41c88443a5cdd2d90d11b19f3a10d7d12c31836d5"
+environment = "env(5a28f0edd0eb6fbf27904b80986fbec68fca85bf4d807f8a03d04d9ab015222c)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
