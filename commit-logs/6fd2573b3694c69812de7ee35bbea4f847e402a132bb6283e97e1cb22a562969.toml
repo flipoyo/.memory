@@ -7,3 +7,13 @@ branch = "HT-BETA"
 sha = "31be9096fc6ea1ffc0fe816a759285e5a40bd15e"
 message = "htas-1.2.0 HydrologicalTwinAlphaSeries-1.2.0 Plan VersionSync: every document that states the version moves with a bump, and a test fails on a stray copy\nClose the short ticket README-SemVer; the owner's answers D1, D3 and D4 are recorded, D2 and the PDF tracking are asked during the implement"
 authored_at = "2026-11-20T17:52:52+01:00"
+
+[[published]]
+entry = 47
+repository = "HydrologicalTwinAlphaSeries"
+sha = "31be9096fc6ea1ffc0fe816a759285e5a40bd15e"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-20T16:54:26+00:00"
+remote_commit = "31be9096fc6ea1ffc0fe816a759285e5a40bd15e"
+observed_at = "2026-11-20T16:54:26+00:00"
