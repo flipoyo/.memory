@@ -37,3 +37,43 @@ branch = "data-encrypt"
 sha = "fb97627cbd444c9682e77c1963d831142d888162"
 message = "cgitsync-8.11.0 AnonymousProject: a project can name itself by an alias, anonymous = sequence or hash in its project table, so its real name never reaches a shared repository, a State or a memory\nNew command anonymise moves an existing tree onto its alias without rewriting history, with --dry-run and a per-branch confirmed --delete-old\nAn alias is chosen against a claim file on each alias branch; a State of an anonymous project holds no machine path; a project without the option is unchanged"
 authored_at = "2026-11-21T03:25:53+01:00"
+
+[[published]]
+entry = 75
+repository = "DocComplexGitSync"
+sha = "e4cefed03dc239d9082b09c0436ef587ee55fa5a"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/data-encrypt"
+at = "2026-11-21T02:26:25+00:00"
+remote_commit = "e4cefed03dc239d9082b09c0436ef587ee55fa5a"
+observed_at = "2026-11-21T02:26:25+00:00"
+
+[[published]]
+entry = 75
+repository = ".localSpec"
+sha = "99946e6a28fe0f617f3ae449d9c12cc108a8150a"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-21T02:26:25+00:00"
+remote_commit = "99946e6a28fe0f617f3ae449d9c12cc108a8150a"
+observed_at = "2026-11-21T02:26:25+00:00"
+
+[[published]]
+entry = 75
+repository = ".dev"
+sha = "ac6dd53244a423c5eec2801f9e8aee1f6449f800"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-21T02:26:25+00:00"
+remote_commit = "ac6dd53244a423c5eec2801f9e8aee1f6449f800"
+observed_at = "2026-11-21T02:26:25+00:00"
+
+[[published]]
+entry = 75
+repository = "ComplexGitSync"
+sha = "fb97627cbd444c9682e77c1963d831142d888162"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/data-encrypt"
+at = "2026-11-21T02:26:25+00:00"
+remote_commit = "fb97627cbd444c9682e77c1963d831142d888162"
+observed_at = "2026-11-21T02:26:25+00:00"
