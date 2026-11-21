@@ -1,0 +1,19 @@
+[[commit]]
+entry = 69
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "data-encrypt"
+sha = "ef3cf4972861b0442b6ae6b58b3944d26c608577"
+message = "cgitsync-8.10.0 EncryptedRepos E1 and E2: commit, push and release freeze refuse a file in clear under a git-crypt path, with no override\nstatus gains a CRYPT column and a crypt field in status --json, and bootstrap and initialise name encrypted repositories still locked\ncgitsync never unlocks and never handles a key; merging encrypted files stays its own ticket; ceilings raised by the owner for six hook modules"
+authored_at = "2026-11-21T01:47:21+01:00"
+
+[[commit]]
+entry = 69
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "data-encrypt"
+sha = "c396d998695ea998c2a3a86726caef2614b110a7"
+message = "cgitsync-8.10.0 EncryptedRepos E1 and E2: commit, push and release freeze refuse a file in clear under a git-crypt path, with no override\nstatus gains a CRYPT column and a crypt field in status --json, and bootstrap and initialise name encrypted repositories still locked\ncgitsync never unlocks and never handles a key; merging encrypted files stays its own ticket; ceilings raised by the owner for six hook modules"
+authored_at = "2026-11-21T01:47:21+01:00"

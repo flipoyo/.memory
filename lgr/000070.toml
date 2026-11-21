@@ -1,0 +1,23 @@
+[entry]
+seq = 70
+prev = "sha256:9c11175b69d800dc3f4fb711a7ed7fbcab9187659cca4b4db18632b6ec87ebcf"
+recorded_at = "2026-11-21T00:47:55Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.10.0 EncryptedRepos E1 and E2: commit, push and release freeze refuse a file in clear under a git-crypt path, with no override\nstatus gains a CRYPT column and a crypt field in status --json, and bootstrap and initialise name encrypted repositories still locked\ncgitsync never unlocks and never handles a key; merging encrypted files stays its own ticket; ceilings raised by the owner for six hook modules",
+]
+state_id = "state(b30ae62747ef64f1643f733531cf91cdf7e42c47e632958635cd97e3868b0b4f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:70f68dadd5cdd30c2fb478a53029ca57a8ba8acf4ccf6f53eb19b17d336e1270"
+entry_hash = "sha256:27696d3ec4935c0cd3ecdfe7a2bb813efde3a376ff1edc76c57a2e79c1d9a76e"
+environment = "env(fd84ee8b85ecb5e4c47ef7ea48cc126793149f944f82e222f87fd0445bd8f7df)"
+
+[entry.toolchain]
+cgitsync = "8.10.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
