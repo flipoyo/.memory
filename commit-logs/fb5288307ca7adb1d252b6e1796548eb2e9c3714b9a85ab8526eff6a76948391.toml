@@ -1,0 +1,29 @@
+[[commit]]
+entry = 72
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "data-encrypt"
+sha = "6628e6559146ba76973355e3f75bee3d59368568"
+message = "cgitsync-8.10.1 status skips the git-crypt check at once in a repository with no attributes at all, so a large repository costs nothing more\nEncryptedRepos is archived with its deep copy, and EncryptedMerge is opened for E3, the merge of an encrypted file"
+authored_at = "2026-11-21T02:07:54+01:00"
+
+[[commit]]
+entry = 72
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_data-encrypt"
+sha = "01f9d757430af68c3784d5367407f900b8dd50b5"
+message = "cgitsync-8.10.1 status skips the git-crypt check at once in a repository with no attributes at all, so a large repository costs nothing more\nEncryptedRepos is archived with its deep copy, and EncryptedMerge is opened for E3, the merge of an encrypted file"
+authored_at = "2026-11-21T02:07:54+01:00"
+
+[[commit]]
+entry = 72
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "data-encrypt"
+sha = "543c341a656d6006c52501ff2accb04374ae0de6"
+message = "cgitsync-8.10.1 status skips the git-crypt check at once in a repository with no attributes at all, so a large repository costs nothing more\nEncryptedRepos is archived with its deep copy, and EncryptedMerge is opened for E3, the merge of an encrypted file"
+authored_at = "2026-11-21T02:07:54+01:00"

@@ -17,3 +17,23 @@ branch = "ComplexGitSync_data-encrypt"
 sha = "3b10b9d3d40ff0fefbf6b1a30345cf32df2c6bc2"
 message = "cgitsync-8.10.0 EncryptedRepos E1 and E2: commit, push and release freeze refuse a file in clear under a git-crypt path, with no override\nstatus gains a CRYPT column and a crypt field in status --json, and bootstrap and initialise name encrypted repositories still locked\ncgitsync never unlocks and never handles a key; merging encrypted files stays its own ticket; ceilings raised by the owner for six hook modules"
 authored_at = "2026-11-21T01:47:54+01:00"
+
+[[published]]
+entry = 71
+repository = ".localSpec"
+sha = "0b96c4cd9540ee82865388e3f7c5e10ad79c8257"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-21T00:48:36+00:00"
+remote_commit = "0b96c4cd9540ee82865388e3f7c5e10ad79c8257"
+observed_at = "2026-11-21T00:48:36+00:00"
+
+[[published]]
+entry = 71
+repository = ".dev"
+sha = "3b10b9d3d40ff0fefbf6b1a30345cf32df2c6bc2"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-21T00:48:36+00:00"
+remote_commit = "3b10b9d3d40ff0fefbf6b1a30345cf32df2c6bc2"
+observed_at = "2026-11-21T00:48:36+00:00"

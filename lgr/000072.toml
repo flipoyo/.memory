@@ -1,0 +1,23 @@
+[entry]
+seq = 72
+prev = "sha256:c4f35c94d7884145fc388034c479c495b17188d2824037d961b075f1ba56b1b6"
+recorded_at = "2026-11-21T01:07:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.10.1 status skips the git-crypt check at once in a repository with no attributes at all, so a large repository costs nothing more\nEncryptedRepos is archived with its deep copy, and EncryptedMerge is opened for E3, the merge of an encrypted file",
+]
+state_id = "state(fb5288307ca7adb1d252b6e1796548eb2e9c3714b9a85ab8526eff6a76948391)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ad548ce1a29ec5bc50ddb4d20a052a4a8c9479f2d9b92feb755069bd9f05f115"
+entry_hash = "sha256:55fdf9627ddc2b1fde03ffcd2264dac7a14b1b397031efe03d5eb9894f4b2818"
+environment = "env(45ee643f19a784960871b3d2006470d0da067b31ee607751eb8089f9e3283486)"
+
+[entry.toolchain]
+cgitsync = "8.10.1"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
