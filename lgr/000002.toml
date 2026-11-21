@@ -1,0 +1,23 @@
+[entry]
+seq = 2
+prev = "sha256:92a05c0d0f80dbbcd21af0386b53a1f0d3b6c3f8799cff45d39c128dd9d5ea1d"
+recorded_at = "2026-11-21T02:36:56Z"
+command = "branch"
+argv = [
+    "branch",
+    "create",
+    "security-space",
+]
+state_id = "state(23dc19553d86ee35a780b816c5c21c0d333c51eeabf12343472b33b034f2e7e3)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:180343cf4697a9998e517443b5fa7f7f23f68de9c7ae7ff909b6122e90cb31b0"
+environment = "env(442b05ae6fdae42de2f78093a74d47fb7475c3c4712b24097d9c8e349df0550d)"
+
+[entry.toolchain]
+cgitsync = "8.11.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

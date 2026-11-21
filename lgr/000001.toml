@@ -1,0 +1,22 @@
+[entry]
+seq = 1
+prev = "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+recorded_at = "2026-11-21T02:31:40Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "compta-dev.cgs",
+]
+state_id = "state(7be05b51ec387f82ea4360dda8aa5bb05b28d8a00c5caa270f06a74016e40b62)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:92a05c0d0f80dbbcd21af0386b53a1f0d3b6c3f8799cff45d39c128dd9d5ea1d"
+environment = "env(1b0838a2cfcee58804f8b98e8d4e1311cfa307d2e61ce9035b46f0524a2f996e)"
+
+[entry.toolchain]
+cgitsync = "8.11.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
