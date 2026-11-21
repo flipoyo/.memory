@@ -27,3 +27,33 @@ branch = "data-encrypt"
 sha = "543c341a656d6006c52501ff2accb04374ae0de6"
 message = "cgitsync-8.10.1 status skips the git-crypt check at once in a repository with no attributes at all, so a large repository costs nothing more\nEncryptedRepos is archived with its deep copy, and EncryptedMerge is opened for E3, the merge of an encrypted file"
 authored_at = "2026-11-21T02:07:54+01:00"
+
+[[published]]
+entry = 73
+repository = "DocComplexGitSync"
+sha = "6628e6559146ba76973355e3f75bee3d59368568"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/data-encrypt"
+at = "2026-11-21T01:08:18+00:00"
+remote_commit = "6628e6559146ba76973355e3f75bee3d59368568"
+observed_at = "2026-11-21T01:08:18+00:00"
+
+[[published]]
+entry = 73
+repository = ".dev"
+sha = "01f9d757430af68c3784d5367407f900b8dd50b5"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_data-encrypt"
+at = "2026-11-21T01:08:18+00:00"
+remote_commit = "01f9d757430af68c3784d5367407f900b8dd50b5"
+observed_at = "2026-11-21T01:08:18+00:00"
+
+[[published]]
+entry = 73
+repository = "ComplexGitSync"
+sha = "543c341a656d6006c52501ff2accb04374ae0de6"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/data-encrypt"
+at = "2026-11-21T01:08:18+00:00"
+remote_commit = "543c341a656d6006c52501ff2accb04374ae0de6"
+observed_at = "2026-11-21T01:08:18+00:00"
