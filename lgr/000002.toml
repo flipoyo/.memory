@@ -1,0 +1,26 @@
+[entry]
+seq = 2
+prev = "sha256:2d0bff35bb19eb80d3c448269dc8978f2a8599b5bc85314d9456a89bbb8bd6b3"
+recorded_at = "2026-11-22T18:13:43Z"
+command = "branch"
+argv = [
+    "branch",
+    "create",
+    "4X",
+    "--private",
+    "--search-dir",
+    "$CGSTREE",
+]
+state_id = "state(46a0ee0de3b1df157baaa068fb30278afc74bf634c15687a8e2ebf87052bcbeb)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:38ec8234aa0c631fb2a826ee7305bb21711f43f8316022c38e76f9a2248d551c"
+environment = "env(6d88aa87c76a3011b64af941cb69b40667da85fb25b208d86138ea054de8e2f4)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
