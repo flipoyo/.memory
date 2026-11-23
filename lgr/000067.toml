@@ -1,0 +1,22 @@
+[entry]
+seq = 67
+prev = "sha256:9a20e4d4ee092f5b1a5f1fe52b92498ca23812320d26459047d9d9b02e191ea5"
+recorded_at = "2026-11-23T15:18:57Z"
+command = "commit"
+argv = [
+    "commit",
+    "cgitsync-8.9.4 adding examples.cgitsync-ht-beta.cgs",
+]
+state_id = "state(14fadd205b24bf73c11da1fdc5b885e5433785396238bcacb4772f8142fa067a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:9dcf7cca426eb3cbb0441d402ed1cd32e454657fa03d9af6ee3314f3d4422931"
+entry_hash = "sha256:4f453bd8ed488d7db7b35183942053f857bb53d7ebdd0ff5f023e944df2d49fe"
+environment = "env(0da368de23f70942684b68f13cc1c6370fe6826b0332d84c206865e0941715ca)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
