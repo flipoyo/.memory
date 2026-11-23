@@ -1,0 +1,96 @@
+format_version = 1
+environment_root = "root"
+credentials = [
+    { provider = "github", tool = "gh", available = true, authenticated = true },
+    { provider = "gitlab", tool = "glab", available = false, authenticated = false },
+]
+
+[machine]
+architecture = "x86_64"
+pixi_platform = "linux-64"
+os_name = "ubuntu"
+os_version = "22.04"
+libc_name = "glibc"
+libc_version = "2.35"
+kernel_release = "6.8.0-149-generic"
+
+[[tools]]
+name = "cgitsync"
+raw = "8.9.4"
+version = "8.9.4"
+
+[[tools]]
+name = "dvc"
+raw = "none"
+version = "none"
+
+[[tools]]
+name = "gh"
+raw = "gh version 2.4.0+dfsg1 (2022-03-23 Ubuntu 2.4.0+dfsg1-2)"
+version = "2.4.0+dfsg1"
+
+[[tools]]
+name = "git"
+raw = "git version 2.56.1"
+version = "2.56.1"
+
+[[tools]]
+name = "git-lfs"
+raw = "none"
+version = "none"
+
+[[tools]]
+name = "glab"
+raw = "none"
+version = "none"
+
+[[tools]]
+name = "pixi"
+raw = "pixi 0.65.0"
+version = "0.65.0"
+
+[[tools]]
+name = "python"
+raw = "3.13.18"
+version = "3.13.18"
+
+[[tools]]
+name = "ssh"
+raw = "OpenSSH_8.9p1 Ubuntu-3ubuntu0.18, OpenSSL 3.0.2 15 Mar 2022"
+version = "8.9"
+
+[[manifests]]
+repository = "root:ComplexGitSync"
+path = "ComplexGitSync/pixi.lock"
+digest = "sha256:3a163620f0993d812afd27856ff8573796484be92d1c53cee24f17b0a496154a"
+platforms = [
+    "linux-64",
+    "osx-arm64",
+    "win-64",
+]
+
+[[manifests]]
+repository = "root:ComplexGitSync"
+path = "ComplexGitSync/pixi.toml"
+digest = "sha256:34841b98f3f70c7c8e5ad0329984c5e05bb266f78312971868eddebccd5b59a1"
+platforms = []
+
+[[manifests]]
+repository = "root:ComplexGitSync"
+path = "ComplexGitSync/pyproject.toml"
+digest = "sha256:2b3db192016350ae30831e3334981428b693cd325d0be637d30e4d5e23ae2fb3"
+platforms = []
+
+[[manifests]]
+repository = "root"
+path = "pixi.lock"
+digest = "sha256:c9e374b242723b9018402b6a6aa3f0afd6497bba4a155b0cf5867e542f7d6a34"
+platforms = [
+    "linux-64",
+]
+
+[[manifests]]
+repository = "root"
+path = "pixi.toml"
+digest = "sha256:653833040d85d04c208a454f065ad8857ed5504dfdb44b251229443e29249e86"
+platforms = []

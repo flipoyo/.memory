@@ -1,0 +1,23 @@
+[entry]
+seq = 8
+prev = "sha256:8fa862c0b76859c39de7d1dbd8fb5b501b30030312f254f5f1df413e2ec83a7b"
+recorded_at = "2026-11-23T14:38:14Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cawaqs-4.1.2 pixi run install -s -dev-4X now creates the workspace at the destination itself, with no extra cawaqs folder\n-d DIR is the workspace (CGSHOME), empty or missing; the default is /home/nflipo/.cgs/cawaqs-dev-<branch>-<timestamp>\ninstall.sh splits the destination into --cgs-path and the bootstrap name; README and the DevWorkspaceNesting ticket update",
+]
+state_id = "state(1521fbbb42eaf84cf1ae36f708ee15ffbda20d67561f7ba70cee10e7bfde36a7)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:655d6696737570f33e1db91843aa56e32e1b33d3f1b10832de301f5a216ed68c"
+entry_hash = "sha256:73eca3f5895f334cb2154252c6a25a5468f7ec0d27e5b10a24c3fce87a1f4530"
+environment = "env(bd55cefc7924c742b95cc1840c4f95255ac0fa2ced8ceeec93d8a27cdbfcba2a)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

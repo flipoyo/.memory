@@ -1,0 +1,19 @@
+[[commit]]
+entry = 8
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "cawaqs_4X"
+sha = "19c006dd9b4a23d60d0a15ab4ab8f125b73154ca"
+message = "cawaqs-4.1.2 pixi run install -s -dev-4X now creates the workspace at the destination itself, with no extra cawaqs folder\n-d DIR is the workspace (CGSHOME), empty or missing; the default is /home/nflipo/.cgs/cawaqs-dev-<branch>-<timestamp>\ninstall.sh splits the destination into --cgs-path and the bootstrap name; README and the DevWorkspaceNesting ticket update"
+authored_at = "2026-11-23T15:38:13+01:00"
+
+[[commit]]
+entry = 8
+repository = "cawaqs"
+repo_id = "root"
+scope = "project"
+branch = "4X"
+sha = "5e9b3ee88b15161102475fb5bc123fe341e022a0"
+message = "cawaqs-4.1.2 pixi run install -s -dev-4X now creates the workspace at the destination itself, with no extra cawaqs folder\n-d DIR is the workspace (CGSHOME), empty or missing; the default is /home/nflipo/.cgs/cawaqs-dev-<branch>-<timestamp>\ninstall.sh splits the destination into --cgs-path and the bootstrap name; README and the DevWorkspaceNesting ticket update"
+authored_at = "2026-11-23T15:38:13+01:00"

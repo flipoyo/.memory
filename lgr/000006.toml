@@ -1,0 +1,23 @@
+[entry]
+seq = 6
+prev = "sha256:e0ba9692fc2a44d98bd92361924cf0282d79797995891cdd021d9a88d430804a"
+recorded_at = "2026-11-23T14:18:25Z"
+command = "branch"
+argv = [
+    "branch",
+    "create",
+    "4X",
+]
+state_id = "state(20944215fb1833295026134f0af5b8fc6c4daca90c841fe6d345e9c0e7ade011)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:be4dc12a1c412d5d8c779cfc65da5892c78f083c91de920545e565e8f3a5e892"
+environment = "env(34fbb18f0f0442651d21dc9839f4353f437412703c0cfc14a20dcf823c950396)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

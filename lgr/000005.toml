@@ -1,0 +1,25 @@
+[entry]
+seq = 5
+prev = "sha256:afecc58d6485c0a3339ff723ccdbbb736e8ec2f887ba7df60599bb069e799257"
+recorded_at = "2026-11-23T14:07:25Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "4X",
+    "--private",
+    "--search-dir",
+    "$CGSTREE",
+]
+state_id = "state(20944215fb1833295026134f0af5b8fc6c4daca90c841fe6d345e9c0e7ade011)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:e0ba9692fc2a44d98bd92361924cf0282d79797995891cdd021d9a88d430804a"
+environment = "env(64b12701b685794a8e143a157a5b1ab47498a420fb5d48ca9a88195ded98a5b6)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.56.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
