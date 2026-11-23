@@ -1,0 +1,9 @@
+[[commit]]
+entry = 65
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "fb1eb2b66ad58d149c1454a6d437c260550c39dc"
+message = "cgitsync-8.9.4 ProjectBranch4Parent: new planning ticket on HT-BETA, the short ticket project-brancg4parent closed with it\nA nested Parent and the project repositories its own .cgs declares take <project>_<branch> of the tree, in every tree, ComplexGitSync included\nA Parent waiting for its branch follows the declared fallback chain and is always reported with the command that creates it; HT-BETA joins the ticket branch table"
+authored_at = "2026-11-23T16:15:37+01:00"

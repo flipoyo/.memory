@@ -17,3 +17,13 @@ branch = "ComplexGitSync_HT-BETA"
 sha = "562e6011f9838bfa3d49d86f1c7b4d09a9850bfd"
 message = "cgitsync-8.9.4 ProjectBranch4Parent: new planning ticket, the short ticket project-brancg4parent closed with it\nA nested Parent and its own project repositories take <project>_<branch> of the tree, in every tree, ComplexGitSync included\nA Parent waiting for its branch follows the declared fallback chain and is always reported with the command that creates it"
 authored_at = "2026-11-23T16:10:52+01:00"
+
+[[published]]
+entry = 64
+repository = ".dev"
+sha = "562e6011f9838bfa3d49d86f1c7b4d09a9850bfd"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T15:11:32+00:00"
+remote_commit = "562e6011f9838bfa3d49d86f1c7b4d09a9850bfd"
+observed_at = "2026-11-23T15:11:32+00:00"
