@@ -1,0 +1,9 @@
+[[commit]]
+entry = 71
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "1022a80f83d23da48518f4936298dde653fce307"
+message = "cgitsync-8.10.0 RootBareBranch planned: only the root is on the project's bare branch, every other project repository takes <project>_<branch>\nThe owner's request is filed and closed, the HT-BETA workstream names the ticket, and LinkAtCGS points at it"
+authored_at = "2026-11-23T19:41:46+01:00"

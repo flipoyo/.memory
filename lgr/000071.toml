@@ -1,0 +1,23 @@
+[entry]
+seq = 71
+prev = "sha256:1eb7cee603a10e67d6ea8305562a9497b1cbc31d50a9d7e4358031dc673c1360"
+recorded_at = "2026-11-23T18:41:47Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.10.0 RootBareBranch planned: only the root is on the project's bare branch, every other project repository takes <project>_<branch>\nThe owner's request is filed and closed, the HT-BETA workstream names the ticket, and LinkAtCGS points at it",
+]
+state_id = "state(6e769f043eeb091d60afd7f51af3870d3d6af5955d230cc8fcc00c2e25dd1c00)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8011275b920f1ba7ea08a3da120fc0ff27a5a2ac9192dc39a7c7a7e57e587eb8"
+entry_hash = "sha256:9f38537be400f16d67f63890dc39633e827cf3c8a04327d0957a930d485af153"
+environment = "env(f76c8768e87b91b3cbe9fa6cb4860909b8302cd895dadc30938f8e719c97f6c9)"
+
+[entry.toolchain]
+cgitsync = "8.10.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
