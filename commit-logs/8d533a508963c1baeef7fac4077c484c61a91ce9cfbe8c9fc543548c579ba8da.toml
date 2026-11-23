@@ -1,0 +1,49 @@
+[[commit]]
+entry = 69
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "HT-BETA"
+sha = "d80914520f5df89d7cd2e42fb4f7d06bd3e7c94e"
+message = "cgitsync-8.10.0 ProjectBranch4Parent: a nested Parent, and the repositories its own spec declares, now take the branch project_branch of the project that mounts it, in every tree, so one Parent can be combined into several projects\nA Parent whose branch does not exist yet falls back on its declared chain and is named in the install report and in status with the command that creates the branch, and nothing is renamed or pushed; a branch typed on the Parent's entry still wins\nComplexGitSync mounted by another project follows the same rule outside level trees; user guide, AdditionalSpecs and digest updated"
+authored_at = "2026-11-23T18:46:44+01:00"
+
+[[commit]]
+entry = 69
+repository = ".memory"
+repo_id = "root:.cgitsync/.memory"
+scope = "private"
+branch = "ComplexGitSync_ComplexGitSync_HT-BETA"
+sha = "8c1e01f53df746248bc67b954efbe7ea78851c8d"
+message = "cgitsync-8.10.0 ProjectBranch4Parent: a nested Parent, and the repositories its own spec declares, now take the branch project_branch of the project that mounts it, in every tree, so one Parent can be combined into several projects\nA Parent whose branch does not exist yet falls back on its declared chain and is named in the install report and in status with the command that creates the branch, and nothing is renamed or pushed; a branch typed on the Parent's entry still wins\nComplexGitSync mounted by another project follows the same rule outside level trees; user guide, AdditionalSpecs and digest updated"
+authored_at = "2026-11-23T18:46:44+01:00"
+
+[[commit]]
+entry = 69
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "50eb7cf8e818608f06a737ea1a73bcdfbbb29fd7"
+message = "cgitsync-8.10.0 ProjectBranch4Parent: a nested Parent, and the repositories its own spec declares, now take the branch project_branch of the project that mounts it, in every tree, so one Parent can be combined into several projects\nA Parent whose branch does not exist yet falls back on its declared chain and is named in the install report and in status with the command that creates the branch, and nothing is renamed or pushed; a branch typed on the Parent's entry still wins\nComplexGitSync mounted by another project follows the same rule outside level trees; user guide, AdditionalSpecs and digest updated"
+authored_at = "2026-11-23T18:46:44+01:00"
+
+[[commit]]
+entry = 69
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "10a8cd2a8907d2f90fac036bee2bf4baceaa178c"
+message = "cgitsync-8.10.0 ProjectBranch4Parent: a nested Parent, and the repositories its own spec declares, now take the branch project_branch of the project that mounts it, in every tree, so one Parent can be combined into several projects\nA Parent whose branch does not exist yet falls back on its declared chain and is named in the install report and in status with the command that creates the branch, and nothing is renamed or pushed; a branch typed on the Parent's entry still wins\nComplexGitSync mounted by another project follows the same rule outside level trees; user guide, AdditionalSpecs and digest updated"
+authored_at = "2026-11-23T18:46:44+01:00"
+
+[[commit]]
+entry = 69
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "d54f2a67e94714d5eaa72a5c94dc14c8e63108da"
+message = "cgitsync-8.10.0 ProjectBranch4Parent: a nested Parent, and the repositories its own spec declares, now take the branch project_branch of the project that mounts it, in every tree, so one Parent can be combined into several projects\nA Parent whose branch does not exist yet falls back on its declared chain and is named in the install report and in status with the command that creates the branch, and nothing is renamed or pushed; a branch typed on the Parent's entry still wins\nComplexGitSync mounted by another project follows the same rule outside level trees; user guide, AdditionalSpecs and digest updated"
+authored_at = "2026-11-23T18:46:44+01:00"
