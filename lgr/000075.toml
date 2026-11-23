@@ -1,0 +1,23 @@
+[entry]
+seq = 75
+prev = "sha256:8a6b10a7c8c6fe9c29660113cadc06f46c83b515d1dbb5ca172531ab45a6dc04"
+recorded_at = "2026-11-23T20:00:21Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.11.1 RootBareBranch: only the root is on the project's bare branch, and every other repository that is not private now takes the project name plus the branch, so two projects on one branch name never share a branch of a library\nA repository already on the bare branch is named off target with the command that creates the new branch at its tip, a branch typed on its entry or a tag still wins, and a user tree is told with info instead of a warning\nStatus legend, user guide, AdditionalSpecs, digest and example specs update",
+]
+state_id = "state(b1fc7d9095537d9833cebaa5eccc608cee6b1bc3ccdfcb2a4e599adb8d845d46)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:075977065126c71e2623e493b2f8bf782ddf02ed5efc2131cddf31031e04acc8"
+entry_hash = "sha256:35e2d8a317722ae2ae6910b6c146b48f187dc6dec34f53c91b9784dc399fa3a4"
+environment = "env(99315436dc7f035a9c2cf358d8ff272180f021c1a8fe474a8ceff65734ec4fbc)"
+
+[entry.toolchain]
+cgitsync = "8.11.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

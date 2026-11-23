@@ -1,0 +1,39 @@
+[[commit]]
+entry = 75
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "ComplexGitSync_HT-BETA"
+sha = "abe47d0f391b9d6c423b56704d6dfbcd4996b7ea"
+message = "cgitsync-8.11.1 RootBareBranch: only the root is on the project's bare branch, and every other repository that is not private now takes the project name plus the branch, so two projects on one branch name never share a branch of a library\nA repository already on the bare branch is named off target with the command that creates the new branch at its tip, a branch typed on its entry or a tag still wins, and a user tree is told with info instead of a warning\nStatus legend, user guide, AdditionalSpecs, digest and example specs update"
+authored_at = "2026-11-23T21:00:21+01:00"
+
+[[commit]]
+entry = 75
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "04f69f4218774a428cffd863e25ac190593adebc"
+message = "cgitsync-8.11.1 RootBareBranch: only the root is on the project's bare branch, and every other repository that is not private now takes the project name plus the branch, so two projects on one branch name never share a branch of a library\nA repository already on the bare branch is named off target with the command that creates the new branch at its tip, a branch typed on its entry or a tag still wins, and a user tree is told with info instead of a warning\nStatus legend, user guide, AdditionalSpecs, digest and example specs update"
+authored_at = "2026-11-23T21:00:21+01:00"
+
+[[commit]]
+entry = 75
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "657d10af3d952224223db774159d7c5a8baf36f8"
+message = "cgitsync-8.11.1 RootBareBranch: only the root is on the project's bare branch, and every other repository that is not private now takes the project name plus the branch, so two projects on one branch name never share a branch of a library\nA repository already on the bare branch is named off target with the command that creates the new branch at its tip, a branch typed on its entry or a tag still wins, and a user tree is told with info instead of a warning\nStatus legend, user guide, AdditionalSpecs, digest and example specs update"
+authored_at = "2026-11-23T21:00:21+01:00"
+
+[[commit]]
+entry = 75
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "838ee24dbf0e0084400d30b72b66564465ad3c6a"
+message = "cgitsync-8.11.1 RootBareBranch: only the root is on the project's bare branch, and every other repository that is not private now takes the project name plus the branch, so two projects on one branch name never share a branch of a library\nA repository already on the bare branch is named off target with the command that creates the new branch at its tip, a branch typed on its entry or a tag still wins, and a user tree is told with info instead of a warning\nStatus legend, user guide, AdditionalSpecs, digest and example specs update"
+authored_at = "2026-11-23T21:00:21+01:00"

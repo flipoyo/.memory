@@ -47,3 +47,13 @@ branch = "HT-BETA"
 sha = "d54f2a67e94714d5eaa72a5c94dc14c8e63108da"
 message = "cgitsync-8.10.0 ProjectBranch4Parent: a nested Parent, and the repositories its own spec declares, now take the branch project_branch of the project that mounts it, in every tree, so one Parent can be combined into several projects\nA Parent whose branch does not exist yet falls back on its declared chain and is named in the install report and in status with the command that creates the branch, and nothing is renamed or pushed; a branch typed on the Parent's entry still wins\nComplexGitSync mounted by another project follows the same rule outside level trees; user guide, AdditionalSpecs and digest updated"
 authored_at = "2026-11-23T18:46:44+01:00"
+
+[[published]]
+entry = 72
+repository = ".dev"
+sha = "10a8cd2a8907d2f90fac036bee2bf4baceaa178c"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T18:42:19+00:00"
+remote_commit = "1022a80f83d23da48518f4936298dde653fce307"
+observed_at = "2026-11-23T18:42:19+00:00"
