@@ -1,0 +1,19 @@
+[[commit]]
+entry = 63
+repository = ".memory"
+repo_id = "root:.cgitsync/.memory"
+scope = "private"
+branch = "ComplexGitSync_ComplexGitSync_HT-BETA"
+sha = "c76178faf62ff75557b10b68a6207012864edab9"
+message = "cgitsync-8.9.4 ProjectBranch4Parent: new planning ticket, the short ticket project-brancg4parent closed with it\nA nested Parent and its own project repositories take <project>_<branch> of the tree, in every tree, ComplexGitSync included\nA Parent waiting for its branch follows the declared fallback chain and is always reported with the command that creates it"
+authored_at = "2026-11-23T16:10:52+01:00"
+
+[[commit]]
+entry = 63
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "562e6011f9838bfa3d49d86f1c7b4d09a9850bfd"
+message = "cgitsync-8.9.4 ProjectBranch4Parent: new planning ticket, the short ticket project-brancg4parent closed with it\nA nested Parent and its own project repositories take <project>_<branch> of the tree, in every tree, ComplexGitSync included\nA Parent waiting for its branch follows the declared fallback chain and is always reported with the command that creates it"
+authored_at = "2026-11-23T16:10:52+01:00"

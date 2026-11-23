@@ -1,0 +1,23 @@
+[entry]
+seq = 63
+prev = "sha256:53ab35c7365850f2b363975405c95874ebd3c8dfe5c38afccdec830486ee7faa"
+recorded_at = "2026-11-23T15:10:53Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.9.4 ProjectBranch4Parent: new planning ticket, the short ticket project-brancg4parent closed with it\nA nested Parent and its own project repositories take <project>_<branch> of the tree, in every tree, ComplexGitSync included\nA Parent waiting for its branch follows the declared fallback chain and is always reported with the command that creates it",
+]
+state_id = "state(649e6932d84d57ce9e2370cf9d65eae7812e75a5543c2442902aa306daa87a3a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:040c2a172695fb41c70c52154c05cc5964182af3787c352b48808df89c7e6f34"
+entry_hash = "sha256:be9f9fc3275e91f8db463e401637aeb2de4c2685a6f90c29a5a99d1588a41db6"
+environment = "env(0da368de23f70942684b68f13cc1c6370fe6826b0332d84c206865e0941715ca)"
+
+[entry.toolchain]
+cgitsync = "8.9.4"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
