@@ -17,3 +17,23 @@ branch = "4X"
 sha = "4e0de79c2a32419b43d951db5ae24c836b75d985"
 message = "cawaqs-4.1.3 the 17 libraries and scripts now follow cawaqs_4X, in the development workspace and the user install; only the cawaqs root is on 4X\nThe headers of .config/cawaqs-dev-4X.cgs and .config/cawaqs.cgs, README and DevTickets/README describe the branches and the install steps of 4X and of a new line; the pixi dev environment is locked to cgitsync 8.11.1 (HT-BETA 838ee24), which no longer puts the libraries on a bare 4X\nThe ComplexGitSync request about the private_branch_missing log name waits in DevTickets/dependency/CGS/, and the LibsOnCawaqs4X ticket is archived"
 authored_at = "2026-11-24T20:23:19+01:00"
+
+[[published]]
+entry = 14
+repository = ".dev"
+sha = "d51b2048502f29e88425ff02122e8dff884c9dea"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-24T19:24:13+00:00"
+remote_commit = "d51b2048502f29e88425ff02122e8dff884c9dea"
+observed_at = "2026-11-24T19:24:13+00:00"
+
+[[published]]
+entry = 14
+repository = "cawaqs"
+sha = "4e0de79c2a32419b43d951db5ae24c836b75d985"
+remote = "gitlab:cawaqs/cawaqs"
+ref = "refs/heads/4X"
+at = "2026-11-24T19:24:13+00:00"
+remote_commit = "4e0de79c2a32419b43d951db5ae24c836b75d985"
+observed_at = "2026-11-24T19:24:13+00:00"

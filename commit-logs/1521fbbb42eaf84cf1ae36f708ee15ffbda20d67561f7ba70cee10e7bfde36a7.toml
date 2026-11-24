@@ -17,3 +17,23 @@ branch = "4X"
 sha = "5e9b3ee88b15161102475fb5bc123fe341e022a0"
 message = "cawaqs-4.1.2 pixi run install -s -dev-4X now creates the workspace at the destination itself, with no extra cawaqs folder\n-d DIR is the workspace (CGSHOME), empty or missing; the default is /home/nflipo/.cgs/cawaqs-dev-<branch>-<timestamp>\ninstall.sh splits the destination into --cgs-path and the bootstrap name; README and the DevWorkspaceNesting ticket update"
 authored_at = "2026-11-23T15:38:13+01:00"
+
+[[published]]
+entry = 14
+repository = ".dev"
+sha = "19c006dd9b4a23d60d0a15ab4ab8f125b73154ca"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-24T19:24:13+00:00"
+remote_commit = "d51b2048502f29e88425ff02122e8dff884c9dea"
+observed_at = "2026-11-24T19:24:13+00:00"
+
+[[published]]
+entry = 14
+repository = "cawaqs"
+sha = "5e9b3ee88b15161102475fb5bc123fe341e022a0"
+remote = "gitlab:cawaqs/cawaqs"
+ref = "refs/heads/4X"
+at = "2026-11-24T19:24:13+00:00"
+remote_commit = "4e0de79c2a32419b43d951db5ae24c836b75d985"
+observed_at = "2026-11-24T19:24:13+00:00"
