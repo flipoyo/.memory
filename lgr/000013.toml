@@ -1,0 +1,23 @@
+[entry]
+seq = 13
+prev = "sha256:3ebc86703d0c1ea781171b41e1238d607b5ff4619eacdf78d456a52fa226038d"
+recorded_at = "2026-11-24T19:23:20Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cawaqs-4.1.3 the 17 libraries and scripts now follow cawaqs_4X, in the development workspace and the user install; only the cawaqs root is on 4X\nThe headers of .config/cawaqs-dev-4X.cgs and .config/cawaqs.cgs, README and DevTickets/README describe the branches and the install steps of 4X and of a new line; the pixi dev environment is locked to cgitsync 8.11.1 (HT-BETA 838ee24), which no longer puts the libraries on a bare 4X\nThe ComplexGitSync request about the private_branch_missing log name waits in DevTickets/dependency/CGS/, and the LibsOnCawaqs4X ticket is archived",
+]
+state_id = "state(46de761d2bbb82bfbc0bc22ea1d40642e186c4ebfbb62fbbe7cf39ca07b27cd9)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:e5cdddf9bc9e47c512819385113fa9b3d23e72d470c2695a3716e7a47bffbe11"
+entry_hash = "sha256:3496b1bb7bcf745b8033e6b446eb02ba934ebf09bc48a2cc9b65b4ce6faf3962"
+environment = "env(70af4bde4d5cb8ed5b563adbe7dd66bed251b0708915cac41a4b2234ec703210)"
+
+[entry.toolchain]
+cgitsync = "8.11.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
