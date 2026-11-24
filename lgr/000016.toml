@@ -1,0 +1,25 @@
+[entry]
+seq = 16
+prev = "sha256:02a2a4a7c58a31857ce5b4a6dbcc9de64ea90e71183a62a20673612d3bfe788d"
+recorded_at = "2026-11-24T22:06:13Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "--cgs-path",
+    ".cgs",
+    "cawaqs-dev-4X.cgs",
+    "cawaqs-dev-4X-20261124230200",
+]
+state_id = "state(eac452e14700099f8a618a566109d783786dc9a9a15c38231f428a2d7ec37cfb)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:33d2ceee0db96225bc32c4573246d76a2c37d9500628c27eaed5d2050fb37514"
+environment = "env(5496b5e4a660fb8dabc057f5f775fb398373b24bbf9e7b17523f2f040adb5790)"
+
+[entry.toolchain]
+cgitsync = "8.11.1"
+dvc = "none"
+git = "git version 2.56.1"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
