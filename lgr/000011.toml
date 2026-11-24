@@ -1,0 +1,22 @@
+[entry]
+seq = 11
+prev = "sha256:dd95f63f665da404d2150608e3dbd4f998425c541301bb8063bef811c7c1e459"
+recorded_at = "2026-11-24T16:15:38Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "4X",
+]
+state_id = "state(bc95fde00254689e83c2d9414d581733e3f7480a348cbe5ed7a42dd5d18ef5ed)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:1c04fe0d4c0877b484f52803b676e823505c684375fa838dfe781bc22456d54e"
+environment = "env(8ff60043c8a39042ee1cbf2e28b6b098bf4e3774bca9ea7a2e1bc004285e8dd2)"
+
+[entry.toolchain]
+cgitsync = "8.11.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
