@@ -37,3 +37,43 @@ branch = "HT-BETA"
 sha = "838ee24dbf0e0084400d30b72b66564465ad3c6a"
 message = "cgitsync-8.11.1 RootBareBranch: only the root is on the project's bare branch, and every other repository that is not private now takes the project name plus the branch, so two projects on one branch name never share a branch of a library\nA repository already on the bare branch is named off target with the command that creates the new branch at its tip, a branch typed on its entry or a tag still wins, and a user tree is told with info instead of a warning\nStatus legend, user guide, AdditionalSpecs, digest and example specs update"
 authored_at = "2026-11-23T21:00:21+01:00"
+
+[[published]]
+entry = 76
+repository = "DocComplexGitSync"
+sha = "abe47d0f391b9d6c423b56704d6dfbcd4996b7ea"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "abe47d0f391b9d6c423b56704d6dfbcd4996b7ea"
+observed_at = "2026-11-23T20:00:59+00:00"
+
+[[published]]
+entry = 76
+repository = ".localSpec"
+sha = "04f69f4218774a428cffd863e25ac190593adebc"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "04f69f4218774a428cffd863e25ac190593adebc"
+observed_at = "2026-11-23T20:00:59+00:00"
+
+[[published]]
+entry = 76
+repository = ".dev"
+sha = "657d10af3d952224223db774159d7c5a8baf36f8"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "657d10af3d952224223db774159d7c5a8baf36f8"
+observed_at = "2026-11-23T20:00:59+00:00"
+
+[[published]]
+entry = 76
+repository = "ComplexGitSync"
+sha = "838ee24dbf0e0084400d30b72b66564465ad3c6a"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "838ee24dbf0e0084400d30b72b66564465ad3c6a"
+observed_at = "2026-11-23T20:00:59+00:00"

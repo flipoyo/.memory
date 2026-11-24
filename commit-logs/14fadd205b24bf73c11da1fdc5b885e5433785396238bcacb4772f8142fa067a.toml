@@ -7,3 +7,13 @@ branch = "HT-BETA"
 sha = "e19b91cacd2e7a416db12723fa361629afc7e221"
 message = "cgitsync-8.9.4 adding examples.cgitsync-ht-beta.cgs"
 authored_at = "2026-11-23T16:18:56+01:00"
+
+[[published]]
+entry = 76
+repository = "ComplexGitSync"
+sha = "e19b91cacd2e7a416db12723fa361629afc7e221"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "838ee24dbf0e0084400d30b72b66564465ad3c6a"
+observed_at = "2026-11-23T20:00:59+00:00"

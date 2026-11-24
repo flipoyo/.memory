@@ -1,0 +1,39 @@
+[[commit]]
+entry = 77
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "ComplexGitSync_HT-BETA"
+sha = "7c42942a5bd935098ff462a23c8e00a6baba5e31"
+message = "cgitsync-8.12.0 BranchMissingEventName: a repository left on its fallback branch is now logged as branch_missing, with its scope and whether it is the root, and the client attribute is renamed missing_branches\nThe install ends with one block naming the repositories that wait, saying this is expected on a first install, and giving one line that creates, checks out and pushes their branches; a private writable repository gets the same line, and status prints it once"
+authored_at = "2026-11-24T21:04:32+01:00"
+
+[[commit]]
+entry = 77
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "86e020c884404ada8d18b918763daf2583aca784"
+message = "cgitsync-8.12.0 BranchMissingEventName: a repository left on its fallback branch is now logged as branch_missing, with its scope and whether it is the root, and the client attribute is renamed missing_branches\nThe install ends with one block naming the repositories that wait, saying this is expected on a first install, and giving one line that creates, checks out and pushes their branches; a private writable repository gets the same line, and status prints it once"
+authored_at = "2026-11-24T21:04:32+01:00"
+
+[[commit]]
+entry = 77
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "3785fbb7a932df6289a6ebc18f2ea7fbdc10192f"
+message = "cgitsync-8.12.0 BranchMissingEventName: a repository left on its fallback branch is now logged as branch_missing, with its scope and whether it is the root, and the client attribute is renamed missing_branches\nThe install ends with one block naming the repositories that wait, saying this is expected on a first install, and giving one line that creates, checks out and pushes their branches; a private writable repository gets the same line, and status prints it once"
+authored_at = "2026-11-24T21:04:32+01:00"
+
+[[commit]]
+entry = 77
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "85946b3020a0f049b73a56c4be4c78eafff6b792"
+message = "cgitsync-8.12.0 BranchMissingEventName: a repository left on its fallback branch is now logged as branch_missing, with its scope and whether it is the root, and the client attribute is renamed missing_branches\nThe install ends with one block naming the repositories that wait, saying this is expected on a first install, and giving one line that creates, checks out and pushes their branches; a private writable repository gets the same line, and status prints it once"
+authored_at = "2026-11-24T21:04:32+01:00"

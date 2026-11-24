@@ -57,3 +57,33 @@ ref = "refs/heads/ComplexGitSync_HT-BETA"
 at = "2026-11-23T18:42:19+00:00"
 remote_commit = "1022a80f83d23da48518f4936298dde653fce307"
 observed_at = "2026-11-23T18:42:19+00:00"
+
+[[published]]
+entry = 76
+repository = "DocComplexGitSync"
+sha = "d80914520f5df89d7cd2e42fb4f7d06bd3e7c94e"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "abe47d0f391b9d6c423b56704d6dfbcd4996b7ea"
+observed_at = "2026-11-23T20:00:59+00:00"
+
+[[published]]
+entry = 76
+repository = ".localSpec"
+sha = "50eb7cf8e818608f06a737ea1a73bcdfbbb29fd7"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "04f69f4218774a428cffd863e25ac190593adebc"
+observed_at = "2026-11-23T20:00:59+00:00"
+
+[[published]]
+entry = 76
+repository = "ComplexGitSync"
+sha = "d54f2a67e94714d5eaa72a5c94dc14c8e63108da"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-23T20:00:59+00:00"
+remote_commit = "838ee24dbf0e0084400d30b72b66564465ad3c6a"
+observed_at = "2026-11-23T20:00:59+00:00"
