@@ -1,0 +1,23 @@
+[entry]
+seq = 79
+prev = "sha256:903dab8e7dfc7a97895ced38b4c18a22703237fff4598d806a9d532deaa372c7"
+recorded_at = "2026-11-25T00:39:27Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.13.1 VersionFeatureTasks: version diagnose and version bump now find a bump-version or bump-build task declared in a Pixi feature and run it with -e and the first environment that has it, shown as task (env) and in a new environment key of --json\nA task whose script is in a repository the tree declares but has not checked out is the new verdict not mounted, which refuses a bump like task needed",
+]
+state_id = "state(b2392227c231778f621fd579363e8664baeab6a83a7119dd6fd3244634e26574)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:33785a5dc88fcdbe731180c6959bb9229b66ae959ba9240c8a4e496bf28718c8"
+entry_hash = "sha256:ee0e974869fcebbd8806ed3ce05c245738b17ae332cdf41fd33ccc430fee17a3"
+environment = "env(d6a5a113517bb1c8b9fa267d44b9c698f9169fc92f54219fe97d0ad5b65791fa)"
+
+[entry.toolchain]
+cgitsync = "8.13.1"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

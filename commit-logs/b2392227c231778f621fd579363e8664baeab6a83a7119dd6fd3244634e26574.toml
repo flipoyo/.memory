@@ -1,0 +1,39 @@
+[[commit]]
+entry = 79
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "ComplexGitSync_HT-BETA"
+sha = "038587a4d1c58771aa1241d5b2309185c3dd6514"
+message = "cgitsync-8.13.1 VersionFeatureTasks: version diagnose and version bump now find a bump-version or bump-build task declared in a Pixi feature and run it with -e and the first environment that has it, shown as task (env) and in a new environment key of --json\nA task whose script is in a repository the tree declares but has not checked out is the new verdict not mounted, which refuses a bump like task needed"
+authored_at = "2026-11-25T01:39:26+01:00"
+
+[[commit]]
+entry = 79
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "da9f2c60f3423c560b2311ae06bb7bce78afad4d"
+message = "cgitsync-8.13.1 VersionFeatureTasks: version diagnose and version bump now find a bump-version or bump-build task declared in a Pixi feature and run it with -e and the first environment that has it, shown as task (env) and in a new environment key of --json\nA task whose script is in a repository the tree declares but has not checked out is the new verdict not mounted, which refuses a bump like task needed"
+authored_at = "2026-11-25T01:39:26+01:00"
+
+[[commit]]
+entry = 79
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "b7538be312550219668dd572b05de39c5b8ea0ae"
+message = "cgitsync-8.13.1 VersionFeatureTasks: version diagnose and version bump now find a bump-version or bump-build task declared in a Pixi feature and run it with -e and the first environment that has it, shown as task (env) and in a new environment key of --json\nA task whose script is in a repository the tree declares but has not checked out is the new verdict not mounted, which refuses a bump like task needed"
+authored_at = "2026-11-25T01:39:26+01:00"
+
+[[commit]]
+entry = 79
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "e2d00803a3378a484c42f98e4aa8d89d08307c69"
+message = "cgitsync-8.13.1 VersionFeatureTasks: version diagnose and version bump now find a bump-version or bump-build task declared in a Pixi feature and run it with -e and the first environment that has it, shown as task (env) and in a new environment key of --json\nA task whose script is in a repository the tree declares but has not checked out is the new verdict not mounted, which refuses a bump like task needed"
+authored_at = "2026-11-25T01:39:26+01:00"
