@@ -27,3 +27,33 @@ branch = "4X"
 sha = "507c0e63a36c3089552355f47bf907c70bd1c49c"
 message = "cawaqs-4.3.0 make_Cawaqs_from_branches.sh picks the scripts branch before reading it, stops on failure; D1 trial recorded\n-p cawaqs -b 4X gives root 4X and scripts + 17 libraries on cawaqs_4X; -std=gnu99 -Wall not adopted (901 warnings); BuildSemVerAgenticC archived\nNot yet accepted: -b NOPE fallback to main, after cawaqs_4X is merged on main"
 authored_at = "2026-11-25T01:46:59+01:00"
+
+[[published]]
+entry = 25
+repository = ".localSpec"
+sha = "411d16addf2a388e1396faf82a5bd669f887920f"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:48:07+00:00"
+remote_commit = "411d16addf2a388e1396faf82a5bd669f887920f"
+observed_at = "2026-11-25T00:48:07+00:00"
+
+[[published]]
+entry = 25
+repository = ".dev"
+sha = "171fffc8fc5a03244df9c2a28cb5f5e1c78e4860"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:48:07+00:00"
+remote_commit = "171fffc8fc5a03244df9c2a28cb5f5e1c78e4860"
+observed_at = "2026-11-25T00:48:07+00:00"
+
+[[published]]
+entry = 25
+repository = "cawaqs"
+sha = "507c0e63a36c3089552355f47bf907c70bd1c49c"
+remote = "gitlab:cawaqs/cawaqs"
+ref = "refs/heads/4X"
+at = "2026-11-25T00:48:07+00:00"
+remote_commit = "507c0e63a36c3089552355f47bf907c70bd1c49c"
+observed_at = "2026-11-25T00:48:07+00:00"

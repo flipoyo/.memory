@@ -1,0 +1,9 @@
+[[commit]]
+entry = 26
+repository = "cawaqs"
+repo_id = "root"
+scope = "project"
+branch = "4X"
+sha = "137a79e1b4e7869be97f08970233c40ee08ff6fc"
+message = "cawaqs-4.3.1 patch after 4.3.0: make_Cawaqs_from_branches.sh fix (scripts branch chosen before parse_project_branch.sh is read, stops on failure)\nAlso recorded: D1 -std=gnu99 -Wall trial in audit.md (not adopted, 901 warnings) and BuildSemVerAgenticC archived\nNot yet accepted: -b NOPE fallback to main, deferred until cawaqs_4X is merged on main"
+authored_at = "2026-11-25T01:51:12+01:00"

@@ -1,0 +1,23 @@
+[entry]
+seq = 26
+prev = "sha256:fc08713980dedbd110b2a8802065cf967f65f3795da2e007392558d46b08ed0a"
+recorded_at = "2026-11-25T00:51:13Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cawaqs-4.3.1 patch after 4.3.0: make_Cawaqs_from_branches.sh fix (scripts branch chosen before parse_project_branch.sh is read, stops on failure)\nAlso recorded: D1 -std=gnu99 -Wall trial in audit.md (not adopted, 901 warnings) and BuildSemVerAgenticC archived\nNot yet accepted: -b NOPE fallback to main, deferred until cawaqs_4X is merged on main",
+]
+state_id = "state(80b76ac8ec7e5baa6e41c64195064ba24f726cfbc4cfbba8b6f3ed34078461cc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:16c6f63254d5c6f8247214b829b38a3a37fb433d22b4bdea350d153f5d411de2"
+entry_hash = "sha256:0f9f96aa374662d51338fa1d1487c8d0d16ee2109cba6f3ca6ff89f6d4536f06"
+environment = "env(a515f3e9ab0d2e98cbbd21259ad5c8450539ac7b1166854cd6a65eba23102995)"
+
+[entry.toolchain]
+cgitsync = "8.12.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"
