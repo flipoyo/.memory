@@ -1,0 +1,23 @@
+[entry]
+seq = 81
+prev = "sha256:96fdc05424d78a3d6ab8dbee856e918f523ff71a4b7460e0d7f89b7a6f444d31"
+recorded_at = "2026-11-25T19:26:58Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.14.2 DevPlanTicket DataServerAddress: a data repository names its DVC server by an alias, service = <alias>, and its address is never written in any file cgitsync writes\nSSH resolves the alias from a servers.conf kept in a git-crypt repository; commit and push refuse an IP or reverse DNS name in clear; five decisions for the owner\nShort ticket server-ip closed; DataArchitecture points to the new ticket in place of the missing §7 C2",
+]
+state_id = "state(1076acf3ee2884a9c036ae84efb33aa4bff3e09a88025ad89d9cc4ec30884073)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:cb69c0179cfeebb7e576950dfb050ac063b669c2b0e1e61fe59a44adf2044a52"
+entry_hash = "sha256:5e65ab698065f05e7a2cdefb48a2ad613dbb677cfec814415faa51cd211fe385"
+environment = "env(060983ccdb0e1ab1e627572490997fe09ce16de5b901962654dafecbafbbf399)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

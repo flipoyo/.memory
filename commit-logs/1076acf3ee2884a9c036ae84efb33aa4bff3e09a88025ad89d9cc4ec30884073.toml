@@ -1,0 +1,9 @@
+[[commit]]
+entry = 81
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "73df1a6c5f51b8493245105e7c7a0d891cef806b"
+message = "cgitsync-8.14.2 DevPlanTicket DataServerAddress: a data repository names its DVC server by an alias, service = <alias>, and its address is never written in any file cgitsync writes\nSSH resolves the alias from a servers.conf kept in a git-crypt repository; commit and push refuse an IP or reverse DNS name in clear; five decisions for the owner\nShort ticket server-ip closed; DataArchitecture points to the new ticket in place of the missing §7 C2"
+authored_at = "2026-11-25T20:26:58+01:00"
