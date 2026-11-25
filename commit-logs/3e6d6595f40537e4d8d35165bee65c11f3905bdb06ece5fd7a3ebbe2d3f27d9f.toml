@@ -57,3 +57,63 @@ branch = "4X"
 sha = "5dbd8e0e98e9167b9d2fdb888612e50358c4e841"
 message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
 authored_at = "2026-11-25T01:24:40+01:00"
+
+[[published]]
+entry = 23
+repository = "scripts"
+sha = "ba816dfba6e09409d63eec77d25e483b89478503"
+remote = "gitlab:gutil/scripts"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:25:57+00:00"
+remote_commit = "ba816dfba6e09409d63eec77d25e483b89478503"
+observed_at = "2026-11-25T00:25:57+00:00"
+
+[[published]]
+entry = 23
+repository = "libprint"
+sha = "b7ef8d0c20c5a093c7f02a395ee52f773304cd2c"
+remote = "gitlab:gutil/libprint"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:25:57+00:00"
+remote_commit = "b7ef8d0c20c5a093c7f02a395ee52f773304cd2c"
+observed_at = "2026-11-25T00:25:57+00:00"
+
+[[published]]
+entry = 23
+repository = ".localSpec"
+sha = "7c3e32cc560c687d59906d847b1faca093c6d4eb"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:25:57+00:00"
+remote_commit = "7c3e32cc560c687d59906d847b1faca093c6d4eb"
+observed_at = "2026-11-25T00:25:57+00:00"
+
+[[published]]
+entry = 23
+repository = ".dev"
+sha = "76acea85be11df9ac3954d6fe2db90d4c48b62a7"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:25:57+00:00"
+remote_commit = "76acea85be11df9ac3954d6fe2db90d4c48b62a7"
+observed_at = "2026-11-25T00:25:57+00:00"
+
+[[published]]
+entry = 23
+repository = ".claude"
+sha = "c850fc19eb3b0bff5ed990c6a2bf29cb801fb0ab"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/cawaqs_4X"
+at = "2026-11-25T00:25:57+00:00"
+remote_commit = "c850fc19eb3b0bff5ed990c6a2bf29cb801fb0ab"
+observed_at = "2026-11-25T00:25:57+00:00"
+
+[[published]]
+entry = 23
+repository = "cawaqs"
+sha = "5dbd8e0e98e9167b9d2fdb888612e50358c4e841"
+remote = "gitlab:cawaqs/cawaqs"
+ref = "refs/heads/4X"
+at = "2026-11-25T00:25:57+00:00"
+remote_commit = "5dbd8e0e98e9167b9d2fdb888612e50358c4e841"
+observed_at = "2026-11-25T00:25:57+00:00"

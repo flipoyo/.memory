@@ -1,0 +1,29 @@
+[[commit]]
+entry = 24
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "cawaqs_4X"
+sha = "411d16addf2a388e1396faf82a5bd669f887920f"
+message = "cawaqs-4.3.0 make_Cawaqs_from_branches.sh picks the scripts branch before reading it, stops on failure; D1 trial recorded\n-p cawaqs -b 4X gives root 4X and scripts + 17 libraries on cawaqs_4X; -std=gnu99 -Wall not adopted (901 warnings); BuildSemVerAgenticC archived\nNot yet accepted: -b NOPE fallback to main, after cawaqs_4X is merged on main"
+authored_at = "2026-11-25T01:46:59+01:00"
+
+[[commit]]
+entry = 24
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "cawaqs_4X"
+sha = "171fffc8fc5a03244df9c2a28cb5f5e1c78e4860"
+message = "cawaqs-4.3.0 make_Cawaqs_from_branches.sh picks the scripts branch before reading it, stops on failure; D1 trial recorded\n-p cawaqs -b 4X gives root 4X and scripts + 17 libraries on cawaqs_4X; -std=gnu99 -Wall not adopted (901 warnings); BuildSemVerAgenticC archived\nNot yet accepted: -b NOPE fallback to main, after cawaqs_4X is merged on main"
+authored_at = "2026-11-25T01:46:59+01:00"
+
+[[commit]]
+entry = 24
+repository = "cawaqs"
+repo_id = "root"
+scope = "project"
+branch = "4X"
+sha = "507c0e63a36c3089552355f47bf907c70bd1c49c"
+message = "cawaqs-4.3.0 make_Cawaqs_from_branches.sh picks the scripts branch before reading it, stops on failure; D1 trial recorded\n-p cawaqs -b 4X gives root 4X and scripts + 17 libraries on cawaqs_4X; -std=gnu99 -Wall not adopted (901 warnings); BuildSemVerAgenticC archived\nNot yet accepted: -b NOPE fallback to main, after cawaqs_4X is merged on main"
+authored_at = "2026-11-25T01:46:59+01:00"
