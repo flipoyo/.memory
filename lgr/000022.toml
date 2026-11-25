@@ -1,0 +1,23 @@
+[entry]
+seq = 22
+prev = "sha256:19f636fd16da503d7e4d0a00ff58c10e4b63235196ba37111b997a20e1e23e49"
+recorded_at = "2026-11-25T00:24:41Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved",
+]
+state_id = "state(3e6d6595f40537e4d8d35165bee65c11f3905bdb06ece5fd7a3ebbe2d3f27d9f)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:00b99ff11968a17cebe79b6fd42d87e92d1d95ef98ed7ebabe70b7694db192e6"
+entry_hash = "sha256:4c2d7a5112dc60d618927f7225c8e1c60a2d1071af884742c116967c2e6413c6"
+environment = "env(e493e216bf4fc630fd13dad40ca07636866757e93e23b2d17a894a3ce3ff5ebc)"
+
+[entry.toolchain]
+cgitsync = "8.12.0"
+dvc = "none"
+git = "git version 2.53.0"
+git-lfs = "none"
+pixi = "pixi 0.66.0"

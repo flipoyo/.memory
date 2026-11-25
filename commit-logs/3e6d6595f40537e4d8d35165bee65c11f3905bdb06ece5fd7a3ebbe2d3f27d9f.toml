@@ -1,0 +1,59 @@
+[[commit]]
+entry = 22
+repository = "scripts"
+repo_id = "root:src/scripts"
+scope = "project"
+branch = "cawaqs_4X"
+sha = "ba816dfba6e09409d63eec77d25e483b89478503"
+message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
+authored_at = "2026-11-25T01:24:40+01:00"
+
+[[commit]]
+entry = 22
+repository = "libprint"
+repo_id = "root:src/libprint"
+scope = "project"
+branch = "cawaqs_4X"
+sha = "b7ef8d0c20c5a093c7f02a395ee52f773304cd2c"
+message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
+authored_at = "2026-11-25T01:24:40+01:00"
+
+[[commit]]
+entry = 22
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "cawaqs_4X"
+sha = "7c3e32cc560c687d59906d847b1faca093c6d4eb"
+message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
+authored_at = "2026-11-25T01:24:40+01:00"
+
+[[commit]]
+entry = 22
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "cawaqs_4X"
+sha = "76acea85be11df9ac3954d6fe2db90d4c48b62a7"
+message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
+authored_at = "2026-11-25T01:24:40+01:00"
+
+[[commit]]
+entry = 22
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "cawaqs_4X"
+sha = "c850fc19eb3b0bff5ed990c6a2bf29cb801fb0ab"
+message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
+authored_at = "2026-11-25T01:24:40+01:00"
+
+[[commit]]
+entry = 22
+repository = "cawaqs"
+repo_id = "root"
+scope = "project"
+branch = "4X"
+sha = "5dbd8e0e98e9167b9d2fdb888612e50358c4e841"
+message = "cawaqs-4.3.0 SemVer in C, libprint 1.25, versioning.py in .dev, scripts 1.0.0 with -p/-b and build_tree.sh\nReleases 4.2.0 and 4.3.0 delivered as one change (D15); src/Makefile V_CAW is unquoted; no main moved"
+authored_at = "2026-11-25T01:24:40+01:00"
