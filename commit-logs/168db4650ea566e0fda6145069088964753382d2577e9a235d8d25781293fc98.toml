@@ -17,3 +17,23 @@ branch = "HT-BETA"
 sha = "75e2300038720ad4cafcb1b4fb4916f23ba10c82"
 message = "HydrologicalTwinAlphaSeries-1.2.4 Keep only the minimum tool versions in the environment block of .config/htas-dev-beta.cgs\nDrop environment_root, a recorded label only, and manifests, whose pyproject.toml is already a built-in pattern\nFile the short ticket dependency/CGS/environment-declaration-docs for ComplexGitSync, which documents none of these keys"
 authored_at = "2026-11-26T23:20:53+01:00"
+
+[[published]]
+entry = 59
+repository = ".dev"
+sha = "c2c384dfe522608f633bbb181c0adbde5dc94d76"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-26T22:21:17+00:00"
+remote_commit = "c2c384dfe522608f633bbb181c0adbde5dc94d76"
+observed_at = "2026-11-26T22:21:17+00:00"
+
+[[published]]
+entry = 59
+repository = "HydrologicalTwinAlphaSeries"
+sha = "75e2300038720ad4cafcb1b4fb4916f23ba10c82"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-26T22:21:17+00:00"
+remote_commit = "75e2300038720ad4cafcb1b4fb4916f23ba10c82"
+observed_at = "2026-11-26T22:21:17+00:00"
