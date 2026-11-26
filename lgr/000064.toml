@@ -1,0 +1,23 @@
+[entry]
+seq = 64
+prev = "sha256:4765318c1ce0589438495c9f9d1c4002e7c26c36f8939be179febadaa8442d6b"
+recorded_at = "2026-11-26T23:16:59Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "HydrologicalTwinAlphaSeries-1.2.4 Record HtbsFirstSpecs B1 so far: the owner answers D1 (github:flipoyo/HydrologicalTwinBetaSeries, HT-BETA) and D3 (CaWaQS nested, private and distant)\nList the HTBS folder files and the five steps before and after its registration: D8, git init and push, the dev install, the CaWaQS library branch, and where the plan lives",
+]
+state_id = "state(9abe85e932beefab9dbe20f2bc0c493da9794fdbcf4a3659c953e4deb6b2f541)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:8d90a7cacf814ca64ae3ae845b0299cfb9695f1d1f3b76ece5858d3a5e6476bb"
+entry_hash = "sha256:dd407bc753e9f943ed3f8c8833dc95636a5ed3b144dd1cda3d2bcf7ad36973f1"
+environment = "env(bfb26a3810c1a113326c7584954dbaa9a3a6db62f6c1a476494259b69194342b)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
