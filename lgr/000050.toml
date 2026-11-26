@@ -1,0 +1,23 @@
+[entry]
+seq = 50
+prev = "sha256:23c76f660e4a5d695e75e2c498225ba6a0bf708703c51cd59196dddd045e889f"
+recorded_at = "2026-11-26T21:17:13Z"
+command = "branch"
+argv = [
+    "branch",
+    "create",
+    "HT-BETA",
+]
+state_id = "state(b7d520237b6f85e02319d97659f15ba08c0d9ebe988775d9431ed81ba77c92ac)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:45e1ccdda8114feb8a89aaa2c4ae836707dbf10a151d9bbad258f097e6d828a5"
+environment = "env(bfb26a3810c1a113326c7584954dbaa9a3a6db62f6c1a476494259b69194342b)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

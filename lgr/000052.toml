@@ -1,0 +1,23 @@
+[entry]
+seq = 52
+prev = "sha256:1705d7080b2a53989f285b1471947fc5ff9c0e5d62fe304b48db76806cba3b58"
+recorded_at = "2026-11-26T21:19:19Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "htas-1.2.4 Add a cgitsync task to the dev feature in pixi.toml\nso that  works without ",
+]
+state_id = "state(6133a21afbf75e3fe578f7d15729a705301af4fbf856606515597f2611723a25)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:a299b7fcd3ac4b4ca4184951ba84836ec680bb0c3e59679af105d7b03a29d1e6"
+entry_hash = "sha256:b15c6e13a388cea1146af0a78e1f5b68ab547bb9b56a17b0290fdc9a76bb56ef"
+environment = "env(bfb26a3810c1a113326c7584954dbaa9a3a6db62f6c1a476494259b69194342b)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

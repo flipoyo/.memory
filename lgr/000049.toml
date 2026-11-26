@@ -1,0 +1,22 @@
+[entry]
+seq = 49
+prev = "sha256:916b1aa82e76104ebbe8209dea4b7bc3a3c137e112269838a199037e01919413"
+recorded_at = "2026-11-26T21:08:57Z"
+command = "clone"
+argv = [
+    "bootstrap",
+    "../HydrologicalTwinAlphaSeries/.config/htas-dev-beta.cgs",
+]
+state_id = "state(c41609d63825006245babbd98c39b3a16c34bb55002e484810c3bfe7bdff0494)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:23c76f660e4a5d695e75e2c498225ba6a0bf708703c51cd59196dddd045e889f"
+environment = "env(eeb7386e018966080f95736492aa8794752c280325fc1823f10c9dffd51a961d)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
