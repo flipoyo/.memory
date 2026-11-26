@@ -1,0 +1,23 @@
+[entry]
+seq = 58
+prev = "sha256:1d267968dda387b8516f976ba9f7a9851cbaefa01817a940988a554c4405b31c"
+recorded_at = "2026-11-26T22:20:54Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.2.4 Keep only the minimum tool versions in the environment block of .config/htas-dev-beta.cgs\nDrop environment_root, a recorded label only, and manifests, whose pyproject.toml is already a built-in pattern\nFile the short ticket dependency/CGS/environment-declaration-docs for ComplexGitSync, which documents none of these keys",
+]
+state_id = "state(168db4650ea566e0fda6145069088964753382d2577e9a235d8d25781293fc98)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ddfa339605fac4c97b479e3dc3f84f96ccee1e47c7df5af939c4441324377f0d"
+entry_hash = "sha256:78a7113d95782f15e356f0d6f31bd16882016a77d4e1e193ec7f0b920e46f55c"
+environment = "env(bfb26a3810c1a113326c7584954dbaa9a3a6db62f6c1a476494259b69194342b)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
