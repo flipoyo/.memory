@@ -27,3 +27,33 @@ branch = "HT-BETA"
 sha = "fce3887cb29673b94502bbcaf24db1b9196f53c4"
 message = "htas-1.2.4 Add a cgitsync task to the dev feature in pixi.toml\nso that  works without "
 authored_at = "2026-11-26T22:19:19+01:00"
+
+[[published]]
+entry = 53
+repository = "hydrological_twin"
+sha = "4bae08ade1bac2ac8cdf31ce928ad4ab967d2412"
+remote = "github:flipoyo/hydrological_twin"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-26T21:19:49+00:00"
+remote_commit = "4bae08ade1bac2ac8cdf31ce928ad4ab967d2412"
+observed_at = "2026-11-26T21:19:49+00:00"
+
+[[published]]
+entry = 53
+repository = ".dev"
+sha = "b9d1474d8d1fea38f4b89f0748f663fecd2b540e"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-26T21:19:49+00:00"
+remote_commit = "b9d1474d8d1fea38f4b89f0748f663fecd2b540e"
+observed_at = "2026-11-26T21:19:49+00:00"
+
+[[published]]
+entry = 53
+repository = "HydrologicalTwinAlphaSeries"
+sha = "fce3887cb29673b94502bbcaf24db1b9196f53c4"
+remote = "github:flipoyo/HydrologicalTwinAlphaSeries"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-26T21:19:49+00:00"
+remote_commit = "fce3887cb29673b94502bbcaf24db1b9196f53c4"
+observed_at = "2026-11-26T21:19:49+00:00"
