@@ -1,0 +1,9 @@
+[[commit]]
+entry = 70
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "7587b054bae726e7034250c74742961ea886710a"
+message = "HydrologicalTwinAlphaSeries-1.2.4 Split HtbsFirstSpecs: HtasHypercube stays in openTickets with the hypercube classes; HtbsFirstSpecs moves to dependency/HTBS, keeps the operating spaces"
+authored_at = "2026-11-27T00:49:28+01:00"

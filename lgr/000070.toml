@@ -1,0 +1,23 @@
+[entry]
+seq = 70
+prev = "sha256:07f0c1f2287f7fe8af92a549c83ea0916d5bd503b75fce02b7fa0dd543818131"
+recorded_at = "2026-11-26T23:49:29Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "HydrologicalTwinAlphaSeries-1.2.4 Split HtbsFirstSpecs: HtasHypercube stays in openTickets with the hypercube classes; HtbsFirstSpecs moves to dependency/HTBS, keeps the operating spaces",
+]
+state_id = "state(532632cad9ceded8f1246442e2367a27aec0100243007565d8d43e170272076a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:ffefe66a84565b89ba46a5fb21c03b84c1a54b4f537fb4315c9df2c3b941b7ad"
+entry_hash = "sha256:fc74d873689bc465ee623978ebecee5feb877c56bbe29fa370d3934273145e1f"
+environment = "env(bfb26a3810c1a113326c7584954dbaa9a3a6db62f6c1a476494259b69194342b)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
