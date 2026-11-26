@@ -7,3 +7,13 @@ branch = "HydrologicalTwinAlphaSeries_HT-BETA"
 sha = "3ef9c9ba3e48c6f0f46f366dae661d2a2ecc1523"
 message = "HydrologicalTwinAlphaSeries-1.2.4 Plan HtbsFirstSpecs: HTAS gets explicit StateVariable and Hypercube classes and reads CaWaQS .bin through a forward-model output class; HTBS couples HTAS, a CaWaQS pipeline and invariant DATA, and is ALIVE once it resimulates the output bit for bit\nSplit the work into tasks that can run in parallel (P0, A1-A3, B1-B2, C1, E1-E2), with eleven decisions for the owner\nClose the short ticket htbs; record M2 progress in DocsOnTheFly and name ht-synthcase-1 as its test case"
 authored_at = "2026-11-26T23:30:55+01:00"
+
+[[published]]
+entry = 61
+repository = ".dev"
+sha = "3ef9c9ba3e48c6f0f46f366dae661d2a2ecc1523"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-26T22:31:14+00:00"
+remote_commit = "3ef9c9ba3e48c6f0f46f366dae661d2a2ecc1523"
+observed_at = "2026-11-26T22:31:14+00:00"
