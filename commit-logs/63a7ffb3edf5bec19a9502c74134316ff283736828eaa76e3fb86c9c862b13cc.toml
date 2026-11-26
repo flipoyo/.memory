@@ -1,0 +1,19 @@
+[[commit]]
+entry = 56
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "HydrologicalTwinAlphaSeries_HT-BETA"
+sha = "60570e8afc8602d97c75ede587ba44e39de9cc76"
+message = "HydrologicalTwinAlphaSeries-1.2.4 Add the tutorial section scaffolding: tutorials/README.md (index and rules), tutorials/_template.md and tests/unit/test_tutorials.py, which checks the index, the abstract-graph-Getting started order, compiles Python blocks and runs them when CWAQS_FIXTURE_ROOT is set\nHold test_docs_sync.py to tutorials/*.md, link tutorials/ from the README, name test_tutorials.py in tests/README.md, add the tutorials/ row to the doc-impact map in htas-dev.md and merge origin/HT-BETA into the docs branch\nTutorial 1, the fixture recipe and the README Use cases table wait for the public test case; no change under src/, so no version bump"
+authored_at = "2026-11-26T23:10:15+01:00"
+
+[[commit]]
+entry = 56
+repository = "HydrologicalTwinAlphaSeries"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "f3d0dad34a511b4f4e7c1c146093942b3a8d4095"
+message = "HydrologicalTwinAlphaSeries-1.2.4 Add the tutorial section scaffolding: tutorials/README.md (index and rules), tutorials/_template.md and tests/unit/test_tutorials.py, which checks the index, the abstract-graph-Getting started order, compiles Python blocks and runs them when CWAQS_FIXTURE_ROOT is set\nHold test_docs_sync.py to tutorials/*.md, link tutorials/ from the README, name test_tutorials.py in tests/README.md, add the tutorials/ row to the doc-impact map in htas-dev.md and merge origin/HT-BETA into the docs branch\nTutorial 1, the fixture recipe and the README Use cases table wait for the public test case; no change under src/, so no version bump"
+authored_at = "2026-11-26T23:10:15+01:00"

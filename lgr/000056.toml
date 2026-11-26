@@ -1,0 +1,23 @@
+[entry]
+seq = 56
+prev = "sha256:1c58c8969d602faeacd6f6eb04a4bf8842d9ced066d7444cdb3fbe8a5da7bb5c"
+recorded_at = "2026-11-26T22:10:16Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "HydrologicalTwinAlphaSeries-1.2.4 Add the tutorial section scaffolding: tutorials/README.md (index and rules), tutorials/_template.md and tests/unit/test_tutorials.py, which checks the index, the abstract-graph-Getting started order, compiles Python blocks and runs them when CWAQS_FIXTURE_ROOT is set\nHold test_docs_sync.py to tutorials/*.md, link tutorials/ from the README, name test_tutorials.py in tests/README.md, add the tutorials/ row to the doc-impact map in htas-dev.md and merge origin/HT-BETA into the docs branch\nTutorial 1, the fixture recipe and the README Use cases table wait for the public test case; no change under src/, so no version bump",
+]
+state_id = "state(63a7ffb3edf5bec19a9502c74134316ff283736828eaa76e3fb86c9c862b13cc)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:7d1532d8f602197d5f5e662b50ec059298e857ae228eb1fb5227c76f01574d63"
+entry_hash = "sha256:b45aa78395067667c656bfdafd92c6513ad1adc43aa060cd2d0bbc13edfe1e04"
+environment = "env(bfb26a3810c1a113326c7584954dbaa9a3a6db62f6c1a476494259b69194342b)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
