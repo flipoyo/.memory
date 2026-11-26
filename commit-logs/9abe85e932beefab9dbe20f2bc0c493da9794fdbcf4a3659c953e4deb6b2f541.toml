@@ -7,3 +7,13 @@ branch = "HydrologicalTwinAlphaSeries_HT-BETA"
 sha = "a230f133d4b1e34f374b72774e3821b2c6c3fadd"
 message = "HydrologicalTwinAlphaSeries-1.2.4 Record HtbsFirstSpecs B1 so far: the owner answers D1 (github:flipoyo/HydrologicalTwinBetaSeries, HT-BETA) and D3 (CaWaQS nested, private and distant)\nList the HTBS folder files and the five steps before and after its registration: D8, git init and push, the dev install, the CaWaQS library branch, and where the plan lives"
 authored_at = "2026-11-27T00:16:59+01:00"
+
+[[published]]
+entry = 65
+repository = ".dev"
+sha = "a230f133d4b1e34f374b72774e3821b2c6c3fadd"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/HydrologicalTwinAlphaSeries_HT-BETA"
+at = "2026-11-26T23:17:17+00:00"
+remote_commit = "a230f133d4b1e34f374b72774e3821b2c6c3fadd"
+observed_at = "2026-11-26T23:17:17+00:00"
