@@ -1,0 +1,39 @@
+[[commit]]
+entry = 97
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "ComplexGitSync_HT-BETA"
+sha = "da9291560eb880c2714305165ce25d14a44332ca"
+message = "cgitsync-8.15.1 CheckoutBareTip: a derived branch a repository lacks now begins at the tip of the bare branch it holds, with no upstream, and is reported\nA branch the tree only landed on no longer pins a repository, and checkout refuses a new name that is a close misspelling of an existing one, pointing to branch create\nThe build-change warning now reads a branch held only from its remote; user guide, AdditionalSpecs, digest, tutorial and CHANGELOG updated"
+authored_at = "2026-11-27T14:58:38+01:00"
+
+[[commit]]
+entry = 97
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "e839a38303ff5b808140013f6f2e9e4f77271a1b"
+message = "cgitsync-8.15.1 CheckoutBareTip: a derived branch a repository lacks now begins at the tip of the bare branch it holds, with no upstream, and is reported\nA branch the tree only landed on no longer pins a repository, and checkout refuses a new name that is a close misspelling of an existing one, pointing to branch create\nThe build-change warning now reads a branch held only from its remote; user guide, AdditionalSpecs, digest, tutorial and CHANGELOG updated"
+authored_at = "2026-11-27T14:58:38+01:00"
+
+[[commit]]
+entry = 97
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "8a82d87dde0b98e72a916bdd7a0149576db4015d"
+message = "cgitsync-8.15.1 CheckoutBareTip: a derived branch a repository lacks now begins at the tip of the bare branch it holds, with no upstream, and is reported\nA branch the tree only landed on no longer pins a repository, and checkout refuses a new name that is a close misspelling of an existing one, pointing to branch create\nThe build-change warning now reads a branch held only from its remote; user guide, AdditionalSpecs, digest, tutorial and CHANGELOG updated"
+authored_at = "2026-11-27T14:58:38+01:00"
+
+[[commit]]
+entry = 97
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "27999b9853476edad7f3017d4fa0d1ed2d59f5be"
+message = "cgitsync-8.15.1 CheckoutBareTip: a derived branch a repository lacks now begins at the tip of the bare branch it holds, with no upstream, and is reported\nA branch the tree only landed on no longer pins a repository, and checkout refuses a new name that is a close misspelling of an existing one, pointing to branch create\nThe build-change warning now reads a branch held only from its remote; user guide, AdditionalSpecs, digest, tutorial and CHANGELOG updated"
+authored_at = "2026-11-27T14:58:38+01:00"

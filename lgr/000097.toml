@@ -1,0 +1,23 @@
+[entry]
+seq = 97
+prev = "sha256:86e4c016dcf70f4bb40880b87d0a27d84c5bfedbd5be0edaacbaea1c723b39f6"
+recorded_at = "2026-11-27T13:58:39Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.15.1 CheckoutBareTip: a derived branch a repository lacks now begins at the tip of the bare branch it holds, with no upstream, and is reported\nA branch the tree only landed on no longer pins a repository, and checkout refuses a new name that is a close misspelling of an existing one, pointing to branch create\nThe build-change warning now reads a branch held only from its remote; user guide, AdditionalSpecs, digest, tutorial and CHANGELOG updated",
+]
+state_id = "state(d7b8dd49cbd030904857486c50622f67377140857661285b0d83559f8f89a55a)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:024d7e649dc4720c32f3198316ca6f51d8c252456d13a4aaa9fce5b71e327c7b"
+entry_hash = "sha256:993c2aedc5af3713539e46a0a0bc86578aead73e4e9efb477e22495e22b282ee"
+environment = "env(40bd76a0d8f3792ea461c30589291c85d7ccc9c4519ba15a05bc0febdb53f51b)"
+
+[entry.toolchain]
+cgitsync = "8.15.1"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
