@@ -47,3 +47,43 @@ branch = "HT-BETA"
 sha = "80a226efbb1b4829c81fa3951b1ebf5f17c2e4bb"
 message = "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
 authored_at = "2026-11-27T16:10:30+01:00"
+
+[[published]]
+entry = 100
+repository = "DocComplexGitSync"
+sha = "5d7a2e2081b7224a839e51328fc37d816182cc27"
+remote = "github:flipoyo/DocComplexGitSync"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T15:11:19+00:00"
+remote_commit = "5d7a2e2081b7224a839e51328fc37d816182cc27"
+observed_at = "2026-11-27T15:11:19+00:00"
+
+[[published]]
+entry = 100
+repository = ".localSpec"
+sha = "e782f457b2c567c88e4ce01331aa82f5fc3b9da4"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T15:11:19+00:00"
+remote_commit = "e782f457b2c567c88e4ce01331aa82f5fc3b9da4"
+observed_at = "2026-11-27T15:11:19+00:00"
+
+[[published]]
+entry = 100
+repository = ".dev"
+sha = "e071df59bf87fcd4f6a9cf0e051dfb265674d0d2"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T15:11:19+00:00"
+remote_commit = "e071df59bf87fcd4f6a9cf0e051dfb265674d0d2"
+observed_at = "2026-11-27T15:11:19+00:00"
+
+[[published]]
+entry = 100
+repository = "ComplexGitSync"
+sha = "80a226efbb1b4829c81fa3951b1ebf5f17c2e4bb"
+remote = "github:flipoyo/ComplexGitSync"
+ref = "refs/heads/HT-BETA"
+at = "2026-11-27T15:11:19+00:00"
+remote_commit = "80a226efbb1b4829c81fa3951b1ebf5f17c2e4bb"
+observed_at = "2026-11-27T15:11:19+00:00"

@@ -1,0 +1,29 @@
+[[commit]]
+entry = 102
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "3d4b5ce5f7f743ce1bdcfe056e5e4b68bcb98222"
+message = "cgitsync-8.16.0 HTBS roadmap: its graph is colored by status, done, ready or waiting, with a Status column, and gates G1 and G2 are marked reached\nThe roadmap method now lives in the shared ticket lifecycle; DevTickets README keeps only this project's roadmap and roles, and CLAUDE.md and the digest point to section 8\nWhoever archives a roadmap ticket updates its node and status in the same change"
+authored_at = "2026-11-27T16:40:11+01:00"
+
+[[commit]]
+entry = 102
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "d2feeb2a503941c1d178daada47bc4839b625278"
+message = "cgitsync-8.16.0 HTBS roadmap: its graph is colored by status, done, ready or waiting, with a Status column, and gates G1 and G2 are marked reached\nThe roadmap method now lives in the shared ticket lifecycle; DevTickets README keeps only this project's roadmap and roles, and CLAUDE.md and the digest point to section 8\nWhoever archives a roadmap ticket updates its node and status in the same change"
+authored_at = "2026-11-27T16:40:11+01:00"
+
+[[commit]]
+entry = 102
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "9784d6c2ec6f1c56c8f09bdda4dab0534e96ea2f"
+message = "cgitsync-8.16.0 HTBS roadmap: its graph is colored by status, done, ready or waiting, with a Status column, and gates G1 and G2 are marked reached\nThe roadmap method now lives in the shared ticket lifecycle; DevTickets README keeps only this project's roadmap and roles, and CLAUDE.md and the digest point to section 8\nWhoever archives a roadmap ticket updates its node and status in the same change"
+authored_at = "2026-11-27T16:40:11+01:00"

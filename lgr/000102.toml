@@ -1,0 +1,23 @@
+[entry]
+seq = 102
+prev = "sha256:7a3329c49f3a1739ff0d4ecda6809cecd41a9bcfa60764e8067e4183ff918aa9"
+recorded_at = "2026-11-27T15:40:12Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.16.0 HTBS roadmap: its graph is colored by status, done, ready or waiting, with a Status column, and gates G1 and G2 are marked reached\nThe roadmap method now lives in the shared ticket lifecycle; DevTickets README keeps only this project's roadmap and roles, and CLAUDE.md and the digest point to section 8\nWhoever archives a roadmap ticket updates its node and status in the same change",
+]
+state_id = "state(edfe9b7bffcf280d526edeb7d30d0eecf2bc20fb194f4710ce5d0041e795a20d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:011df6e3427ebd8ce11fa8bfc962b0078d972b531f59bc0fe25a714816d98d0f"
+entry_hash = "sha256:8bc1f8874e7ab42efa5579822e34bfaf6c008d364475b1f9d119a45d763ddb05"
+environment = "env(118e0a2b079d12fc9a34e2a3326920405d6e314c9551a2e1489bc74c8529ba31)"
+
+[entry.toolchain]
+cgitsync = "8.16.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
