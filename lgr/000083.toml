@@ -1,0 +1,23 @@
+[entry]
+seq = 83
+prev = "sha256:c25b1dfd1dea61e588ebae13829f2e9700caae7b49dc6b07b27eb7d46d1d3146"
+recorded_at = "2026-11-27T12:03:31Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.14.2 TicketReview 2026-11-27: pile 1 makes HT-BETA ready for HTBS in four tickets, MergeDataEncrypt, NestedInstall, DvcBackend and DataRoundTrip, and LinkAtCGS follows at 1-5\nThe five HTBS short tickets are closed into them; DataServerAddress joins DvcBackend, DataAuthoring and DataMaterialisation merge into DataWorkspace, and the data workstream moves from data-repo to HT-BETA\nMergeDataEncrypt plans the data-encrypt merge from a trial run: eight conflicts, six feature pairs to prove, EncryptedMerge folded in; links repaired in three history tickets",
+]
+state_id = "state(bf9995b47b4662b4b0884b8fba34e7a2adfbba8da6efd71bea839548f547d5d6)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:4c49051dff640834569a90064643d3ea90b07ab978572d6ae3292ca36a038ee3"
+entry_hash = "sha256:90aba4a95cb5b4427b0e6e06647c95151b6cc55231d7c52a2d7ac1f161073128"
+environment = "env(7a8f83219d01960a8157d49b38ae4931202deabb2f5459a3c548cf47076b3bca)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

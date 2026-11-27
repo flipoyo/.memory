@@ -1,0 +1,9 @@
+[[commit]]
+entry = 83
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "5921d199713c96b9b285c479ba478e9db98487cc"
+message = "cgitsync-8.14.2 TicketReview 2026-11-27: pile 1 makes HT-BETA ready for HTBS in four tickets, MergeDataEncrypt, NestedInstall, DvcBackend and DataRoundTrip, and LinkAtCGS follows at 1-5\nThe five HTBS short tickets are closed into them; DataServerAddress joins DvcBackend, DataAuthoring and DataMaterialisation merge into DataWorkspace, and the data workstream moves from data-repo to HT-BETA\nMergeDataEncrypt plans the data-encrypt merge from a trial run: eight conflicts, six feature pairs to prove, EncryptedMerge folded in; links repaired in three history tickets"
+authored_at = "2026-11-27T13:03:30+01:00"
