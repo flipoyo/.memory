@@ -1,0 +1,22 @@
+[entry]
+seq = 85
+prev = "sha256:f6a83fa3f229459e7470ddffd44fdf06ae9a937a4a035cee8d463b06a7f39e33"
+recorded_at = "2026-11-27T12:05:10Z"
+command = "checkout"
+argv = [
+    "checkout",
+    "data-encrypt",
+]
+state_id = "state(b4777fb2115724760d3ee2f39ce991e4ec4a1171d8d1c6f861138ca1acbefc4e)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:2d345a6983d89455b0a1698d05a8cbc0da5f7cac1f5422d980c10743c1d60ab6"
+environment = "env(197048bc32faf09a8f3fbc9170087bcaef27ed3dc3adfe96652da2d010d613d8)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
