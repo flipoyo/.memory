@@ -1,0 +1,23 @@
+[entry]
+seq = 93
+prev = "sha256:f2337ee65f970ace3af355059e9df0c676df4d09efb0d733ccd5d8c6bc0da9b8"
+recorded_at = "2026-11-27T12:28:22Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.14.2 CheckoutBareTip planned first in pile 1: a derived branch starts at the bare branch's tip, a branch the tree only landed on is never read as typed, a root checkout that swaps the tool is named, and a new name is checked for a misspelling before checkout creates it\nFiled from the owner's report that DocComplexGitSync's data-encrypt branch was not stable; the hand repair of 2026-11-27 is recorded, and DocComplexGitSync now has ComplexGitSync_data-encrypt at data-encrypt's tip\nMergeDataEncrypt, NestedInstall, DvcBackend, DataRoundTrip and LinkAtCGS move down one rank; MergeDataEncrypt runs every command with the HT-BETA tool",
+]
+state_id = "state(eb233836a0eaa08b627e33b1e34555acfa7b820bd779b5cc2596fcb67b2398c2)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:71eeb7db7e0b419b498cee076bef51cde283001ff2814c8d48f41e20bb33c701"
+entry_hash = "sha256:6904403fa62ed212b098bf72bc31798650f367ab66022ad0fb6435a882ce7d04"
+environment = "env(9bda3ce909de3dabff9cc7ab40bed630004adc6255adeccb60e7ae918b4ca37f)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

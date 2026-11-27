@@ -1,0 +1,22 @@
+[entry]
+seq = 91
+prev = "sha256:5880ee7850076b3f95ed18402c9498502df9121df33300da2f81135edf77baf0"
+recorded_at = "2026-11-27T12:18:46Z"
+command = "restart"
+argv = [
+    "pull",
+    "examples/cgitsync-ht-beta.cgs",
+]
+state_id = "state(e8e1aaa52210299f500f6d81b7ea9f2453aa36f2e94292237d8a4c18816fd43d)"
+state_dir = "state"
+outcome = "ok"
+commit_log = ""
+entry_hash = "sha256:c216d2e574b44bfab4fa356b63cf548ba9ba46b2e01fa41cb6d0e7644612128c"
+environment = "env(9bda3ce909de3dabff9cc7ab40bed630004adc6255adeccb60e7ae918b4ca37f)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"
