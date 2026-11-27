@@ -1,0 +1,23 @@
+[entry]
+seq = 105
+prev = "sha256:a13dc6477faa8fb841327564b9e84bc34205deda530503c885d80a135ef50f1c"
+recorded_at = "2026-11-27T16:43:28Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.16.2 NestedInstall: a nested .cgs can declare the ComplexGitSync that runs initialise, which is adopted in place with its origin checked and its commit recorded, never deleted; a repository holding it in a folder inside it is refused by name\nnested_config auto now warns when a spec sits in .config/ or a root .cgs was grafted; the environment keys are documented, and the developer specs moved from examples/ to .config/\nTutorials 03 to 06, user guide, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt",
+]
+state_id = "state(7fdaaf5244987e922a82232696e98aa1ad745410537b8d4b2d937c7625997bbe)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:586e0f675e413a3ad7c7947d8cd7f85359e4bf671f97e2bd714a8f3cb99070cb"
+entry_hash = "sha256:a520a64f36ba3aa028b09871aace51b87938ab24d133a013ec0da1a8eaa8624e"
+environment = "env(3d295397bc7d0fc8329d7b194974c81bcbf2799f000b0da911775dfdf0331d62)"
+
+[entry.toolchain]
+cgitsync = "8.16.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

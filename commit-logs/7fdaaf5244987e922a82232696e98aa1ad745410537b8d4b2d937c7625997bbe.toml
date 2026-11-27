@@ -1,0 +1,49 @@
+[[commit]]
+entry = 105
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "ComplexGitSync_HT-BETA"
+sha = "9427a3617348bae14f718ef8d988848a68d2e1e9"
+message = "cgitsync-8.16.2 NestedInstall: a nested .cgs can declare the ComplexGitSync that runs initialise, which is adopted in place with its origin checked and its commit recorded, never deleted; a repository holding it in a folder inside it is refused by name\nnested_config auto now warns when a spec sits in .config/ or a root .cgs was grafted; the environment keys are documented, and the developer specs moved from examples/ to .config/\nTutorials 03 to 06, user guide, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T17:43:27+01:00"
+
+[[commit]]
+entry = 105
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "0eb6b5b1cffa040123cec59d9720c4f49c1f8cb9"
+message = "cgitsync-8.16.2 NestedInstall: a nested .cgs can declare the ComplexGitSync that runs initialise, which is adopted in place with its origin checked and its commit recorded, never deleted; a repository holding it in a folder inside it is refused by name\nnested_config auto now warns when a spec sits in .config/ or a root .cgs was grafted; the environment keys are documented, and the developer specs moved from examples/ to .config/\nTutorials 03 to 06, user guide, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T17:43:27+01:00"
+
+[[commit]]
+entry = 105
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "0d47e5f7d5f1927552be4e94f906a3201958fa51"
+message = "cgitsync-8.16.2 NestedInstall: a nested .cgs can declare the ComplexGitSync that runs initialise, which is adopted in place with its origin checked and its commit recorded, never deleted; a repository holding it in a folder inside it is refused by name\nnested_config auto now warns when a spec sits in .config/ or a root .cgs was grafted; the environment keys are documented, and the developer specs moved from examples/ to .config/\nTutorials 03 to 06, user guide, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T17:43:27+01:00"
+
+[[commit]]
+entry = 105
+repository = ".claude"
+repo_id = "root:.agent/.local/.claude"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "713a35ced2d773c6ce62531f3965adc849ea0aeb"
+message = "cgitsync-8.16.2 NestedInstall: a nested .cgs can declare the ComplexGitSync that runs initialise, which is adopted in place with its origin checked and its commit recorded, never deleted; a repository holding it in a folder inside it is refused by name\nnested_config auto now warns when a spec sits in .config/ or a root .cgs was grafted; the environment keys are documented, and the developer specs moved from examples/ to .config/\nTutorials 03 to 06, user guide, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T17:43:27+01:00"
+
+[[commit]]
+entry = 105
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "1194dca73fd58bb7ff471e3fa09f4c5951d33bd6"
+message = "cgitsync-8.16.2 NestedInstall: a nested .cgs can declare the ComplexGitSync that runs initialise, which is adopted in place with its origin checked and its commit recorded, never deleted; a repository holding it in a folder inside it is refused by name\nnested_config auto now warns when a spec sits in .config/ or a root .cgs was grafted; the environment keys are documented, and the developer specs moved from examples/ to .config/\nTutorials 03 to 06, user guide, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T17:43:27+01:00"

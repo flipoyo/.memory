@@ -27,3 +27,33 @@ branch = "ComplexGitSync_HT-BETA"
 sha = "9784d6c2ec6f1c56c8f09bdda4dab0534e96ea2f"
 message = "cgitsync-8.16.0 HTBS roadmap: its graph is colored by status, done, ready or waiting, with a Status column, and gates G1 and G2 are marked reached\nThe roadmap method now lives in the shared ticket lifecycle; DevTickets README keeps only this project's roadmap and roles, and CLAUDE.md and the digest point to section 8\nWhoever archives a roadmap ticket updates its node and status in the same change"
 authored_at = "2026-11-27T16:40:11+01:00"
+
+[[published]]
+entry = 103
+repository = ".localSpec"
+sha = "3d4b5ce5f7f743ce1bdcfe056e5e4b68bcb98222"
+remote = "github:flipoyo/.localSpec"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T15:40:42+00:00"
+remote_commit = "3d4b5ce5f7f743ce1bdcfe056e5e4b68bcb98222"
+observed_at = "2026-11-27T15:40:42+00:00"
+
+[[published]]
+entry = 103
+repository = ".dev"
+sha = "d2feeb2a503941c1d178daada47bc4839b625278"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T15:40:42+00:00"
+remote_commit = "d2feeb2a503941c1d178daada47bc4839b625278"
+observed_at = "2026-11-27T15:40:42+00:00"
+
+[[published]]
+entry = 103
+repository = ".claude"
+sha = "9784d6c2ec6f1c56c8f09bdda4dab0534e96ea2f"
+remote = "github:flipoyo/.claude"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T15:40:42+00:00"
+remote_commit = "9784d6c2ec6f1c56c8f09bdda4dab0534e96ea2f"
+observed_at = "2026-11-27T15:40:42+00:00"
