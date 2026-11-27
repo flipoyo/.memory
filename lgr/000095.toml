@@ -1,0 +1,23 @@
+[entry]
+seq = 95
+prev = "sha256:5c6f7dad9d1959004d0e6b051fd8f6fb8daa3d6ca3eea03fcc3aef51bfdc7621"
+recorded_at = "2026-11-27T12:59:52Z"
+command = "commit"
+argv = [
+    "commit",
+    "--private",
+    "cgitsync-8.14.2 HTBS roadmap: DevTickets/Roadmap/HTBS_Roadmap.md says who holds which ticket, who waits for whom, the gates G0 to G4 and the rules for two developers on the shared HT-BETA\nRoadmap tickets carry their role, ORX, DEV1 or DEV2, after the rank; CheckoutBareTip comes first for DEV2, data tickets hold data only for DEV1, and HtbsReady is ORX's final gate\nThe README names the Roadmap folder and the role tag; LinkAtCGS moves to 1-7; the owner's request is filed as the short ticket htbs-roadmap",
+]
+state_id = "state(e568bc1cb557badf8bc644d1eec9659a86be545f41cfdcb93dcdb305533005b2)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:62edbf515852f9506657a2e70d763dc4210253e932d55d0fc853bb1f8a43d205"
+entry_hash = "sha256:1ac03c0c7ffa63bc80df995e582f228491efa659d29f92c5063f5f4e57c9c9e2"
+environment = "env(9bda3ce909de3dabff9cc7ab40bed630004adc6255adeccb60e7ae918b4ca37f)"
+
+[entry.toolchain]
+cgitsync = "8.14.2"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

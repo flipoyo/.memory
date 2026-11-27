@@ -37,3 +37,13 @@ branch = "HT-BETA"
 sha = "85946b3020a0f049b73a56c4be4c78eafff6b792"
 message = "cgitsync-8.12.0 BranchMissingEventName: a repository left on its fallback branch is now logged as branch_missing, with its scope and whether it is the root, and the client attribute is renamed missing_branches\nThe install ends with one block naming the repositories that wait, saying this is expected on a first install, and giving one line that creates, checks out and pushes their branches; a private writable repository gets the same line, and status prints it once"
 authored_at = "2026-11-24T21:04:32+01:00"
+
+[[published]]
+entry = 94
+repository = ".dev"
+sha = "3785fbb7a932df6289a6ebc18f2ea7fbdc10192f"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T12:28:53+00:00"
+remote_commit = "74039c0cb30f742cb432e2f9c8a4dcbf78c395bd"
+observed_at = "2026-11-27T12:28:53+00:00"

@@ -7,3 +7,13 @@ branch = "ComplexGitSync_HT-BETA"
 sha = "74039c0cb30f742cb432e2f9c8a4dcbf78c395bd"
 message = "cgitsync-8.14.2 CheckoutBareTip planned first in pile 1: a derived branch starts at the bare branch's tip, a branch the tree only landed on is never read as typed, a root checkout that swaps the tool is named, and a new name is checked for a misspelling before checkout creates it\nFiled from the owner's report that DocComplexGitSync's data-encrypt branch was not stable; the hand repair of 2026-11-27 is recorded, and DocComplexGitSync now has ComplexGitSync_data-encrypt at data-encrypt's tip\nMergeDataEncrypt, NestedInstall, DvcBackend, DataRoundTrip and LinkAtCGS move down one rank; MergeDataEncrypt runs every command with the HT-BETA tool"
 authored_at = "2026-11-27T13:28:22+01:00"
+
+[[published]]
+entry = 94
+repository = ".dev"
+sha = "74039c0cb30f742cb432e2f9c8a4dcbf78c395bd"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T12:28:53+00:00"
+remote_commit = "74039c0cb30f742cb432e2f9c8a4dcbf78c395bd"
+observed_at = "2026-11-27T12:28:53+00:00"

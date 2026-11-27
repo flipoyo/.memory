@@ -7,3 +7,13 @@ branch = "ComplexGitSync_HT-BETA"
 sha = "73df1a6c5f51b8493245105e7c7a0d891cef806b"
 message = "cgitsync-8.14.2 DevPlanTicket DataServerAddress: a data repository names its DVC server by an alias, service = <alias>, and its address is never written in any file cgitsync writes\nSSH resolves the alias from a servers.conf kept in a git-crypt repository; commit and push refuse an IP or reverse DNS name in clear; five decisions for the owner\nShort ticket server-ip closed; DataArchitecture points to the new ticket in place of the missing §7 C2"
 authored_at = "2026-11-25T20:26:58+01:00"
+
+[[published]]
+entry = 94
+repository = ".dev"
+sha = "73df1a6c5f51b8493245105e7c7a0d891cef806b"
+remote = "github:flipoyo/.dev"
+ref = "refs/heads/ComplexGitSync_HT-BETA"
+at = "2026-11-27T12:28:53+00:00"
+remote_commit = "74039c0cb30f742cb432e2f9c8a4dcbf78c395bd"
+observed_at = "2026-11-27T12:28:53+00:00"

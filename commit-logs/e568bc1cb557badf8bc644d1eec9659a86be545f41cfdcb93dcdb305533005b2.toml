@@ -1,0 +1,9 @@
+[[commit]]
+entry = 95
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "c4b055e97fd7396d1a6976d780bdbbe78449e6c9"
+message = "cgitsync-8.14.2 HTBS roadmap: DevTickets/Roadmap/HTBS_Roadmap.md says who holds which ticket, who waits for whom, the gates G0 to G4 and the rules for two developers on the shared HT-BETA\nRoadmap tickets carry their role, ORX, DEV1 or DEV2, after the rank; CheckoutBareTip comes first for DEV2, data tickets hold data only for DEV1, and HtbsReady is ORX's final gate\nThe README names the Roadmap folder and the role tag; LinkAtCGS moves to 1-7; the owner's request is filed as the short ticket htbs-roadmap"
+authored_at = "2026-11-27T13:59:51+01:00"
