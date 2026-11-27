@@ -1,0 +1,23 @@
+[entry]
+seq = 99
+prev = "sha256:4f1ddfde592601be702955ce84bdc6539aa1f064983d588a4148299e35a089c6"
+recorded_at = "2026-11-27T15:10:31Z"
+command = "commit"
+argv = [
+    "commit",
+    "--all",
+    "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt",
+]
+state_id = "state(9e74b98f978ae179b42763e99d4944c6d11a0a8c5ddc9807869bdc791ace4be8)"
+state_dir = "state"
+outcome = "ok"
+commit_log = "sha256:efe241e93749b6beaa0c3a8f3e05d9e30030fb4769013212e6df466d6bb90906"
+entry_hash = "sha256:1199cbda40358155122f0337d68588c2e4a287655ca94e406dc8e5cd816ab11e"
+environment = "env(118e0a2b079d12fc9a34e2a3326920405d6e314c9551a2e1489bc74c8529ba31)"
+
+[entry.toolchain]
+cgitsync = "8.16.0"
+dvc = "none"
+git = "git version 2.34.1"
+git-lfs = "none"
+pixi = "pixi 0.65.0"

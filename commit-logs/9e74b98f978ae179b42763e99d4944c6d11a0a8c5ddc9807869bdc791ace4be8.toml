@@ -1,0 +1,49 @@
+[[commit]]
+entry = 99
+repository = "DocComplexGitSync"
+repo_id = "root:docs"
+scope = "project"
+branch = "ComplexGitSync_HT-BETA"
+sha = "5d7a2e2081b7224a839e51328fc37d816182cc27"
+message = "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T16:10:30+01:00"
+
+[[commit]]
+entry = 99
+repository = ".memory"
+repo_id = "root:.cgitsync/.memory"
+scope = "private"
+branch = "ComplexGitSync_ComplexGitSync_HT-BETA"
+sha = "e49867905320efe9b9e5a7d965fdb0407f240e44"
+message = "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T16:10:30+01:00"
+
+[[commit]]
+entry = 99
+repository = ".localSpec"
+repo_id = "root:.agent/.local/.localSpec"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "e782f457b2c567c88e4ce01331aa82f5fc3b9da4"
+message = "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T16:10:30+01:00"
+
+[[commit]]
+entry = 99
+repository = ".dev"
+repo_id = "root:.agent/.local/.dev"
+scope = "private"
+branch = "ComplexGitSync_HT-BETA"
+sha = "e071df59bf87fcd4f6a9cf0e051dfb265674d0d2"
+message = "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T16:10:30+01:00"
+
+[[commit]]
+entry = 99
+repository = "ComplexGitSync"
+repo_id = "root"
+scope = "project"
+branch = "HT-BETA"
+sha = "80a226efbb1b4829c81fa3951b1ebf5f17c2e4bb"
+message = "cgitsync-8.16.0 MergeDataEncrypt: the data-encrypt line is merged into HT-BETA, so git-crypt repositories are guarded and a project can keep its name out of shared repositories under an alias\nmerge --resolve now names a conflicting git-crypt file, locked or unlocked, and opens no merge tool; the unsafe test keys and the encrypted test tree moved to tests/fixtures/git-crypt\nFive ceilings were raised by the owner to their measured values; user guide, tutorial 07, AdditionalSpecs, digest and CHANGELOG updated, PDFs rebuilt"
+authored_at = "2026-11-27T16:10:30+01:00"
